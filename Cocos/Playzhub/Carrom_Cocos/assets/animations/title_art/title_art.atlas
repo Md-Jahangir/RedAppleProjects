@@ -1,0 +1,146 @@
+
+title_art.png
+size: 1243, 823
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+caroom_title_art/A_01
+  rotate: false
+  xy: 1162, 178
+  size: 81, 91
+  orig: 83, 93
+  offset: 1, 1
+  index: -1
+caroom_title_art/A_02
+  rotate: true
+  xy: 637, 32
+  size: 84, 93
+  orig: 86, 95
+  offset: 1, 1
+  index: -1
+caroom_title_art/C
+  rotate: true
+  xy: 1062, 0
+  size: 70, 90
+  orig: 72, 92
+  offset: 1, 1
+  index: -1
+caroom_title_art/Crown
+  rotate: false
+  xy: 1035, 269
+  size: 197, 146
+  orig: 197, 146
+  offset: 0, 0
+  index: -1
+caroom_title_art/E
+  rotate: false
+  xy: 1160, 69
+  size: 83, 103
+  orig: 86, 105
+  offset: 2, 1
+  index: -1
+caroom_title_art/L
+  rotate: false
+  xy: 992, 19
+  size: 70, 97
+  orig: 72, 99
+  offset: 1, 1
+  index: -1
+caroom_title_art/Layer 968
+  rotate: false
+  xy: 0, 5
+  size: 431, 123
+  orig: 433, 125
+  offset: 1, 1
+  index: -1
+caroom_title_art/M
+  rotate: false
+  xy: 431, 26
+  size: 116, 102
+  orig: 118, 104
+  offset: 1, 1
+  index: -1
+caroom_title_art/O_01
+  rotate: false
+  xy: 817, 36
+  size: 84, 80
+  orig: 86, 82
+  offset: 1, 1
+  index: -1
+caroom_title_art/O_02
+  rotate: false
+  xy: 547, 28
+  size: 90, 88
+  orig: 92, 90
+  offset: 1, 1
+  index: -1
+caroom_title_art/R_01
+  rotate: true
+  xy: 901, 37
+  size: 79, 91
+  orig: 81, 93
+  offset: 1, 1
+  index: -1
+caroom_title_art/R_02
+  rotate: true
+  xy: 730, 36
+  size: 80, 87
+  orig: 82, 89
+  offset: 1, 1
+  index: -1
+caroom_title_art/R_03
+  rotate: false
+  xy: 1067, 70
+  size: 93, 102
+  orig: 95, 104
+  offset: 1, 1
+  index: -1
+caroom_title_art/Riban
+  rotate: true
+  xy: 596, 239
+  size: 584, 244
+  orig: 584, 244
+  offset: 0, 0
+  index: -1
+caroom_title_art/Shadow_Carrom
+  rotate: false
+  xy: 584, 116
+  size: 483, 123
+  orig: 485, 126
+  offset: 1, 2
+  index: -1
+caroom_title_art/Shadow_Crown
+  rotate: false
+  xy: 840, 245
+  size: 195, 170
+  orig: 197, 172
+  offset: 1, 1
+  index: -1
+caroom_title_art/Shield
+  rotate: false
+  xy: 840, 415
+  size: 394, 408
+  orig: 394, 408
+  offset: 0, 0
+  index: -1
+caroom_title_art/Y
+  rotate: false
+  xy: 1067, 172
+  size: 95, 97
+  orig: 99, 99
+  offset: 3, 1
+  index: -1
+caroom_title_art/hadow_Of_Riban
+  rotate: false
+  xy: 0, 128
+  size: 584, 244
+  orig: 584, 244
+  offset: 0, 0
+  index: -1
+caroom_title_art/outline
+  rotate: false
+  xy: 0, 372
+  size: 596, 451
+  orig: 596, 451
+  offset: 0, 0
+  index: -1

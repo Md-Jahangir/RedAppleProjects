@@ -1,0 +1,44 @@
+{
+  "__version__": "1.0.1",
+  "builder": {
+    "common": {
+      "polyfills": {
+        "asyncFunctions": true
+      },
+      "buildPath": "project://build",
+      "outputName": "web-mobile",
+      "mainBundleCompressionType": "merge_dep",
+      "platform": "web-mobile",
+      "startScene": "37ad861a-c2a7-4ea4-a7a5-d70c4b3c5a85"
+    },
+    "options": {
+      "web-mobile": {
+        "useWebGPU": false,
+        "orientation": "portrait",
+        "embedWebDebugger": false,
+        "__version__": "1.0.1"
+      }
+    },
+    "taskOptionsMap": {
+      "1750250166860": {
+        "useWebGPU": false,
+        "orientation": "portrait",
+        "embedWebDebugger": false,
+        "__version__": "1.0.1"
+      },
+      "1750678612603": {
+        "useWebGPU": false,
+        "orientation": "portrait",
+        "embedWebDebugger": false,
+        "__version__": "1.0.1"
+      },
+      "1750769338525": {
+        "useWebGPU": false,
+        "orientation": "portrait",
+        "embedWebDebugger": false,
+        "__version__": "1.0.1"
+      }
+    },
+    "__version__": "1.3.9"
+  }
+}

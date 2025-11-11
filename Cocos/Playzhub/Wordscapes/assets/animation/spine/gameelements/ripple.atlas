@@ -1,0 +1,20 @@
+
+ripple.png
+size: 176, 130
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+Wave_1
+  rotate: true
+  xy: 2, 5
+  size: 123, 100
+  orig: 133, 114
+  offset: 3, 10
+  index: -1
+Wave_2
+  rotate: true
+  xy: 104, 2
+  size: 126, 70
+  orig: 134, 75
+  offset: 5, 2
+  index: -1

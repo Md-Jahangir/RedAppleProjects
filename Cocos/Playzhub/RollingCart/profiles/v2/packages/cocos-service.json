@@ -1,0 +1,426 @@
+{
+  "__version__": "3.0.7",
+  "builder": {
+    "options": {
+      "web-desktop": {
+        "configID": "3766cd",
+        "services": []
+      },
+      "android": {
+        "configID": "3766cd",
+        "services": []
+      },
+      "web-mobile": {
+        "configID": "3766cd",
+        "services": []
+      }
+    },
+    "taskOptionsMap": {
+      "1724750395742": {
+        "configID": "3766cd",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1724750890175": {
+        "configID": "3766cd",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1724751002276": {
+        "configID": "3766cd",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1724752367594": {
+        "configID": "3766cd",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1724752588226": {
+        "configID": "3766cd",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1724753482367": {
+        "configID": "3766cd",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1724754797558": {
+        "configID": "3766cd",
+        "services": []
+      },
+      "1724754825295": {
+        "configID": "3766cd",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1724755812997": {
+        "configID": "3766cd",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1724756148716": {
+        "configID": "3766cd",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1724759918071": {
+        "configID": "3766cd",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1724763372518": {
+        "configID": "3766cd",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1724763689416": {
+        "configID": "3766cd",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1724764536460": {
+        "configID": "3766cd",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1724824703742": {
+        "configID": "3766cd",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1724825306284": {
+        "configID": "3766cd",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1724825845746": {
+        "configID": "3766cd",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1724830101635": {
+        "configID": "3766cd",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1724830516879": {
+        "configID": "3766cd",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1724830626817": {
+        "configID": "3766cd",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1724836383421": {
+        "configID": "3766cd",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1724838478393": {
+        "configID": "3766cd",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1724840621083": {
+        "configID": "3766cd",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1726494319004": {
+        "configID": "3766cd",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1726494724641": {
+        "configID": "3766cd",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1726558913859": {
+        "configID": "3766cd",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1726559004447": {
+        "configID": "3766cd",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1726726632361": {
+        "configID": "3766cd",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1726726657104": {
+        "configID": "3766cd",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1726812889125": {
+        "configID": "3766cd",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1726812974687": {
+        "configID": "3766cd",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1726813060527": {
+        "configID": "3766cd",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1726813699001": {
+        "configID": "3766cd",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1726814400903": {
+        "configID": "3766cd",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1726817944248": {
+        "configID": "3766cd",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1726818748498": {
+        "configID": "3766cd",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1726831117422": {
+        "configID": "3766cd",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1727098669130": {
+        "configID": "3766cd",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1727182159373": {
+        "configID": "3766cd",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1727182193899": {
+        "configID": "3766cd",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1727183164305": {
+        "configID": "3766cd",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1727184754676": {
+        "configID": "3766cd",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1727184799838": {
+        "configID": "3766cd",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1727185266650": {
+        "configID": "3766cd",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1727244286899": {
+        "configID": "3766cd",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1727358844967": {
+        "configID": "3766cd",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1727358997726": {
+        "configID": "3766cd",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1727773378589": {
+        "configID": "3766cd",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1729002879543": {
+        "configID": "3766cd",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1729061687715": {
+        "configID": "3766cd",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1729065674976": {
+        "configID": "3766cd",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1729082513417": {
+        "configID": "3766cd",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1729083239868": {
+        "configID": "3766cd",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1729488914064": {
+        "configID": "3766cd",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1729489781283": {
+        "configID": "3766cd",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1729491703206": {
+        "configID": "3766cd",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1730715892440": {
+        "configID": "3766cd",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1730715978714": {
+        "configID": "3766cd",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1732196971013": {
+        "configID": "3766cd",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1732197712399": {
+        "configID": "3766cd",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1732283431116": {
+        "configID": "3766cd",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1732284817335": {
+        "configID": "3766cd",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1741687818034": {
+        "configID": "3766cd",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1742478104022": {
+        "configID": "3766cd",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1743674817065": {
+        "configID": "3766cd",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1744023614444": {
+        "configID": "3766cd",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1755771090630": {
+        "configID": "3766cd",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1755781155094": {
+        "configID": "3766cd",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1755782045812": {
+        "configID": "3766cd",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1755784163240": {
+        "configID": "3766cd",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1755785137777": {
+        "configID": "3766cd",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1755785865077": {
+        "configID": "3766cd",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1755787153907": {
+        "configID": "3766cd",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1755787873472": {
+        "configID": "3766cd",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1755841348744": {
+        "configID": "3766cd",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1758542676689": {
+        "configID": "3766cd",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1760439032672": {
+        "configID": "3766cd",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1760521530592": {
+        "configID": "3766cd",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1760599407850": {
+        "configID": "3766cd",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1760600086668": {
+        "configID": "3766cd",
+        "services": [],
+        "__version__": "3.0.7"
+      }
+    },
+    "__version__": "1.3.8"
+  },
+  "builder-options": {
+    "configID": "3766cd",
+    "services": [],
+    "__version__": "3.0.7"
+  }
+}

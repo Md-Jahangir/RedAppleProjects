@@ -1,0 +1,98 @@
+{
+  "__version__": "1.0.6",
+  "general": {
+    "designResolution": {
+      "width": 1920,
+      "height": 1080,
+      "fitHeight": true,
+      "fitWidth": false
+    }
+  },
+  "layer": [
+    {
+      "name": "Background",
+      "value": 1
+    },
+    {
+      "name": "Terrain",
+      "value": 2
+    },
+    {
+      "name": "Player",
+      "value": 4
+    },
+    {
+      "name": "Egg",
+      "value": 8
+    },
+    {
+      "name": "Coin",
+      "value": 16
+    },
+    {
+      "name": "Ostrich",
+      "value": 32
+    },
+    {
+      "name": "Timer",
+      "value": 64
+    },
+    {
+      "name": "Orientation",
+      "value": 128
+    }
+  ],
+  "physics": {
+    "collisionGroups": [
+      {
+        "index": 1,
+        "name": "Terrain"
+      },
+      {
+        "index": 2,
+        "name": "Cart"
+      },
+      {
+        "index": 3,
+        "name": "Barrier"
+      },
+      {
+        "index": 4,
+        "name": "Coin"
+      },
+      {
+        "index": 5,
+        "name": "Ostrich"
+      },
+      {
+        "index": 6,
+        "name": "Egg"
+      },
+      {
+        "index": 7,
+        "name": "OstrichDistanceDetector"
+      },
+      {
+        "index": 8,
+        "name": "CreackedEgg"
+      },
+      {
+        "index": 9,
+        "name": "Fox"
+      }
+    ],
+    "collisionMatrix": {
+      "0": 535,
+      "1": 869,
+      "2": 603,
+      "3": 516,
+      "4": 5,
+      "5": 642,
+      "6": 6,
+      "7": 32,
+      "8": 2,
+      "9": 47
+    }
+  },
+  "custom_joint_texture_layouts": []
+}

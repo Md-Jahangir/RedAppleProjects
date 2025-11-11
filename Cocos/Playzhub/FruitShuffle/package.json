@@ -1,0 +1,10 @@
+{
+  "name": "TilesGuru",
+  "uuid": "a83ebb66-7c6f-47ea-b4f5-077defb25217",
+  "creator": {
+    "version": "3.8.3"
+  },
+  "dependencies": {
+    "gameanalytics": "^4.4.7"
+  }
+}

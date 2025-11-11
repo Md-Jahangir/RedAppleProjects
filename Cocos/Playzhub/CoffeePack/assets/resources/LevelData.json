@@ -1,0 +1,558 @@
+{
+    "Levels": [
+        {
+            "Level1": {
+                "board_bg": "4x3_table",
+                "target_tray": [
+                    {
+                        "color": "Brown-cup",
+                        "count": 2
+                    },
+                    {
+                        "color": "Red-cup",
+                        "count": 2
+                    }
+                ],
+                "grid": {
+                    "col": 4,
+                    "row": 3,
+                    "grid_data": {
+                        "00": {
+                            "type": "empty",
+                            "image_name": null,
+                            "isLocked": "false",
+                            "grid_tray_data": []
+                        },
+                        "01": {
+                            "type": "empty",
+                            "image_name": null,
+                            "isLocked": "false",
+                            "grid_tray_data": []
+                        },
+                        "02": {
+                            "type": "empty",
+                            "image_name": null,
+                            "isLocked": "false",
+                            "grid_tray_data": []
+                        },
+                        "03": {
+                            "type": "empty",
+                            "image_name": null,
+                            "isLocked": "false",
+                            "grid_tray_data": []
+                        },
+                        "10": {
+                            "type": "empty",
+                            "image_name": null,
+                            "isLocked": "false",
+                            "grid_tray_data": []
+                        },
+                        "11": {
+                            "type": "empty",
+                            "image_name": null,
+                            "isLocked": "false",
+                            "grid_tray_data": []
+                        },
+                        "12": {
+                            "type": "empty",
+                            "image_name": null,
+                            "isLocked": "false",
+                            "grid_tray_data": []
+                        },
+                        "13": {
+                            "type": "empty",
+                            "image_name": null,
+                            "isLocked": "false",
+                            "grid_tray_data": []
+                        },
+                        "20": {
+                            "type": "empty",
+                            "image_name": null,
+                            "isLocked": "false",
+                            "grid_tray_data": []
+                        },
+                        "21": {
+                            "type": "empty",
+                            "image_name": null,
+                            "isLocked": "false",
+                            "grid_tray_data": []
+                        },
+                        "22": {
+                            "type": "empty",
+                            "image_name": null,
+                            "isLocked": "false",
+                            "grid_tray_data": []
+                        },
+                        "23": {
+                            "type": "empty",
+                            "image_name": null,
+                            "isLocked": "false",
+                            "grid_tray_data": []
+                        }
+                    }
+                },
+                "tray": {
+                    "possible_tray_items": [
+                        "Brown-cup",
+                        "Red-cup"
+                    ]
+                }
+            },
+            "Level2": {
+                "board_bg": "4x4_table",
+                "target_tray": [
+                    {
+                        "color": "Brown-cup",
+                        "count": 2
+                    },
+                    {
+                        "color": "Red-cup",
+                        "count": 1
+                    },
+                    {
+                        "color": "Blue-cup",
+                        "count": 1
+                    }
+                ],
+                "grid": {
+                    "col": 4,
+                    "row": 4,
+                    "grid_data": {
+                        "00": {
+                            "type": "empty",
+                            "image_name": null,
+                            "isLocked": "false",
+                            "grid_tray_data": []
+                        },
+                        "01": {
+                            "type": "empty",
+                            "image_name": null,
+                            "isLocked": "false",
+                            "grid_tray_data": []
+                        },
+                        "02": {
+                            "type": "empty",
+                            "image_name": null,
+                            "isLocked": "false",
+                            "grid_tray_data": []
+                        },
+                        "03": {
+                            "type": "empty",
+                            "image_name": null,
+                            "isLocked": "false",
+                            "grid_tray_data": []
+                        },
+                        "10": {
+                            "type": "empty",
+                            "image_name": null,
+                            "isLocked": "false",
+                            "grid_tray_data": []
+                        },
+                        "11": {
+                            "type": "empty",
+                            "image_name": null,
+                            "isLocked": "false",
+                            "grid_tray_data": []
+                        },
+                        "12": {
+                            "type": "empty",
+                            "image_name": null,
+                            "isLocked": "false",
+                            "grid_tray_data": []
+                        },
+                        "13": {
+                            "type": "empty",
+                            "image_name": null,
+                            "isLocked": "false",
+                            "grid_tray_data": []
+                        },
+                        "20": {
+                            "type": "empty",
+                            "image_name": null,
+                            "isLocked": "false",
+                            "grid_tray_data": []
+                        },
+                        "21": {
+                            "type": "empty",
+                            "image_name": null,
+                            "isLocked": "false",
+                            "grid_tray_data": []
+                        },
+                        "22": {
+                            "type": "empty",
+                            "image_name": null,
+                            "isLocked": "false",
+                            "grid_tray_data": []
+                        },
+                        "23": {
+                            "type": "empty",
+                            "image_name": null,
+                            "isLocked": "false",
+                            "grid_tray_data": []
+                        },
+                        "30": {
+                            "type": "empty",
+                            "image_name": null,
+                            "isLocked": "false",
+                            "grid_tray_data": []
+                        },
+                        "31": {
+                            "type": "empty",
+                            "image_name": null,
+                            "isLocked": "false",
+                            "grid_tray_data": []
+                        },
+                        "32": {
+                            "type": "empty",
+                            "image_name": null,
+                            "isLocked": "false",
+                            "grid_tray_data": []
+                        },
+                        "33": {
+                            "type": "empty",
+                            "image_name": null,
+                            "isLocked": "false",
+                            "grid_tray_data": []
+                        }
+                    }
+                },
+                "tray": {
+                    "possible_tray_items": [
+                        "Blue-cup",
+                        "Brown-cup",
+                        "Red-cup"
+                    ]
+                }
+            },
+            "Level3": {
+                "board_bg": "4x5_table",
+                "target_tray": [
+                    {
+                        "color": "Yellow-cup",
+                        "count": 2
+                    },
+                    {
+                        "color": "Red-cup",
+                        "count": 1
+                    },
+                    {
+                        "color": "Blue-cup",
+                        "count": 1
+                    }
+                ],
+                "grid": {
+                    "col": 4,
+                    "row": 5,
+                    "grid_data": {
+                        "00": {
+                            "type": "empty",
+                            "image_name": null,
+                            "isLocked": "false",
+                            "grid_tray_data": []
+                        },
+                        "01": {
+                            "type": "empty",
+                            "image_name": null,
+                            "isLocked": "false",
+                            "grid_tray_data": []
+                        },
+                        "02": {
+                            "type": "empty",
+                            "image_name": null,
+                            "isLocked": "false",
+                            "grid_tray_data": []
+                        },
+                        "03": {
+                            "type": "empty",
+                            "image_name": null,
+                            "isLocked": "false",
+                            "grid_tray_data": []
+                        },
+                        "10": {
+                            "type": "empty",
+                            "image_name": null,
+                            "isLocked": "false",
+                            "grid_tray_data": []
+                        },
+                        "11": {
+                            "type": "empty",
+                            "image_name": null,
+                            "isLocked": "false",
+                            "grid_tray_data": []
+                        },
+                        "12": {
+                            "type": "empty",
+                            "image_name": null,
+                            "isLocked": "false",
+                            "grid_tray_data": []
+                        },
+                        "13": {
+                            "type": "empty",
+                            "image_name": null,
+                            "isLocked": "false",
+                            "grid_tray_data": []
+                        },
+                        "20": {
+                            "type": "empty",
+                            "image_name": null,
+                            "isLocked": "false",
+                            "grid_tray_data": []
+                        },
+                        "21": {
+                            "type": "empty",
+                            "image_name": null,
+                            "isLocked": "false",
+                            "grid_tray_data": []
+                        },
+                        "22": {
+                            "type": "empty",
+                            "image_name": null,
+                            "isLocked": "false",
+                            "grid_tray_data": []
+                        },
+                        "23": {
+                            "type": "empty",
+                            "image_name": null,
+                            "isLocked": "false",
+                            "grid_tray_data": []
+                        },
+                        "30": {
+                            "type": "empty",
+                            "image_name": null,
+                            "isLocked": "false",
+                            "grid_tray_data": []
+                        },
+                        "31": {
+                            "type": "empty",
+                            "image_name": null,
+                            "isLocked": "false",
+                            "grid_tray_data": []
+                        },
+                        "32": {
+                            "type": "empty",
+                            "image_name": null,
+                            "isLocked": "false",
+                            "grid_tray_data": []
+                        },
+                        "33": {
+                            "type": "empty",
+                            "image_name": null,
+                            "isLocked": "false",
+                            "grid_tray_data": []
+                        },
+                        "40": {
+                            "type": "empty",
+                            "image_name": null,
+                            "isLocked": "false",
+                            "grid_tray_data": []
+                        },
+                        "41": {
+                            "type": "empty",
+                            "image_name": null,
+                            "isLocked": "false",
+                            "grid_tray_data": []
+                        },
+                        "42": {
+                            "type": "empty",
+                            "image_name": null,
+                            "isLocked": "false",
+                            "grid_tray_data": []
+                        },
+                        "43": {
+                            "type": "empty",
+                            "image_name": null,
+                            "isLocked": "false",
+                            "grid_tray_data": []
+                        }
+                    }
+                },
+                "tray": {
+                    "possible_tray_items": [
+                        "Blue-cup",
+                        "Yellow-cup",
+                        "Red-cup"
+                    ]
+                }
+            },
+            "Level4": {
+                "board_bg": "4x6_table",
+                "target_tray": [
+                    {
+                        "color": "Yellow-cup",
+                        "count": 2
+                    },
+                    {
+                        "color": "Red-cup",
+                        "count": 1
+                    },
+                    {
+                        "color": "Blue-cup",
+                        "count": 1
+                    },
+                    {
+                        "color": "Purple-cup",
+                        "count": 1
+                    }
+                ],
+                "grid": {
+                    "col": 4,
+                    "row": 6,
+                    "grid_data": {
+                        "00": {
+                            "type": "empty",
+                            "image_name": null,
+                            "isLocked": "false",
+                            "grid_tray_data": []
+                        },
+                        "01": {
+                            "type": "empty",
+                            "image_name": null,
+                            "isLocked": "false",
+                            "grid_tray_data": []
+                        },
+                        "02": {
+                            "type": "empty",
+                            "image_name": null,
+                            "isLocked": "false",
+                            "grid_tray_data": []
+                        },
+                        "03": {
+                            "type": "empty",
+                            "image_name": null,
+                            "isLocked": "false",
+                            "grid_tray_data": []
+                        },
+                        "10": {
+                            "type": "empty",
+                            "image_name": null,
+                            "isLocked": "false",
+                            "grid_tray_data": []
+                        },
+                        "11": {
+                            "type": "empty",
+                            "image_name": null,
+                            "isLocked": "false",
+                            "grid_tray_data": []
+                        },
+                        "12": {
+                            "type": "empty",
+                            "image_name": null,
+                            "isLocked": "false",
+                            "grid_tray_data": []
+                        },
+                        "13": {
+                            "type": "empty",
+                            "image_name": null,
+                            "isLocked": "false",
+                            "grid_tray_data": []
+                        },
+                        "20": {
+                            "type": "empty",
+                            "image_name": null,
+                            "isLocked": "false",
+                            "grid_tray_data": []
+                        },
+                        "21": {
+                            "type": "empty",
+                            "image_name": null,
+                            "isLocked": "false",
+                            "grid_tray_data": []
+                        },
+                        "22": {
+                            "type": "empty",
+                            "image_name": null,
+                            "isLocked": "false",
+                            "grid_tray_data": []
+                        },
+                        "23": {
+                            "type": "empty",
+                            "image_name": null,
+                            "isLocked": "false",
+                            "grid_tray_data": []
+                        },
+                        "30": {
+                            "type": "empty",
+                            "image_name": null,
+                            "isLocked": "false",
+                            "grid_tray_data": []
+                        },
+                        "31": {
+                            "type": "empty",
+                            "image_name": null,
+                            "isLocked": "false",
+                            "grid_tray_data": []
+                        },
+                        "32": {
+                            "type": "empty",
+                            "image_name": null,
+                            "isLocked": "false",
+                            "grid_tray_data": []
+                        },
+                        "33": {
+                            "type": "empty",
+                            "image_name": null,
+                            "isLocked": "false",
+                            "grid_tray_data": []
+                        },
+                        "40": {
+                            "type": "empty",
+                            "image_name": null,
+                            "isLocked": "false",
+                            "grid_tray_data": []
+                        },
+                        "41": {
+                            "type": "empty",
+                            "image_name": null,
+                            "isLocked": "false",
+                            "grid_tray_data": []
+                        },
+                        "42": {
+                            "type": "empty",
+                            "image_name": null,
+                            "isLocked": "false",
+                            "grid_tray_data": []
+                        },
+                        "43": {
+                            "type": "empty",
+                            "image_name": null,
+                            "isLocked": "false",
+                            "grid_tray_data": []
+                        },
+                        "50": {
+                            "type": "empty",
+                            "image_name": null,
+                            "isLocked": "false",
+                            "grid_tray_data": []
+                        },
+                        "51": {
+                            "type": "empty",
+                            "image_name": null,
+                            "isLocked": "false",
+                            "grid_tray_data": []
+                        },
+                        "52": {
+                            "type": "empty",
+                            "image_name": null,
+                            "isLocked": "false",
+                            "grid_tray_data": []
+                        },
+                        "53": {
+                            "type": "empty",
+                            "image_name": null,
+                            "isLocked": "false",
+                            "grid_tray_data": []
+                        }
+                    }
+                },
+                "tray": {
+                    "possible_tray_items": [
+                        "Blue-cup",
+                        "Yellow-cup",
+                        "Red-cup",
+                        "Purple-cup"
+                    ]
+                }
+            }
+        }
+    ]
+}

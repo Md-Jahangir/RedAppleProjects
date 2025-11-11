@@ -1,0 +1,41 @@
+
+tileblast_effects.png
+size: 149,48
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+star_1
+  rotate: true
+  xy: 91, 13
+  size: 33, 32
+  orig: 37, 39
+  offset: 2, 4
+  index: -1
+star_2
+  rotate: false
+  xy: 47, 3
+  size: 42, 43
+  orig: 52, 53
+  offset: 5, 6
+  index: -1
+star_3
+  rotate: false
+  xy: 125, 2
+  size: 21, 21
+  orig: 27, 27
+  offset: 3, 4
+  index: -1
+star_4
+  rotate: true
+  xy: 125, 25
+  size: 21, 22
+  orig: 26, 27
+  offset: 3, 3
+  index: -1
+star_5
+  rotate: false
+  xy: 2, 3
+  size: 43, 43
+  orig: 52, 53
+  offset: 4, 6
+  index: -1

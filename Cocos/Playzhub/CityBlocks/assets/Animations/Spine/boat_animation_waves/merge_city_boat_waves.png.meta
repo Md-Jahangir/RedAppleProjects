@@ -1,0 +1,134 @@
+{
+  "ver": "1.0.27",
+  "importer": "image",
+  "imported": true,
+  "uuid": "be88aaad-7904-4834-b3d7-f6388b3bb5f3",
+  "files": [
+    ".json",
+    ".png"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "be88aaad-7904-4834-b3d7-f6388b3bb5f3@6c48a",
+      "displayName": "merge_city_boat_waves",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "clamp-to-edge",
+        "wrapModeT": "clamp-to-edge",
+        "imageUuidOrDatabaseUri": "be88aaad-7904-4834-b3d7-f6388b3bb5f3",
+        "isUuid": true,
+        "visible": false,
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f9941": {
+      "importer": "sprite-frame",
+      "uuid": "be88aaad-7904-4834-b3d7-f6388b3bb5f3@f9941",
+      "displayName": "merge_city_boat_waves",
+      "id": "f9941",
+      "name": "spriteFrame",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": -1,
+        "offsetY": -1,
+        "trimX": 2,
+        "trimY": 4,
+        "width": 402,
+        "height": 163,
+        "rawWidth": 408,
+        "rawHeight": 169,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [
+            -201,
+            -81.5,
+            0,
+            201,
+            -81.5,
+            0,
+            -201,
+            81.5,
+            0,
+            201,
+            81.5,
+            0
+          ],
+          "indexes": [
+            0,
+            1,
+            2,
+            2,
+            1,
+            3
+          ],
+          "uv": [
+            2,
+            165,
+            404,
+            165,
+            2,
+            2,
+            404,
+            2
+          ],
+          "nuv": [
+            0.004901960784313725,
+            0.011834319526627219,
+            0.9901960784313726,
+            0.011834319526627219,
+            0.004901960784313725,
+            0.9763313609467456,
+            0.9901960784313726,
+            0.9763313609467456
+          ],
+          "minPos": [
+            -201,
+            -81.5,
+            0
+          ],
+          "maxPos": [
+            201,
+            81.5,
+            0
+          ]
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "be88aaad-7904-4834-b3d7-f6388b3bb5f3@6c48a",
+        "atlasUuid": ""
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "type": "sprite-frame",
+    "hasAlpha": true,
+    "fixAlphaTransparencyArtifacts": false,
+    "redirect": "be88aaad-7904-4834-b3d7-f6388b3bb5f3@6c48a"
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "__version__": "1.3.8",
+  "log": {
+    "level": 4
+  },
+  "common": {
+    "polyfills": {
+      "asyncFunctions": true
+    },
+    "buildPath": "project://build",
+    "outputName": "MergeCity",
+    "mainBundleCompressionType": "merge_dep",
+    "platform": "web-mobile",
+    "startScene": "b937a2d8-6c8c-4e62-b53e-bc9dddd3eee9",
+    "scenes": [
+      {
+        "url": "db://assets/Scenes/GameScene.scene",
+        "uuid": "1fc127d3-a532-4374-85e2-105a77168d69"
+      },
+      {
+        "url": "db://assets/Scenes/SplashScene.scene",
+        "uuid": "b937a2d8-6c8c-4e62-b53e-bc9dddd3eee9"
+      }
+    ],
+    "name": "MergeCity"
+  },
+  "BuildTaskManager": {
+    "taskMap": {
+      "1760530146962": {
+        "type": "build",
+        "id": "1760530146962",
+        "progress": 1,
+        "state": "success",
+        "stage": "build",
+        "message": "15-10-2025 17:41:19 build success in 2 min 12 s!",
+        "detailMessage": "// ---- build task adsense-h5g-plugin：onAfterBuild ----\r",
+        "options": {
+          "name": "MergeCity",
+          "server": "",
+          "platform": "web-mobile",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": false,
+          "overwriteProjectSettings": {
+            "includeModules": {
+              "gfx-webgl2": "on",
+              "physics": "inherit-project-setting",
+              "physics-2d": "inherit-project-setting"
+            },
+            "macroConfig": {
+              "cleanupImageCache": "inherit-project-setting"
+            }
+          },
+          "nativeCodeBundleMode": "both",
+          "polyfills": {
+            "asyncFunctions": true
+          },
+          "experimentalEraseModules": false,
+          "startSceneAssetBundle": false,
+          "bundleConfigs": [],
+          "useBuiltinServer": false,
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "merge_dep",
+          "useSplashScreen": true,
+          "bundleCommonChunk": false,
+          "packAutoAtlas": true,
+          "startScene": "b937a2d8-6c8c-4e62-b53e-bc9dddd3eee9",
+          "outputName": "MergeCity",
+          "taskName": "web-mobile",
+          "scenes": [
+            {
+              "url": "db://assets/Scenes/ErrorScene.scene",
+              "uuid": "e36a2285-ddd1-40ca-8024-f6608bd02751"
+            },
+            {
+              "url": "db://assets/Scenes/GameScene.scene",
+              "uuid": "1fc127d3-a532-4374-85e2-105a77168d69"
+            },
+            {
+              "url": "db://assets/Scenes/SplashScene.scene",
+              "uuid": "b937a2d8-6c8c-4e62-b53e-bc9dddd3eee9"
+            }
+          ],
+          "wasmCompressionMode": false,
+          "packages": {},
+          "__version__": "1.3.8",
+          "buildMode": "normal",
+          "logDest": "project://temp/builder/log/web-mobile15-10-2025 17-39.log"
+        },
+        "time": "15-10-2025 17:39:06",
+        "dirty": false
+      },
+      "1760600277710": {
+        "type": "build",
+        "id": "1760600277710",
+        "progress": 1,
+        "state": "success",
+        "stage": "build",
+        "message": "16-10-2025 13:08:22 build success in 24 s!",
+        "detailMessage": "Imports all modules\r",
+        "options": {
+          "name": "MergeCity",
+          "server": "",
+          "platform": "web-mobile",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": false,
+          "overwriteProjectSettings": {
+            "includeModules": {
+              "gfx-webgl2": "on",
+              "physics": "inherit-project-setting",
+              "physics-2d": "inherit-project-setting"
+            },
+            "macroConfig": {
+              "cleanupImageCache": "inherit-project-setting"
+            }
+          },
+          "nativeCodeBundleMode": "both",
+          "polyfills": {
+            "asyncFunctions": true
+          },
+          "experimentalEraseModules": false,
+          "startSceneAssetBundle": false,
+          "bundleConfigs": [],
+          "useBuiltinServer": false,
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "merge_dep",
+          "useSplashScreen": true,
+          "bundleCommonChunk": false,
+          "packAutoAtlas": true,
+          "startScene": "b937a2d8-6c8c-4e62-b53e-bc9dddd3eee9",
+          "outputName": "MergeCity",
+          "taskName": "web-mobile",
+          "scenes": [
+            {
+              "url": "db://assets/Scenes/ErrorScene.scene",
+              "uuid": "e36a2285-ddd1-40ca-8024-f6608bd02751"
+            },
+            {
+              "url": "db://assets/Scenes/GameScene.scene",
+              "uuid": "1fc127d3-a532-4374-85e2-105a77168d69"
+            },
+            {
+              "url": "db://assets/Scenes/SplashScene.scene",
+              "uuid": "b937a2d8-6c8c-4e62-b53e-bc9dddd3eee9"
+            }
+          ],
+          "wasmCompressionMode": false,
+          "packages": {},
+          "__version__": "1.3.8",
+          "buildMode": "normal",
+          "logDest": "project://temp/builder/log/web-mobile16-10-2025 13-07.log"
+        },
+        "time": "16-10-2025 13:07:57",
+        "dirty": false
+      }
+    }
+  }
+}

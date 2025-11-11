@@ -1,0 +1,10 @@
+{
+  "name": "CrossyRoadHQ",
+  "uuid": "76e728fd-df35-48f7-af57-30c00672ee88",
+  "creator": {
+    "version": "3.8.6"
+  },
+  "dependencies": {
+    "gameanalytics": "^4.4.7"
+  }
+}

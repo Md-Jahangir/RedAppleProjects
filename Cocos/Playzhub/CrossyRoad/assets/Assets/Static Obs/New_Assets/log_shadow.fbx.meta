@@ -1,0 +1,78 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "11810b46-21df-47a0-83d6-1cfccf45d577",
+  "files": [],
+  "subMetas": {
+    "344db": {
+      "importer": "gltf-mesh",
+      "uuid": "11810b46-21df-47a0-83d6-1cfccf45d577@344db",
+      "displayName": "",
+      "id": "344db",
+      "name": "Plane.003.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 20
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "6826a": {
+      "importer": "gltf-scene",
+      "uuid": "11810b46-21df-47a0-83d6-1cfccf45d577@6826a",
+      "displayName": "",
+      "id": "6826a",
+      "name": "log_shadow.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "11810b46-21df-47a0-83d6-1cfccf45d577@344db"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "11810b46-21df-47a0-83d6-1cfccf45d577@6826a"
+      ]
+    }
+  }
+}

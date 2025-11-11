@@ -1,0 +1,10 @@
+{
+  "name": "rolling_cart",
+  "uuid": "5d44ab37-da36-48b0-95ba-c20d144a9645",
+  "creator": {
+    "version": "3.8.3"
+  },
+  "dependencies": {
+    "gameanalytics": "^4.4.7"
+  }
+}

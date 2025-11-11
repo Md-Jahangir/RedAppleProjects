@@ -1,0 +1,26 @@
+{
+  "__version__": "1.0.6",
+  "general": {
+    "designResolution": {
+      "width": 1080,
+      "height": 1920,
+      "fitHeight": true,
+      "fitWidth": true
+    }
+  },
+  "custom_joint_texture_layouts": [],
+  "layer": [
+    {
+      "name": "Item",
+      "value": 4
+    },
+    {
+      "name": "Bg",
+      "value": 1
+    },
+    {
+      "name": "Tray",
+      "value": 2
+    }
+  ]
+}

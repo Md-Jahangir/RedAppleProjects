@@ -1,0 +1,233 @@
+{
+  "__version__": "1.3.9",
+  "log": {
+    "level": 4
+  },
+  "common": {
+    "polyfills": {
+      "asyncFunctions": true
+    },
+    "buildPath": "project://build",
+    "outputName": "web-mobile",
+    "mainBundleCompressionType": "merge_dep",
+    "platform": "web-mobile",
+    "startScene": "37ad861a-c2a7-4ea4-a7a5-d70c4b3c5a85"
+  },
+  "BuildTaskManager": {
+    "taskMap": {
+      "1750250166860": {
+        "type": "build",
+        "id": "1750250166860",
+        "progress": 1,
+        "state": "success",
+        "stage": "build",
+        "message": "18-06-2025 18:08:22 build success in 2 min 15 s!",
+        "detailMessage": "// ---- build task adsense-h5g-plugin：onAfterBuild ----\r",
+        "options": {
+          "name": "GoodsPuzzle",
+          "server": "",
+          "engineModulesConfigKey": "defaultConfig",
+          "platform": "web-mobile",
+          "buildPath": "project://build",
+          "debug": false,
+          "buildMode": "normal",
+          "mangleProperties": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": false,
+          "overwriteProjectSettings": {
+            "includeModules": {
+              "gfx-webgl2": "on",
+              "physics": "inherit-project-setting",
+              "physics-2d": "inherit-project-setting"
+            },
+            "macroConfig": {
+              "cleanupImageCache": "inherit-project-setting"
+            }
+          },
+          "nativeCodeBundleMode": "both",
+          "polyfills": {
+            "asyncFunctions": true
+          },
+          "experimentalEraseModules": false,
+          "startSceneAssetBundle": false,
+          "bundleConfigs": [],
+          "inlineEnum": true,
+          "useBuiltinServer": false,
+          "md5CacheOptions": {
+            "excludes": [],
+            "includes": [],
+            "replaceOnly": [],
+            "handleTemplateMd5Link": true
+          },
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "merge_dep",
+          "useSplashScreen": true,
+          "bundleCommonChunk": false,
+          "packAutoAtlas": true,
+          "startScene": "37ad861a-c2a7-4ea4-a7a5-d70c4b3c5a85",
+          "outputName": "web-mobile",
+          "taskName": "web-mobile",
+          "scenes": [
+            {
+              "url": "db://assets/Scene/GameScene.scene",
+              "uuid": "ae87d929-7bc4-46fe-bfa4-27b17ba89484"
+            },
+            {
+              "url": "db://assets/Scene/TitleScene.scene",
+              "uuid": "37ad861a-c2a7-4ea4-a7a5-d70c4b3c5a85"
+            }
+          ],
+          "wasmCompressionMode": false,
+          "packages": {},
+          "__version__": "1.3.9",
+          "logDest": "project://temp/builder/log/web-mobile18-6-2025 18-06.log"
+        },
+        "time": "18-6-2025 18:06:06",
+        "dirty": false
+      },
+      "1750678612603": {
+        "type": "build",
+        "id": "1750678612603",
+        "progress": 1,
+        "state": "success",
+        "stage": "build",
+        "message": "23-06-2025 17:07:09 build success in 17 s!",
+        "detailMessage": "builder:build-project-total (16978ms)\r",
+        "options": {
+          "name": "GoodsPuzzle",
+          "server": "",
+          "engineModulesConfigKey": "defaultConfig",
+          "platform": "web-mobile",
+          "buildPath": "project://build",
+          "debug": false,
+          "buildMode": "normal",
+          "mangleProperties": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": false,
+          "overwriteProjectSettings": {
+            "includeModules": {
+              "gfx-webgl2": "on",
+              "physics": "inherit-project-setting",
+              "physics-2d": "inherit-project-setting"
+            },
+            "macroConfig": {
+              "cleanupImageCache": "inherit-project-setting"
+            }
+          },
+          "nativeCodeBundleMode": "both",
+          "polyfills": {
+            "asyncFunctions": true
+          },
+          "experimentalEraseModules": false,
+          "startSceneAssetBundle": false,
+          "bundleConfigs": [],
+          "inlineEnum": true,
+          "useBuiltinServer": false,
+          "md5CacheOptions": {
+            "excludes": [],
+            "includes": [],
+            "replaceOnly": [],
+            "handleTemplateMd5Link": true
+          },
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "merge_dep",
+          "useSplashScreen": true,
+          "bundleCommonChunk": false,
+          "packAutoAtlas": true,
+          "startScene": "37ad861a-c2a7-4ea4-a7a5-d70c4b3c5a85",
+          "outputName": "web-mobile",
+          "taskName": "web-mobile",
+          "scenes": [
+            {
+              "url": "db://assets/Scene/GameScene.scene",
+              "uuid": "ae87d929-7bc4-46fe-bfa4-27b17ba89484"
+            },
+            {
+              "url": "db://assets/Scene/TitleScene.scene",
+              "uuid": "37ad861a-c2a7-4ea4-a7a5-d70c4b3c5a85"
+            }
+          ],
+          "wasmCompressionMode": false,
+          "packages": {},
+          "__version__": "1.3.9",
+          "logDest": "project://temp/builder/log/web-mobile23-6-2025 17-06.log"
+        },
+        "time": "23-6-2025 17:06:52",
+        "dirty": false
+      },
+      "1750769338525": {
+        "type": "build",
+        "id": "1750769338525",
+        "progress": 1,
+        "state": "success",
+        "stage": "build",
+        "message": "24-06-2025 18:19:31 build success in 33 s!",
+        "detailMessage": "// ---- build task cocos-service：onAfterBuild ----\r",
+        "options": {
+          "name": "GoodsPuzzle",
+          "server": "",
+          "engineModulesConfigKey": "defaultConfig",
+          "platform": "web-mobile",
+          "buildPath": "project://build",
+          "debug": false,
+          "buildMode": "normal",
+          "mangleProperties": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": false,
+          "overwriteProjectSettings": {
+            "includeModules": {
+              "gfx-webgl2": "on",
+              "physics": "inherit-project-setting",
+              "physics-2d": "inherit-project-setting"
+            },
+            "macroConfig": {
+              "cleanupImageCache": "inherit-project-setting"
+            }
+          },
+          "nativeCodeBundleMode": "both",
+          "polyfills": {
+            "asyncFunctions": true
+          },
+          "experimentalEraseModules": false,
+          "startSceneAssetBundle": false,
+          "bundleConfigs": [],
+          "inlineEnum": true,
+          "useBuiltinServer": false,
+          "md5CacheOptions": {
+            "excludes": [],
+            "includes": [],
+            "replaceOnly": [],
+            "handleTemplateMd5Link": true
+          },
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "merge_dep",
+          "useSplashScreen": true,
+          "bundleCommonChunk": false,
+          "packAutoAtlas": true,
+          "startScene": "37ad861a-c2a7-4ea4-a7a5-d70c4b3c5a85",
+          "outputName": "web-mobile",
+          "taskName": "web-mobile",
+          "scenes": [
+            {
+              "url": "db://assets/Scene/GameScene.scene",
+              "uuid": "ae87d929-7bc4-46fe-bfa4-27b17ba89484"
+            },
+            {
+              "url": "db://assets/Scene/TitleScene.scene",
+              "uuid": "37ad861a-c2a7-4ea4-a7a5-d70c4b3c5a85"
+            }
+          ],
+          "wasmCompressionMode": false,
+          "packages": {},
+          "__version__": "1.3.9",
+          "logDest": "project://temp/builder/log/web-mobile24-6-2025 18-18.log"
+        },
+        "time": "24-6-2025 18:18:58",
+        "dirty": false
+      }
+    }
+  }
+}

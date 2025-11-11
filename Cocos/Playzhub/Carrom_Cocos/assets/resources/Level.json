@@ -1,0 +1,4018 @@
+{
+    "Level1": {
+        "level_based_type": {
+            "type": "time",
+            "pawnsQty": 2
+        },
+        "board_type": 0,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": -420,
+                "y": 355
+            },
+            {
+                "x": 420,
+                "y": 355
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": 150,
+                "y": 75
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": -150,
+                "y": 75
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level2": {
+        "level_based_type": {
+            "type": "move",
+            "pawnsQty": 2
+        },
+        "board_type": 0,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": 0,
+                "y": 355
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": 150,
+                "y": 75
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": -150,
+                "y": 75
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level3": {
+        "level_based_type": {
+            "type": "move",
+            "pawnsQty": 2
+        },
+        "board_type": 2,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": -220,
+                "y": 338
+            },
+            {
+                "x": 220,
+                "y": 338
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": -100,
+                "y": 185
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": 100,
+                "y": 185
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level4": {
+        "level_based_type": {
+            "type": "time",
+            "pawnsQty": 2
+        },
+        "board_type": 0,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": -420,
+                "y": 355
+            },
+            {
+                "x": 420,
+                "y": 355
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": 300,
+                "y": 300
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": -200,
+                "y": -150
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level5": {
+        "level_based_type": {
+            "type": "time",
+            "pawnsQty": 2
+        },
+        "board_type": 0,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": -420,
+                "y": 355
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": 200,
+                "y": 100
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": -100,
+                "y": -100
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level6": {
+        "level_based_type": {
+            "type": "move",
+            "pawnsQty": 2
+        },
+        "board_type": 1,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": -430,
+                "y": -100
+            },
+            {
+                "x": 430,
+                "y": -100
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": 250,
+                "y": 180
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": -200,
+                "y": -150
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level7": {
+        "level_based_type": {
+            "type": "time",
+            "pawnsQty": 4
+        },
+        "board_type": 2,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": -437,
+                "y": -70
+            },
+            {
+                "x": 437,
+                "y": -70
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": 150,
+                "y": 100
+            },
+            {
+                "x": 200,
+                "y": 160
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": -150,
+                "y": -100
+            },
+            {
+                "x": -180,
+                "y": -120
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level8": {
+        "level_based_type": {
+            "type": "time",
+            "pawnsQty": 4
+        },
+        "board_type": 0,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": 0,
+                "y": 355
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": 100,
+                "y": 90
+            },
+            {
+                "x": 120,
+                "y": 130
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": -100,
+                "y": -90
+            },
+            {
+                "x": -120,
+                "y": -130
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level9": {
+        "level_based_type": {
+            "type": "move",
+            "pawnsQty": 2
+        },
+        "board_type": 1,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": -305,
+                "y": 220
+            },
+            {
+                "x": 305,
+                "y": 220
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": 60,
+                "y": 360
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": -60,
+                "y": 360
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level10": {
+        "level_based_type": {
+            "type": "time",
+            "pawnsQty": 3
+        },
+        "board_type": 2,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": -437,
+                "y": -70
+            },
+            {
+                "x": 437,
+                "y": -70
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": -290,
+                "y": -90
+            },
+            {
+                "x": 310,
+                "y": 20
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": 190,
+                "y": -220
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level11": {
+        "level_based_type": {
+            "type": "move",
+            "pawnsQty": 2
+        },
+        "board_type": 0,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": 420,
+                "y": -100
+            },
+            {
+                "x": 420,
+                "y": 345
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": 37,
+                "y": -37
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": 135,
+                "y": 47
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level12": {
+        "level_based_type": {
+            "type": "time",
+            "pawnsQty": 4
+        },
+        "board_type": 1,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": -430,
+                "y": -100
+            },
+            {
+                "x": 0,
+                "y": -490
+            },
+            {
+                "x": 430,
+                "y": -100
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": 276,
+                "y": 99
+            },
+            {
+                "x": -101,
+                "y": -124
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": -72,
+                "y": 19
+            },
+            {
+                "x": -113,
+                "y": -193
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level13": {
+        "level_based_type": {
+            "type": "move",
+            "pawnsQty": 1
+        },
+        "board_type": 0,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": 420,
+                "y": 355
+            }
+        ],
+        "pawns_positions_white": [],
+        "pawns_positions_black": [
+            {
+                "x": -133,
+                "y": 79
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level14": {
+        "level_based_type": {
+            "type": "move",
+            "pawnsQty": 5
+        },
+        "board_type": 2,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": -437,
+                "y": -70
+            },
+            {
+                "x": 220,
+                "y": 338
+            },
+            {
+                "x": 437,
+                "y": -70
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": 189,
+                "y": 51
+            },
+            {
+                "x": 289,
+                "y": 160
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": -143,
+                "y": -102
+            },
+            {
+                "x": -84,
+                "y": -8
+            },
+            {
+                "x": 195,
+                "y": 87
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level15": {
+        "level_based_type": {
+            "type": "time",
+            "pawnsQty": 3
+        },
+        "board_type": 1,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": 0,
+                "y": 360
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": -271,
+                "y": 45
+            },
+            {
+                "x": 101,
+                "y": -132
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": -96,
+                "y": 123
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level16": {
+        "level_based_type": {
+            "type": "move",
+            "pawnsQty": 6
+        },
+        "board_type": 0,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": -420,
+                "y": 355
+            },
+            {
+                "x": 420,
+                "y": -100
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": 65,
+                "y": 131
+            },
+            {
+                "x": -222,
+                "y": 157
+            },
+            {
+                "x": -113,
+                "y": -92
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": 3,
+                "y": -3
+            },
+            {
+                "x": -96,
+                "y": 88
+            },
+            {
+                "x": 55,
+                "y": 163
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level17": {
+        "level_based_type": {
+            "type": "time",
+            "pawnsQty": 5
+        },
+        "board_type": 2,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": -400,
+                "y": -100
+            },
+            {
+                "x": 200,
+                "y": 275
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": 161,
+                "y": 2
+            },
+            {
+                "x": -166,
+                "y": 138
+            },
+            {
+                "x": 191,
+                "y": -163
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": 17,
+                "y": 104
+            },
+            {
+                "x": 145,
+                "y": 170
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level18": {
+        "level_based_type": {
+            "type": "time",
+            "pawnsQty": 2
+        },
+        "board_type": 1,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": -430,
+                "y": -100
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": -120,
+                "y": -170
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": -33,
+                "y": 180
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level19": {
+        "level_based_type": {
+            "type": "time",
+            "pawnsQty": 4
+        },
+        "board_type": 0,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": -420,
+                "y": -100
+            },
+            {
+                "x": -420,
+                "y": 355
+            },
+            {
+                "x": 420,
+                "y": 355
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": 127,
+                "y": -206
+            },
+            {
+                "x": 10,
+                "y": 76
+            },
+            {
+                "x": -157,
+                "y": -109
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": 34,
+                "y": -215
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level20": {
+        "level_based_type": {
+            "type": "time",
+            "pawnsQty": 8
+        },
+        "board_type": 2,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": 400,
+                "y": -100
+            },
+            {
+                "x": -400,
+                "y": -100
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": -147,
+                "y": -240
+            },
+            {
+                "x": -215,
+                "y": 123
+            },
+            {
+                "x": 77,
+                "y": 56
+            },
+            {
+                "x": -295,
+                "y": 147
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": 275,
+                "y": -173
+            },
+            {
+                "x": -111,
+                "y": 27
+            },
+            {
+                "x": 32,
+                "y": -12
+            },
+            {
+                "x": 180,
+                "y": 45
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level21": {
+        "level_based_type": {
+            "type": "time",
+            "pawnsQty": 2
+        },
+        "board_type": 1,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": 430,
+                "y": -100
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": -178,
+                "y": 76
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": -131,
+                "y": 40
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level22": {
+        "level_based_type": {
+            "type": "move",
+            "pawnsQty": 6
+        },
+        "board_type": 0,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": -420,
+                "y": 355
+            },
+            {
+                "x": 420,
+                "y": -100
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": 45,
+                "y": 13
+            },
+            {
+                "x": -100,
+                "y": 22
+            },
+            {
+                "x": 300,
+                "y": -80
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": -234,
+                "y": 70
+            },
+            {
+                "x": 110,
+                "y": 160
+            },
+            {
+                "x": 7,
+                "y": -190
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level23": {
+        "level_based_type": {
+            "type": "time",
+            "pawnsQty": 3
+        },
+        "board_type": 2,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": -200,
+                "y": 275
+            },
+            {
+                "x": 400,
+                "y": -100
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": 280,
+                "y": -14
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": -145,
+                "y": -156
+            },
+            {
+                "x": 222,
+                "y": 144
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level24": {
+        "level_based_type": {
+            "type": "move",
+            "pawnsQty": 5
+        },
+        "board_type": 1,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": 0,
+                "y": 360
+            },
+            {
+                "x": 430,
+                "y": -100
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": 190,
+                "y": 90
+            },
+            {
+                "x": -200,
+                "y": -88
+            },
+            {
+                "x": 66,
+                "y": -270
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": -90,
+                "y": 111
+            },
+            {
+                "x": 122,
+                "y": -72
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level25": {
+        "level_based_type": {
+            "type": "time",
+            "pawnsQty": 2
+        },
+        "board_type": 0,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": 420,
+                "y": -485
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": -180,
+                "y": -520
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": 390,
+                "y": -170
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level26": {
+        "level_based_type": {
+            "type": "move",
+            "pawnsQty": 4
+        },
+        "board_type": 2,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": 400,
+                "y": -100
+            },
+            {
+                "x": -400,
+                "y": -100
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": 230,
+                "y": -40
+            },
+            {
+                "x": -290,
+                "y": -55
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": 150,
+                "y": -160
+            },
+            {
+                "x": -180,
+                "y": -220
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level27": {
+        "level_based_type": {
+            "type": "time",
+            "pawnsQty": 1
+        },
+        "board_type": 1,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": -430,
+                "y": -100
+            }
+        ],
+        "pawns_positions_white": [],
+        "pawns_positions_black": [
+            {
+                "x": 170,
+                "y": 120
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level28": {
+        "level_based_type": {
+            "type": "move",
+            "pawnsQty": 4
+        },
+        "board_type": 0,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": 420,
+                "y": -100
+            },
+            {
+                "x": -420,
+                "y": -100
+            },
+            {
+                "x": 420,
+                "y": 345
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": -420,
+                "y": -300
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": 170,
+                "y": -220
+            },
+            {
+                "x": -300,
+                "y": -100
+            },
+            {
+                "x": 300,
+                "y": -160
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level29": {
+        "level_based_type": {
+            "type": "move",
+            "pawnsQty": 3
+        },
+        "board_type": 2,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": -200,
+                "y": 275
+            },
+            {
+                "x": -400,
+                "y": -100
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": 220,
+                "y": -100
+            },
+            {
+                "x": -190,
+                "y": 140
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": 75,
+                "y": 45
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level30": {
+        "level_based_type": {
+            "type": "time",
+            "pawnsQty": 6
+        },
+        "board_type": 1,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": 0,
+                "y": -535
+            },
+            {
+                "x": 430,
+                "y": -100
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": 255,
+                "y": 120
+            },
+            {
+                "x": -180,
+                "y": -190
+            },
+            {
+                "x": 130,
+                "y": 170
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": -30,
+                "y": -40
+            },
+            {
+                "x": 180,
+                "y": -160
+            },
+            {
+                "x": 20,
+                "y": -240
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level31": {
+        "level_based_type": {
+            "type": "move",
+            "pawnsQty": 2
+        },
+        "board_type": 0,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": -420,
+                "y": 355
+            },
+            {
+                "x": 420,
+                "y": -100
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": 90,
+                "y": -200
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": -250,
+                "y": 140
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level32": {
+        "level_based_type": {
+            "type": "move",
+            "pawnsQty": 5
+        },
+        "board_type": 2,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": 200,
+                "y": 275
+            },
+            {
+                "x": -200,
+                "y": 275
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": -170,
+                "y": -60
+            },
+            {
+                "x": 150,
+                "y": 120
+            },
+            {
+                "x": 70,
+                "y": 40
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": -80,
+                "y": -200
+            },
+            {
+                "x": 110,
+                "y": 130
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level33": {
+        "level_based_type": {
+            "type": "time",
+            "pawnsQty": 4
+        },
+        "board_type": 1,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": -430,
+                "y": -100
+            },
+            {
+                "x": 0,
+                "y": -490
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": -240,
+                "y": -90
+            },
+            {
+                "x": 100,
+                "y": 170
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": 70,
+                "y": -110
+            },
+            {
+                "x": -130,
+                "y": 150
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level34": {
+        "level_based_type": {
+            "type": "move",
+            "pawnsQty": 6
+        },
+        "board_type": 0,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": 420,
+                "y": -485
+            },
+            {
+                "x": -420,
+                "y": -485
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": 260,
+                "y": -520
+            },
+            {
+                "x": -420,
+                "y": -400
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": -100,
+                "y": -520
+            },
+            {
+                "x": 325,
+                "y": -460
+            },
+            {
+                "x": -190,
+                "y": -520
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level35": {
+        "level_based_type": {
+            "type": "move",
+            "pawnsQty": 3
+        },
+        "board_type": 2,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": -400,
+                "y": -100
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": 80,
+                "y": -120
+            },
+            {
+                "x": -220,
+                "y": 100
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": 130,
+                "y": 0
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level36": {
+        "level_based_type": {
+            "type": "move",
+            "pawnsQty": 8
+        },
+        "board_type": 1,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": 430,
+                "y": -100
+            },
+            {
+                "x": 0,
+                "y": 360
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": 220,
+                "y": -170
+            },
+            {
+                "x": 30,
+                "y": -90
+            },
+            {
+                "x": -200,
+                "y": 50
+            },
+            {
+                "x": -150,
+                "y": -100
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": -80,
+                "y": 160
+            },
+            {
+                "x": 170,
+                "y": 60
+            },
+            {
+                "x": 100,
+                "y": 0
+            },
+            {
+                "x": -270,
+                "y": 180
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level37": {
+        "level_based_type": {
+            "type": "time",
+            "pawnsQty": 1
+        },
+        "board_type": 0,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": 420,
+                "y": -485
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": 100,
+                "y": -90
+            }
+        ],
+        "pawns_positions_black": [],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level38": {
+        "level_based_type": {
+            "type": "move",
+            "pawnsQty": 7
+        },
+        "board_type": 2,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": 400,
+                "y": -100
+            },
+            {
+                "x": -400,
+                "y": -100
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": -260,
+                "y": 140
+            },
+            {
+                "x": 150,
+                "y": -180
+            },
+            {
+                "x": -190,
+                "y": -50
+            },
+            {
+                "x": 60,
+                "y": 90
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": 0,
+                "y": -200
+            },
+            {
+                "x": 270,
+                "y": 120
+            },
+            {
+                "x": -120,
+                "y": -130
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level39": {
+        "level_based_type": {
+            "type": "time",
+            "pawnsQty": 5
+        },
+        "board_type": 1,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": -430,
+                "y": -100
+            },
+            {
+                "x": 0,
+                "y": -490
+            },
+            {
+                "x": 430,
+                "y": -100
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": -150,
+                "y": -80
+            },
+            {
+                "x": 110,
+                "y": 100
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": 250,
+                "y": -170
+            },
+            {
+                "x": -80,
+                "y": 140
+            },
+            {
+                "x": 50,
+                "y": 60
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level40": {
+        "level_based_type": {
+            "type": "time",
+            "pawnsQty": 6
+        },
+        "board_type": 0,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": -420,
+                "y": -485
+            },
+            {
+                "x": 420,
+                "y": 355
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": 130,
+                "y": -130
+            },
+            {
+                "x": -140,
+                "y": 120
+            },
+            {
+                "x": 90,
+                "y": -90
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": -200,
+                "y": 100
+            },
+            {
+                "x": 280,
+                "y": -250
+            },
+            {
+                "x": 0,
+                "y": 80
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level41": {
+        "level_based_type": {
+            "type": "time",
+            "pawnsQty": 3
+        },
+        "board_type": 1,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": 430,
+                "y": -100
+            },
+            {
+                "x": 0,
+                "y": 360
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": 110,
+                "y": -140
+            },
+            {
+                "x": -200,
+                "y": 160
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": 70,
+                "y": -70
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level42": {
+        "level_based_type": {
+            "type": "time",
+            "pawnsQty": 6
+        },
+        "board_type": 0,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": -420,
+                "y": -100
+            },
+            {
+                "x": 420,
+                "y": 355
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": -150,
+                "y": 150
+            },
+            {
+                "x": 70,
+                "y": -260
+            },
+            {
+                "x": 90,
+                "y": 120
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": 220,
+                "y": -70
+            },
+            {
+                "x": -200,
+                "y": -150
+            },
+            {
+                "x": 60,
+                "y": 100
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level43": {
+        "level_based_type": {
+            "type": "move",
+            "pawnsQty": 2
+        },
+        "board_type": 2,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": 400,
+                "y": -100
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": 180,
+                "y": 40
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": -90,
+                "y": -150
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level44": {
+        "level_based_type": {
+            "type": "time",
+            "pawnsQty": 4
+        },
+        "board_type": 1,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": 0,
+                "y": 360
+            },
+            {
+                "x": -430,
+                "y": -100
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": 270,
+                "y": -100
+            },
+            {
+                "x": -250,
+                "y": 70
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": 200,
+                "y": 160
+            },
+            {
+                "x": -170,
+                "y": -90
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level45": {
+        "level_based_type": {
+            "type": "move",
+            "pawnsQty": 5
+        },
+        "board_type": 0,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": -420,
+                "y": 355
+            },
+            {
+                "x": 420,
+                "y": 355
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": 100,
+                "y": -100
+            },
+            {
+                "x": -130,
+                "y": 140
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": 200,
+                "y": -150
+            },
+            {
+                "x": 90,
+                "y": 100
+            },
+            {
+                "x": -200,
+                "y": -260
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level46": {
+        "level_based_type": {
+            "type": "move",
+            "pawnsQty": 4
+        },
+        "board_type": 2,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": -200,
+                "y": 275
+            },
+            {
+                "x": 200,
+                "y": 275
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": 150,
+                "y": 80
+            },
+            {
+                "x": -180,
+                "y": -190
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": 0,
+                "y": 140
+            },
+            {
+                "x": 70,
+                "y": -90
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level47": {
+        "level_based_type": {
+            "type": "time",
+            "pawnsQty": 8
+        },
+        "board_type": 1,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": -430,
+                "y": -100
+            },
+            {
+                "x": 430,
+                "y": -100
+            },
+            {
+                "x": 0,
+                "y": 360
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": 110,
+                "y": 140
+            },
+            {
+                "x": -100,
+                "y": -200
+            },
+            {
+                "x": 60,
+                "y": 60
+            },
+            {
+                "x": -250,
+                "y": 50
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": 270,
+                "y": -100
+            },
+            {
+                "x": 80,
+                "y": -260
+            },
+            {
+                "x": -150,
+                "y": 120
+            },
+            {
+                "x": 0,
+                "y": 90
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level48": {
+        "level_based_type": {
+            "type": "move",
+            "pawnsQty": 1
+        },
+        "board_type": 2,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": -400,
+                "y": -100
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": -80,
+                "y": 200
+            }
+        ],
+        "pawns_positions_black": [],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level49": {
+        "level_based_type": {
+            "type": "move",
+            "pawnsQty": 4
+        },
+        "board_type": 0,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": -420,
+                "y": -100
+            },
+            {
+                "x": 420,
+                "y": 345
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": 100,
+                "y": -170
+            },
+            {
+                "x": -300,
+                "y": 100
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": 200,
+                "y": -200
+            },
+            {
+                "x": -90,
+                "y": 70
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level50": {
+        "level_based_type": {
+            "type": "time",
+            "pawnsQty": 2
+        },
+        "board_type": 1,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": 0,
+                "y": -490
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": -50,
+                "y": 140
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": 100,
+                "y": -130
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level51": {
+        "level_based_type": {
+            "type": "move",
+            "pawnsQty": 3
+        },
+        "board_type": 0,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": 420,
+                "y": -485
+            },
+            {
+                "x": -420,
+                "y": -100
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": 200,
+                "y": 170
+            },
+            {
+                "x": -100,
+                "y": 90
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": 0,
+                "y": -120
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level52": {
+        "level_based_type": {
+            "type": "move",
+            "pawnsQty": 5
+        },
+        "board_type": 2,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": 400,
+                "y": -100
+            },
+            {
+                "x": -200,
+                "y": 275
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": -90,
+                "y": 180
+            },
+            {
+                "x": 250,
+                "y": -270
+            },
+            {
+                "x": 70,
+                "y": 130
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": -140,
+                "y": 20
+            },
+            {
+                "x": 60,
+                "y": -150
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level53": {
+        "level_based_type": {
+            "type": "move",
+            "pawnsQty": 2
+        },
+        "board_type": 1,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": 0,
+                "y": 360
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": -60,
+                "y": -100
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": 90,
+                "y": 90
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level54": {
+        "level_based_type": {
+            "type": "time",
+            "pawnsQty": 4
+        },
+        "board_type": 0,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": 420,
+                "y": 355
+            },
+            {
+                "x": -420,
+                "y": -485
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": 100,
+                "y": -200
+            },
+            {
+                "x": -300,
+                "y": 80
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": 150,
+                "y": -70
+            },
+            {
+                "x": -120,
+                "y": 100
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level55": {
+        "level_based_type": {
+            "type": "time",
+            "pawnsQty": 6
+        },
+        "board_type": 1,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": 0,
+                "y": 360
+            },
+            {
+                "x": 430,
+                "y": -100
+            },
+            {
+                "x": -430,
+                "y": -100
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": 270,
+                "y": -180
+            },
+            {
+                "x": -250,
+                "y": 130
+            },
+            {
+                "x": 60,
+                "y": -150
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": 200,
+                "y": 160
+            },
+            {
+                "x": -170,
+                "y": -90
+            },
+            {
+                "x": 0,
+                "y": 100
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level56": {
+        "level_based_type": {
+            "type": "move",
+            "pawnsQty": 1
+        },
+        "board_type": 2,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": 200,
+                "y": 275
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": -90,
+                "y": -60
+            }
+        ],
+        "pawns_positions_black": [],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level57": {
+        "level_based_type": {
+            "type": "time",
+            "pawnsQty": 8
+        },
+        "board_type": 0,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": -420,
+                "y": 355
+            },
+            {
+                "x": 420,
+                "y": 355
+            },
+            {
+                "x": -420,
+                "y": 345
+            },
+            {
+                "x": 420,
+                "y": -100
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": -100,
+                "y": 100
+            },
+            {
+                "x": 100,
+                "y": -170
+            },
+            {
+                "x": 250,
+                "y": -120
+            },
+            {
+                "x": 60,
+                "y": 160
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": -200,
+                "y": 90
+            },
+            {
+                "x": -70,
+                "y": -100
+            },
+            {
+                "x": 110,
+                "y": -50
+            },
+            {
+                "x": 30,
+                "y": 40
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level58": {
+        "level_based_type": {
+            "type": "time",
+            "pawnsQty": 2
+        },
+        "board_type": 1,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": -430,
+                "y": -100
+            },
+            {
+                "x": 0,
+                "y": -490
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": 200,
+                "y": -80
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": -150,
+                "y": 180
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level59": {
+        "level_based_type": {
+            "type": "time",
+            "pawnsQty": 5
+        },
+        "board_type": 2,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": 200,
+                "y": 275
+            },
+            {
+                "x": -400,
+                "y": -100
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": 100,
+                "y": 100
+            },
+            {
+                "x": -250,
+                "y": -180
+            },
+            {
+                "x": 60,
+                "y": 170
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": 0,
+                "y": 50
+            },
+            {
+                "x": -90,
+                "y": -270
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level60": {
+        "level_based_type": {
+            "type": "move",
+            "pawnsQty": 4
+        },
+        "board_type": 0,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": -420,
+                "y": -100
+            },
+            {
+                "x": 420,
+                "y": 355
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": 300,
+                "y": 60
+            },
+            {
+                "x": -100,
+                "y": -150
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": 100,
+                "y": 90
+            },
+            {
+                "x": -200,
+                "y": 10
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level61": {
+        "level_based_type": {
+            "type": "time",
+            "pawnsQty": 2
+        },
+        "board_type": 1,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": 0,
+                "y": -535
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": 120,
+                "y": 100
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": -100,
+                "y": -50
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level62": {
+        "level_based_type": {
+            "type": "move",
+            "pawnsQty": 3
+        },
+        "board_type": 0,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": 420,
+                "y": -485
+            },
+            {
+                "x": -420,
+                "y": 355
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": 90,
+                "y": 150
+            },
+            {
+                "x": -200,
+                "y": -100
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": 100,
+                "y": -150
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level63": {
+        "level_based_type": {
+            "type": "time",
+            "pawnsQty": 5
+        },
+        "board_type": 2,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": -400,
+                "y": -100
+            },
+            {
+                "x": 200,
+                "y": 275
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": -200,
+                "y": 120
+            },
+            {
+                "x": 300,
+                "y": -50
+            },
+            {
+                "x": -90,
+                "y": -220
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": 90,
+                "y": -30
+            },
+            {
+                "x": -60,
+                "y": 100
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level64": {
+        "level_based_type": {
+            "type": "time",
+            "pawnsQty": 3
+        },
+        "board_type": 1,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": 0,
+                "y": 360
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": -50,
+                "y": 10
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": 90,
+                "y": 150
+            },
+            {
+                "x": -200,
+                "y": -100
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level65": {
+        "level_based_type": {
+            "type": "move",
+            "pawnsQty": 4
+        },
+        "board_type": 0,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": 420,
+                "y": -100
+            },
+            {
+                "x": -420,
+                "y": -485
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": -100,
+                "y": 150
+            },
+            {
+                "x": 200,
+                "y": -100
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": 100,
+                "y": 120
+            },
+            {
+                "x": -150,
+                "y": -70
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level66": {
+        "level_based_type": {
+            "type": "time",
+            "pawnsQty": 6
+        },
+        "board_type": 2,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": 400,
+                "y": -100
+            },
+            {
+                "x": -400,
+                "y": -100
+            },
+            {
+                "x": -200,
+                "y": 275
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": 200,
+                "y": -50
+            },
+            {
+                "x": -100,
+                "y": -180
+            },
+            {
+                "x": 150,
+                "y": 160
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": -300,
+                "y": 100
+            },
+            {
+                "x": 100,
+                "y": -70
+            },
+            {
+                "x": -50,
+                "y": -200
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level67": {
+        "level_based_type": {
+            "type": "time",
+            "pawnsQty": 7
+        },
+        "board_type": 0,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": -420,
+                "y": -100
+            },
+            {
+                "x": 420,
+                "y": 355
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": -100,
+                "y": 130
+            },
+            {
+                "x": 150,
+                "y": -100
+            },
+            {
+                "x": -50,
+                "y": 160
+            },
+            {
+                "x": 250,
+                "y": 90
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": -120,
+                "y": -270
+            },
+            {
+                "x": 60,
+                "y": 170
+            },
+            {
+                "x": -200,
+                "y": 20
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level68": {
+        "level_based_type": {
+            "type": "time",
+            "pawnsQty": 8
+        },
+        "board_type": 1,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": -430,
+                "y": -100
+            },
+            {
+                "x": 0,
+                "y": -490
+            },
+            {
+                "x": 0,
+                "y": 360
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": 200,
+                "y": 150
+            },
+            {
+                "x": -100,
+                "y": 160
+            },
+            {
+                "x": 0,
+                "y": -270
+            },
+            {
+                "x": 150,
+                "y": -100
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": -250,
+                "y": 100
+            },
+            {
+                "x": 100,
+                "y": -150
+            },
+            {
+                "x": 50,
+                "y": 170
+            },
+            {
+                "x": -200,
+                "y": 40
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level69": {
+        "level_based_type": {
+            "type": "time",
+            "pawnsQty": 5
+        },
+        "board_type": 2,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": 200,
+                "y": 275
+            },
+            {
+                "x": -200,
+                "y": 275
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": -90,
+                "y": -200
+            },
+            {
+                "x": 250,
+                "y": -100
+            },
+            {
+                "x": -60,
+                "y": 120
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": 100,
+                "y": 50
+            },
+            {
+                "x": -150,
+                "y": -170
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level70": {
+        "level_based_type": {
+            "type": "move",
+            "pawnsQty": 3
+        },
+        "board_type": 0,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": -420,
+                "y": -100
+            },
+            {
+                "x": 420,
+                "y": -485
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": 150,
+                "y": 170
+            },
+            {
+                "x": -200,
+                "y": -150
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": 60,
+                "y": 100
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level71": {
+        "level_based_type": {
+            "type": "time",
+            "pawnsQty": 4
+        },
+        "board_type": 1,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": -430,
+                "y": -100
+            },
+            {
+                "x": 0,
+                "y": 360
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": -150,
+                "y": 100
+            },
+            {
+                "x": 200,
+                "y": -120
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": 100,
+                "y": 80
+            },
+            {
+                "x": -80,
+                "y": -200
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level72": {
+        "level_based_type": {
+            "type": "move",
+            "pawnsQty": 6
+        },
+        "board_type": 2,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": -200,
+                "y": 275
+            },
+            {
+                "x": 400,
+                "y": -100
+            },
+            {
+                "x": -400,
+                "y": -100
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": 90,
+                "y": -180
+            },
+            {
+                "x": -100,
+                "y": 170
+            },
+            {
+                "x": 200,
+                "y": 80
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": -250,
+                "y": 160
+            },
+            {
+                "x": 150,
+                "y": -70
+            },
+            {
+                "x": 50,
+                "y": -120
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level73": {
+        "level_based_type": {
+            "type": "time",
+            "pawnsQty": 3
+        },
+        "board_type": 0,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": 420,
+                "y": 355
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": 100,
+                "y": -100
+            },
+            {
+                "x": -150,
+                "y": 140
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": 200,
+                "y": 90
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level74": {
+        "level_based_type": {
+            "type": "time",
+            "pawnsQty": 2
+        },
+        "board_type": 1,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": 0,
+                "y": -490
+            },
+            {
+                "x": 430,
+                "y": -100
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": -200,
+                "y": -150
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": 100,
+                "y": 100
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level75": {
+        "level_based_type": {
+            "type": "move",
+            "pawnsQty": 5
+        },
+        "board_type": 2,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": -200,
+                "y": 275
+            },
+            {
+                "x": 200,
+                "y": 275
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": 250,
+                "y": -160
+            },
+            {
+                "x": -100,
+                "y": 130
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": -150,
+                "y": -120
+            },
+            {
+                "x": 100,
+                "y": 170
+            },
+            {
+                "x": 60,
+                "y": 0
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level76": {
+        "level_based_type": {
+            "type": "move",
+            "pawnsQty": 7
+        },
+        "board_type": 0,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": -420,
+                "y": 355
+            },
+            {
+                "x": 420,
+                "y": 355
+            },
+            {
+                "x": -420,
+                "y": -100
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": 90,
+                "y": 120
+            },
+            {
+                "x": -200,
+                "y": 60
+            },
+            {
+                "x": 300,
+                "y": -80
+            },
+            {
+                "x": -100,
+                "y": -200
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": -250,
+                "y": 140
+            },
+            {
+                "x": 60,
+                "y": 170
+            },
+            {
+                "x": 200,
+                "y": -150
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level77": {
+        "level_based_type": {
+            "type": "move",
+            "pawnsQty": 1
+        },
+        "board_type": 1,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": 0,
+                "y": 360
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": 150,
+                "y": 80
+            }
+        ],
+        "pawns_positions_black": [],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level78": {
+        "level_based_type": {
+            "type": "time",
+            "pawnsQty": 8
+        },
+        "board_type": 0,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": 420,
+                "y": -100
+            },
+            {
+                "x": -420,
+                "y": -100
+            },
+            {
+                "x": 420,
+                "y": -485
+            },
+            {
+                "x": -420,
+                "y": -485
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": -300,
+                "y": 100
+            },
+            {
+                "x": 100,
+                "y": 90
+            },
+            {
+                "x": -150,
+                "y": -200
+            },
+            {
+                "x": 200,
+                "y": 170
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": 150,
+                "y": 80
+            },
+            {
+                "x": -60,
+                "y": -160
+            },
+            {
+                "x": -200,
+                "y": 150
+            },
+            {
+                "x": 90,
+                "y": -50
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level79": {
+        "level_based_type": {
+            "type": "move",
+            "pawnsQty": 4
+        },
+        "board_type": 2,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": -200,
+                "y": 275
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": -100,
+                "y": 160
+            },
+            {
+                "x": 200,
+                "y": -60
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": 60,
+                "y": -150
+            },
+            {
+                "x": -150,
+                "y": 100
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level80": {
+        "level_based_type": {
+            "type": "time",
+            "pawnsQty": 6
+        },
+        "board_type": 1,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": -430,
+                "y": -100
+            },
+            {
+                "x": 0,
+                "y": 360
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": -150,
+                "y": -100
+            },
+            {
+                "x": 100,
+                "y": 160
+            },
+            {
+                "x": 200,
+                "y": 120
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": -200,
+                "y": -200
+            },
+            {
+                "x": 60,
+                "y": 40
+            },
+            {
+                "x": -90,
+                "y": 170
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level81": {
+        "level_based_type": {
+            "type": "move",
+            "pawnsQty": 3
+        },
+        "board_type": 0,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": -420,
+                "y": 355
+            },
+            {
+                "x": 420,
+                "y": 355
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": 200,
+                "y": 100
+            },
+            {
+                "x": -100,
+                "y": 150
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": -200,
+                "y": -100
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level82": {
+        "level_based_type": {
+            "type": "move",
+            "pawnsQty": 5
+        },
+        "board_type": 1,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": 0,
+                "y": 360
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": 50,
+                "y": 150
+            },
+            {
+                "x": -150,
+                "y": 50
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": 200,
+                "y": -100
+            },
+            {
+                "x": -250,
+                "y": 120
+            },
+            {
+                "x": 100,
+                "y": -180
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level83": {
+        "level_based_type": {
+            "type": "time",
+            "pawnsQty": 7
+        },
+        "board_type": 2,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": -400,
+                "y": -100
+            },
+            {
+                "x": 400,
+                "y": -100
+            },
+            {
+                "x": 200,
+                "y": 275
+            },
+            {
+                "x": -200,
+                "y": 275
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": -200,
+                "y": -100
+            },
+            {
+                "x": 100,
+                "y": 100
+            },
+            {
+                "x": -50,
+                "y": 0
+            },
+            {
+                "x": 150,
+                "y": 150
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": -250,
+                "y": 100
+            },
+            {
+                "x": 200,
+                "y": 120
+            },
+            {
+                "x": -100,
+                "y": -160
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level84": {
+        "level_based_type": {
+            "type": "time",
+            "pawnsQty": 2
+        },
+        "board_type": 1,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": 0,
+                "y": -490
+            },
+            {
+                "x": -430,
+                "y": -100
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": -120,
+                "y": 160
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": 90,
+                "y": -200
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level85": {
+        "level_based_type": {
+            "type": "time",
+            "pawnsQty": 6
+        },
+        "board_type": 0,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": -420,
+                "y": 355
+            },
+            {
+                "x": 420,
+                "y": -485
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": 100,
+                "y": -180
+            },
+            {
+                "x": -200,
+                "y": 100
+            },
+            {
+                "x": 250,
+                "y": 80
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": -300,
+                "y": 150
+            },
+            {
+                "x": -50,
+                "y": 170
+            },
+            {
+                "x": 200,
+                "y": 100
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level86": {
+        "level_based_type": {
+            "type": "move",
+            "pawnsQty": 4
+        },
+        "board_type": 2,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": 200,
+                "y": 275
+            },
+            {
+                "x": -400,
+                "y": -100
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": -250,
+                "y": -90
+            },
+            {
+                "x": 100,
+                "y": 160
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": -100,
+                "y": 60
+            },
+            {
+                "x": 200,
+                "y": 120
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level87": {
+        "level_based_type": {
+            "type": "time",
+            "pawnsQty": 1
+        },
+        "board_type": 1,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": 430,
+                "y": -100
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": 0,
+                "y": 150
+            }
+        ],
+        "pawns_positions_black": [],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level88": {
+        "level_based_type": {
+            "type": "time",
+            "pawnsQty": 8
+        },
+        "board_type": 0,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": -420,
+                "y": -485
+            },
+            {
+                "x": 420,
+                "y": -485
+            },
+            {
+                "x": 420,
+                "y": -100
+            },
+            {
+                "x": -420,
+                "y": -100
+            },
+            {
+                "x": 420,
+                "y": 355
+            },
+            {
+                "x": -420,
+                "y": 355
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": 200,
+                "y": 160
+            },
+            {
+                "x": -100,
+                "y": 180
+            },
+            {
+                "x": 0,
+                "y": -150
+            },
+            {
+                "x": 250,
+                "y": -200
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": 100,
+                "y": 150
+            },
+            {
+                "x": -200,
+                "y": -100
+            },
+            {
+                "x": -300,
+                "y": 100
+            },
+            {
+                "x": 90,
+                "y": 0
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level89": {
+        "level_based_type": {
+            "type": "move",
+            "pawnsQty": 3
+        },
+        "board_type": 2,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": 400,
+                "y": -100
+            },
+            {
+                "x": -200,
+                "y": 275
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": -100,
+                "y": 60
+            },
+            {
+                "x": 150,
+                "y": -70
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": 80,
+                "y": 100
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level90": {
+        "level_based_type": {
+            "type": "time",
+            "pawnsQty": 5
+        },
+        "board_type": 1,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": 0,
+                "y": 360
+            },
+            {
+                "x": 430,
+                "y": -100
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": 200,
+                "y": -180
+            },
+            {
+                "x": -100,
+                "y": 100
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": 150,
+                "y": 80
+            },
+            {
+                "x": -250,
+                "y": 140
+            },
+            {
+                "x": 60,
+                "y": -90
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level91": {
+        "level_based_type": {
+            "type": "time",
+            "pawnsQty": 6
+        },
+        "board_type": 0,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": -420,
+                "y": -485
+            },
+            {
+                "x": 420,
+                "y": 355
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": 200,
+                "y": 100
+            },
+            {
+                "x": -150,
+                "y": 80
+            },
+            {
+                "x": 100,
+                "y": -120
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": -200,
+                "y": -180
+            },
+            {
+                "x": 90,
+                "y": 150
+            },
+            {
+                "x": 0,
+                "y": -100
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level92": {
+        "level_based_type": {
+            "type": "move",
+            "pawnsQty": 2
+        },
+        "board_type": 1,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": -430,
+                "y": -100
+            },
+            {
+                "x": 0,
+                "y": 360
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": -100,
+                "y": 120
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": 200,
+                "y": -90
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level93": {
+        "level_based_type": {
+            "type": "time",
+            "pawnsQty": 7
+        },
+        "board_type": 2,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": -200,
+                "y": 275
+            },
+            {
+                "x": 400,
+                "y": -100
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": 100,
+                "y": 150
+            },
+            {
+                "x": -100,
+                "y": -200
+            },
+            {
+                "x": -300,
+                "y": 80
+            },
+            {
+                "x": 50,
+                "y": 0
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": 200,
+                "y": 60
+            },
+            {
+                "x": -150,
+                "y": 100
+            },
+            {
+                "x": 80,
+                "y": -150
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level94": {
+        "level_based_type": {
+            "type": "time",
+            "pawnsQty": 4
+        },
+        "board_type": 1,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": 430,
+                "y": -100
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": -200,
+                "y": -120
+            },
+            {
+                "x": 300,
+                "y": 90
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": -100,
+                "y": 100
+            },
+            {
+                "x": 90,
+                "y": -160
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level95": {
+        "level_based_type": {
+            "type": "move",
+            "pawnsQty": 5
+        },
+        "board_type": 0,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": 420,
+                "y": -100
+            },
+            {
+                "x": -420,
+                "y": 355
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": -300,
+                "y": 100
+            },
+            {
+                "x": 100,
+                "y": -270
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": 200,
+                "y": 180
+            },
+            {
+                "x": -250,
+                "y": 160
+            },
+            {
+                "x": 0,
+                "y": -100
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level96": {
+        "level_based_type": {
+            "type": "move",
+            "pawnsQty": 8
+        },
+        "board_type": 2,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": -200,
+                "y": 275
+            },
+            {
+                "x": 400,
+                "y": -100
+            },
+            {
+                "x": -400,
+                "y": -100
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": 200,
+                "y": 160
+            },
+            {
+                "x": -150,
+                "y": 80
+            },
+            {
+                "x": 100,
+                "y": -120
+            },
+            {
+                "x": -300,
+                "y": 100
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": 150,
+                "y": -180
+            },
+            {
+                "x": -100,
+                "y": 150
+            },
+            {
+                "x": 90,
+                "y": -150
+            },
+            {
+                "x": -200,
+                "y": 170
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level97": {
+        "level_based_type": {
+            "type": "time",
+            "pawnsQty": 3
+        },
+        "board_type": 1,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": 0,
+                "y": 360
+            },
+            {
+                "x": -430,
+                "y": -100
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": -100,
+                "y": 150
+            },
+            {
+                "x": 250,
+                "y": -200
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": 50,
+                "y": 80
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level98": {
+        "level_based_type": {
+            "type": "move",
+            "pawnsQty": 1
+        },
+        "board_type": 0,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": 420,
+                "y": 355
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": 100,
+                "y": 150
+            }
+        ],
+        "pawns_positions_black": [],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level99": {
+        "level_based_type": {
+            "type": "move",
+            "pawnsQty": 6
+        },
+        "board_type": 2,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": 400,
+                "y": -100
+            },
+            {
+                "x": 200,
+                "y": 275
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": -300,
+                "y": 170
+            },
+            {
+                "x": 100,
+                "y": -100
+            },
+            {
+                "x": -50,
+                "y": 90
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": 0,
+                "y": -200
+            },
+            {
+                "x": 250,
+                "y": 180
+            },
+            {
+                "x": -100,
+                "y": 120
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    },
+    "Level100": {
+        "level_based_type": {
+            "type": "move",
+            "pawnsQty": 4
+        },
+        "board_type": 1,
+        "min_star_required": 1,
+        "pocket_positions": [
+            {
+                "x": 0,
+                "y": 360
+            },
+            {
+                "x": 430,
+                "y": -100
+            },
+            {
+                "x": -430,
+                "y": -100
+            }
+        ],
+        "pawns_positions_white": [
+            {
+                "x": 100,
+                "y": 150
+            },
+            {
+                "x": -200,
+                "y": -180
+            }
+        ],
+        "pawns_positions_black": [
+            {
+                "x": 0,
+                "y": 120
+            },
+            {
+                "x": 90,
+                "y": -90
+            }
+        ],
+        "pawns_positions_queen": [],
+        "pawns_positions_penalty": []
+    }
+}

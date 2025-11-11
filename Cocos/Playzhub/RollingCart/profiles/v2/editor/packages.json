@@ -1,0 +1,13 @@
+{
+  "disable-packages": {
+    "C:\\Users\\RATPC-130\\": {
+      "CocosCreator\\builtin-extensions\\3": {
+        "8": {}
+      }
+    },
+    "D:\\COCOS CREATOR\\PlayzHub\\RollingCart\\extensions\\GameAnalytics": {
+      "name": "GameAnalytics",
+      "time": 1760436833375
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "CityBlocks",
+  "uuid": "8093ec30-5490-4bce-b8f8-eab2f529aacf",
+  "creator": {
+    "version": "3.8.3"
+  },
+  "dependencies": {
+    "gameanalytics": "^4.4.7"
+  }
+}

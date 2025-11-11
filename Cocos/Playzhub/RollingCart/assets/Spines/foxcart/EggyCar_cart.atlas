@@ -1,0 +1,48 @@
+
+EggyCar_cart.png
+size: 243, 73
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+Layer 103
+  rotate: false
+  xy: 113, 25
+  size: 120, 19
+  orig: 120, 19
+  offset: 0, 0
+  index: -1
+Layer 104
+  rotate: false
+  xy: 164, 5
+  size: 42, 7
+  orig: 42, 7
+  offset: 0, 0
+  index: -1
+Layer 112
+  rotate: false
+  xy: 113, 14
+  size: 121, 9
+  orig: 121, 9
+  offset: 0, 0
+  index: -1
+Layer 119
+  rotate: false
+  xy: 113, 46
+  size: 128, 25
+  orig: 128, 25
+  offset: 0, 0
+  index: -1
+Layer 98
+  rotate: false
+  xy: 2, 2
+  size: 160, 7
+  orig: 160, 7
+  offset: 0, 0
+  index: -1
+Layer 99
+  rotate: false
+  xy: 2, 11
+  size: 109, 60
+  orig: 109, 60
+  offset: 0, 0
+  index: -1

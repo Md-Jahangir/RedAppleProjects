@@ -1,0 +1,117 @@
+{
+    "Levels": [
+        {
+            "Level1": {
+                "board_bg": "4x3_table",
+                "grid": {
+                    "col": 4,
+                    "row": 4
+                },
+                "target_shape": [
+                    {
+                        "type": "L",
+                        "start_position": {
+                            "col": 1,
+                            "row": 1
+                        }
+                    }
+                ],
+                "shape_pieces": {
+                    "possible_shapes": [
+                        "VLine",
+                        "L",
+                        "T",
+                        "FlipT",
+                        "Z",
+                        "Lflip"
+                    ]
+                }
+            },
+            "Level2": {
+                "board_bg": "4x4_table",
+                "grid": {
+                    "col": 5,
+                    "row": 5
+                },
+                "target_shape": [
+                    {
+                        "type": "Square",
+                        "start_position": {
+                            "col": 2,
+                            "row": 2
+                        }
+                    }
+                ],
+                "shape_pieces": {
+                    "possible_shapes": [
+                        "L",
+                        "HLine",
+                        "Z",
+                        "T",
+                        "HLine",
+                        "Single",
+                        "VLine",
+                        "Single"
+                    ]
+                }
+            },
+            "Level3": {
+                "board_bg": "4x5_table",
+                "grid": {
+                    "col": 6,
+                    "row": 6
+                },
+                "target_shape": [
+                    {
+                        "type": "L",
+                        "start_position": {
+                            "col": 0,
+                            "row": 0
+                        }
+                    },
+                    {
+                        "type": "T",
+                        "start_position": {
+                            "col": 3,
+                            "row": 0
+                        }
+                    },
+                    {
+                        "type": "S",
+                        "start_position": {
+                            "col": 0,
+                            "row": 2
+                        }
+                    },
+                    {
+                        "type": "Square",
+                        "start_position": {
+                            "col": 4,
+                            "row": 2
+                        }
+                    },
+                    {
+                        "type": "Single",
+                        "start_position": {
+                            "col": 5,
+                            "row": 5
+                        }
+                    }
+                ],
+                "shape_pieces": {
+                    "possible_shapes": [
+                        "L",
+                        "T",
+                        "HLine",
+                        "VLine",
+                        "T",
+                        "S",
+                        "Lflip",
+                        "Square",
+                        "Single"
+                    ]
+                }
+            }
+        }
+    ]
+}

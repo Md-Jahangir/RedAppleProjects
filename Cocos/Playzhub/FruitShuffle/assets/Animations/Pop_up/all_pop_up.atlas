@@ -1,0 +1,83 @@
+
+all_pop_up.png
+size: 2000, 1621
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+NoSpace
+  rotate: true
+  xy: 954, 515
+  size: 511, 585
+  orig: 517, 589
+  offset: 3, 3
+  index: -1
+NoSpace_glow
+  rotate: false
+  xy: 954, 1028
+  size: 539, 591
+  orig: 546, 599
+  offset: 4, 4
+  index: -1
+coin
+  rotate: false
+  xy: 837, 524
+  size: 84, 88
+  orig: 88, 92
+  offset: 2, 2
+  index: -1
+coin1
+  rotate: false
+  xy: 837, 524
+  size: 84, 88
+  orig: 88, 92
+  offset: 2, 2
+  index: -1
+diamond
+  rotate: false
+  xy: 837, 614
+  size: 95, 84
+  orig: 99, 88
+  offset: 2, 2
+  index: -1
+level_failed_board
+  rotate: true
+  xy: 1541, 567
+  size: 511, 457
+  orig: 517, 461
+  offset: 3, 3
+  index: -1
+level_up
+  rotate: true
+  xy: 1424, 2
+  size: 511, 457
+  orig: 517, 461
+  offset: 3, 3
+  index: -1
+level_up_dots
+  rotate: false
+  xy: 2, 9
+  size: 833, 689
+  orig: 836, 691
+  offset: 1, 1
+  index: -1
+level_up_glow
+  rotate: true
+  xy: 1495, 1080
+  size: 539, 463
+  orig: 546, 469
+  offset: 4, 2
+  index: -1
+level_up_sunrey
+  rotate: false
+  xy: 2, 700
+  size: 950, 919
+  orig: 1036, 973
+  offset: 49, 21
+  index: -1
+quit
+  rotate: true
+  xy: 837, 2
+  size: 511, 585
+  orig: 517, 589
+  offset: 3, 3
+  index: -1

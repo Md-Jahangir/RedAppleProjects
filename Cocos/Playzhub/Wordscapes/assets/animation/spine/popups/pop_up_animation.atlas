@@ -1,0 +1,181 @@
+
+pop_up_animation.png
+size: 833, 2419
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+Buds copy
+  rotate: false
+  xy: 609, 72
+  size: 63, 57
+  orig: 64, 59
+  offset: 1, 0
+  index: -1
+L_vine
+  rotate: true
+  xy: 684, 242
+  size: 92, 133
+  orig: 93, 134
+  offset: 1, 1
+  index: -1
+L_vine_shadow
+  rotate: true
+  xy: 684, 667
+  size: 89, 146
+  orig: 113, 146
+  offset: 2, 0
+  index: -1
+Layer 102 copy 3
+  rotate: false
+  xy: 757, 860
+  size: 76, 40
+  orig: 141, 59
+  offset: 65, 0
+  index: -1
+Leaf
+  rotate: true
+  xy: 424, 5
+  size: 84, 101
+  orig: 87, 104
+  offset: 3, 2
+  index: -1
+QUIT
+  rotate: false
+  xy: 0, 257
+  size: 684, 549
+  orig: 692, 554
+  offset: 4, 4
+  index: -1
+R_vijnes
+  rotate: true
+  xy: 684, 437
+  size: 106, 144
+  orig: 106, 144
+  offset: 0, 0
+  index: -1
+R_vines_shadow
+  rotate: true
+  xy: 684, 334
+  size: 103, 140
+  orig: 106, 143
+  offset: 2, 3
+  index: -1
+board
+  rotate: false
+  xy: 0, 1593
+  size: 828, 826
+  orig: 828, 826
+  offset: 0, 0
+  index: -1
+buds_shadow
+  rotate: false
+  xy: 757, 820
+  size: 69, 40
+  orig: 75, 44
+  offset: 4, 2
+  index: -1
+game_over
+  rotate: false
+  xy: 0, 900
+  size: 828, 693
+  orig: 830, 695
+  offset: 1, 1
+  index: -1
+leaf_2
+  rotate: false
+  xy: 672, 68
+  size: 102, 91
+  orig: 104, 92
+  offset: 1, 1
+  index: -1
+leaf_shadow
+  rotate: false
+  xy: 0, 806
+  size: 757, 94
+  orig: 766, 106
+  offset: 9, 12
+  index: -1
+lotus_buds2_shadow
+  rotate: true
+  xy: 684, 758
+  size: 48, 55
+  orig: 57, 84
+  offset: 6, 27
+  index: -1
+lotus_sequence/Lotus_1_Chopping_0
+  rotate: true
+  xy: 675, 159
+  size: 83, 106
+  orig: 240, 203
+  offset: 75, 70
+  index: -1
+lotus_sequence/Lotus_1_Chopping_1
+  rotate: true
+  xy: 525, 0
+  size: 89, 80
+  orig: 240, 203
+  offset: 74, 67
+  index: -1
+lotus_sequence/Lotus_1_Chopping_2
+  rotate: false
+  xy: 684, 543
+  size: 144, 124
+  orig: 240, 203
+  offset: 47, 48
+  index: -1
+lotus_sequence/Lotus_1_Chopping_3
+  rotate: false
+  xy: 424, 89
+  size: 185, 168
+  orig: 240, 203
+  offset: 31, 22
+  index: -1
+lotus_sequence/Lotus_1_Chopping_4
+  rotate: false
+  xy: 217, 80
+  size: 207, 177
+  orig: 240, 203
+  offset: 19, 15
+  index: -1
+lotus_sequence/Lotus_1_Chopping_5
+  rotate: false
+  xy: 0, 68
+  size: 217, 189
+  orig: 240, 203
+  offset: 13, 11
+  index: -1
+small_vine2
+  rotate: false
+  xy: 781, 124
+  size: 38, 55
+  orig: 39, 55
+  offset: 1, 0
+  index: -1
+small_vines1
+  rotate: false
+  xy: 781, 179
+  size: 40, 63
+  orig: 81, 122
+  offset: 41, 59
+  index: -1
+small_vines2
+  rotate: false
+  xy: 609, 191
+  size: 66, 66
+  orig: 68, 66
+  offset: 2, 0
+  index: -1
+small_vines3
+  rotate: true
+  xy: 757, 756
+  size: 64, 68
+  orig: 64, 69
+  offset: 0, 0
+  index: -1
+small_vines_4
+  rotate: true
+  xy: 609, 129
+  size: 62, 63
+  orig: 62, 74
+  offset: 0, 11
+  index: -1

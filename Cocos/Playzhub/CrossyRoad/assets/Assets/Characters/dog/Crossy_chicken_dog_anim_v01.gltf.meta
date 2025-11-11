@@ -1,0 +1,278 @@
+{
+  "ver": "2.3.13",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "ef5124bf-0c73-484b-bcf4-9277e26b4b87",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "90ab9": {
+      "importer": "gltf-mesh",
+      "uuid": "ef5124bf-0c73-484b-bcf4-9277e26b4b87@90ab9",
+      "displayName": "",
+      "id": "90ab9",
+      "name": "muzzle_dog1.001.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 1902
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c8e9b": {
+      "importer": "gltf-animation",
+      "uuid": "ef5124bf-0c73-484b-bcf4-9277e26b4b87@c8e9b",
+      "displayName": "",
+      "id": "c8e9b",
+      "name": "for_walk.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.3333333730697632
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "11e22": {
+      "importer": "gltf-skeleton",
+      "uuid": "ef5124bf-0c73-484b-bcf4-9277e26b4b87@11e22",
+      "displayName": "",
+      "id": "11e22",
+      "name": "rig.skeleton",
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 35
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e39f7": {
+      "importer": "texture",
+      "uuid": "ef5124bf-0c73-484b-bcf4-9277e26b4b87@e39f7",
+      "displayName": "",
+      "id": "e39f7",
+      "name": "UnnamedTexture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "linear",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Assets/Characters/dog/Crossy_animal_mat_Dog_BaseColor.jpg"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "bc7a4": {
+      "importer": "gltf-material",
+      "uuid": "ef5124bf-0c73-484b-bcf4-9277e26b4b87@bc7a4",
+      "displayName": "",
+      "id": "bc7a4",
+      "name": "Crossy_animal_mat_Dog.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f0a96": {
+      "importer": "gltf-scene",
+      "uuid": "ef5124bf-0c73-484b-bcf4-9277e26b4b87@f0a96",
+      "displayName": "",
+      "id": "f0a96",
+      "name": "Crossy_chicken_dog_anim_v01.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "Crossy_animal_mat_Dog_BaseColor",
+        "uri": "db://assets/Assets/Characters/dog/Crossy_animal_mat_Dog_BaseColor.jpg"
+      }
+    ],
+    "animationImportSettings": [
+      {
+        "name": "for_walk",
+        "duration": 1.3333333730697632,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "for_walk",
+            "from": 0,
+            "to": 1.3333333730697632,
+            "wrapMode": 2,
+            "previousId": "c8e9b"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "ef5124bf-0c73-484b-bcf4-9277e26b4b87@90ab9"
+      ],
+      "skeletons": [
+        "ef5124bf-0c73-484b-bcf4-9277e26b4b87@11e22"
+      ],
+      "textures": [
+        "ef5124bf-0c73-484b-bcf4-9277e26b4b87@e39f7"
+      ],
+      "materials": [
+        "ef5124bf-0c73-484b-bcf4-9277e26b4b87@bc7a4"
+      ],
+      "scenes": [
+        "ef5124bf-0c73-484b-bcf4-9277e26b4b87@f0a96"
+      ]
+    },
+    "materials": {
+      "ef5124bf-0c73-484b-bcf4-9277e26b4b87@bc7a4": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "__editorExtras__": {},
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "c8f66d17-351a-48da-a12c-0212d28575c4",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": 0,
+        "_defines": [
+          {
+            "USE_ALBEDO_MAP": true
+          },
+          {},
+          {},
+          {},
+          {},
+          {}
+        ],
+        "_states": [
+          {
+            "rasterizerState": {
+              "cullMode": 0
+            },
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {
+            "mainTexture": {
+              "__uuid__": "ef5124bf-0c73-484b-bcf4-9277e26b4b87@e39f7",
+              "__expectedType__": "cc.Texture2D"
+            }
+          },
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,104 @@
+
+EggyCar_egg.png
+size: 204,117
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+egg/egg white
+  rotate: false
+  xy: 2, 55
+  size: 141, 60
+  orig: 141, 60
+  offset: 0, 0
+  index: -1
+egg/shadow
+  rotate: false
+  xy: 2, 2
+  size: 139, 51
+  orig: 139, 55
+  offset: 0, 0
+  index: -1
+egg/white_splash_1
+  rotate: false
+  xy: 143, 39
+  size: 15, 13
+  orig: 15, 13
+  offset: 0, 0
+  index: -1
+egg/white_splash_2
+  rotate: false
+  xy: 181, 41
+  size: 17, 12
+  orig: 18, 14
+  offset: 0, 1
+  index: -1
+egg/white_splash_3
+  rotate: true
+  xy: 175, 30
+  size: 9, 15
+  orig: 9, 17
+  offset: 0, 1
+  index: -1
+egg/white_splash_4
+  rotate: false
+  xy: 160, 29
+  size: 13, 11
+  orig: 14, 11
+  offset: 1, 0
+  index: -1
+egg/white_splash_5
+  rotate: false
+  xy: 181, 55
+  size: 16, 14
+  orig: 17, 15
+  offset: 1, 0
+  index: -1
+egg/white_splash_6
+  rotate: false
+  xy: 160, 42
+  size: 15, 10
+  orig: 160, 18
+  offset: 145, 0
+  index: -1
+egg/yellow
+  rotate: true
+  xy: 145, 54
+  size: 61, 34
+  orig: 61, 34
+  offset: 0, 0
+  index: -1
+egg/yolk_splash_1
+  rotate: true
+  xy: 143, 26
+  size: 11, 13
+  orig: 11, 15
+  offset: 0, 1
+  index: -1
+egg/yolk_splash_2
+  rotate: true
+  xy: 192, 27
+  size: 12, 9
+  orig: 12, 11
+  offset: 0, 1
+  index: -1
+egg/yolk_splash_3
+  rotate: true
+  xy: 195, 106
+  size: 9, 7
+  orig: 10, 8
+  offset: 0, 1
+  index: -1
+egg/yolk_splash_4_
+  rotate: true
+  xy: 175, 19
+  size: 9, 10
+  orig: 9, 11
+  offset: 0, 1
+  index: -1
+egg/yolk_splash_5
+  rotate: false
+  xy: 181, 71
+  size: 12, 44
+  orig: 86, 44
+  offset: 0, 0
+  index: -1

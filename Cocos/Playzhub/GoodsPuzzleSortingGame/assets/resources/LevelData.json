@@ -1,0 +1,82 @@
+{
+    "Levels": [
+        {
+            "Level1": {
+                "grid": {
+                    "row": 5,
+                    "col": 3,
+                    "max_layers": 2,
+                    "level_difficulty": "easy",
+                    "items_name": [
+                        "milk",
+                        "purple_bottle",
+                        "ice_cream",
+                        "coolfy",
+                        "smoothy",
+                        "candy",
+                        "sand_watch",
+                        "green_bottle",
+                        "teddy"
+                    ]
+                }
+            },
+            "Level2": {
+                "grid": {
+                    "row": 5,
+                    "col": 3,
+                    "max_layers": 3,
+                    "level_difficulty": "medium",
+                    "items_name": [
+                        "milk",
+                        "purple_bottle",
+                        "ice_cream",
+                        "coolfy",
+                        "smoothy",
+                        "candy",
+                        "sand_watch",
+                        "green_bottle",
+                        "teddy"
+                    ]
+                }
+            },
+            "Level3": {
+                "grid": {
+                    "row": 5,
+                    "col": 3,
+                    "max_layers": 4,
+                    "level_difficulty": "medium",
+                    "items_name": [
+                        "milk",
+                        "purple_bottle",
+                        "ice_cream",
+                        "coolfy",
+                        "smoothy",
+                        "candy",
+                        "sand_watch",
+                        "green_bottle",
+                        "teddy"
+                    ]
+                }
+            },
+            "Level4": {
+                "grid": {
+                    "row": 5,
+                    "col": 3,
+                    "max_layers": 4,
+                    "level_difficulty": "hard",
+                    "items_name": [
+                        "milk",
+                        "purple_bottle",
+                        "ice_cream",
+                        "coolfy",
+                        "smoothy",
+                        "candy",
+                        "sand_watch",
+                        "green_bottle",
+                        "teddy"
+                    ]
+                }
+            }
+        }
+    ]
+}

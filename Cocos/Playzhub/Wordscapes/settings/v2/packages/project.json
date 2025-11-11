@@ -1,0 +1,33 @@
+{
+  "__version__": "1.0.6",
+  "general": {
+    "designResolution": {
+      "width": 1920,
+      "height": 1080,
+      "fitWidth": false,
+      "fitHeight": true
+    }
+  },
+  "layer": [
+    {
+      "name": "ALPHABET",
+      "value": 524288
+    },
+    {
+      "name": "SPRITE",
+      "value": 262144
+    },
+    {
+      "name": "GRAPHICS",
+      "value": 131072
+    },
+    {
+      "name": "ALPHABET_CONTAINER",
+      "value": 65536
+    },
+    {
+      "name": "BACKGROUND",
+      "value": 32768
+    }
+  ]
+}

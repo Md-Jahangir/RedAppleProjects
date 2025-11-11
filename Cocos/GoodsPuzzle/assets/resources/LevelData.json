@@ -1,0 +1,25 @@
+{
+    "Levels": [
+        {
+            "Level1": {
+                "grid": {
+                    "row": 5,
+                    "col": 3,
+                    "max_layers": 2,
+                    "level_difficulty": "easy",
+                    "items_name": [
+                        "candy",
+                        "coolfy",
+                        "green_bottle",
+                        "milk",
+                        "purple_bottle",
+                        "sand_watch",
+                        "ice_cream",
+                        "teddy",
+                        "smoothy"
+                    ]
+                }
+            }
+        }
+    ]
+}

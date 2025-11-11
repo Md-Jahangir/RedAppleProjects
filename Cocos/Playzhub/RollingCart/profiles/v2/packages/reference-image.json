@@ -1,0 +1,14 @@
+{
+  "__version__": "1.0.0",
+  "config": {
+    "images": [],
+    "sceneUUID": {
+      "c6702e20-040e-4be3-9af9-f7e1003a7f7a": {
+        "path": ""
+      }
+    },
+    "scene": "c6702e20-040e-4be3-9af9-f7e1003a7f7a"
+  },
+  "show": false,
+  "root-path": "D:\\Projects\\CocosEngine\\EggyCar\\assets\\images"
+}

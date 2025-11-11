@@ -1,0 +1,10 @@
+{
+  "name": "Wordscapes",
+  "uuid": "40317fcb-7e64-4db1-9064-9c233fd3b81a",
+  "creator": {
+    "version": "3.8.4"
+  },
+  "dependencies": {
+    "gameanalytics": "^4.4.7"
+  }
+}

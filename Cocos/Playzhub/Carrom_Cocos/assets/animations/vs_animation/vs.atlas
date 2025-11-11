@@ -1,0 +1,83 @@
+
+vs.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Vs animation/V
+  rotate: false
+  xy: 224, 170
+  size: 69, 75
+  orig: 69, 75
+  offset: 0, 0
+  index: -1
+Vs animation/backlight
+  rotate: false
+  xy: 2, 2
+  size: 220, 243
+  orig: 220, 243
+  offset: 0, 0
+  index: -1
+Vs animation/s
+  rotate: false
+  xy: 224, 91
+  size: 53, 77
+  orig: 53, 77
+  offset: 0, 0
+  index: -1
+Vs animation/star_1
+  rotate: false
+  xy: 279, 151
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+Vs animation/star_3
+  rotate: false
+  xy: 279, 151
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+Vs animation/star_2
+  rotate: false
+  xy: 320, 182
+  size: 12, 11
+  orig: 12, 11
+  offset: 0, 0
+  index: -1
+Vs animation/star_4
+  rotate: false
+  xy: 224, 26
+  size: 12, 12
+  orig: 12, 12
+  offset: 0, 0
+  index: -1
+Vs animation/star_5
+  rotate: false
+  xy: 346, 228
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+Vs animation/star_6
+  rotate: false
+  xy: 295, 170
+  size: 23, 23
+  orig: 23, 23
+  offset: 0, 0
+  index: -1
+Vs animation/star_7
+  rotate: false
+  xy: 295, 195
+  size: 49, 50
+  orig: 49, 50
+  offset: 0, 0
+  index: -1
+Vs animation/star_8
+  rotate: false
+  xy: 224, 40
+  size: 50, 49
+  orig: 50, 49
+  offset: 0, 0
+  index: -1

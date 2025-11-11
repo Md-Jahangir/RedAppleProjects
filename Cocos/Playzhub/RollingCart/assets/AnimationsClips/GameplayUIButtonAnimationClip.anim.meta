@@ -1,0 +1,13 @@
+{
+  "ver": "2.0.3",
+  "importer": "animation-clip",
+  "imported": true,
+  "uuid": "2c3f5e94-372b-4b03-ae2a-a2ca10c3dab0",
+  "files": [
+    ".cconb"
+  ],
+  "subMetas": {},
+  "userData": {
+    "name": "GameplayUIButtonAnimationClip"
+  }
+}

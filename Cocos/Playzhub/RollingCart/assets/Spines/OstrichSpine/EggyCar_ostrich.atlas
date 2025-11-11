@@ -1,0 +1,104 @@
+
+EggyCar_ostrich.png
+size: 212, 654
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+Ostrich_left_leg_shadow
+  rotate: true
+  xy: 166, 238
+  size: 86, 25
+  orig: 90, 29
+  offset: 2, 2
+  index: -1
+Ostrich_right_leg_shadow
+  rotate: true
+  xy: 166, 238
+  size: 86, 25
+  orig: 90, 29
+  offset: 2, 2
+  index: -1
+body
+  rotate: false
+  xy: 2, 165
+  size: 161, 117
+  orig: 161, 117
+  offset: 0, 0
+  index: -1
+fur
+  rotate: true
+  xy: 2, 66
+  size: 97, 122
+  orig: 97, 122
+  offset: 0, 0
+  index: -1
+leftleg
+  rotate: true
+  xy: 2, 460
+  size: 79, 200
+  orig: 79, 200
+  offset: 0, 0
+  index: -1
+nack
+  rotate: true
+  xy: 2, 541
+  size: 111, 207
+  orig: 150, 207
+  offset: 39, 0
+  index: -1
+rigthleg
+  rotate: true
+  xy: 2, 379
+  size: 79, 200
+  orig: 79, 200
+  offset: 0, 0
+  index: -1
+running_dust/1
+  rotate: true
+  xy: 193, 300
+  size: 24, 17
+  orig: 24, 17
+  offset: 0, 0
+  index: -1
+running_dust/2
+  rotate: true
+  xy: 166, 326
+  size: 51, 30
+  orig: 51, 31
+  offset: 0, 1
+  index: -1
+running_dust/3
+  rotate: true
+  xy: 66, 2
+  size: 62, 50
+  orig: 62, 50
+  offset: 0, 0
+  index: -1
+running_dust/4
+  rotate: false
+  xy: 126, 15
+  size: 76, 57
+  orig: 77, 58
+  offset: 1, 1
+  index: -1
+running_dust/5
+  rotate: true
+  xy: 2, 4
+  size: 60, 62
+  orig: 60, 63
+  offset: 0, 0
+  index: -1
+tail
+  rotate: true
+  xy: 2, 284
+  size: 93, 162
+  orig: 93, 162
+  offset: 0, 0
+  index: -1
+wing
+  rotate: true
+  xy: 126, 74
+  size: 89, 84
+  orig: 89, 84
+  offset: 0, 0
+  index: -1

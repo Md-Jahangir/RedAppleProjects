@@ -1,0 +1,27 @@
+
+merge_city_boat_waves.png
+size: 408,169
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+boat
+  rotate: true
+  xy: 2, 4
+  size: 163, 191
+  orig: 166, 193
+  offset: 1, 1
+  index: -1
+boat_shadow
+  rotate: false
+  xy: 195, 69
+  size: 211, 98
+  orig: 226, 104
+  offset: 2, 1
+  index: -1
+wevs
+  rotate: false
+  xy: 195, 2
+  size: 134, 65
+  orig: 175, 82
+  offset: 15, 7
+  index: -1

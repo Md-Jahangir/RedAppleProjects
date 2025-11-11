@@ -1,0 +1,8707 @@
+{
+    "Level1": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 3,
+            "col": 3
+        },
+        "grid_data": [
+            [
+                1,
+                1,
+                1
+            ],
+            [
+                0,
+                1,
+                0
+            ],
+            [
+                0,
+                1,
+                0
+            ]
+        ],
+        "letters": [
+            "S",
+            "E",
+            "T"
+        ],
+        "words": {
+            "SET": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    0
+                ]
+            },
+            "EST": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    1
+                ]
+            }
+        },
+        "extra_words": {}
+    },
+    "Level2": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 3,
+            "col": 3
+        },
+        "grid_data": [
+            [
+                1,
+                1,
+                1
+            ],
+            [
+                0,
+                1,
+                0
+            ],
+            [
+                0,
+                1,
+                0
+            ]
+        ],
+        "letters": [
+            "C",
+            "A",
+            "R"
+        ],
+        "words": {
+            "CAR": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    0
+                ]
+            },
+            "ARC": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    1
+                ]
+            }
+        },
+        "extra_words": {}
+    },
+    "Level3": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 3,
+            "col": 3
+        },
+        "grid_data": [
+            [
+                1,
+                1,
+                1
+            ],
+            [
+                0,
+                0,
+                1
+            ],
+            [
+                0,
+                0,
+                1
+            ]
+        ],
+        "letters": [
+            "B",
+            "A",
+            "T"
+        ],
+        "words": {
+            "BAT": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    0
+                ]
+            },
+            "TAB": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    2
+                ]
+            }
+        },
+        "extra_words": {}
+    },
+    "Level4": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 3,
+            "col": 3
+        },
+        "grid_data": [
+            [
+                1,
+                0,
+                0
+            ],
+            [
+                1,
+                0,
+                0
+            ],
+            [
+                1,
+                1,
+                1
+            ]
+        ],
+        "letters": [
+            "G",
+            "O",
+            "D"
+        ],
+        "words": {
+            "GOD": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    0
+                ]
+            },
+            "DOG": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    2,
+                    0
+                ]
+            }
+        },
+        "extra_words": {}
+    },
+    "Level5": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 3,
+            "col": 3
+        },
+        "grid_data": [
+            [
+                1,
+                1,
+                1
+            ],
+            [
+                0,
+                0,
+                1
+            ],
+            [
+                0,
+                0,
+                1
+            ]
+        ],
+        "letters": [
+            "P",
+            "I",
+            "N"
+        ],
+        "words": {
+            "PIN": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    0
+                ]
+            },
+            "NIP": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    2
+                ]
+            }
+        },
+        "extra_words": {}
+    },
+    "Level6": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 5,
+            "col": 3
+        },
+        "grid_data": [
+            [
+                0,
+                1,
+                1,
+                1,
+                1
+            ],
+            [
+                1,
+                1,
+                1,
+                0,
+                1
+            ],
+            [
+                0,
+                1,
+                0,
+                0,
+                1
+            ]
+        ],
+        "letters": [
+            "C",
+            "A",
+            "R",
+            "T"
+        ],
+        "words": {
+            "CART": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    1
+                ]
+            },
+            "RAT": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    0
+                ]
+            },
+            "CAR": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    1
+                ]
+            },
+            "TAR": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    4
+                ]
+            }
+        },
+        "extra_words": {
+            "ART": {},
+            "CAT": {}
+        }
+    },
+    "Level7": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 3,
+            "col": 3
+        },
+        "grid_data": [
+            [
+                1,
+                0,
+                0
+            ],
+            [
+                1,
+                1,
+                1
+            ],
+            [
+                1,
+                0,
+                0
+            ]
+        ],
+        "letters": [
+            "M",
+            "A",
+            "P"
+        ],
+        "words": {
+            "MAP": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    0
+                ]
+            },
+            "AMP": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    0
+                ]
+            }
+        },
+        "extra_words": {}
+    },
+    "Level8": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 3,
+            "col": 3
+        },
+        "grid_data": [
+            [
+                1,
+                1,
+                1
+            ],
+            [
+                0,
+                1,
+                0
+            ],
+            [
+                0,
+                1,
+                0
+            ]
+        ],
+        "letters": [
+            "C",
+            "A",
+            "T"
+        ],
+        "words": {
+            "CAT": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    0
+                ]
+            },
+            "ACT": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    1
+                ]
+            }
+        },
+        "extra_words": {}
+    },
+    "Level9": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 3,
+            "col": 3
+        },
+        "grid_data": [
+            [
+                1,
+                0,
+                0
+            ],
+            [
+                1,
+                0,
+                0
+            ],
+            [
+                1,
+                1,
+                1
+            ]
+        ],
+        "letters": [
+            "B",
+            "E",
+            "D"
+        ],
+        "words": {
+            "BED": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    0
+                ]
+            },
+            "DEB": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    2,
+                    0
+                ]
+            }
+        },
+        "extra_words": {}
+    },
+    "Level10": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 5,
+            "col": 4
+        },
+        "grid_data": [
+            [
+                0,
+                0,
+                1,
+                0,
+                0
+            ],
+            [
+                1,
+                1,
+                1,
+                1,
+                0
+            ],
+            [
+                0,
+                0,
+                1,
+                1,
+                1
+            ],
+            [
+                1,
+                1,
+                1,
+                0,
+                0
+            ]
+        ],
+        "letters": [
+            "S",
+            "E",
+            "T",
+            "A"
+        ],
+        "words": {
+            "EAST": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    2
+                ]
+            },
+            "SEAT": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    0
+                ]
+            },
+            "SET": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    2,
+                    2
+                ]
+            },
+            "EAT": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    3,
+                    0
+                ]
+            }
+        },
+        "extra_words": {
+            "ATE": {},
+            "SEA": {},
+            "TEA": {},
+            "SAT": {}
+        }
+    },
+    "Level11": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 3,
+            "col": 3
+        },
+        "grid_data": [
+            [
+                0,
+                0,
+                1
+            ],
+            [
+                1,
+                1,
+                1
+            ],
+            [
+                0,
+                0,
+                1
+            ]
+        ],
+        "letters": [
+            "F",
+            "A",
+            "R"
+        ],
+        "words": {
+            "FAR": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    0
+                ]
+            },
+            "FRA": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    2
+                ]
+            }
+        },
+        "extra_words": {}
+    },
+    "Level12": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 3,
+            "col": 3
+        },
+        "grid_data": [
+            [
+                1,
+                0,
+                0
+            ],
+            [
+                1,
+                0,
+                0
+            ],
+            [
+                1,
+                1,
+                1
+            ]
+        ],
+        "letters": [
+            "H",
+            "I",
+            "T"
+        ],
+        "words": {
+            "ITH": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    0
+                ]
+            },
+            "HIT": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    2,
+                    0
+                ]
+            }
+        },
+        "extra_words": {}
+    },
+    "Level13": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 4,
+            "col": 3
+        },
+        "grid_data": [
+            [
+                1,
+                1,
+                1,
+                0
+            ],
+            [
+                0,
+                1,
+                1,
+                1
+            ],
+            [
+                1,
+                1,
+                1,
+                1
+            ]
+        ],
+        "letters": [
+            "B",
+            "A",
+            "T",
+            "S"
+        ],
+        "words": {
+            "TAB": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    0
+                ]
+            },
+            "BAT": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    2
+                ]
+            },
+            "SAT": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    1
+                ]
+            },
+            "BATS": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    2,
+                    0
+                ]
+            }
+        },
+        "extra_words": {
+            "BAT": {}
+        }
+    },
+    "Level14": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 3,
+            "col": 3
+        },
+        "grid_data": [
+            [
+                1,
+                1,
+                1
+            ],
+            [
+                0,
+                0,
+                1
+            ],
+            [
+                0,
+                0,
+                1
+            ]
+        ],
+        "letters": [
+            "L",
+            "E",
+            "D"
+        ],
+        "words": {
+            "LED": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    0
+                ]
+            },
+            "DEL": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    2
+                ]
+            }
+        },
+        "extra_words": {}
+    },
+    "Level15": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 3,
+            "col": 3
+        },
+        "grid_data": [
+            [
+                0,
+                1,
+                0
+            ],
+            [
+                1,
+                1,
+                1
+            ],
+            [
+                0,
+                1,
+                0
+            ]
+        ],
+        "letters": [
+            "B",
+            "I",
+            "G"
+        ],
+        "words": {
+            "BIG": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    0
+                ]
+            },
+            "GIB": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    1
+                ]
+            }
+        },
+        "extra_words": {}
+    },
+    "Level16": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 4,
+            "col": 4
+        },
+        "grid_data": [
+            [
+                1,
+                1,
+                1,
+                0
+            ],
+            [
+                0,
+                0,
+                1,
+                0
+            ],
+            [
+                1,
+                1,
+                1,
+                0
+            ],
+            [
+                0,
+                0,
+                1,
+                0
+            ]
+        ],
+        "letters": [
+            "D",
+            "O",
+            "G",
+            "S"
+        ],
+        "words": {
+            "GOD": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    0
+                ]
+            },
+            "DOGS": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    2
+                ]
+            },
+            "DOG": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    2,
+                    0
+                ]
+            }
+        },
+        "extra_words": {}
+    },
+    "Level17": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 3,
+            "col": 3
+        },
+        "grid_data": [
+            [
+                1,
+                1,
+                1
+            ],
+            [
+                0,
+                0,
+                1
+            ],
+            [
+                0,
+                0,
+                1
+            ]
+        ],
+        "letters": [
+            "F",
+            "O",
+            "X"
+        ],
+        "words": {
+            "XOF": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    0
+                ]
+            },
+            "FOX": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    2
+                ]
+            }
+        },
+        "extra_words": {}
+    },
+    "Level18": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 3,
+            "col": 3
+        },
+        "grid_data": [
+            [
+                1,
+                1,
+                1
+            ],
+            [
+                0,
+                1,
+                0
+            ],
+            [
+                0,
+                1,
+                0
+            ]
+        ],
+        "letters": [
+            "R",
+            "E",
+            "D"
+        ],
+        "words": {
+            "DRE": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    0
+                ]
+            },
+            "RED": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    1
+                ]
+            }
+        },
+        "extra_words": {}
+    },
+    "Level19": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 3,
+            "col": 3
+        },
+        "grid_data": [
+            [
+                0,
+                1,
+                0
+            ],
+            [
+                1,
+                1,
+                1
+            ],
+            [
+                0,
+                1,
+                0
+            ]
+        ],
+        "letters": [
+            "S",
+            "U",
+            "N"
+        ],
+        "words": {
+            "NUS": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    1
+                ]
+            },
+            "SUN": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    0
+                ]
+            }
+        },
+        "extra_words": {}
+    },
+    "Level20": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 5,
+            "col": 5
+        },
+        "grid_data": [
+            [
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            [
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            [
+                0,
+                0,
+                1,
+                0,
+                1
+            ],
+            [
+                1,
+                1,
+                1,
+                1,
+                0
+            ],
+            [
+                0,
+                1,
+                1,
+                1,
+                1
+            ]
+        ],
+        "letters": [
+            "A",
+            "B",
+            "L",
+            "E",
+            "S"
+        ],
+        "words": {
+            "SEA": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    4
+                ]
+            },
+            "BLASE": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    0
+                ]
+            },
+            "ABLE": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    2
+                ]
+            },
+            "BALE": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    3,
+                    0
+                ]
+            },
+            "SEAL": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    4,
+                    1
+                ]
+            }
+        },
+        "extra_words": {
+            "ALE": {},
+            "BAL": {},
+            "LAB": {},
+            "SALE": {},
+            "BASE": {}
+        }
+    },
+    "Level21": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 3,
+            "col": 3
+        },
+        "grid_data": [
+            [
+                0,
+                1,
+                0
+            ],
+            [
+                1,
+                1,
+                1
+            ],
+            [
+                0,
+                1,
+                0
+            ]
+        ],
+        "letters": [
+            "T",
+            "O",
+            "P"
+        ],
+        "words": {
+            "POT": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    1
+                ]
+            },
+            "TOP": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    0
+                ]
+            }
+        },
+        "extra_words": {}
+    },
+    "Level22": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 3,
+            "col": 3
+        },
+        "grid_data": [
+            [
+                1,
+                1,
+                1
+            ],
+            [
+                0,
+                0,
+                1
+            ],
+            [
+                0,
+                0,
+                1
+            ]
+        ],
+        "letters": [
+            "W",
+            "E",
+            "T"
+        ],
+        "words": {
+            "TEW": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    0
+                ]
+            },
+            "WET": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    2
+                ]
+            }
+        },
+        "extra_words": {}
+    },
+    "Level23": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 4,
+            "col": 3
+        },
+        "grid_data": [
+            [
+                0,
+                1,
+                0,
+                1
+            ],
+            [
+                1,
+                1,
+                1,
+                1
+            ],
+            [
+                0,
+                1,
+                1,
+                1
+            ]
+        ],
+        "letters": [
+            "P",
+            "I",
+            "N",
+            "E"
+        ],
+        "words": {
+            "NIP": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    1
+                ]
+            },
+            "PEN": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    3
+                ]
+            },
+            "PINE": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    0
+                ]
+            },
+            "PIN": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    2,
+                    1
+                ]
+            }
+        },
+        "extra_words": {}
+    },
+    "Level24": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 3,
+            "col": 3
+        },
+        "grid_data": [
+            [
+                1,
+                0,
+                0
+            ],
+            [
+                1,
+                0,
+                0
+            ],
+            [
+                1,
+                1,
+                1
+            ]
+        ],
+        "letters": [
+            "J",
+            "A",
+            "R"
+        ],
+        "words": {
+            "JAR": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    0
+                ]
+            },
+            "RAJ": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    2,
+                    0
+                ]
+            }
+        },
+        "extra_words": {}
+    },
+    "Level25": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 5,
+            "col": 5
+        },
+        "grid_data": [
+            [
+                1,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                1,
+                1,
+                1,
+                0,
+                0
+            ],
+            [
+                1,
+                1,
+                1,
+                1,
+                0
+            ],
+            [
+                0,
+                1,
+                0,
+                1,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                1,
+                0
+            ]
+        ],
+        "letters": [
+            "M",
+            "A",
+            "P",
+            "S"
+        ],
+        "words": {
+            "PAM": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    0
+                ]
+            },
+            "AMP": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    0
+                ]
+            },
+            "MAPS": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    2,
+                    0
+                ]
+            },
+            "MAP": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    1
+                ]
+            },
+            "SAP": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    2,
+                    3
+                ]
+            }
+        },
+        "extra_words": {}
+    },
+    "Level26": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 3,
+            "col": 3
+        },
+        "grid_data": [
+            [
+                0,
+                1,
+                0
+            ],
+            [
+                1,
+                1,
+                1
+            ],
+            [
+                0,
+                1,
+                0
+            ]
+        ],
+        "letters": [
+            "M",
+            "O",
+            "P"
+        ],
+        "words": {
+            "POM": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    1
+                ]
+            },
+            "MOP": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    0
+                ]
+            }
+        },
+        "extra_words": {}
+    },
+    "Level27": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 3,
+            "col": 3
+        },
+        "grid_data": [
+            [
+                1,
+                1,
+                1
+            ],
+            [
+                0,
+                0,
+                1
+            ],
+            [
+                0,
+                0,
+                1
+            ]
+        ],
+        "letters": [
+            "C",
+            "O",
+            "W"
+        ],
+        "words": {
+            "COW": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    0
+                ]
+            },
+            "WOC": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    2
+                ]
+            }
+        },
+        "extra_words": {}
+    },
+    "Level28": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 4,
+            "col": 4
+        },
+        "grid_data": [
+            [
+                1,
+                1,
+                1,
+                0
+            ],
+            [
+                1,
+                1,
+                1,
+                1
+            ],
+            [
+                1,
+                1,
+                0,
+                1
+            ],
+            [
+                1,
+                0,
+                0,
+                1
+            ]
+        ],
+        "letters": [
+            "C",
+            "A",
+            "T",
+            "S"
+        ],
+        "words": {
+            "ACT": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    0
+                ]
+            },
+            "ACTS": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    0
+                ]
+            },
+            "CATS": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    0
+                ]
+            },
+            "CAT": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    1
+                ]
+            },
+            "SAT": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    3
+                ]
+            }
+        },
+        "extra_words": {}
+    },
+    "Level29": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 3,
+            "col": 3
+        },
+        "grid_data": [
+            [
+                1,
+                0,
+                0
+            ],
+            [
+                1,
+                0,
+                0
+            ],
+            [
+                1,
+                1,
+                1
+            ]
+        ],
+        "letters": [
+            "P",
+            "E",
+            "N"
+        ],
+        "words": {
+            "NEP": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    0
+                ]
+            },
+            "PEN": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    2,
+                    0
+                ]
+            }
+        },
+        "extra_words": {}
+    },
+    "Level30": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 5,
+            "col": 5
+        },
+        "grid_data": [
+            [
+                0,
+                0,
+                0,
+                1,
+                0
+            ],
+            [
+                1,
+                1,
+                1,
+                1,
+                0
+            ],
+            [
+                1,
+                0,
+                1,
+                1,
+                1
+            ],
+            [
+                1,
+                0,
+                1,
+                0,
+                0
+            ],
+            [
+                1,
+                0,
+                1,
+                1,
+                1
+            ]
+        ],
+        "letters": [
+            "B",
+            "R",
+            "A",
+            "T",
+            "E"
+        ],
+        "words": {
+            "BATE": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    0
+                ]
+            },
+            "RATE": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    2
+                ]
+            },
+            "BET": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    3
+                ]
+            },
+            "BARE": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    0
+                ]
+            },
+            "ATE": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    2,
+                    2
+                ]
+            },
+            "EAT": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    4,
+                    2
+                ]
+            }
+        },
+        "extra_words": {
+            "BAR": {},
+            "BAT": {},
+            "TAB": {},
+            "BRA": {}
+        }
+    },
+    "Level31": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 3,
+            "col": 3
+        },
+        "grid_data": [
+            [
+                1,
+                1,
+                1
+            ],
+            [
+                0,
+                0,
+                1
+            ],
+            [
+                0,
+                0,
+                1
+            ]
+        ],
+        "letters": [
+            "T",
+            "E",
+            "J"
+        ],
+        "words": {
+            "TEJ": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    0
+                ]
+            },
+            "JET": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    2
+                ]
+            }
+        },
+        "extra_words": {}
+    },
+    "Level32": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 3,
+            "col": 3
+        },
+        "grid_data": [
+            [
+                0,
+                1,
+                0
+            ],
+            [
+                1,
+                1,
+                1
+            ],
+            [
+                0,
+                1,
+                0
+            ]
+        ],
+        "letters": [
+            "B",
+            "U",
+            "S"
+        ],
+        "words": {
+            "BUS": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    0
+                ]
+            },
+            "SUB": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    1
+                ]
+            }
+        },
+        "extra_words": {}
+    },
+    "Level33": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 5,
+            "col": 3
+        },
+        "grid_data": [
+            [
+                1,
+                1,
+                1,
+                1,
+                0
+            ],
+            [
+                0,
+                0,
+                1,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                1,
+                1,
+                1
+            ]
+        ],
+        "letters": [
+            "B",
+            "E",
+            "S",
+            "D"
+        ],
+        "words": {
+            "BEDS": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    0
+                ]
+            },
+            "DEB": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    2
+                ]
+            },
+            "BED": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    2,
+                    2
+                ]
+            }
+        },
+        "extra_words": {}
+    },
+    "Level34": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 5,
+            "col": 4
+        },
+        "grid_data": [
+            [
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            [
+                0,
+                1,
+                1,
+                1,
+                1
+            ],
+            [
+                0,
+                0,
+                1,
+                0,
+                1
+            ],
+            [
+                1,
+                1,
+                1,
+                1,
+                0
+            ]
+        ],
+        "letters": [
+            "F",
+            "A",
+            "R",
+            "E"
+        ],
+        "words": {
+            "FARE": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    3,
+                    0
+                ]
+            },
+            "FEAR": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    1
+                ]
+            },
+            "EAR": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    2
+                ]
+            },
+            "ARE": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    4
+                ]
+            }
+        },
+        "extra_words": {
+            "FAR": {}
+        }
+    },
+    "Level35": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 3,
+            "col": 3
+        },
+        "grid_data": [
+            [
+                1,
+                1,
+                1
+            ],
+            [
+                0,
+                1,
+                0
+            ],
+            [
+                0,
+                1,
+                0
+            ]
+        ],
+        "letters": [
+            "H",
+            "A",
+            "T"
+        ],
+        "words": {
+            "HAT": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    0
+                ]
+            },
+            "ATH": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    1
+                ]
+            }
+        },
+        "extra_words": {}
+    },
+    "Level36": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 3,
+            "col": 3
+        },
+        "grid_data": [
+            [
+                1,
+                1,
+                1
+            ],
+            [
+                0,
+                1,
+                0
+            ],
+            [
+                0,
+                1,
+                0
+            ]
+        ],
+        "letters": [
+            "R",
+            "A",
+            "N"
+        ],
+        "words": {
+            "RAN": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    0
+                ]
+            },
+            "ARN": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    1
+                ]
+            }
+        },
+        "extra_words": {}
+    },
+    "Level37": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 4,
+            "col": 3
+        },
+        "grid_data": [
+            [
+                1,
+                1,
+                1,
+                1
+            ],
+            [
+                1,
+                0,
+                0,
+                1
+            ],
+            [
+                1,
+                1,
+                1,
+                1
+            ]
+        ],
+        "letters": [
+            "H",
+            "I",
+            "T",
+            "S"
+        ],
+        "words": {
+            "HITS": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    0
+                ]
+            },
+            "HIS": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    0
+                ]
+            },
+            "SIT": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    3
+                ]
+            },
+            "SHIT": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    2,
+                    0
+                ]
+            }
+        },
+        "extra_words": {
+            "HIT": {}
+        }
+    },
+    "Level38": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 3,
+            "col": 3
+        },
+        "grid_data": [
+            [
+                0,
+                1,
+                0
+            ],
+            [
+                1,
+                1,
+                1
+            ],
+            [
+                0,
+                1,
+                0
+            ]
+        ],
+        "letters": [
+            "F",
+            "E",
+            "D"
+        ],
+        "words": {
+            "FED": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    0
+                ]
+            },
+            "DEF": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    1
+                ]
+            }
+        },
+        "extra_words": {}
+    },
+    "Level39": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 4,
+            "col": 3
+        },
+        "grid_data": [
+            [
+                1,
+                1,
+                1,
+                1
+            ],
+            [
+                1,
+                0,
+                1,
+                0
+            ],
+            [
+                1,
+                0,
+                1,
+                0
+            ]
+        ],
+        "letters": [
+            "L",
+            "E",
+            "D",
+            "S"
+        ],
+        "words": {
+            "LEDS": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    0
+                ]
+            },
+            "LED": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    0
+                ]
+            },
+            "DEL": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    2
+                ]
+            }
+        },
+        "extra_words": {}
+    },
+    "Level40": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 7,
+            "col": 7
+        },
+        "grid_data": [
+            [
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0
+            ],
+            [
+                1,
+                1,
+                1,
+                1,
+                1,
+                0,
+                0
+            ],
+            [
+                1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0
+            ],
+            [
+                1,
+                0,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            [
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                1,
+                1,
+                1,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0
+            ]
+        ],
+        "letters": [
+            "C",
+            "R",
+            "E",
+            "A",
+            "T"
+        ],
+        "words": {
+            "CARE": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    3
+                ]
+            },
+            "CREAT": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    0
+                ]
+            },
+            "CAT": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    0
+                ]
+            },
+            "REACT": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    3,
+                    2
+                ]
+            },
+            "RACE": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    3,
+                    2
+                ]
+            },
+            "CAR": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    5,
+                    2
+                ]
+            }
+        },
+        "extra_words": {
+            "RAT": {},
+            "EAR": {},
+            "ARE": {},
+            "CART": {}
+        }
+    },
+    "Level41": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 3,
+            "col": 3
+        },
+        "grid_data": [
+            [
+                0,
+                1,
+                0
+            ],
+            [
+                0,
+                1,
+                0
+            ],
+            [
+                1,
+                1,
+                1
+            ]
+        ],
+        "letters": [
+            "B",
+            "I",
+            "T"
+        ],
+        "words": {
+            "BIT": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    2,
+                    0
+                ]
+            },
+            "TBI": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    1
+                ]
+            }
+        },
+        "extra_words": {}
+    },
+    "Level42": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 4,
+            "col": 4
+        },
+        "grid_data": [
+            [
+                0,
+                1,
+                0,
+                0
+            ],
+            [
+                1,
+                1,
+                1,
+                1
+            ],
+            [
+                0,
+                1,
+                0,
+                1
+            ],
+            [
+                0,
+                0,
+                0,
+                1
+            ]
+        ],
+        "letters": [
+            "B",
+            "I",
+            "G",
+            "S"
+        ],
+        "words": {
+            "GIB": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    1
+                ]
+            },
+            "BIGS": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    0
+                ]
+            },
+            "SIG": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    3
+                ]
+            }
+        },
+        "extra_words": {
+            "BIG": {}
+        }
+    },
+    "Level43": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 7,
+            "col": 5
+        },
+        "grid_data": [
+            [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            [
+                1,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1
+            ],
+            [
+                0,
+                1,
+                0,
+                1,
+                0,
+                0,
+                1
+            ],
+            [
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1
+            ]
+        ],
+        "letters": [
+            "W",
+            "E",
+            "T",
+            "S"
+        ],
+        "words": {
+            "WET": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    1
+                ]
+            },
+            "WETS": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    2,
+                    0
+                ]
+            },
+            "SET": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    2,
+                    3
+                ]
+            },
+            "WEST": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    6
+                ]
+            }
+        },
+        "extra_words": {
+            "BIG": {}
+        }
+    },
+    "Level44": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 3,
+            "col": 3
+        },
+        "grid_data": [
+            [
+                1,
+                1,
+                1
+            ],
+            [
+                0,
+                0,
+                1
+            ],
+            [
+                0,
+                0,
+                1
+            ]
+        ],
+        "letters": [
+            "P",
+            "A",
+            "D"
+        ],
+        "words": {
+            "PAD": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    0
+                ]
+            },
+            "DAP": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    2
+                ]
+            }
+        },
+        "extra_words": {}
+    },
+    "Level45": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 5,
+            "col": 4
+        },
+        "grid_data": [
+            [
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                1,
+                1,
+                1,
+                1,
+                0
+            ],
+            [
+                0,
+                0,
+                1,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                1,
+                1,
+                1
+            ]
+        ],
+        "letters": [
+            "M",
+            "O",
+            "P",
+            "S"
+        ],
+        "words": {
+            "MOPS": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    0
+                ]
+            },
+            "POM": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    2
+                ]
+            },
+            "MOP": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    3,
+                    2
+                ]
+            }
+        },
+        "extra_words": {}
+    },
+    "Level46": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 3,
+            "col": 3
+        },
+        "grid_data": [
+            [
+                0,
+                1,
+                0
+            ],
+            [
+                1,
+                1,
+                1
+            ],
+            [
+                0,
+                1,
+                0
+            ]
+        ],
+        "letters": [
+            "F",
+            "I",
+            "T"
+        ],
+        "words": {
+            "FIT": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    0
+                ]
+            },
+            "TIF": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    1
+                ]
+            }
+        },
+        "extra_words": {}
+    },
+    "Level47": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 6,
+            "col": 4
+        },
+        "grid_data": [
+            [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                1,
+                1,
+                1,
+                1,
+                0,
+                1
+            ],
+            [
+                0,
+                0,
+                1,
+                0,
+                0,
+                1
+            ],
+            [
+                1,
+                1,
+                1,
+                1,
+                0,
+                1
+            ]
+        ],
+        "letters": [
+            "T",
+            "U",
+            "N",
+            "S"
+        ],
+        "words": {
+            "TUNS": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    0
+                ]
+            },
+            "NUTS": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    3,
+                    0
+                ]
+            },
+            "NUT": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    2
+                ]
+            },
+            "SUN": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    5
+                ]
+            }
+        },
+        "extra_words": {}
+    },
+    "Level48": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 3,
+            "col": 3
+        },
+        "grid_data": [
+            [
+                0,
+                1,
+                0
+            ],
+            [
+                1,
+                1,
+                1
+            ],
+            [
+                0,
+                1,
+                0
+            ]
+        ],
+        "letters": [
+            "P",
+            "A",
+            "L"
+        ],
+        "words": {
+            "PAL": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    0
+                ]
+            },
+            "LAP": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    1
+                ]
+            }
+        },
+        "extra_words": {}
+    },
+    "Level49": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 6,
+            "col": 5
+        },
+        "grid_data": [
+            [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                1,
+                1,
+                1,
+                1,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                1,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                1,
+                1,
+                1
+            ],
+            [
+                0,
+                0,
+                0,
+                1,
+                0,
+                0
+            ]
+        ],
+        "letters": [
+            "T",
+            "O",
+            "P",
+            "S"
+        ],
+        "words": {
+            "SPOT": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    0
+                ]
+            },
+            "TOPS": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    3
+                ]
+            },
+            "POT": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    3,
+                    3
+                ]
+            }
+        },
+        "extra_words": {
+            "TOP": {}
+        }
+    },
+    "Level50": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 7,
+            "col": 7
+        },
+        "grid_data": [
+            [
+                0,
+                1,
+                0,
+                1,
+                1,
+                1,
+                1
+            ],
+            [
+                0,
+                1,
+                0,
+                1,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            [
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            [
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                1,
+                1,
+                1,
+                1
+            ]
+        ],
+        "letters": [
+            "A",
+            "C",
+            "E",
+            "L",
+            "P",
+            "T"
+        ],
+        "words": {
+            "PLACET": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    2,
+                    1
+                ]
+            },
+            "PLATE": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    3
+                ]
+            },
+            "PALE": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    3
+                ]
+            },
+            "LAP": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    1
+                ]
+            },
+            "LEAPT": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    4,
+                    2
+                ]
+            },
+            "PET": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    4,
+                    5
+                ]
+            },
+            "PATE": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    6,
+                    3
+                ]
+            }
+        },
+        "extra_words": {
+            "TOP": {},
+            "LET": {},
+            "ACE": {},
+            "CAT": {},
+            "PAT": {},
+            "TALE": {},
+            "LEAP": {},
+            "LACE": {}
+        }
+    },
+    "Level51": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 5,
+            "col": 5
+        },
+        "grid_data": [
+            [
+                1,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                1,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                1,
+                1,
+                1,
+                1,
+                0
+            ],
+            [
+                0,
+                0,
+                1,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                1,
+                1,
+                1
+            ]
+        ],
+        "letters": [
+            "B",
+            "U",
+            "T",
+            "S"
+        ],
+        "words": {
+            "BUST": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    2,
+                    0
+                ]
+            },
+            "TUB": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    0
+                ]
+            },
+            "SUB": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    2,
+                    2
+                ]
+            },
+            "BUS": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    4,
+                    2
+                ]
+            }
+        },
+        "extra_words": {
+            "BUT": {}
+        }
+    },
+    "Level52": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 5,
+            "col": 4
+        },
+        "grid_data": [
+            [
+                0,
+                1,
+                0,
+                0,
+                0
+            ],
+            [
+                1,
+                1,
+                1,
+                1,
+                0
+            ],
+            [
+                0,
+                1,
+                1,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                1,
+                1,
+                1
+            ]
+        ],
+        "letters": [
+            "W",
+            "A",
+            "R",
+            "S"
+        ],
+        "words": {
+            "SAW": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    1
+                ]
+            },
+            "WARS": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    0
+                ]
+            },
+            "RAW": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    2
+                ]
+            },
+            "WAR": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    3,
+                    2
+                ]
+            }
+        },
+        "extra_words": {
+            "WAS": {}
+        }
+    },
+    "Level53": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 6,
+            "col": 6
+        },
+        "grid_data": [
+            [
+                0,
+                1,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                1,
+                1,
+                1,
+                1,
+                0,
+                1
+            ],
+            [
+                0,
+                1,
+                0,
+                0,
+                0,
+                1
+            ],
+            [
+                0,
+                1,
+                1,
+                1,
+                0,
+                1
+            ],
+            [
+                0,
+                0,
+                0,
+                1,
+                0,
+                1
+            ],
+            [
+                0,
+                0,
+                0,
+                1,
+                0,
+                0
+            ]
+        ],
+        "letters": [
+            "D",
+            "O",
+            "G",
+            "E",
+            "S"
+        ],
+        "words": {
+            "DOES": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    1
+                ]
+            },
+            "DOGS": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    0
+                ]
+            },
+            "SOD": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    3,
+                    1
+                ]
+            },
+            "DOE": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    3,
+                    3
+                ]
+            },
+            "GOES": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    5
+                ]
+            }
+        },
+        "extra_words": {
+            "EOS": {},
+            "SOE": {},
+            "DOG": {},
+            "GOD": {}
+        }
+    },
+    "Level54": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 5,
+            "col": 4
+        },
+        "grid_data": [
+            [
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                1,
+                1,
+                1,
+                1,
+                0
+            ],
+            [
+                0,
+                0,
+                1,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                1,
+                1,
+                1
+            ]
+        ],
+        "letters": [
+            "C",
+            "U",
+            "P",
+            "S"
+        ],
+        "words": {
+            "CUPS": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    0
+                ]
+            },
+            "PUC": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    2
+                ]
+            },
+            "CUP": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    3,
+                    2
+                ]
+            }
+        },
+        "extra_words": {
+            "SUP": {}
+        }
+    },
+    "Level55": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 7,
+            "col": 7
+        },
+        "grid_data": [
+            [
+                0,
+                1,
+                0,
+                1,
+                1,
+                1,
+                0
+            ],
+            [
+                1,
+                1,
+                1,
+                1,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                1,
+                0,
+                1,
+                1,
+                1,
+                1
+            ],
+            [
+                0,
+                1,
+                0,
+                1,
+                0,
+                1,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                0
+            ]
+        ],
+        "letters": [
+            "F",
+            "I",
+            "R",
+            "S",
+            "E"
+        ],
+        "words": {
+            "FIRE": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    1
+                ]
+            },
+            "SIR": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    3
+                ]
+            },
+            "RISE": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    0
+                ]
+            },
+            "SERF": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    3
+                ]
+            },
+            "RIFE": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    2,
+                    3
+                ]
+            },
+            "FIR": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    2,
+                    5
+                ]
+            },
+            "FRIES": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    6,
+                    1
+                ]
+            }
+        },
+        "extra_words": {
+            "REF": {}
+        }
+    },
+    "Level56": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 4,
+            "col": 3
+        },
+        "grid_data": [
+            [
+                1,
+                0,
+                1,
+                0
+            ],
+            [
+                1,
+                0,
+                1,
+                0
+            ],
+            [
+                1,
+                1,
+                1,
+                1
+            ]
+        ],
+        "letters": [
+            "F",
+            "A",
+            "N",
+            "S"
+        ],
+        "words": {
+            "NAF": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    0
+                ]
+            },
+            "FAN": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    2
+                ]
+            },
+            "FANS": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    2,
+                    0
+                ]
+            }
+        },
+        "extra_words": {}
+    },
+    "Level57": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 6,
+            "col": 5
+        },
+        "grid_data": [
+            [
+                0,
+                0,
+                0,
+                1,
+                0,
+                1
+            ],
+            [
+                1,
+                0,
+                0,
+                1,
+                0,
+                1
+            ],
+            [
+                1,
+                1,
+                1,
+                1,
+                0,
+                1
+            ],
+            [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            [
+                1,
+                1,
+                1,
+                0,
+                0,
+                1
+            ]
+        ],
+        "letters": [
+            "G",
+            "A",
+            "N",
+            "R",
+            "E"
+        ],
+        "words": {
+            "RAN": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    3
+                ]
+            },
+            "RANGE": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    5
+                ]
+            },
+            "NEAR": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    0
+                ]
+            },
+            "EARN": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    2,
+                    0
+                ]
+            },
+            "RAG": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    4,
+                    0
+                ]
+            }
+        },
+        "extra_words": {
+            "RAGE": {},
+            "NAG": {}
+        }
+    },
+    "Level58": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 4,
+            "col": 4
+        },
+        "grid_data": [
+            [
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                1,
+                1,
+                1,
+                1
+            ],
+            [
+                0,
+                0,
+                0,
+                1
+            ],
+            [
+                0,
+                1,
+                1,
+                1
+            ]
+        ],
+        "letters": [
+            "D",
+            "A",
+            "M",
+            "S"
+        ],
+        "words": {
+            "DAMS": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    0
+                ]
+            },
+            "SAD": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    3
+                ]
+            },
+            "MAD": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    3,
+                    1
+                ]
+            }
+        },
+        "extra_words": {
+            "DAM": {},
+            "ADS": {}
+        }
+    },
+    "Level59": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 7,
+            "col": 6
+        },
+        "grid_data": [
+            [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                1,
+                1,
+                1,
+                1,
+                1,
+                0,
+                0
+            ],
+            [
+                0,
+                1,
+                0,
+                0,
+                1,
+                1,
+                1
+            ],
+            [
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                1,
+                1,
+                1,
+                0,
+                0
+            ]
+        ],
+        "letters": [
+            "H",
+            "O",
+            "P",
+            "E",
+            "S"
+        ],
+        "words": {
+            "POSE": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    1
+                ]
+            },
+            "HOPES": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    2,
+                    0
+                ]
+            },
+            "SHOE": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    2,
+                    4
+                ]
+            },
+            "HOP": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    3,
+                    4
+                ]
+            },
+            "POE": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    5,
+                    2
+                ]
+            }
+        },
+        "extra_words": {}
+    },
+    "Level60": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 6,
+            "col": 5
+        },
+        "grid_data": [
+            [
+                0,
+                0,
+                0,
+                1,
+                1,
+                1
+            ],
+            [
+                0,
+                0,
+                0,
+                1,
+                0,
+                0
+            ],
+            [
+                1,
+                1,
+                1,
+                1,
+                0,
+                0
+            ],
+            [
+                1,
+                0,
+                1,
+                0,
+                0,
+                0
+            ],
+            [
+                1,
+                1,
+                1,
+                1,
+                0,
+                0
+            ]
+        ],
+        "letters": [
+            "G",
+            "A",
+            "P",
+            "E"
+        ],
+        "words": {
+            "APE": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    3
+                ]
+            },
+            "AGE": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    3
+                ]
+            },
+            "GAPE": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    2,
+                    0
+                ]
+            },
+            "GAP": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    2,
+                    0
+                ]
+            },
+            "PEG": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    2,
+                    2
+                ]
+            },
+            "PAGE": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    4,
+                    0
+                ]
+            }
+        },
+        "extra_words": {
+            "PEA": {},
+            "PEAS": {}
+        }
+    },
+    "Level61": {
+        "time_to_end": 400,
+        "grid_size": {
+            "row": 7,
+            "col": 6
+        },
+        "grid_data": [
+            [
+                1,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1
+            ],
+            [
+                1,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1
+            ],
+            [
+                1,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1
+            ],
+            [
+                1,
+                1,
+                1,
+                1,
+                1,
+                0,
+                1
+            ],
+            [
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                1
+            ],
+            [
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                0
+            ]
+        ],
+        "letters": [
+            "I",
+            "R",
+            "A",
+            "T",
+            "E"
+        ],
+        "words": {
+            "RATE": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    0
+                ]
+            },
+            "RAIT": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    0
+                ]
+            },
+            "TEAR": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    2
+                ]
+            },
+            "IRATE": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    6
+                ]
+            },
+            "TAR": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    3,
+                    0
+                ]
+            },
+            "RAT": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    3,
+                    2
+                ]
+            },
+            "AIR": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    3,
+                    1
+                ]
+            },
+            "TIE": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    3,
+                    4
+                ]
+            }
+        },
+        "extra_words": {}
+    },
+    "Level62": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 5,
+            "col": 4
+        },
+        "grid_data": [
+            [
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                1,
+                1,
+                1,
+                1,
+                0
+            ],
+            [
+                0,
+                0,
+                1,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                1,
+                1,
+                1
+            ]
+        ],
+        "letters": [
+            "R",
+            "O",
+            "T",
+            "S"
+        ],
+        "words": {
+            "ROTS": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    0
+                ]
+            },
+            "ROT": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    3,
+                    2
+                ]
+            },
+            "TOR": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    2
+                ]
+            }
+        },
+        "extra_words": {}
+    },
+    "Level63": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 7,
+            "col": 6
+        },
+        "grid_data": [
+            [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                1,
+                1,
+                1,
+                1,
+                1,
+                0,
+                0
+            ],
+            [
+                1,
+                0,
+                1,
+                0,
+                1,
+                0,
+                0
+            ],
+            [
+                1,
+                0,
+                1,
+                1,
+                1,
+                1,
+                0
+            ],
+            [
+                0,
+                0,
+                1,
+                0,
+                1,
+                1,
+                1
+            ],
+            [
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0
+            ]
+        ],
+        "letters": [
+            "J",
+            "A",
+            "M",
+            "S",
+            "E"
+        ],
+        "words": {
+            "JAMES": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    0
+                ]
+            },
+            "JAM": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    0
+                ]
+            },
+            "MESA": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    2
+                ]
+            },
+            "SEAM": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    4
+                ]
+            },
+            "SEA": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    3,
+                    2
+                ]
+            },
+            "MAE": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    4,
+                    4
+                ]
+            },
+            "SAM": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    3,
+                    5
+                ]
+            }
+        },
+        "extra_words": {}
+    },
+    "Level64": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 6,
+            "col": 6
+        },
+        "grid_data": [
+            [
+                0,
+                0,
+                1,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                1,
+                1,
+                1,
+                1,
+                0
+            ],
+            [
+                0,
+                0,
+                1,
+                0,
+                0,
+                0
+            ],
+            [
+                1,
+                1,
+                1,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                1,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                1,
+                1,
+                1,
+                0,
+                0
+            ]
+        ],
+        "letters": [
+            "B",
+            "A",
+            "G",
+            "S"
+        ],
+        "words": {
+            "BAGS": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    2
+                ]
+            },
+            "GABS": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    1
+                ]
+            },
+            "GAS": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    3,
+                    0
+                ]
+            },
+            "ABS": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    3,
+                    1
+                ]
+            },
+            "SAG": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    5,
+                    1
+                ]
+            }
+        },
+        "extra_words": {}
+    },
+    "Level65": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 6,
+            "col": 6
+        },
+        "grid_data": [
+            [
+                0,
+                0,
+                0,
+                0,
+                1,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                0,
+                1,
+                0
+            ],
+            [
+                0,
+                0,
+                1,
+                0,
+                1,
+                0
+            ],
+            [
+                1,
+                1,
+                1,
+                1,
+                1,
+                0
+            ],
+            [
+                1,
+                0,
+                1,
+                0,
+                0,
+                0
+            ],
+            [
+                1,
+                1,
+                1,
+                0,
+                0,
+                0
+            ]
+        ],
+        "letters": [
+            "S",
+            "K",
+            "I",
+            "T",
+            "E"
+        ],
+        "words": {
+            "SITE": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    4
+                ]
+            },
+            "KITE": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    2,
+                    2
+                ]
+            },
+            "SKITE": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    3,
+                    0
+                ]
+            },
+            "SET": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    3,
+                    0
+                ]
+            },
+            "TIE": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    5,
+                    0
+                ]
+            }
+        },
+        "extra_words": {}
+    },
+    "Level66": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 4,
+            "col": 4
+        },
+        "grid_data": [
+            [
+                0,
+                0,
+                0,
+                1
+            ],
+            [
+                0,
+                1,
+                0,
+                1
+            ],
+            [
+                1,
+                1,
+                1,
+                1
+            ],
+            [
+                0,
+                1,
+                0,
+                1
+            ]
+        ],
+        "letters": [
+            "P",
+            "A",
+            "S",
+            "T"
+        ],
+        "words": {
+            "PAST": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    2,
+                    0
+                ]
+            },
+            "PATS": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    3
+                ]
+            },
+            "TAP": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    1
+                ]
+            }
+        },
+        "extra_words": {
+            "PAT": {}
+        }
+    },
+    "Level67": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 6,
+            "col": 6
+        },
+        "grid_data": [
+            [
+                1,
+                1,
+                1,
+                1,
+                1,
+                0
+            ],
+            [
+                0,
+                0,
+                1,
+                0,
+                1,
+                0
+            ],
+            [
+                0,
+                0,
+                1,
+                1,
+                1,
+                1
+            ],
+            [
+                1,
+                1,
+                1,
+                0,
+                0,
+                0
+            ],
+            [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0
+            ]
+        ],
+        "letters": [
+            "L",
+            "A",
+            "K",
+            "E",
+            "S"
+        ],
+        "words": {
+            "LAKES": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    0
+                ]
+            },
+            "KALE": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    2
+                ]
+            },
+            "SEA": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    4
+                ]
+            },
+            "LEAK": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    2,
+                    2
+                ]
+            },
+            "ALE": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    3,
+                    0
+                ]
+            },
+            "ASK": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    3,
+                    0
+                ]
+            }
+        },
+        "extra_words": {
+            "LAKE": {},
+            "SEAL": {}
+        }
+    },
+    "Level68": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 6,
+            "col": 6
+        },
+        "grid_data": [
+            [
+                0,
+                0,
+                1,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                1,
+                0,
+                0,
+                0
+            ],
+            [
+                1,
+                1,
+                1,
+                1,
+                0,
+                0
+            ],
+            [
+                0,
+                1,
+                0,
+                1,
+                0,
+                1
+            ],
+            [
+                0,
+                1,
+                0,
+                1,
+                0,
+                1
+            ],
+            [
+                0,
+                0,
+                0,
+                1,
+                1,
+                1
+            ]
+        ],
+        "letters": [
+            "C",
+            "A",
+            "B",
+            "S"
+        ],
+        "words": {
+            "CAB": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    2
+                ]
+            },
+            "CABS": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    2,
+                    0
+                ]
+            },
+            "ABS": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    2,
+                    1
+                ]
+            },
+            "SCAB": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    2,
+                    3
+                ]
+            },
+            "SAC": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    3,
+                    5
+                ]
+            },
+            "BAC": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    5,
+                    3
+                ]
+            }
+        },
+        "extra_words": {}
+    },
+    "Level69": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 7,
+            "col": 6
+        },
+        "grid_data": [
+            [
+                0,
+                1,
+                1,
+                1,
+                0,
+                0
+            ],
+            [
+                0,
+                1,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                1,
+                0,
+                1,
+                1,
+                1
+            ],
+            [
+                1,
+                1,
+                1,
+                1,
+                0,
+                1
+            ],
+            [
+                0,
+                1,
+                0,
+                1,
+                0,
+                1
+            ],
+            [
+                0,
+                0,
+                0,
+                1,
+                0,
+                1
+            ]
+        ],
+        "letters": [
+            "M",
+            "E",
+            "A",
+            "T",
+            "S"
+        ],
+        "words": {
+            "SAT": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    1
+                ]
+            },
+            "STEAM": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    1
+                ]
+            },
+            "MAT": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    2,
+                    3
+                ]
+            },
+            "MEAT": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    2,
+                    3
+                ]
+            },
+            "TEAM": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    2,
+                    5
+                ]
+            },
+            "MATE": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    3,
+                    0
+                ]
+            }
+        },
+        "extra_words": {}
+    },
+    "Level70": {
+        "time_to_end": 400,
+        "grid_size": {
+            "row": 7,
+            "col": 7
+        },
+        "grid_data": [
+            [
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                1,
+                0,
+                1,
+                0,
+                0
+            ],
+            [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                0
+            ],
+            [
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                1,
+                1,
+                1,
+                1,
+                1,
+                0,
+                0
+            ],
+            [
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0
+            ],
+            [
+                1,
+                0,
+                0,
+                1,
+                1,
+                1,
+                0
+            ]
+        ],
+        "letters": [
+            "B",
+            "E",
+            "A",
+            "K",
+            "S",
+            "R"
+        ],
+        "words": {
+            "ARK": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    4
+                ]
+            },
+            "BEAR": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    2
+                ]
+            },
+            "BREAKS": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    2,
+                    0
+                ]
+            },
+            "BARKS": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    4,
+                    0
+                ]
+            },
+            "BAR": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    4,
+                    0
+                ]
+            },
+            "SEA": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    4,
+                    4
+                ]
+            },
+            "EAR": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    6,
+                    3
+                ]
+            }
+        },
+        "extra_words": {
+            "BARK": {},
+            "ERA": {},
+            "BRAKE": {}
+        }
+    },
+    "Level71": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 5,
+            "col": 4
+        },
+        "grid_data": [
+            [
+                0,
+                1,
+                0,
+                0,
+                1
+            ],
+            [
+                1,
+                1,
+                1,
+                0,
+                1
+            ],
+            [
+                0,
+                1,
+                1,
+                0,
+                1
+            ],
+            [
+                0,
+                0,
+                1,
+                0,
+                1
+            ]
+        ],
+        "letters": [
+            "R",
+            "U",
+            "N",
+            "S"
+        ],
+        "words": {
+            "SUN": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    1
+                ]
+            },
+            "RUNS": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    4
+                ]
+            },
+            "RUN": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    0
+                ]
+            },
+            "NUR": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    2
+                ]
+            }
+        },
+        "extra_words": {}
+    },
+    "Level72": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 6,
+            "col": 5
+        },
+        "grid_data": [
+            [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                1,
+                1,
+                1,
+                1,
+                0,
+                0
+            ],
+            [
+                0,
+                1,
+                0,
+                1,
+                1,
+                1
+            ],
+            [
+                0,
+                1,
+                1,
+                1,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                1,
+                1,
+                1
+            ]
+        ],
+        "letters": [
+            "O",
+            "P",
+            "A",
+            "S",
+            "T"
+        ],
+        "words": {
+            "STOP": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    0
+                ]
+            },
+            "TOP": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    1
+                ]
+            },
+            "POTS": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    3
+                ]
+            },
+            "OAT": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    2,
+                    3
+                ]
+            },
+            "POT": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    3,
+                    1
+                ]
+            },
+            "SAT": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    4,
+                    3
+                ]
+            }
+        },
+        "extra_words": {
+            "TAP": {},
+            "STOAP": {}
+        }
+    },
+    "Level73": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 5,
+            "col": 4
+        },
+        "grid_data": [
+            [
+                0,
+                0,
+                1,
+                0,
+                0
+            ],
+            [
+                0,
+                1,
+                1,
+                1,
+                1
+            ],
+            [
+                1,
+                1,
+                1,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                1,
+                0,
+                0
+            ]
+        ],
+        "letters": [
+            "F",
+            "A",
+            "S",
+            "T"
+        ],
+        "words": {
+            "FATS": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    2
+                ]
+            },
+            "FAST": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    1
+                ]
+            },
+            "FAT": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    2,
+                    0
+                ]
+            }
+        },
+        "extra_words": {}
+    },
+    "Level74": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 7,
+            "col": 7
+        },
+        "grid_data": [
+            [
+                1,
+                1,
+                1,
+                1,
+                0,
+                1,
+                0
+            ],
+            [
+                1,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0
+            ],
+            [
+                1,
+                0,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            [
+                1,
+                1,
+                1,
+                0,
+                0,
+                0,
+                1
+            ],
+            [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                0
+            ]
+        ],
+        "letters": [
+            "P",
+            "I",
+            "L",
+            "E",
+            "S"
+        ],
+        "words": {
+            "SILE": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    0
+                ]
+            },
+            "SLIP": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    0
+                ]
+            },
+            "LIP": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    2
+                ]
+            },
+            "LIE": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    5
+                ]
+            },
+            "PILES": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    2,
+                    2
+                ]
+            },
+            "SIP": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    2,
+                    6
+                ]
+            },
+            "PIE": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    3,
+                    0
+                ]
+            },
+            "PLIES": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    6,
+                    1
+                ]
+            }
+        },
+        "extra_words": {
+            "SPILE": {},
+            "PILE": {}
+        }
+    },
+    "Level75": {
+        "time_to_end": 400,
+        "grid_size": {
+            "row": 7,
+            "col": 7
+        },
+        "grid_data": [
+            [
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1
+            ],
+            [
+                0,
+                0,
+                0,
+                1,
+                1,
+                1,
+                1
+            ],
+            [
+                1,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1
+            ],
+            [
+                1,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1
+            ],
+            [
+                1,
+                1,
+                1,
+                0,
+                1,
+                1,
+                1
+            ],
+            [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ]
+        ],
+        "letters": [
+            "N",
+            "E",
+            "T",
+            "S",
+            "R"
+        ],
+        "words": {
+            "NEST": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    3
+                ]
+            },
+            "STERN": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    6
+                ]
+            },
+            "SENT": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    2,
+                    3
+                ]
+            },
+            "RENT": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    3,
+                    0
+                ]
+            },
+            "REST": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    3,
+                    0
+                ]
+            },
+            "NET": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    3,
+                    2
+                ]
+            },
+            "SET": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    5,
+                    0
+                ]
+            },
+            "TEN": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    5,
+                    4
+                ]
+            }
+        },
+        "extra_words": {
+            "NEST": {}
+        }
+    },
+    "Level76": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 4,
+            "col": 3
+        },
+        "grid_data": [
+            [
+                1,
+                1,
+                1,
+                1
+            ],
+            [
+                0,
+                0,
+                1,
+                0
+            ],
+            [
+                1,
+                1,
+                1,
+                0
+            ]
+        ],
+        "letters": [
+            "S",
+            "I",
+            "T",
+            "S"
+        ],
+        "words": {
+            "SITS": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    0
+                ]
+            },
+            "TIS": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    2
+                ]
+            },
+            "ITS": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    2,
+                    0
+                ]
+            }
+        },
+        "extra_words": {
+            "SIT": {}
+        }
+    },
+    "Level77": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 5,
+            "col": 4
+        },
+        "grid_data": [
+            [
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            [
+                0,
+                0,
+                0,
+                1,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                1,
+                0
+            ],
+            [
+                1,
+                1,
+                1,
+                1,
+                0
+            ]
+        ],
+        "letters": [
+            "Q",
+            "I",
+            "T",
+            "S",
+            "U"
+        ],
+        "words": {
+            "QUIST": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    0
+                ]
+            },
+            "SUIT": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    3
+                ]
+            },
+            "QUIT": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    3,
+                    0
+                ]
+            }
+        },
+        "extra_words": {
+            "SIT": {},
+            "UTIS": {}
+        }
+    },
+    "Level78": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 4,
+            "col": 4
+        },
+        "grid_data": [
+            [
+                0,
+                1,
+                0,
+                1
+            ],
+            [
+                0,
+                1,
+                0,
+                1
+            ],
+            [
+                1,
+                1,
+                1,
+                1
+            ],
+            [
+                0,
+                1,
+                0,
+                1
+            ]
+        ],
+        "letters": [
+            "C",
+            "O",
+            "T",
+            "S"
+        ],
+        "words": {
+            "SCOT": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    1
+                ]
+            },
+            "COTS": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    3
+                ]
+            },
+            "COST": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    2,
+                    0
+                ]
+            }
+        },
+        "extra_words": {}
+    },
+    "Level79": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 7,
+            "col": 6
+        },
+        "grid_data": [
+            [
+                1,
+                1,
+                1,
+                1,
+                1,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                1,
+                0,
+                1,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                1,
+                0,
+                1,
+                1,
+                1
+            ],
+            [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            [
+                1,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1
+            ],
+            [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1
+            ]
+        ],
+        "letters": [
+            "R",
+            "I",
+            "L",
+            "E",
+            "S"
+        ],
+        "words": {
+            "RILES": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    0
+                ]
+            },
+            "LIE": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    2
+                ]
+            },
+            "SIR": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    4
+                ]
+            },
+            "RES": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    2,
+                    4
+                ]
+            },
+            "SIRE": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    2,
+                    6
+                ]
+            },
+            "RILE": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    4,
+                    0
+                ]
+            }
+        },
+        "extra_words": {
+            "SEIL": {}
+        }
+    },
+    "Level80": {
+        "time_to_end": 400,
+        "grid_size": {
+            "row": 7,
+            "col": 7
+        },
+        "grid_data": [
+            [
+                0,
+                0,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            [
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                1
+            ],
+            [
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                1
+            ],
+            [
+                1,
+                1,
+                1,
+                1,
+                1,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                0
+            ],
+            [
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0
+            ]
+        ],
+        "letters": [
+            "D",
+            "O",
+            "G",
+            "E",
+            "S",
+            "T"
+        ],
+        "words": {
+            "DOGES": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    2
+                ]
+            },
+            "GOES": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    4
+                ]
+            },
+            "SET": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    6
+                ]
+            },
+            "GOTES": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    3,
+                    0
+                ]
+            },
+            "TOGS": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    3,
+                    2
+                ]
+            },
+            "DOGEST": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    5,
+                    0
+                ]
+            }
+        },
+        "extra_words": {
+            "GET": {},
+            "TODS": {},
+            "STODE": {},
+            "DOSE": {},
+            "DOES": {},
+            "EGO": {},
+            "GOT": {}
+        }
+    },
+    "Level81": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 6,
+            "col": 6
+        },
+        "grid_data": [
+            [
+                0,
+                1,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                1,
+                1,
+                1,
+                1,
+                0,
+                0
+            ],
+            [
+                0,
+                1,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                1,
+                1,
+                1,
+                1,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                0,
+                1,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                0,
+                1,
+                0
+            ]
+        ],
+        "letters": [
+            "M",
+            "A",
+            "T",
+            "S"
+        ],
+        "words": {
+            "MAST": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    1
+                ]
+            },
+            "MATS": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    0
+                ]
+            },
+            "TAMS": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    3,
+                    1
+                ]
+            },
+            "SAM": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    3,
+                    4
+                ]
+            }
+        },
+        "extra_words": {}
+    },
+    "Level82": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 7,
+            "col": 6
+        },
+        "grid_data": [
+            [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                1,
+                0,
+                1,
+                1,
+                1,
+                0,
+                0
+            ],
+            [
+                1,
+                1,
+                1,
+                0,
+                1,
+                0,
+                0
+            ],
+            [
+                1,
+                0,
+                1,
+                0,
+                1,
+                1,
+                1
+            ],
+            [
+                0,
+                0,
+                1,
+                0,
+                1,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                1,
+                0,
+                1,
+                0,
+                0
+            ]
+        ],
+        "letters": [
+            "S",
+            "R",
+            "A",
+            "T",
+            "S"
+        ],
+        "words": {
+            "TARS": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    0
+                ]
+            },
+            "SAT": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    2
+                ]
+            },
+            "STARS": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    2
+                ]
+            },
+            "TSARS": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    4
+                ]
+            },
+            "RAT": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    2,
+                    0
+                ]
+            },
+            "ART": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    3,
+                    4
+                ]
+            }
+        },
+        "extra_words": {}
+    },
+    "Level83": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 6,
+            "col": 6
+        },
+        "grid_data": [
+            [
+                0,
+                0,
+                0,
+                1,
+                0,
+                0
+            ],
+            [
+                1,
+                0,
+                0,
+                1,
+                0,
+                0
+            ],
+            [
+                1,
+                1,
+                1,
+                1,
+                0,
+                0
+            ],
+            [
+                1,
+                0,
+                1,
+                0,
+                0,
+                0
+            ],
+            [
+                1,
+                0,
+                1,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                1,
+                0,
+                0,
+                0
+            ]
+        ],
+        "letters": [
+            "W",
+            "A",
+            "T",
+            "S"
+        ],
+        "words": {
+            "WAS": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    3
+                ]
+            },
+            "SWAT": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    0
+                ]
+            },
+            "WATS": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    2,
+                    0
+                ]
+            },
+            "TWAS": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    2,
+                    2
+                ]
+            }
+        },
+        "extra_words": {}
+    },
+    "Level84": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 7,
+            "col": 7
+        },
+        "grid_data": [
+            [
+                1,
+                0,
+                0,
+                1,
+                1,
+                1,
+                0
+            ],
+            [
+                1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0
+            ],
+            [
+                1,
+                1,
+                1,
+                1,
+                1,
+                0,
+                0
+            ],
+            [
+                1,
+                0,
+                0,
+                1,
+                1,
+                0,
+                1
+            ],
+            [
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                1
+            ],
+            [
+                0,
+                0,
+                0,
+                1,
+                1,
+                1,
+                1
+            ],
+            [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1
+            ]
+        ],
+        "letters": [
+            "I",
+            "M",
+            "T",
+            "S",
+            "E"
+        ],
+        "words": {
+            "SMITE": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    0
+                ]
+            },
+            "TIME": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    3
+                ]
+            },
+            "TIE": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    3
+                ]
+            },
+            "ITEMS": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    2,
+                    0
+                ]
+            },
+            "SITE": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    2,
+                    4
+                ]
+            },
+            "MITE": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    3,
+                    6
+                ]
+            },
+            "MEST": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    5,
+                    3
+                ]
+            }
+        },
+        "extra_words": {}
+    },
+    "Level85": {
+        "time_to_end": 400,
+        "grid_size": {
+            "row": 7,
+            "col": 6
+        },
+        "grid_data": [
+            [
+                0,
+                0,
+                0,
+                0,
+                1,
+                1,
+                1
+            ],
+            [
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                1,
+                0,
+                1,
+                0,
+                0
+            ],
+            [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                0
+            ],
+            [
+                1,
+                0,
+                1,
+                0,
+                1,
+                1,
+                1
+            ],
+            [
+                1,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0
+            ]
+        ],
+        "letters": [
+            "F",
+            "I",
+            "R",
+            "E",
+            "S",
+            "T"
+        ],
+        "words": {
+            "FRIES": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    4
+                ]
+            },
+            "FIT": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    4
+                ]
+            },
+            "FIRE": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    2,
+                    2
+                ]
+            },
+            "FRITES": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    3,
+                    0
+                ]
+            },
+            "FIR": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    3,
+                    0
+                ]
+            },
+            "SIT": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    3,
+                    5
+                ]
+            },
+            "SIR": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    4,
+                    4
+                ]
+            }
+        },
+        "extra_words": {}
+    },
+    "Level86": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 7,
+            "col": 6
+        },
+        "grid_data": [
+            [
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                0
+            ],
+            [
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                1,
+                1,
+                1,
+                1,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                1,
+                1,
+                1,
+                1,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                0,
+                1,
+                1,
+                1
+            ]
+        ],
+        "letters": [
+            "U",
+            "N",
+            "R",
+            "I",
+            "T"
+        ],
+        "words": {
+            "RUTIN": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    1
+                ]
+            },
+            "UNIT": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    2
+                ]
+            },
+            "RUIN": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    2,
+                    0
+                ]
+            },
+            "TURN": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    3,
+                    2
+                ]
+            },
+            "RUN": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    3,
+                    4
+                ]
+            },
+            "NUT": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    5,
+                    4
+                ]
+            }
+        },
+        "extra_words": {
+            "TIN": {},
+            "NIT": {}
+        }
+    },
+    "Level87": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 6,
+            "col": 5
+        },
+        "grid_data": [
+            [
+                0,
+                1,
+                0,
+                0,
+                0,
+                1
+            ],
+            [
+                1,
+                1,
+                1,
+                1,
+                0,
+                1
+            ],
+            [
+                0,
+                1,
+                0,
+                1,
+                0,
+                1
+            ],
+            [
+                0,
+                1,
+                0,
+                1,
+                0,
+                1
+            ],
+            [
+                0,
+                1,
+                0,
+                1,
+                1,
+                1
+            ]
+        ],
+        "letters": [
+            "V",
+            "E",
+            "L",
+            "I",
+            "S"
+        ],
+        "words": {
+            "VILES": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    1
+                ]
+            },
+            "SLIVE": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    5
+                ]
+            },
+            "LIVE": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    0
+                ]
+            },
+            "EVIL": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    3
+                ]
+            },
+            "LIE": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    4,
+                    3
+                ]
+            }
+        },
+        "extra_words": {
+            "VIE": {}
+        }
+    },
+    "Level88": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 7,
+            "col": 7
+        },
+        "grid_data": [
+            [
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                1,
+                1,
+                1,
+                1,
+                0
+            ],
+            [
+                0,
+                0,
+                1,
+                0,
+                1,
+                0,
+                0
+            ],
+            [
+                1,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                1,
+                0,
+                1,
+                0,
+                1,
+                1,
+                1
+            ],
+            [
+                1,
+                1,
+                1,
+                0,
+                0,
+                0,
+                1
+            ],
+            [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1
+            ]
+        ],
+        "letters": [
+            "W",
+            "A",
+            "R",
+            "T",
+            "S"
+        ],
+        "words": {
+            "TAR": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    4
+                ]
+            },
+            "STRAW": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    2
+                ]
+            },
+            "STAR": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    2
+                ]
+            },
+            "WART": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    3,
+                    0
+                ]
+            },
+            "SAW": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    4,
+                    4
+                ]
+            },
+            "WAR": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    4,
+                    6
+                ]
+            },
+            "RAW": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    5,
+                    0
+                ]
+            }
+        },
+        "extra_words": {
+            "SWAT": {},
+            "RAT": {},
+            "SWART": {},
+            "ART": {}
+        }
+    },
+    "Level89": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 6,
+            "col": 6
+        },
+        "grid_data": [
+            [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                1,
+                1,
+                1,
+                1,
+                0,
+                0
+            ],
+            [
+                1,
+                0,
+                0,
+                1,
+                0,
+                0
+            ],
+            [
+                1,
+                0,
+                0,
+                1,
+                1,
+                1
+            ],
+            [
+                1,
+                0,
+                0,
+                1,
+                0,
+                1
+            ],
+            [
+                0,
+                0,
+                0,
+                1,
+                1,
+                1
+            ]
+        ],
+        "letters": [
+            "Y",
+            "A",
+            "R",
+            "E",
+            "S"
+        ],
+        "words": {
+            "YEARS": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    0
+                ]
+            },
+            "EARS": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    0
+                ]
+            },
+            "SAYER": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    3
+                ]
+            },
+            "YES": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    3,
+                    3
+                ]
+            },
+            "SAY": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    3,
+                    5
+                ]
+            },
+            "RAY": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    5,
+                    3
+                ]
+            }
+        },
+        "extra_words": {
+            "ARES": {},
+            "AYES": {},
+            "SEAR": {},
+            "ARE": {}
+        }
+    },
+    "Level90": {
+        "time_to_end": 400,
+        "grid_size": {
+            "row": 7,
+            "col": 7
+        },
+        "grid_data": [
+            [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                1,
+                1,
+                1,
+                1,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                1,
+                1,
+                1,
+                1
+            ],
+            [
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                1
+            ],
+            [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1
+            ]
+        ],
+        "letters": [
+            "G",
+            "L",
+            "I",
+            "E",
+            "S",
+            "N"
+        ],
+        "words": {
+            "SINGLE": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    0
+                ]
+            },
+            "GLENS": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    3
+                ]
+            },
+            "LENS": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    3,
+                    1
+                ]
+            },
+            "SIN": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    3,
+                    4
+                ]
+            },
+            "SING": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    4,
+                    3
+                ]
+            },
+            "GEL": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    4,
+                    6
+                ]
+            }
+        },
+        "extra_words": {
+            "LINE": {},
+            "LIES": {},
+            "LEG": {},
+            "SIT": {}
+        }
+    },
+    "Level91": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 5,
+            "col": 5
+        },
+        "grid_data": [
+            [
+                0,
+                1,
+                0,
+                0,
+                1
+            ],
+            [
+                0,
+                1,
+                0,
+                0,
+                1
+            ],
+            [
+                1,
+                1,
+                1,
+                0,
+                1
+            ],
+            [
+                0,
+                0,
+                1,
+                0,
+                1
+            ],
+            [
+                1,
+                1,
+                1,
+                0,
+                1
+            ]
+        ],
+        "letters": [
+            "B",
+            "L",
+            "I",
+            "K",
+            "N"
+        ],
+        "words": {
+            "LIN": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    1
+                ]
+            },
+            "BLINK": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    4
+                ]
+            },
+            "INK": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    2,
+                    0
+                ]
+            },
+            "KIN": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    2,
+                    2
+                ]
+            },
+            "BIN": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    4,
+                    0
+                ]
+            }
+        },
+        "extra_words": {}
+    },
+    "Level92": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 7,
+            "col": 7
+        },
+        "grid_data": [
+            [
+                1,
+                0,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            [
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0
+            ],
+            [
+                1,
+                0,
+                1,
+                0,
+                1,
+                1,
+                1
+            ],
+            [
+                1,
+                1,
+                1,
+                0,
+                0,
+                0,
+                1
+            ],
+            [
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1
+            ],
+            [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                1,
+                1,
+                1,
+                1,
+                0,
+                0,
+                0
+            ]
+        ],
+        "letters": [
+            "Z",
+            "E",
+            "B",
+            "R",
+            "A"
+        ],
+        "words": {
+            "BARE": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    0
+                ]
+            },
+            "ZEBRA": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    2
+                ]
+            },
+            "BAR": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    4
+                ]
+            },
+            "EAR": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    2,
+                    2
+                ]
+            },
+            "REB": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    2,
+                    4
+                ]
+            },
+            "BRA": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    2,
+                    6
+                ]
+            },
+            "ERA": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    3,
+                    0
+                ]
+            },
+            "BEAR": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    6,
+                    0
+                ]
+            }
+        },
+        "extra_words": {
+            "BRAZ": {},
+            "RE": {}
+        }
+    },
+    "Level93": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 7,
+            "col": 6
+        },
+        "grid_data": [
+            [
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                1,
+                1,
+                1,
+                1,
+                1,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                1,
+                0,
+                1,
+                0,
+                0
+            ],
+            [
+                1,
+                1,
+                1,
+                0,
+                1,
+                1,
+                1
+            ],
+            [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ]
+        ],
+        "letters": [
+            "C",
+            "E",
+            "S",
+            "H",
+            "T"
+        ],
+        "words": {
+            "SECT": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    2
+                ]
+            },
+            "CHEST": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    0
+                ]
+            },
+            "TES": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    4
+                ]
+            },
+            "EAR": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    2,
+                    2
+                ]
+            },
+            "SEC": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    3,
+                    0
+                ]
+            },
+            "SET": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    3,
+                    0
+                ]
+            },
+            "SHE": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    3,
+                    4
+                ]
+            }
+        },
+        "extra_words": {
+            "EST": {},
+            "ETH": {},
+            "ECHT": {},
+            "HE": {}
+        }
+    },
+    "Level94": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 6,
+            "col": 5
+        },
+        "grid_data": [
+            [
+                1,
+                1,
+                1,
+                1,
+                0,
+                0
+            ],
+            [
+                1,
+                0,
+                1,
+                0,
+                0,
+                0
+            ],
+            [
+                1,
+                0,
+                1,
+                1,
+                1,
+                0
+            ],
+            [
+                1,
+                0,
+                0,
+                0,
+                1,
+                0
+            ],
+            [
+                1,
+                0,
+                0,
+                1,
+                1,
+                1
+            ]
+        ],
+        "letters": [
+            "C",
+            "A",
+            "I",
+            "V",
+            "T"
+        ],
+        "words": {
+            "CIVAT": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    0
+                ]
+            },
+            "CAVI": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    0
+                ]
+            },
+            "VAC": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    2
+                ]
+            },
+            "CAT": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    2,
+                    2
+                ]
+            },
+            "TIC": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    2,
+                    4
+                ]
+            },
+            "ACT": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    4,
+                    3
+                ]
+            }
+        },
+        "extra_words": {
+            "CAIT": {},
+            "VATIC": {},
+            "VITA": {},
+            "TICA": {}
+        }
+    },
+    "Level95": {
+        "time_to_end": 400,
+        "grid_size": {
+            "row": 7,
+            "col": 7
+        },
+        "grid_data": [
+            [
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0
+            ],
+            [
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            [
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                1
+            ],
+            [
+                1,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1
+            ],
+            [
+                1,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1
+            ],
+            [
+                1,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1
+            ],
+            [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ]
+        ],
+        "letters": [
+            "H",
+            "O",
+            "P",
+            "E",
+            "S",
+            "R"
+        ],
+        "words": {
+            "HORSE": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    2
+                ]
+            },
+            "PER": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    5
+                ]
+            },
+            "POSHER": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    1
+                ]
+            },
+            "ROPES": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    6
+                ]
+            },
+            "HOPE": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    3,
+                    0
+                ]
+            },
+            "HOSE": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    3,
+                    0
+                ]
+            },
+            "POSE": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    5,
+                    0
+                ]
+            }
+        },
+        "extra_words": {
+            "HOP": {},
+            "SOP": {},
+            "POSER": {}
+        }
+    },
+    "Level96": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 7,
+            "col": 7
+        },
+        "grid_data": [
+            [
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                1,
+                0,
+                1,
+                1,
+                1
+            ],
+            [
+                0,
+                1,
+                1,
+                1,
+                0,
+                1,
+                0
+            ],
+            [
+                0,
+                0,
+                1,
+                1,
+                1,
+                1,
+                0
+            ],
+            [
+                1,
+                1,
+                1,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                1,
+                1,
+                1,
+                1,
+                0,
+                0,
+                0
+            ]
+        ],
+        "letters": [
+            "D",
+            "A",
+            "I",
+            "R",
+            "Y"
+        ],
+        "words": {
+            "DAIRY": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    2
+                ]
+            },
+            "RAY": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    4
+                ]
+            },
+            "AID": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    5
+                ]
+            },
+            "AIR": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    2,
+                    1
+                ]
+            },
+            "HOPE": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    3,
+                    0
+                ]
+            },
+            "RAID": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    3,
+                    2
+                ]
+            },
+            "DRY": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    4,
+                    0
+                ]
+            },
+            "DAY": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    4,
+                    0
+                ]
+            },
+            "YARD": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    6,
+                    0
+                ]
+            }
+        },
+        "extra_words": {
+            "RAD": {},
+            "DIARY": {},
+            "RID": {}
+        }
+    },
+    "Level97": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 7,
+            "col": 7
+        },
+        "grid_data": [
+            [
+                1,
+                1,
+                1,
+                1,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1
+            ],
+            [
+                0,
+                1,
+                0,
+                1,
+                0,
+                0,
+                1
+            ],
+            [
+                0,
+                1,
+                0,
+                1,
+                1,
+                1,
+                1
+            ],
+            [
+                0,
+                1,
+                1,
+                1,
+                0,
+                1,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0
+            ]
+        ],
+        "letters": [
+            "E",
+            "V",
+            "I",
+            "L",
+            "S"
+        ],
+        "words": {
+            "SILE": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    0
+                ]
+            },
+            "EVILS": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    3
+                ]
+            },
+            "LIE": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    6
+                ]
+            },
+            "LEV": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    2,
+                    1
+                ]
+            },
+            "LIVE": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    3,
+                    3
+                ]
+            },
+            "VILE": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    3,
+                    5
+                ]
+            },
+            "VIS": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    4,
+                    1
+                ]
+            }
+        },
+        "extra_words": {}
+    },
+    "Level98": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 5,
+            "col": 5
+        },
+        "grid_data": [
+            [
+                0,
+                0,
+                1,
+                0,
+                1
+            ],
+            [
+                0,
+                1,
+                1,
+                1,
+                1
+            ],
+            [
+                1,
+                0,
+                1,
+                0,
+                1
+            ],
+            [
+                1,
+                0,
+                1,
+                0,
+                0
+            ],
+            [
+                1,
+                1,
+                1,
+                0,
+                0
+            ]
+        ],
+        "letters": [
+            "F",
+            "N",
+            "I",
+            "E",
+            "S"
+        ],
+        "words": {
+            "FINES": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    2
+                ]
+            },
+            "SEN": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    4
+                ]
+            },
+            "SINE": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    1
+                ]
+            },
+            "EFI": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    2,
+                    0
+                ]
+            },
+            "INS": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    4,
+                    0
+                ]
+            }
+        },
+        "extra_words": {}
+    },
+    "Level99": {
+        "time_to_end": 300,
+        "grid_size": {
+            "row": 7,
+            "col": 6
+        },
+        "grid_data": [
+            [
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                1
+            ],
+            [
+                0,
+                0,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            [
+                1,
+                1,
+                1,
+                1,
+                1,
+                0,
+                1
+            ],
+            [
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            [
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                1,
+                1,
+                1,
+                1,
+                0,
+                0,
+                0
+            ]
+        ],
+        "letters": [
+            "H",
+            "A",
+            "R",
+            "E",
+            "S"
+        ],
+        "words": {
+            "EAR": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    4
+                ]
+            },
+            "SEAR": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    6
+                ]
+            },
+            "SHARE": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    2
+                ]
+            },
+            "SHEAR": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    2,
+                    0
+                ]
+            },
+            "HARE": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    2,
+                    1
+                ]
+            },
+            "HEAS": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    5,
+                    0
+                ]
+            }
+        },
+        "extra_words": {}
+    },
+    "Level100": {
+        "time_to_end": 400,
+        "grid_size": {
+            "row": 7,
+            "col": 6
+        },
+        "grid_data": [
+            [
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0
+            ],
+            [
+                1,
+                0,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            [
+                1,
+                0,
+                0,
+                1,
+                0,
+                1,
+                0
+            ],
+            [
+                1,
+                1,
+                1,
+                1,
+                0,
+                1,
+                0
+            ],
+            [
+                1,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                1,
+                1,
+                1,
+                1,
+                1
+            ]
+        ],
+        "letters": [
+            "I",
+            "C",
+            "A",
+            "R",
+            "T",
+            "E"
+        ],
+        "words": {
+            "TEAR": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    0,
+                    5
+                ]
+            },
+            "CITER": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    2
+                ]
+            },
+            "RACE": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    0
+                ]
+            },
+            "ICE": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    1,
+                    3
+                ]
+            },
+            "CARE": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    3,
+                    0
+                ]
+            },
+            "RAT": {
+                "direction": "V",
+                "inGrid": true,
+                "pos": [
+                    3,
+                    2
+                ]
+            },
+            "TRICE": {
+                "direction": "H",
+                "inGrid": true,
+                "pos": [
+                    5,
+                    2
+                ]
+            }
+        },
+        "extra_words": {
+            "CART": {},
+            "REACT": {},
+            "CARE": {},
+            "RATE": {},
+            "RACITE": {},
+            "RECITA": {},
+            "TRACE": {},
+            "CRATE": {},
+            "CAT": {},
+            "CAR": {},
+            "TEA": {},
+            "ARC": {}
+        }
+    }
+}

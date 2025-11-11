@@ -1,0 +1,126 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "40ff5e0c-d803-4a7c-8617-d1b38eaf61f0",
+  "files": [],
+  "subMetas": {
+    "70111": {
+      "importer": "gltf-scene",
+      "uuid": "40ff5e0c-d803-4a7c-8617-d1b38eaf61f0@70111",
+      "displayName": "",
+      "id": "70111",
+      "name": "Road.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c1084": {
+      "importer": "gltf-mesh",
+      "uuid": "40ff5e0c-d803-4a7c-8617-d1b38eaf61f0@c1084",
+      "displayName": "",
+      "id": "c1084",
+      "name": "Plane.004.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 22
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7d6ab": {
+      "importer": "texture",
+      "uuid": "40ff5e0c-d803-4a7c-8617-d1b38eaf61f0@7d6ab",
+      "displayName": "",
+      "id": "7d6ab",
+      "name": "base_color_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Assets/Static Obs/New_Assets/texture_main.png"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "0c9cf": {
+      "importer": "gltf-material",
+      "uuid": "40ff5e0c-d803-4a7c-8617-d1b38eaf61f0@0c9cf",
+      "displayName": "",
+      "id": "0c9cf",
+      "name": "texture_main.003.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "base_color_texture",
+        "uri": "db://assets/Assets/Static Obs/New_Assets/texture_main.png"
+      }
+    ],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "40ff5e0c-d803-4a7c-8617-d1b38eaf61f0@c1084"
+      ],
+      "skeletons": [],
+      "textures": [
+        "40ff5e0c-d803-4a7c-8617-d1b38eaf61f0@7d6ab"
+      ],
+      "materials": [
+        "40ff5e0c-d803-4a7c-8617-d1b38eaf61f0@0c9cf"
+      ],
+      "scenes": [
+        "40ff5e0c-d803-4a7c-8617-d1b38eaf61f0@70111"
+      ]
+    }
+  }
+}

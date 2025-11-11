@@ -1,0 +1,363 @@
+{
+  "ver": "2.3.13",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "60d8f7be-1302-4fa3-89ad-02895fb8f574",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "d7b77": {
+      "importer": "gltf-mesh",
+      "uuid": "60d8f7be-1302-4fa3-89ad-02895fb8f574@d7b77",
+      "displayName": "",
+      "id": "d7b77",
+      "name": "Mesh.069.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 5710
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "43c47": {
+      "importer": "gltf-mesh",
+      "uuid": "60d8f7be-1302-4fa3-89ad-02895fb8f574@43c47",
+      "displayName": "",
+      "id": "43c47",
+      "name": "Mesh.107.mesh",
+      "userData": {
+        "gltfIndex": 1,
+        "triangleCount": 106
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "90fe8": {
+      "importer": "gltf-mesh",
+      "uuid": "60d8f7be-1302-4fa3-89ad-02895fb8f574@90fe8",
+      "displayName": "",
+      "id": "90fe8",
+      "name": "Mesh.111.mesh",
+      "userData": {
+        "gltfIndex": 2,
+        "triangleCount": 106
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "4f957": {
+      "importer": "gltf-mesh",
+      "uuid": "60d8f7be-1302-4fa3-89ad-02895fb8f574@4f957",
+      "displayName": "",
+      "id": "4f957",
+      "name": "Mesh.114.mesh",
+      "userData": {
+        "gltfIndex": 3,
+        "triangleCount": 106
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "aa632": {
+      "importer": "gltf-mesh",
+      "uuid": "60d8f7be-1302-4fa3-89ad-02895fb8f574@aa632",
+      "displayName": "",
+      "id": "aa632",
+      "name": "Mesh.117.mesh",
+      "userData": {
+        "gltfIndex": 4,
+        "triangleCount": 106
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ce78f": {
+      "importer": "gltf-animation",
+      "uuid": "60d8f7be-1302-4fa3-89ad-02895fb8f574@ce78f",
+      "displayName": "",
+      "id": "ce78f",
+      "name": "car3_dedault_pose.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.06666667014360428
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "b9f66": {
+      "importer": "gltf-skeleton",
+      "uuid": "60d8f7be-1302-4fa3-89ad-02895fb8f574@b9f66",
+      "displayName": "",
+      "id": "b9f66",
+      "name": "car3.skeleton",
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 9
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e39f7": {
+      "importer": "texture",
+      "uuid": "60d8f7be-1302-4fa3-89ad-02895fb8f574@e39f7",
+      "displayName": "",
+      "id": "e39f7",
+      "name": "UnnamedTexture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "linear",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Assets/cars/car03/car_3_base color.jpg"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "18c46": {
+      "importer": "gltf-material",
+      "uuid": "60d8f7be-1302-4fa3-89ad-02895fb8f574@18c46",
+      "displayName": "",
+      "id": "18c46",
+      "name": "car3_mat.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "0f17f": {
+      "importer": "gltf-scene",
+      "uuid": "60d8f7be-1302-4fa3-89ad-02895fb8f574@0f17f",
+      "displayName": "",
+      "id": "0f17f",
+      "name": "car03_v01.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "car_3_base color",
+        "uri": "db://assets/Assets/cars/car03/car_3_base color.jpg"
+      }
+    ],
+    "animationImportSettings": [
+      {
+        "name": "car3_dedault_pose",
+        "duration": 0.06666667014360428,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "car3_dedault_pose",
+            "from": 0,
+            "to": 0.06666667014360428,
+            "wrapMode": 2,
+            "previousId": "ce78f"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "60d8f7be-1302-4fa3-89ad-02895fb8f574@d7b77",
+        "60d8f7be-1302-4fa3-89ad-02895fb8f574@43c47",
+        "60d8f7be-1302-4fa3-89ad-02895fb8f574@90fe8",
+        "60d8f7be-1302-4fa3-89ad-02895fb8f574@4f957",
+        "60d8f7be-1302-4fa3-89ad-02895fb8f574@aa632"
+      ],
+      "skeletons": [
+        "60d8f7be-1302-4fa3-89ad-02895fb8f574@b9f66"
+      ],
+      "textures": [
+        "60d8f7be-1302-4fa3-89ad-02895fb8f574@e39f7"
+      ],
+      "materials": [
+        "60d8f7be-1302-4fa3-89ad-02895fb8f574@18c46"
+      ],
+      "scenes": [
+        "60d8f7be-1302-4fa3-89ad-02895fb8f574@0f17f"
+      ]
+    },
+    "materials": {
+      "60d8f7be-1302-4fa3-89ad-02895fb8f574@18c46": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "__editorExtras__": {},
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "c8f66d17-351a-48da-a12c-0212d28575c4",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": 0,
+        "_defines": [
+          {
+            "USE_ALBEDO_MAP": true
+          },
+          {},
+          {},
+          {},
+          {},
+          {}
+        ],
+        "_states": [
+          {
+            "rasterizerState": {
+              "cullMode": 0
+            },
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {
+            "mainColor": {
+              "__type__": "cc.Color",
+              "r": 221,
+              "g": 221,
+              "b": 221,
+              "a": 255
+            },
+            "roughness": 0,
+            "specularIntensity": 0,
+            "mainTexture": {
+              "__uuid__": "60d8f7be-1302-4fa3-89ad-02895fb8f574@e39f7",
+              "__expectedType__": "cc.Texture2D"
+            }
+          },
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      }
+    }
+  }
+}

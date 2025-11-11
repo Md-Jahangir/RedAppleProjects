@@ -1,0 +1,104 @@
+
+splash_animation.png
+size: 2146, 754
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+Board
+  rotate: true
+  xy: 1471, 81
+  size: 671, 411
+  orig: 671, 411
+  offset: 0, 0
+  index: -1
+Leaf_4
+  rotate: true
+  xy: 1379, 146
+  size: 84, 80
+  orig: 86, 80
+  offset: 1, 0
+  index: -1
+Leaf_5
+  rotate: false
+  xy: 1963, 83
+  size: 94, 73
+  orig: 94, 76
+  offset: 0, 2
+  index: -1
+fruit_1
+  rotate: true
+  xy: 1963, 14
+  size: 67, 74
+  orig: 67, 74
+  offset: 0, 0
+  index: -1
+fruit_2
+  rotate: false
+  xy: 1996, 158
+  size: 91, 93
+  orig: 91, 93
+  offset: 0, 0
+  index: -1
+fruit_3
+  rotate: false
+  xy: 1884, 160
+  size: 110, 91
+  orig: 110, 91
+  offset: 0, 0
+  index: -1
+fruit_4
+  rotate: true
+  xy: 1379, 232
+  size: 89, 83
+  orig: 89, 83
+  offset: 0, 0
+  index: -1
+glow
+  rotate: false
+  xy: 754, 323
+  size: 715, 429
+  orig: 715, 429
+  offset: 0, 0
+  index: -1
+leaf_1
+  rotate: true
+  xy: 2059, 67
+  size: 89, 67
+  orig: 90, 67
+  offset: 1, 0
+  index: -1
+leaf_2
+  rotate: false
+  xy: 1379, 62
+  size: 77, 82
+  orig: 78, 83
+  offset: 1, 0
+  index: -1
+leaf_3
+  rotate: true
+  xy: 1884, 76
+  size: 82, 77
+  orig: 83, 81
+  offset: 1, 4
+  index: -1
+level_up_sunrey
+  rotate: false
+  xy: 2, 2
+  size: 750, 750
+  orig: 810, 810
+  offset: 30, 30
+  index: -1
+shadow
+  rotate: false
+  xy: 754, 27
+  size: 623, 294
+  orig: 623, 294
+  offset: 0, 0
+  index: -1
+shuffle
+  rotate: true
+  xy: 1884, 253
+  size: 499, 260
+  orig: 499, 260
+  offset: 0, 0
+  index: -1

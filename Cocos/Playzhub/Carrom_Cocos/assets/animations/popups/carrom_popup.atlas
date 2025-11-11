@@ -1,0 +1,202 @@
+
+carrom_popup.png
+size: 3182, 679
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+C
+  rotate: true
+  xy: 1124, 2
+  size: 46, 55
+  orig: 46, 55
+  offset: 0, 0
+  index: -1
+D
+  rotate: true
+  xy: 1179, 4
+  size: 44, 54
+  orig: 44, 54
+  offset: 0, 0
+  index: -1
+E
+  rotate: true
+  xy: 1397, 7
+  size: 41, 52
+  orig: 41, 52
+  offset: 0, 0
+  index: -1
+E_1
+  rotate: true
+  xy: 1289, 7
+  size: 41, 55
+  orig: 41, 55
+  offset: 0, 0
+  index: -1
+E_2
+  rotate: true
+  xy: 1555, 12
+  size: 36, 51
+  orig: 36, 51
+  offset: 0, 0
+  index: -1
+E_3
+  rotate: true
+  xy: 1555, 12
+  size: 36, 51
+  orig: 36, 51
+  offset: 0, 0
+  index: -1
+Group 275
+  rotate: true
+  xy: 2979, 343
+  size: 336, 134
+  orig: 336, 134
+  offset: 0, 0
+  index: -1
+Group 276
+  rotate: false
+  xy: 2848, 3
+  size: 334, 136
+  orig: 334, 136
+  offset: 0, 0
+  index: -1
+L
+  rotate: true
+  xy: 1233, 5
+  size: 43, 56
+  orig: 43, 56
+  offset: 0, 0
+  index: -1
+L_1
+  rotate: true
+  xy: 900, 0
+  size: 35, 53
+  orig: 35, 53
+  offset: 0, 0
+  index: -1
+L_2
+  rotate: true
+  xy: 1449, 10
+  size: 38, 53
+  orig: 38, 53
+  offset: 0, 0
+  index: -1
+M
+  rotate: false
+  xy: 2979, 286
+  size: 56, 57
+  orig: 56, 57
+  offset: 0, 0
+  index: -1
+O
+  rotate: false
+  xy: 3034, 231
+  size: 49, 55
+  orig: 49, 55
+  offset: 0, 0
+  index: -1
+P
+  rotate: true
+  xy: 1344, 7
+  size: 41, 53
+  orig: 41, 53
+  offset: 0, 0
+  index: -1
+T
+  rotate: true
+  xy: 1502, 12
+  size: 36, 53
+  orig: 36, 53
+  offset: 0, 0
+  index: -1
+V
+  rotate: false
+  xy: 2979, 230
+  size: 55, 56
+  orig: 55, 56
+  offset: 0, 0
+  index: -1
+board
+  rotate: true
+  xy: 0, 3
+  size: 676, 900
+  orig: 676, 900
+  offset: 0, 0
+  index: -1
+congratulations
+  rotate: true
+  xy: 2742, 118
+  size: 561, 75
+  orig: 563, 77
+  offset: 1, 1
+  index: -1
+dywtq
+  rotate: true
+  xy: 1755, 104
+  size: 575, 274
+  orig: 575, 274
+  offset: 0, 0
+  index: -1
+heading
+  rotate: false
+  xy: 2644, 30
+  size: 204, 82
+  orig: 204, 82
+  offset: 0, 0
+  index: -1
+light
+  rotate: false
+  xy: 1124, 48
+  size: 631, 631
+  orig: 631, 631
+  offset: 0, 0
+  index: -1
+lower_reel
+  rotate: true
+  xy: 900, 35
+  size: 644, 224
+  orig: 644, 224
+  offset: 0, 0
+  index: -1
+placeholder
+  rotate: true
+  xy: 2817, 215
+  size: 464, 162
+  orig: 464, 162
+  offset: 0, 0
+  index: -1
+quit
+  rotate: false
+  xy: 2479, 29
+  size: 165, 83
+  orig: 165, 83
+  offset: 0, 0
+  index: -1
+stars
+  rotate: true
+  xy: 2301, 112
+  size: 567, 441
+  orig: 567, 441
+  offset: 0, 0
+  index: -1
+try_again
+  rotate: false
+  xy: 2817, 139
+  size: 333, 76
+  orig: 333, 76
+  offset: 0, 0
+  index: -1
+up_reel
+  rotate: false
+  xy: 1755, 13
+  size: 724, 91
+  orig: 724, 91
+  offset: 0, 0
+  index: -1
+yltm
+  rotate: true
+  xy: 2029, 106
+  size: 573, 272
+  orig: 573, 272
+  offset: 0, 0
+  index: -1

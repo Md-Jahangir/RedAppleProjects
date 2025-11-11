@@ -1,0 +1,10 @@
+{
+  "name": "Carrom",
+  "uuid": "75729c91-cd52-414c-91fb-ecccc1b472e3",
+  "creator": {
+    "version": "3.8.3"
+  },
+  "dependencies": {
+    "gameanalytics": "^4.4.7"
+  }
+}

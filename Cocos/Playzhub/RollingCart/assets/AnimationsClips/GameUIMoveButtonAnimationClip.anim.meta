@@ -1,0 +1,13 @@
+{
+  "ver": "2.0.3",
+  "importer": "animation-clip",
+  "imported": true,
+  "uuid": "fb3dc44c-143f-4623-b581-7b9ddf7eddbe",
+  "files": [
+    ".cconb"
+  ],
+  "subMetas": {},
+  "userData": {
+    "name": "GameUIMoveButtonAnimationClip"
+  }
+}
