@@ -1,0 +1,1199 @@
+[{
+        "id": "red_button",
+        "imageType": "spriteSheet",
+        "imageName": "red_button",
+        "animationName": "redButtonAnim",
+        "startFrame": 0,
+        "endFrame": 1,
+        "animationFrameRate": 3,
+        "animationRepeat": -1,
+        "currentFrame": 0,
+        "normalStateFrame": 2,
+        "blinkStateFrame": [
+            0,
+            1
+        ],
+        "imageUrl": "assets/images/elements/red_button.png",
+        "x": 1020,
+        "y": 130,
+        "scalefactor": 0.8,
+        "frameWidth": 44,
+        "frameHeight": 63,
+        "interactions": {
+            "close": [{
+                    "interactivity": "click",
+                    "interactivityEvent": "showModal",
+                    "interactivityEventData": "HOW_TO_PLAY"
+                },
+                {
+                    "interactivity": "space",
+                    "interactivityEvent": "showModal",
+                    "interactivityEventData": "HOW_TO_PLAY"
+                }
+            ],
+            "open": []
+        },
+        "currentState": "close",
+        "states": [
+            "close",
+            "open"
+        ],
+        "indicatorMessage": "There's something to interact with here...",
+        "localState": true
+    },
+    {
+        "id": "press_icon",
+        "imageType": "spriteSheet",
+        "imageName": "press_icon",
+        "animationName": "pressIconAnim",
+        "startFrame": 0,
+        "endFrame": 1,
+        "animationFrameRate": 3,
+        "animationRepeat": -1,
+        "currentFrame": 0,
+        "normalStateFrame": 2,
+        "blinkStateFrame": [
+            0,
+            1
+        ],
+        "imageUrl": "assets/images/elements/press_icon.png",
+        "x": 1020,
+        "y": 60,
+        "scalefactor": 1,
+        "frameWidth": 94,
+        "frameHeight": 94,
+        "interactions": {
+            "close": [],
+            "open": []
+        },
+        "currentState": "show",
+        "states": [
+            "show",
+            "hide"
+        ],
+        "indicatorMessage": "",
+        "localState": true
+    },
+    {
+        "id": "top_blue_drum",
+        "imageType": "sprite",
+        "imageName": "top_blue_drum",
+        "imageUrl": "assets/images/elements/drum_blue.png",
+        "x": 1115,
+        "y": 130,
+        "scalefactor": 0.7,
+        "frameWidth": 72,
+        "frameHeight": 88,
+        "interactions": {
+            "close": [],
+            "open": []
+        },
+        "currentState": "show",
+        "states": [
+            "show"
+        ],
+        "indicatorMessage": ""
+    },
+    {
+        "id": "top_yellow_drum",
+        "imageType": "sprite",
+        "imageName": "top_yellow_drum",
+        "imageUrl": "assets/images/elements/drum_yellow.png",
+        "x": 927,
+        "y": 220,
+        "scalefactor": 0.7,
+        "frameWidth": 72,
+        "frameHeight": 88,
+        "interactions": {
+            "close": [],
+            "open": []
+        },
+        "currentState": "show",
+        "states": [
+            "show"
+        ],
+        "indicatorMessage": ""
+    },
+    {
+        "id": "door",
+        "imageType": "spriteSheet",
+        "imageName": "door",
+        "animationName": "doorAnim",
+        "startFrame": 0,
+        "endFrame": 2,
+        "animationFrameRate": 6,
+        "animationRepeat": 0,
+        "currentFrame": 0,
+        "normalStateFrame": 2,
+        "blinkStateFrame": [],
+        "imageUrl": "assets/images/elements/door.png",
+        "x": 1020,
+        "y": 303,
+        "scalefactor": 1,
+        "frameWidth": 141,
+        "frameHeight": 94,
+        "interactions": {
+            "close": [{
+                "interactivity": "space",
+                "interactivityEvent": "showModal",
+                "interactivityEventData": "ENTRANCE_DOOR"
+            }],
+            "open": []
+        },
+        "currentState": "close",
+        "states": [
+            "close",
+            "open"
+        ],
+        "indicatorMessage": "There's something to interact with here..."
+    },
+    {
+        "id": "usb_terminal",
+        "imageType": "spriteSheet",
+        "imageName": "usb_terminal",
+        "animationName": "blinkAnim",
+        "startFrame": 0,
+        "endFrame": 1,
+        "animationFrameRate": 6,
+        "animationRepeat": -1,
+        "currentFrame": 0,
+        "normalStateFrame": 2,
+        "blinkStateFrame": [
+            0,
+            1
+        ],
+        "imageUrl": "assets/images/elements/usb_terminal.png",
+        "x": 455,
+        "y": 385,
+        "scalefactor": 1,
+        "frameWidth": 47,
+        "frameHeight": 94,
+        "interactions": {
+            "close": [{
+                "interactivity": "space",
+                "interactivityEvent": "showModal",
+                "interactivityEventData": "Usb_terminal"
+            }],
+            "open": []
+        },
+        "currentState": "close",
+        "states": [
+            "close",
+            "open"
+        ],
+        "indicatorMessage": "There's something to interact with here..."
+    },
+    {
+        "id": "top_left_door",
+        "imageType": "spriteSheet",
+        "imageName": "top_left_door",
+        "animationName": "",
+        "startFrame": 0,
+        "endFrame": 1,
+        "animationFrameRate": 0,
+        "animationRepeat": 0,
+        "currentFrame": 0,
+        "normalStateFrame": 1,
+        "blinkStateFrame": [],
+        "imageUrl": "assets/images/elements/left_door.png",
+        "x": 597,
+        "y": 420,
+        "scalefactor": 0.98,
+        "frameWidth": 47,
+        "frameHeight": 47,
+        "interactions": {
+            "close": [{
+                "interactivity": "space",
+                "interactivityEvent": "showModal",
+                "interactivityEventData": "Usb_terminal_door"
+            }],
+            "open": []
+        },
+        "currentState": "close",
+        "states": [
+            "close",
+            "open"
+        ],
+        "indicatorMessage": "There's something to interact with here..."
+    },
+    {
+        "id": "email_terminal",
+        "imageType": "sprite",
+        "imageName": "email_terminal",
+        "imageUrl": "assets/images/elements/email_terminal.png",
+        "x": 740,
+        "y": 395,
+        "scalefactor": 1,
+        "frameWidth": 128,
+        "frameHeight": 90,
+        "interactions": {
+            "close": [{
+                "interactivity": "space",
+                "interactivityEvent": "showModal",
+                "interactivityEventData": "EMAIL_TERMINAL"
+            }],
+            "open": []
+        },
+        "currentState": "close",
+        "states": [
+            "close",
+            "open"
+        ],
+        "indicatorMessage": "There's something to interact with here..."
+    },
+    {
+        "id": "start_icon",
+        "imageType": "spriteSheet",
+        "imageName": "start_icon",
+        "animationName": "startIconAnim",
+        "startFrame": 0,
+        "endFrame": 1,
+        "animationFrameRate": 4,
+        "animationRepeat": -1,
+        "currentFrame": 0,
+        "normalStateFrame": 1,
+        "blinkStateFrame": [
+            0,
+            1
+        ],
+        "imageUrl": "assets/images/elements/start_icon.png",
+        "x": 715,
+        "y": 299,
+        "scalefactor": 1,
+        "frameWidth": 94,
+        "frameHeight": 94,
+        "interactions": {
+            "close": [],
+            "open": []
+        },
+        "currentState": "show",
+        "states": [
+            "show",
+            "hide"
+        ],
+        "indicatorMessage": "",
+        "localState": true
+    },
+    {
+        "id": "bin_02",
+        "imageType": "sprite",
+        "imageName": "bin_02",
+        "imageUrl": "assets/images/elements/bin_02.png",
+        "x": 1265,
+        "y": 410,
+        "scalefactor": 1,
+        "frameWidth": 49,
+        "frameHeight": 50,
+        "interactions": {
+            "close": [],
+            "open": []
+        },
+        "currentState": "close",
+        "states": [
+            "close",
+            "open"
+        ],
+        "indicatorMessage": ""
+    },
+    {
+        "id": "bin_paper",
+        "imageType": "spriteSheet",
+        "imageName": "bin_paper",
+        "imageUrl": "assets/images/elements/bin_paper.png",
+        "x": 1265,
+        "y": 405,
+        "animationName": "",
+        "startFrame": 0,
+        "endFrame": 1,
+        "animationFrameRate": 0,
+        "animationRepeat": 0,
+        "currentFrame": 0,
+        "normalStateFrame": 0,
+        "blinkStateFrame": [],
+        "scalefactor": 1,
+        "frameWidth": 54,
+        "frameHeight": 65,
+        "dropFrame": 1,
+        "interactions": {
+            "close": [{
+                    "interactivity": "space",
+                    "interactivityEvent": "showModal",
+                    "interactivityEventData": "HARDWARE INSTALL"
+                },
+                {
+                    "interactivity": "pickup",
+                    "interactivityEvent": "pickup",
+                    "interactivityEventData": "pickup"
+                }
+            ],
+            "open": []
+        },
+        "currentState": "close",
+        "states": [
+            "close",
+            "open"
+        ],
+        "indicatorMessage": "There's something to pick up here..."
+    },
+    {
+        "id": "top_right_poster",
+        "imageType": "sprite",
+        "imageName": "top_right_poster",
+        "imageUrl": "assets/images/elements/poster.png",
+        "x": 1395,
+        "y": 360,
+        "scalefactor": 0.7,
+        "frameWidth": 43,
+        "frameHeight": 62,
+        "interactions": {
+            "close": [],
+            "open": []
+        },
+        "currentState": "close",
+        "states": [
+            "close",
+            "open"
+        ],
+        "indicatorMessage": ""
+    },
+    {
+        "id": "bin_01",
+        "imageType": "sprite",
+        "imageName": "bin_01",
+        "imageUrl": "assets/images/elements/bin_01.png",
+        "x": 1540,
+        "y": 410,
+        "scalefactor": 1,
+        "frameWidth": 38,
+        "frameHeight": 50,
+        "interactions": {
+            "close": [],
+            "open": []
+        },
+        "currentState": "close",
+        "states": [
+            "close",
+            "open"
+        ],
+        "indicatorMessage": ""
+    },
+    {
+        "id": "top_box_1",
+        "imageType": "spriteSheet",
+        "imageName": "top_box_1",
+        "animationName": "",
+        "startFrame": 0,
+        "endFrame": 1,
+        "animationFrameRate": 0,
+        "animationRepeat": 0,
+        "currentFrame": 0,
+        "normalStateFrame": 1,
+        "blinkStateFrame": [],
+        "imageUrl": "assets/images/elements/box.png",
+        "x": 640,
+        "y": 590,
+        "scalefactor": 0.8,
+        "frameWidth": 47,
+        "frameHeight": 72,
+        "interactions": {
+            "close": [],
+            "open": []
+        },
+        "currentState": "close",
+        "states": [
+            "close",
+            "open"
+        ],
+        "indicatorMessage": ""
+    },
+    {
+        "id": "top_box_2",
+        "imageType": "spriteSheet",
+        "imageName": "top_box_2",
+        "animationName": "",
+        "startFrame": 0,
+        "endFrame": 1,
+        "animationFrameRate": 0,
+        "animationRepeat": 0,
+        "currentFrame": 0,
+        "normalStateFrame": 1,
+        "blinkStateFrame": [],
+        "imageUrl": "assets/images/elements/box.png",
+        "x": 640,
+        "y": 640,
+        "scalefactor": 0.8,
+        "frameWidth": 47,
+        "frameHeight": 72,
+        "interactions": {
+            "close": [],
+            "open": []
+        },
+        "currentState": "close",
+        "states": [
+            "close",
+            "open"
+        ],
+        "indicatorMessage": ""
+    },
+    {
+        "id": "top_left_table_manual_2",
+        "imageType": "sprite",
+        "imageName": "top_left_table_manual_2",
+        "imageUrl": "assets/images/elements/table_manual_02.png",
+        "x": 913,
+        "y": 580,
+        "scalefactor": 1,
+        "frameWidth": 69,
+        "frameHeight": 94,
+        "interactions": {
+            "close": [],
+            "open": []
+        },
+        "currentState": "close",
+        "states": [
+            "close",
+            "open"
+        ],
+        "indicatorMessage": ""
+    },
+    {
+        "id": "top_left_table_manual_2_paper",
+        "imageType": "sprite",
+        "imageName": "top_left_table_manual_2_paper",
+        "imageUrl": "assets/images/elements/table_manual_02_paper.png",
+        "x": 910,
+        "y": 570,
+        "scalefactor": 1,
+        "frameWidth": 68,
+        "frameHeight": 35,
+        "interactions": {
+            "close": [{
+                    "interactivity": "space",
+                    "interactivityEvent": "showModal",
+                    "interactivityEventData": "COMPONENT SPECIFIC POSTER"
+                },
+                {
+                    "interactivity": "pickup",
+                    "interactivityEvent": "pickup",
+                    "interactivityEventData": "pickup"
+                }
+            ],
+            "open": []
+        },
+        "currentState": "close",
+        "states": [
+            "close",
+            "open"
+        ],
+        "indicatorMessage": "There's something to pick up here..."
+    },
+    {
+        "id": "id_card_terminal",
+        "imageType": "spriteSheet",
+        "imageName": "id_card_terminal",
+        "animationName": "blinkAnim",
+        "startFrame": 0,
+        "endFrame": 1,
+        "animationFrameRate": 6,
+        "animationRepeat": -1,
+        "currentFrame": 0,
+        "normalStateFrame": 2,
+        "blinkStateFrame": [
+            0,
+            1
+        ],
+        "imageUrl": "assets/images/elements/id_card_terminal.png",
+        "x": 1020,
+        "y": 630,
+        "scalefactor": 1,
+        "frameWidth": 47,
+        "frameHeight": 94,
+        "interactions": {
+            "close": [{
+                "interactivity": "space",
+                "interactivityEvent": "showModal",
+                "interactivityEventData": "id_terminal"
+            }],
+            "open": []
+        },
+        "currentState": "close",
+        "states": [
+            "close",
+            "open"
+        ],
+        "indicatorMessage": "There's something to interact with here..."
+    },
+    {
+        "id": "top_right_table_manual_2",
+        "imageType": "sprite",
+        "imageName": "top_right_table_manual_2",
+        "imageUrl": "assets/images/elements/table_manual_02.png",
+        "x": 1128,
+        "y": 580,
+        "scalefactor": 1,
+        "frameWidth": 69,
+        "frameHeight": 94,
+        "interactions": [],
+        "currentState": "close",
+        "states": [
+            "close",
+            "open"
+        ],
+        "indicatorMessage": ""
+    },
+    {
+        "id": "top_right_table_manual_2_paper",
+        "imageType": "sprite",
+        "imageName": "top_right_table_manual_2_paper",
+        "imageUrl": "assets/images/elements/table_manual_02_paper.png",
+        "x": 1132,
+        "y": 570,
+        "scalefactor": 1,
+        "frameWidth": 68,
+        "frameHeight": 35,
+        "interactions": {
+            "close": [{
+                    "interactivity": "space",
+                    "interactivityEvent": "showModal",
+                    "interactivityEventData": "NETWORK DIAGRAM"
+                },
+                {
+                    "interactivity": "pickup",
+                    "interactivityEvent": "pickup",
+                    "interactivityEventData": "pickup"
+                }
+            ],
+            "open": []
+        },
+        "currentState": "close",
+        "states": [
+            "close",
+            "open"
+        ],
+        "indicatorMessage": "There's something to pick up here..."
+    },
+    {
+        "id": "line_1_component_output",
+        "imageType": "sprite",
+        "imageName": "line_1_component_output",
+        "imageUrl": "assets/images/elements/line_1_component_output.png",
+        "x": 1540,
+        "y": 540,
+        "scalefactor": 1,
+        "frameWidth": 124,
+        "frameHeight": 98,
+        "interactions": {
+            "close": [{
+                "interactivity": "space",
+                "interactivityEvent": "showModal",
+                "interactivityEventData": "Line_1_COMPONENT_OUTPUT"
+            }],
+            "open": []
+        },
+        "currentState": "close",
+        "states": [
+            "close",
+            "open"
+        ],
+        "indicatorMessage": "There's something to interact with here..."
+    },
+    {
+        "id": "line_1_terminal",
+        "imageType": "sprite",
+        "imageName": "line_1_terminal",
+        "imageUrl": "assets/images/elements/line_1_terminal.png",
+        "x": 1517,
+        "y": 630,
+        "scalefactor": 1,
+        "frameWidth": 82,
+        "frameHeight": 82,
+        "interactions": {
+            "close": [{
+                "interactivity": "space",
+                "interactivityEvent": "showModal",
+                "interactivityEventData": "Line_1_TERMINAL"
+            }],
+            "open": []
+        },
+        "currentState": "close",
+        "states": [
+            "close",
+            "open"
+        ],
+        "indicatorMessage": "There's something to interact with here..."
+    },
+    {
+        "id": "bottom_left_blue_drum",
+        "imageType": "sprite",
+        "imageName": "bottom_left_blue_drum",
+        "imageUrl": "assets/images/elements/drum_blue.png",
+        "x": 367,
+        "y": 689,
+        "scalefactor": 0.7,
+        "frameWidth": 72,
+        "frameHeight": 88,
+        "interactions": {
+            "close": [],
+            "open": []
+        },
+        "currentState": "show",
+        "states": [
+            "show"
+        ],
+        "indicatorMessage": ""
+    },
+    {
+        "id": "line_2_component_output",
+        "imageType": "sprite",
+        "imageName": "line_2_component_output",
+        "imageUrl": "assets/images/elements/line_2_component_output.png",
+        "x": 407,
+        "y": 770,
+        "scalefactor": 1,
+        "frameWidth": 126,
+        "frameHeight": 96,
+        "interactions": {
+            "close": [{
+                "interactivity": "space",
+                "interactivityEvent": "showModal",
+                "interactivityEventData": "Line_2_COMPONENT_OUTPUT"
+            }],
+            "open": []
+        },
+        "currentState": "close",
+        "states": [
+            "close",
+            "open"
+        ],
+        "indicatorMessage": "There's something to interact with here..."
+    },
+    {
+        "id": "line_2_terminal",
+        "imageType": "sprite",
+        "imageName": "line_2_terminal",
+        "imageUrl": "assets/images/elements/line_2_terminal.png",
+        "x": 424,
+        "y": 855,
+        "scalefactor": 1,
+        "frameWidth": 78,
+        "frameHeight": 82,
+        "interactions": {
+            "close": [{
+                "interactivity": "space",
+                "interactivityEvent": "showModal",
+                "interactivityEventData": "Line_2_TERMINAL"
+            }],
+            "open": []
+        },
+        "currentState": "close",
+        "states": [
+            "close",
+            "open"
+        ],
+        "indicatorMessage": "There's something to interact with here..."
+    },
+    {
+        "id": "printer",
+        "imageType": "spriteSheet",
+        "imageName": "printer",
+        "imageUrl": "assets/images/elements/printer.png",
+        "animationName": "",
+        "startFrame": 0,
+        "endFrame": 1,
+        "animationFrameRate": 0,
+        "animationRepeat": 0,
+        "currentFrame": 0,
+        "normalStateFrame": 1,
+        "blinkStateFrame": [],
+        "x": 750,
+        "y": 745,
+        "scalefactor": 1,
+        "frameWidth": 80,
+        "frameHeight": 61,
+        "interactions": {
+            "close": [{
+                "interactivity": "space",
+                "interactivityEvent": "showModal",
+                "interactivityEventData": "printer"
+            }],
+            "open": []
+        },
+        "currentState": "close",
+        "states": [
+            "close",
+            "open"
+        ],
+        "indicatorMessage": "There's something to interact with here..."
+    },
+    {
+        "id": "scanner",
+        "imageType": "spriteSheet",
+        "imageName": "scanner",
+        "imageUrl": "assets/images/elements/scanner.png",
+        "animationName": "",
+        "startFrame": 0,
+        "endFrame": 1,
+        "animationFrameRate": 0,
+        "animationRepeat": 0,
+        "currentFrame": 0,
+        "normalStateFrame": 1,
+        "blinkStateFrame": [],
+        "x": 900,
+        "y": 745,
+        "scalefactor": 1,
+        "frameWidth": 76,
+        "frameHeight": 56,
+        "interactions": {
+            "close": [{
+                "interactivity": "space",
+                "interactivityEvent": "showModal",
+                "interactivityEventData": "scanner"
+            }],
+            "open": []
+        },
+        "currentState": "close",
+        "states": [
+            "close",
+            "open"
+        ],
+        "indicatorMessage": "There's something to interact with here..."
+    },
+    {
+        "id": "vending",
+        "imageType": "spriteSheet",
+        "imageName": "vending",
+        "imageUrl": "assets/images/elements/vending.png",
+        "animationName": "",
+        "startFrame": 0,
+        "endFrame": 1,
+        "animationFrameRate": 0,
+        "animationRepeat": 0,
+        "currentFrame": 0,
+        "normalStateFrame": 1,
+        "blinkStateFrame": [],
+        "x": 1253,
+        "y": 730,
+        "scalefactor": 1,
+        "frameWidth": 74,
+        "frameHeight": 92,
+        "interactions": {
+            "close": [{
+                "interactivity": "space",
+                "interactivityEvent": "showModal",
+                "interactivityEventData": "vending"
+            }],
+            "open": []
+        },
+        "currentState": "close",
+        "states": [
+            "close",
+            "open"
+        ],
+        "indicatorMessage": "There's something to interact with here..."
+    },
+    {
+        "id": "bottom_left_poster",
+        "imageType": "sprite",
+        "imageName": "bottom_left_poster",
+        "imageUrl": "assets/images/elements/poster.png",
+        "x": 690,
+        "y": 870,
+        "scalefactor": 0.7,
+        "frameWidth": 43,
+        "frameHeight": 62,
+        "interactions": {
+            "close": [],
+            "open": []
+        },
+        "currentState": "close",
+        "states": [
+            "close",
+            "open"
+        ],
+        "indicatorMessage": ""
+    },
+    {
+        "id": "tool_box",
+        "imageType": "sprite",
+        "imageName": "tool_box",
+        "imageUrl": "assets/images/elements/tool_box.png",
+        "x": 995,
+        "y": 925,
+        "scalefactor": 1,
+        "frameWidth": 42,
+        "frameHeight": 45,
+        "interactions": {
+            "close": [],
+            "open": []
+        },
+        "currentState": "close",
+        "states": [
+            "close",
+            "open"
+        ],
+        "indicatorMessage": ""
+    },
+    {
+        "id": "spanner",
+        "imageType": "spriteSheet",
+        "imageName": "spanner",
+        "imageUrl": "assets/images/elements/spanner.png",
+        "x": 995,
+        "y": 925,
+        "animationName": "",
+        "startFrame": 0,
+        "endFrame": 1,
+        "animationFrameRate": 0,
+        "animationRepeat": 0,
+        "currentFrame": 0,
+        "normalStateFrame": 1,
+        "blinkStateFrame": [],
+        "scalefactor": 1,
+        "frameWidth": 44,
+        "frameHeight": 47,
+        "dropFrame": 1,
+        "interactions": {
+            "close": [{
+                "interactivity": "pickup",
+                "interactivityEvent": "pickup",
+                "interactivityEventData": "pickup"
+            }],
+            "open": []
+        },
+        "currentState": "close",
+        "states": [
+            "close",
+            "open"
+        ],
+        "indicatorMessage": "There's something to pick up here..."
+    },
+    {
+        "id": "bottom_right_poster",
+        "imageType": "sprite",
+        "imageName": "bottom_right_poster",
+        "imageUrl": "assets/images/elements/poster.png",
+        "x": 1206,
+        "y": 870,
+        "scalefactor": 0.7,
+        "frameWidth": 43,
+        "frameHeight": 62,
+        "interactions": {
+            "close": [],
+            "open": []
+        },
+        "currentState": "close",
+        "states": [
+            "close",
+            "open"
+        ],
+        "indicatorMessage": ""
+    },
+    {
+        "id": "line_3_component_output",
+        "imageType": "sprite",
+        "imageName": "line_3_component_output",
+        "imageUrl": "assets/images/elements/line_3_component_output.png",
+        "x": 1540,
+        "y": 810,
+        "scalefactor": 1,
+        "frameWidth": 118,
+        "frameHeight": 98,
+        "interactions": {
+            "close": [{
+                "interactivity": "space",
+                "interactivityEvent": "showModal",
+                "interactivityEventData": "Line_3_COMPONENT_OUTPUT"
+            }],
+            "open": []
+        },
+        "currentState": "close",
+        "states": [
+            "close",
+            "open"
+        ],
+        "indicatorMessage": "There's something to interact with here..."
+    },
+    {
+        "id": "line_3_terminal",
+        "imageType": "sprite",
+        "imageName": "line_3_terminal",
+        "imageUrl": "assets/images/elements/line_3_terminal.png",
+        "x": 1524,
+        "y": 897,
+        "scalefactor": 1,
+        "frameWidth": 82,
+        "frameHeight": 81,
+        "interactions": {
+            "close": [{
+                "interactivity": "space",
+                "interactivityEvent": "showModal",
+                "interactivityEventData": "Line_3_TERMINAL"
+            }],
+            "open": []
+        },
+        "currentState": "close",
+        "states": [
+            "close",
+            "open"
+        ],
+        "indicatorMessage": "There's something to interact with here..."
+    },
+    {
+        "id": "security_terminal",
+        "imageType": "spriteSheet",
+        "imageName": "security_terminal",
+        "animationName": "blinkAnim",
+        "startFrame": 0,
+        "endFrame": 1,
+        "animationFrameRate": 6,
+        "animationRepeat": -1,
+        "currentFrame": 0,
+        "normalStateFrame": 2,
+        "blinkStateFrame": [
+            0,
+            1
+        ],
+        "imageUrl": "assets/images/elements/security_terminal.png",
+        "x": 410,
+        "y": 1036,
+        "scalefactor": 1,
+        "frameWidth": 56,
+        "frameHeight": 61,
+        "interactions": {
+            "close": [{
+                "interactivity": "space",
+                "interactivityEvent": "showModal",
+                "interactivityEventData": "security_terminal_1"
+            }],
+            "open": []
+        },
+        "currentState": "close",
+        "states": [
+            "close",
+            "open"
+        ],
+        "indicatorMessage": "There's something to interact with here..."
+    },
+    {
+        "id": "bottom_box",
+        "imageType": "spriteSheet",
+        "imageName": "bottom_box",
+        "animationName": "",
+        "startFrame": 0,
+        "endFrame": 1,
+        "animationFrameRate": 0,
+        "animationRepeat": 0,
+        "currentFrame": 0,
+        "normalStateFrame": 1,
+        "blinkStateFrame": [],
+        "imageUrl": "assets/images/elements/box.png",
+        "x": 550,
+        "y": 1020,
+        "scalefactor": 0.8,
+        "frameWidth": 47,
+        "frameHeight": 72,
+        "interactions": {
+            "close": [],
+            "open": []
+        },
+        "currentState": "close",
+        "states": [
+            "close",
+            "open"
+        ],
+        "indicatorMessage": ""
+    },
+    {
+        "id": "table_note",
+        "imageType": "sprite",
+        "imageName": "table_note",
+        "imageUrl": "assets/images/elements/table_note.png",
+        "x": 810,
+        "y": 1022,
+        "scalefactor": 1,
+        "frameWidth": 94,
+        "frameHeight": 57,
+        "interactions": {
+            "close": [],
+            "open": []
+        },
+        "currentState": "close",
+        "states": [
+            "close",
+            "open"
+        ],
+        "indicatorMessage": ""
+    },
+    {
+        "id": "table_note_paper",
+        "imageType": "sprite",
+        "imageName": "table_note_paper",
+        "imageUrl": "assets/images/elements/table_note_paper.png",
+        "x": 805,
+        "y": 1008,
+        "scalefactor": 1,
+        "frameWidth": 43,
+        "frameHeight": 34,
+        "interactions": {
+            "close": [{
+                    "interactivity": "space",
+                    "interactivityEvent": "showModal",
+                    "interactivityEventData": "HR RECORD"
+                },
+                {
+                    "interactivity": "pickup",
+                    "interactivityEvent": "pickup",
+                    "interactivityEventData": "pickup"
+                }
+            ],
+            "open": []
+        },
+        "currentState": "close",
+        "states": [
+            "close",
+            "open"
+        ],
+        "indicatorMessage": "There's something to pick up here..."
+    },
+    {
+        "id": "table_manual_1",
+        "imageType": "sprite",
+        "imageName": "table_manual_1",
+        "imageUrl": "assets/images/elements/table_manual_01.png",
+        "x": 1190,
+        "y": 1024,
+        "scalefactor": 1,
+        "frameWidth": 89,
+        "frameHeight": 63,
+        "interactions": {
+            "close": [],
+            "open": []
+        },
+        "currentState": "close",
+        "states": [
+            "close",
+            "open"
+        ],
+        "indicatorMessage": ""
+    },
+    {
+        "id": "table_manual_01_book",
+        "imageType": "sprite",
+        "imageName": "table_manual_01_book",
+        "imageUrl": "assets/images/elements/table_manual_01_book.png",
+        "x": 1190,
+        "y": 1010,
+        "scalefactor": 1,
+        "frameWidth": 44,
+        "frameHeight": 38,
+        "interactions": {
+            "close": [{
+                    "interactivity": "space",
+                    "interactivityEvent": "showModal",
+                    "interactivityEventData": "LINE MANUAL"
+                },
+                {
+                    "interactivity": "pickup",
+                    "interactivityEvent": "pickup",
+                    "interactivityEventData": "pickup"
+                }
+            ],
+            "open": []
+        },
+        "currentState": "close",
+        "states": [
+            "close",
+            "open"
+        ],
+        "indicatorMessage": "There's something to pick up here..."
+    },
+    {
+        "id": "bottom_right_yellow_drum",
+        "imageType": "sprite",
+        "imageName": "bottom_right_yellow_drum",
+        "imageUrl": "assets/images/elements/drum_yellow.png",
+        "x": 1400,
+        "y": 1024,
+        "scalefactor": 0.7,
+        "frameWidth": 72,
+        "frameHeight": 88,
+        "interactions": {
+            "close": [],
+            "open": []
+        },
+        "currentState": "show",
+        "states": [
+            "show"
+        ],
+        "indicatorMessage": ""
+    },
+    {
+        "id": "bottom_right_blue_drum",
+        "imageType": "sprite",
+        "imageName": "bottom_right_blue_drum",
+        "imageUrl": "assets/images/elements/drum_blue.png",
+        "x": 1539,
+        "y": 1024,
+        "scalefactor": 0.7,
+        "frameWidth": 72,
+        "frameHeight": 88,
+        "interactions": {
+            "close": [],
+            "open": []
+        },
+        "currentState": "show",
+        "states": [
+            "show"
+        ],
+        "indicatorMessage": ""
+    },
+    {
+        "id": "alarm",
+        "imageType": "spriteSheet",
+        "imageName": "alarm",
+        "animationName": "",
+        "startFrame": 0,
+        "endFrame": 1,
+        "animationFrameRate": 0,
+        "animationRepeat": 0,
+        "currentFrame": 0,
+        "normalStateFrame": 1,
+        "blinkStateFrame": [],
+        "imageUrl": "assets/images/elements/alarm.png",
+        "x": 0,
+        "y": 0,
+        "scalefactor": 1,
+        "frameWidth": 47,
+        "frameHeight": 47,
+        "interactions": {
+            "close": [],
+            "open": []
+        },
+        "currentState": "show",
+        "states": [
+            "show",
+            "hide"
+        ],
+        "indicatorMessage": ""
+    },
+    {
+        "id": "videoHitSpot",
+        "imageType": "sprite",
+        "imageName": "videoHitSpot",
+        "imageUrl": "assets/images/elements/video_hitspot.png",
+        "x": 1020,
+        "y": 410,
+        "scalefactor": 1,
+        "frameWidth": 141,
+        "frameHeight": 25,
+        "interactions": {
+            "close": [],
+            "open": []
+        },
+        "currentState": "close",
+        "states": [
+            "close",
+            "open"
+        ]
+    }
+]

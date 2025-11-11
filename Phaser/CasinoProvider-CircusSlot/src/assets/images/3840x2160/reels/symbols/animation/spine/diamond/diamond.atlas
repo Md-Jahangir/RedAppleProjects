@@ -1,0 +1,19 @@
+diamond.png
+size:877,596
+filter:Linear,Linear
+pma:true
+scale:0.3704
+Bulb_off
+bounds:631,337,244,257
+Bulb_on
+bounds:615,36,245,266
+Bulb_on_alt
+bounds:2,2,248,256
+diamond_glow
+bounds:2,260,334,336
+rotate:90
+frame (merged)
+bounds:340,304,289,290
+frame_white
+bounds:340,38,264,273
+rotate:90

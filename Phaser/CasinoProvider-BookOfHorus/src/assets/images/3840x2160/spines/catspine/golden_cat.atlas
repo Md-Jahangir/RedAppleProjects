@@ -1,0 +1,125 @@
+Golden_Cat.png
+size:1993,459
+filter:Linear,Linear
+pma:true
+scale:0.3906
+Back ear
+bounds:1455,26,33,41
+Back ear_Glow
+bounds:405,60,25,35
+offsets:0,0,25,36
+rotate:90
+Base
+bounds:1414,273,184,67
+rotate:90
+Base_Glow
+bounds:448,5,196,80
+Body
+bounds:1115,165,159,292
+Body_Glow
+bounds:1162,4,159,291
+offsets:0,1,159,292
+rotate:90
+Ear_L_Glow
+bounds:2,2,35,52
+Eye_L_Glow
+bounds:771,89,24,21
+rotate:90
+Eye_R_Glow
+bounds:1323,165,19,19
+offsets:0,1,19,21
+Frame_BG
+bounds:771,115,342,342
+Frame_Frame
+bounds:405,87,364,370
+Head
+bounds:926,6,90,107
+offsets:0,1,93,108
+Layer 0
+bounds:2,56,401,401
+Layer 1
+bounds:209,6,46,48
+Layer 2
+bounds:1323,186,45,45
+Layer 3
+bounds:353,7,47,46
+rotate:90
+Layer 37
+bounds:687,16,114,69
+Layer 4
+bounds:401,8,46,45
+rotate:90
+Layer 5
+bounds:257,6,46,48
+Layer 6
+bounds:1115,117,46,45
+rotate:90
+Layer 7
+bounds:305,6,48,46
+rotate:90
+Layer 8
+bounds:1276,185,46,45
+rotate:90
+Left Leg
+bounds:646,7,78,39
+rotate:90
+Ornament
+bounds:1018,9,104,127
+offsets:0,7,104,142
+rotate:90
+Ornament_Glow
+bounds:803,2,111,121
+rotate:90
+Right Leg
+bounds:1276,233,67,224
+Right LegGlow
+bounds:1345,233,67,224
+Sparkle_01
+bounds:1490,35,32,31
+offsets:2,3,41,37
+rotate:90
+Sparkle_02
+bounds:1370,187,44,42
+offsets:47,0,91,94
+rotate:90
+frame_00000
+bounds:1414,171,100,100
+frame_00001
+bounds:1455,69,100,100
+frame_00002
+bounds:1483,357,100,100
+frame_00003
+bounds:1516,255,100,100
+frame_00004
+bounds:1585,357,100,100
+frame_00005
+bounds:1557,153,100,100
+frame_00006
+bounds:1618,255,100,100
+frame_00007
+bounds:1687,357,100,100
+frame_00008
+bounds:1557,51,100,100
+frame_00009
+bounds:1789,357,100,100
+frame_00010
+bounds:1891,357,100,100
+frame_00011
+bounds:1659,153,100,100
+frame_00012
+bounds:1720,255,100,100
+frame_00013
+bounds:1659,51,100,100
+frame_00014
+bounds:1822,255,100,100
+frame_00015
+bounds:1761,153,100,100
+frame_00016
+bounds:1863,153,100,100
+frame_00017
+bounds:1761,51,100,100
+frame_00018
+bounds:1863,51,100,100
+shadow
+bounds:39,5,168,49
+offsets:1,1,169,50

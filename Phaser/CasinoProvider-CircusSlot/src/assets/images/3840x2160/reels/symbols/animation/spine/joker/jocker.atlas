@@ -1,0 +1,96 @@
+jocker.png
+size:1529,1023
+filter:Linear,Linear
+pma:true
+scale:0.3704
+FX/FX_00010
+bounds:471,94,158,158
+FX/FX_00011
+bounds:631,94,158,158
+FX/FX_00012
+bounds:791,102,158,158
+FX/FX_00013
+bounds:951,102,158,158
+FX/FX_00014
+bounds:1193,516,158,158
+FX/FX_00015
+bounds:1147,356,158,158
+FX/FX_00016
+bounds:1147,196,158,158
+FX/FX_00017
+bounds:1353,514,158,158
+FX/FX_00018
+bounds:1307,354,158,158
+FX/FX_00019
+bounds:1307,194,158,158
+Layer 145
+bounds:2,620,401,401
+Layer 146
+bounds:1193,805,221,216
+Layer 200
+bounds:2,222,397,396
+Layer 95 copy 4
+bounds:781,262,365,364
+offsets:106,98,566,567
+rotate:90
+Rays_01/Glow
+bounds:293,44,176,176
+bubl_off
+bounds:405,254,373,374
+rotate:90
+bulb_on
+bounds:405,629,391,392
+bulb_on_alternative
+bounds:798,634,387,393
+rotate:90
+cloth
+bounds:2,25,289,195
+offsets:0,0,295,195
+hat
+bounds:1446,674,143,80
+rotate:90
+hat shadow
+bounds:1467,404,108,49
+offsets:3,2,114,53
+rotate:90
+left hair
+bounds:1111,75,119,158
+offsets:0,3,119,161
+rotate:90
+left_eye ball
+bounds:2,14,11,9
+left_eye white
+bounds:1416,806,25,11
+left_eyelid
+bounds:1467,383,36,19
+offsets:0,0,37,20
+lower jaw
+bounds:1412,69,107,123
+palm
+bounds:791,9,114,91
+right hair
+bounds:1416,819,108,202
+offsets:2,0,110,208
+right hand_lower part
+bounds:626,28,116,64
+right_eye ball
+bounds:293,32,11,10
+right_eye white
+bounds:1513,651,21,14
+rotate:90
+right_eyelid
+bounds:1111,235,31,25
+sparkle
+bounds:907,2,98,103
+rotate:90
+stick
+bounds:1193,676,127,251
+offsets:23,6,150,257
+rotate:90
+stick shadow
+bounds:471,39,53,153
+offsets:0,2,57,156
+rotate:90
+upper face with jaw
+bounds:1271,60,132,139
+rotate:90

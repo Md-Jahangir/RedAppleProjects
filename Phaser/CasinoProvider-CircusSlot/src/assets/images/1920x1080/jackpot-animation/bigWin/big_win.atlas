@@ -1,0 +1,26 @@
+big_win.png
+size:925,2091
+filter:Linear,Linear
+pma:true
+scale:0.5
+Big_Win
+bounds:433,466,463,130
+Big_Win_Back
+bounds:433,2,462,130
+rotate:90
+Big_Win_Shadow
+bounds:433,739,490,304
+Board
+bounds:2,82,961,429
+rotate:90
+OUtline_Highlight
+bounds:433,598,473,139
+Outline
+bounds:2,1786,888,303
+RING Fire
+bounds:2,1045,872,438
+offsets:0,21,872,459
+Ring
+bounds:565,151,313,313
+Star_White
+bounds:2,1485,879,299

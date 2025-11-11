@@ -1,0 +1,147 @@
+
+Symbol_Animation.png
+size: 586,449
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Effects/frame_effect
+  rotate: false
+  xy: 229, 2
+  size: 355, 207
+  orig: 355, 207
+  offset: 0, 0
+  index: -1
+Symbol_10/10
+  rotate: true
+  xy: 140, 227
+  size: 122, 138
+  orig: 122, 138
+  offset: 0, 0
+  index: -1
+Symbol_9/9
+  rotate: true
+  xy: 142, 366
+  size: 81, 126
+  orig: 81, 126
+  offset: 0, 0
+  index: -1
+Symbol_A/A
+  rotate: true
+  xy: 2, 279
+  size: 103, 136
+  orig: 103, 136
+  offset: 0, 0
+  index: -1
+Symbol_J/J
+  rotate: true
+  xy: 2, 384
+  size: 63, 138
+  orig: 63, 138
+  offset: 0, 0
+  index: -1
+Symbol_K/K
+  rotate: true
+  xy: 270, 351
+  size: 96, 131
+  orig: 96, 131
+  offset: 0, 0
+  index: -1
+Symbol_Q/Q
+  rotate: true
+  xy: 403, 351
+  size: 96, 152
+  orig: 96, 152
+  offset: 0, 0
+  index: -1
+a to 10 back card
+  rotate: true
+  xy: 280, 211
+  size: 138, 198
+  orig: 140, 200
+  offset: 1, 1
+  index: -1
+a to 10 card frame
+  rotate: true
+  xy: 2, 58
+  size: 167, 225
+  orig: 169, 227
+  offset: 1, 1
+  index: -1
+
+Symbol_Animation2.png
+size: 283,283
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Effects/Dust-Particles-PNG-Picture
+  rotate: false
+  xy: 2, 2
+  size: 279, 279
+  orig: 279, 279
+  offset: 0, 0
+  index: -1
+
+Symbol_Animation3.png
+size: 459,362
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Effects/smoke
+  rotate: true
+  xy: 2, 2
+  size: 358, 455
+  orig: 358, 455
+  offset: 0, 0
+  index: -1
+
+Symbol_Animation4.png
+size: 373,373
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Effects/BRILLO4
+  rotate: false
+  xy: 2, 2
+  size: 369, 369
+  orig: 369, 369
+  offset: 0, 0
+  index: -1
+
+Symbol_Animation5.png
+size: 406,401
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Effects/BRILLO3
+  rotate: false
+  xy: 2, 2
+  size: 402, 397
+  orig: 402, 397
+  offset: 0, 0
+  index: -1
+
+Symbol_Animation6.png
+size: 597,590
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Effects/BRILLO1
+  rotate: false
+  xy: 2, 2
+  size: 593, 586
+  orig: 593, 586
+  offset: 0, 0
+  index: -1
+
+Symbol_Animation7.png
+size: 597,590
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Effects/BRILLO2
+  rotate: false
+  xy: 2, 2
+  size: 593, 586
+  orig: 593, 586
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,641 @@
+{
+    "loader": {
+        "brand_logo": {
+            "x": 0,
+            "y": 350,
+            "displayWidth": 479,
+            "displayHeight": 143
+        },
+        "loaderbase": {
+            "offsetX": 0,
+            "offsetY": 200
+        },
+        "loaderbar": {
+            "offsetX": 500,
+            "offsetY": 200
+        },
+        "progress": {
+            "base": {}
+        }
+    },
+    "splash": {
+        "title": {
+            "y": 135
+        },
+        "play": {
+            "y": 150
+        },
+        "checkBox": {
+            "y": 50,
+            "x": 50
+        },
+        "tickBoxText": {
+            "stepX": 35
+        }
+    },
+    "cards_selection": {
+        "full_screen": {
+            "y": 75,
+            "x": 95
+        },
+        "sound": {
+            "y": 75,
+            "x": 165
+        },
+        "close": {
+            "y": 75,
+            "x": 55
+        },
+        "title_text": {
+            "y": 85,
+            "x": 0
+        },
+        "numcards": {
+            "y": 250,
+            "x": 500,
+            "title_text": {
+                "y": 40,
+                "x": 130
+            },
+            "num_text": {
+                "y": 125,
+                "x": 215
+            },
+            "minus": {
+                "y": 105,
+                "x": 50,
+                "offsetX": 45,
+                "offsetY": 45
+            },
+            "plus": {
+                "y": 105,
+                "x": 340,
+                "offsetX": 45,
+                "offsetY": 45
+            }
+        },
+        "paytable": {
+            "y": 360,
+            "x": -150,
+            "title_text": {
+                "y": 80,
+                "x": 300
+            },
+            "containerX": 255,
+            "containerY": 145,
+            "spriteDisplayHeight": 33,
+            "spriteDisplayWidth": 33,
+            "sectionSpacing": 65,
+            "textSpacing": 55,
+            "textoffsetY": [
+                205,
+                370,
+                530
+            ],
+            "textoffsetX": [
+                {
+                    "x1": 0,
+                    "y1": 0,
+                    "x2": 170,
+                    "y2": 0
+                },
+                {
+                    "x1": 0,
+                    "y1": 0,
+                    "x2": 170,
+                    "y2": 0
+                },
+                {
+                    "x1": 20,
+                    "y1": 0,
+                    "x2": 170,
+                    "y2": 0
+                }
+            ],
+            "textX": [
+                265,
+                265,
+                255
+            ]
+        },
+        "number_to_extract": {
+            "y": 15,
+            "x": 500,
+            "title_text": {
+                "y": 35,
+                "x": 30
+            },
+            "num_text1": {
+                "y": 120,
+                "x": 30,
+                "offsetX": 20,
+                "offsetY": 20
+            },
+            "num_text2": {
+                "y": 120,
+                "x": 198,
+                "offsetX": 20,
+                "offsetY": 20
+            },
+            "num_text3": {
+                "y": 120,
+                "x": 357,
+                "offsetX": 20,
+                "offsetY": 20
+            }
+        },
+        "bottom_panel": {
+            "user_money": {
+                "title_text": {
+                    "x": 455,
+                    "y": 165
+                },
+                "value_bg": {
+                    "x": 400,
+                    "y": 120
+                },
+                "value_text": {
+                    "x": 460,
+                    "y": 90
+                }
+            },
+            "coin_section": {
+                "coin_decrement": {
+                    "x": 750,
+                    "y": 75,
+                    "offsetX": 0,
+                    "offsetY": 0
+                },
+                "coin_increment": {
+                    "x": 1030,
+                    "y": 75,
+                    "offsetX": 0,
+                    "offsetY": 0
+                },
+                "coin": {
+                    "title_text": {
+                        "x": 845,
+                        "y": 165
+                    },
+                    "coin_bg": {
+                        "x": 805,
+                        "y": 120
+                    },
+                    "coin_value": {
+                        "x": 885,
+                        "y": 70
+                    }
+                }
+            },
+            "total_bet": {
+                "title_text": {
+                    "x": 1140,
+                    "y": 165
+                },
+                "total_bg": {
+                    "x": 1130,
+                    "y": 120
+                },
+                "total_value": {
+                    "x": 1215,
+                    "y": 90
+                }
+            },
+            "play_button": {
+                "play_text": {
+                    "x": 1500,
+                    "y": 90
+                },
+                "play_bg": {
+                    "x": 1425,
+                    "y": 120
+                }
+            }
+        }
+    },
+    "cards_creator": {
+        "cards_1": {
+            "startX": -320,
+            "startY": -60,
+            "scale": 1,
+            "offsets": [
+                {
+                    "offsetX": 0,
+                    "offsetY": 30,
+                    "highlightOffsetX": -55,
+                    "highlightOffsetY": -20
+                }
+            ]
+        },
+        "cards_2": {
+            "startX": -300,
+            "startY": -60,
+            "scale": 1,
+            "offsets": [
+                {
+                    "offsetX": -350,
+                    "offsetY": 30,
+                    "highlightOffsetX": -55,
+                    "highlightOffsetY": -20
+                },
+                {
+                    "offsetX": 350,
+                    "offsetY": 30,
+                    "highlightOffsetX": -55,
+                    "highlightOffsetY": -20
+                }
+            ]
+        },
+        "cards_3": {
+            "startX": -300,
+            "startY": -60,
+            "scale": 1,
+            "offsets": [
+                {
+                    "offsetX": -350,
+                    "offsetY": -50,
+                    "highlightOffsetX": -55,
+                    "highlightOffsetY": -20
+                },
+                {
+                    "offsetX": 350,
+                    "offsetY": -50,
+                    "highlightOffsetX": -55,
+                    "highlightOffsetY": -20
+                },
+                {
+                    "offsetX": 0,
+                    "offsetY": 210,
+                    "highlightOffsetX": -55,
+                    "highlightOffsetY": -20
+                }
+            ]
+        },
+        "cards_4": {
+            "startX": -300,
+            "startY": -60,
+            "scale": 1,
+            "offsets": [
+                {
+                    "offsetX": -350,
+                    "offsetY": -50,
+                    "highlightOffsetX": -55,
+                    "highlightOffsetY": -20
+                },
+                {
+                    "offsetX": 350,
+                    "offsetY": -50,
+                    "highlightOffsetX": -55,
+                    "highlightOffsetY": -20
+                },
+                {
+                    "offsetX": -350,
+                    "offsetY": 210,
+                    "highlightOffsetX": -55,
+                    "highlightOffsetY": -20
+                },
+                {
+                    "offsetX": 350,
+                    "offsetY": 210,
+                    "highlightOffsetX": -55,
+                    "highlightOffsetY": -20
+                }
+            ]
+        },
+        "cards_5": {
+            "startX": -200,
+            "startY": -60,
+            "scale": 0.7,
+            "offsets": [
+                {
+                    "offsetX": -470,
+                    "offsetY": 20,
+                    "highlightOffsetX": -55,
+                    "highlightOffsetY": -20
+                },
+                {
+                    "offsetX": 20,
+                    "offsetY": 20,
+                    "highlightOffsetX": -55,
+                    "highlightOffsetY": -20
+                },
+                {
+                    "offsetX": 500,
+                    "offsetY": 20,
+                    "highlightOffsetX": -55,
+                    "highlightOffsetY": -20
+                },
+                {
+                    "offsetX": -225,
+                    "offsetY": 210,
+                    "highlightOffsetX": -55,
+                    "highlightOffsetY": -20
+                },
+                {
+                    "offsetX": 260,
+                    "offsetY": 210,
+                    "highlightOffsetX": -55,
+                    "highlightOffsetY": -20
+                }
+            ]
+        },
+        "cards_6": {
+            "startX": -200,
+            "startY": -60,
+            "scale": 0.7,
+            "offsets": [
+                {
+                    "offsetX": -560,
+                    "offsetY": 20,
+                    "highlightOffsetX": -55,
+                    "highlightOffsetY": -20
+                },
+                {
+                    "offsetX": -80,
+                    "offsetY": 20,
+                    "highlightOffsetX": -55,
+                    "highlightOffsetY": -20
+                },
+                {
+                    "offsetX": 400,
+                    "offsetY": 20,
+                    "highlightOffsetX": -55,
+                    "highlightOffsetY": -20
+                },
+                {
+                    "offsetX": -560,
+                    "offsetY": 210,
+                    "highlightOffsetX": -55,
+                    "highlightOffsetY": -20
+                },
+                {
+                    "offsetX": -80,
+                    "offsetY": 210,
+                    "highlightOffsetX": -55,
+                    "highlightOffsetY": -20
+                },
+                {
+                    "offsetX": 400,
+                    "offsetY": 210,
+                    "highlightOffsetX": -55,
+                    "highlightOffsetY": -20
+                }
+            ]
+        }
+    },
+    "cells_creator": {
+        "cells": [
+            {
+                "offsetX": 50,
+                "offsetY": 37
+            },
+            {
+                "offsetX": 50,
+                "offsetY": 102
+            },
+            {
+                "offsetX": 50,
+                "offsetY": 168
+            }
+        ]
+    },
+    "top_cell": {
+        "x": -350,
+        "y": 25,
+        "offsetX": 20,
+        "offsets": [
+            {
+                "startX": 68,
+                "offsetY": 65
+            },
+            {
+                "startX": 68,
+                "offsetY": 120
+            },
+            {
+                "startX": 68,
+                "offsetY": 175
+            },
+            {
+                "startX": 68,
+                "offsetY": 230
+            },
+            {
+                "startX": 68,
+                "offsetY": 285
+            }
+        ]
+    },
+    "bottom_panel": {
+        "user_money": {
+            "title_text": {
+                "x": 355,
+                "y": 165
+            },
+            "value_bg": {
+                "x": 300,
+                "y": 120
+            },
+            "value_text": {
+                "x": 360,
+                "y": 90
+            }
+        },
+        "coin": {
+            "title_text": {
+                "x": 860,
+                "y": 165
+            },
+            "coin_bg": {
+                "x": 825,
+                "y": 120
+            },
+            "coin_value": {
+                "x": 870,
+                "y": 90
+            }
+        },
+        "win": {
+            "title_text": {
+                "x": 1085,
+                "y": 165
+            },
+            "win_bg": {
+                "x": 1005,
+                "y": 120
+            },
+            "win_value": {
+                "x": 1095,
+                "y": 90
+            }
+        },
+        "total_bet": {
+            "title_text": {
+                "x": 585,
+                "y": 165
+            },
+            "total_bg": {
+                "x": 560,
+                "y": 120
+            },
+            "total_value": {
+                "x": 645,
+                "y": 90
+            }
+        },
+        "start_button": {
+            "start_text": {
+                "x": 1605,
+                "y": 90
+            },
+            "start_bg": {
+                "x": 1540,
+                "y": 120
+            }
+        },
+        "buy_cards": {
+            "x": 1325,
+            "y": 120,
+            "buy_text": {
+                "x": 1285,
+                "y": 90
+            },
+            "buy_bg": {
+                "x": 1270,
+                "y": 120
+            }
+        }
+    },
+    "tube": {
+        "pipe": {
+            "x": -650,
+            "y": 0,
+            "pipeBallX": 585,
+            "pipeBallY": 280,
+            "pipePreviewBallX": 600,
+            "pipePreviewBallY": 120
+        },
+        "strip": {
+            "x": 13,
+            "y": 265
+        },
+        "container": {
+            "x": -550,
+            "y": 30,
+            "cont1": {
+                "x": 375,
+                "y": 120
+            },
+            "cont2": {
+                "x": 515,
+                "y": 120
+            },
+            "cont3": {
+                "x": 655,
+                "y": 120
+            }
+        },
+        "count_down": {
+            "x": 80,
+            "y": 185
+        },
+        "numbers_to_draw": {
+            "x": 135,
+            "y": 185
+        }
+    },
+    "bottomPanel": {
+        "baseImg": {
+            "x": 650,
+            "y": 170
+        },
+        "money": {
+            "title": {
+                "x": 75,
+                "y": 10
+            },
+            "value": {
+                "x": 75,
+                "y": 45
+            }
+        },
+        "currentBet": {
+            "title": {
+                "x": 215,
+                "y": 10
+            },
+            "value": {
+                "x": 215,
+                "y": 45
+            }
+        },
+        "minBet": {
+            "title": {
+                "x": 415,
+                "y": 15
+            },
+            "value": {
+                "x": 515,
+                "y": 15
+            }
+        },
+        "maxBet": {
+            "title": {
+                "x": 415,
+                "y": 50
+            },
+            "value": {
+                "x": 515,
+                "y": 50
+            }
+        }
+    },
+    "paytable": {
+        "y": 75,
+        "x": 200,
+        "title_text": {
+            "y": -240,
+            "x": 0
+        },
+        "play_button": {
+            "x": 0,
+            "y": 375
+        },
+        "containerX": -150,
+        "containerY": -200,
+        "spriteDisplayHeight": 33,
+        "spriteDisplayWidth": 33,
+        "sectionSpacing": 65,
+        "textSpacing": 55,
+        "textoffsetY": [
+            50,
+            210,
+            375
+        ],
+        "textoffsetX": [
+            {
+                "x1": 0,
+                "y1": 0,
+                "x2": 170,
+                "y2": 0
+            },
+            {
+                "x1": 0,
+                "y1": 0,
+                "x2": 170,
+                "y2": 0
+            },
+            {
+                "x1": 20,
+                "y1": 0,
+                "x2": 170,
+                "y2": 0
+            }
+        ],
+        "textX": [
+            250,
+            265,
+            265
+        ]
+    }
+}

@@ -1,0 +1,2138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <title>Crazy Girl</title>
+
+  <link href="../assets/css/wheely_style.css" rel="stylesheet">
+
+    <script type="text/javascript" src="../assets/js/phaser.min.js"></script>
+    <script type="text/javascript" src="../assets/js/level-changer.js"></script>
+
+    <style>
+  body{ display:flex; display:-webkit-flex; align-items:center; justify-content:center; width:100%; height:100vh; margin: 0 auto;background: #212121;}
+    canvas{margin:0 auto;}
+    @font-face {    font-family: century_gothic;    src: url(assets/font/century_gothic.ttf);}
+  </style>
+
+</head>
+<body>
+  <div id="cg"></div>
+  <script type="text/javascript">
+
+  var game = new Phaser.Game(600,400,Phaser.CANVAS,'cg',{preload:preload,create:create,update:update});
+
+  //VARIABLES DECLARATION
+  var blockArray = [];
+  var character;
+  var characterWalkAnimation;
+  var characterHitAnimation;
+  var characterFallAnimation;
+
+  var backSky;
+  var shrubs;
+  var frontShrubs;
+  var frontGround;
+  var backWater;
+  var backWaterWave;
+  var frontWater;
+  var greenWaterGradient;
+  var whiteColorGradient;
+
+  var scoreText;
+  var scoreBoard;
+  var distance = 0;
+  var emptyBar;
+  var meter;
+  // var minimumPositionOfMeter = 33;
+  // var maximumMoveOfMeter = 214;
+
+  var isGameRunning = false;
+  var willIncreaseShiftAmount = false;
+
+  // FOR CLOUDS
+  var cloudOneArray = [];
+  var maxCloudOne = 4;
+  var cloudOneRandomGap;
+  var cloudOneScaleFactor;
+  var cloudTwo;
+
+// FOR BLOCKS
+  var i;
+  var max = 10;
+  //var shiftAmount = 0.25;
+  var shiftAmount = 0.25;
+  var blockGapSize = 2;
+  var blockWidth;
+  var startBlockIndex = 0;
+  var lastBlockIndex = max-1;
+
+  // FOR PARALLAX ITEMS
+  var itemsArray = [];
+  var fileNameString = "";
+  var numberOfItem = 5;
+  var xOffset = 150;
+
+  var parallaxLevelsArray;  // FOR DENOTING DIFFERENT LEVELS OF PARALLAX
+
+  var parallaxObjectsCounter = 0;
+  var allParallaxObjects = [];
+  var velocityOfParallaxObjects = [];
+
+  // GAME OVER POPUP
+  var yourScoreText;
+  var overlayPixel;
+  var overScreen;
+  var homeButton;
+  var replayButton;
+  var gameOverSoundButton;
+
+  //FOR GAME WIN POPUP
+  var nextButton;
+  var levelSelectionButton;
+  var levelCompleteText;
+  var rewardText;
+  var youEarnedText;
+
+  //FOR SPLASH PAGE
+  var creditPageBackground;
+  var titleArt;
+  var developedText;
+  var redAppleText;
+
+  // FOR MAIN MENU
+  var mainMenuBackground;
+  var characterSelectionButton;
+  var playButton;
+  var menuSoundButton;
+
+  //FOR CHARCATER CHOOSE PAGE
+  var characterChoosePageBackground;
+  var maleButton;
+  var femaleButton;
+
+  //FOR LEVEL SELECTION PAGE
+  var levelSelectionGroup;
+  var levelSelectionBackground;
+
+
+  //FOR LEVEL TEXT IN THE SCREEN
+  var levelTextUI;
+  var levelTextNumber;
+
+  // FOR LEAF GENERATE
+  var leafArray = [];
+  var maxLeaf= 5;
+  var startLeafIndex = 0;
+  var lastLeafIndex = maxLeaf-1;
+  var leafRandomGap;
+  var leafScaleFactor;
+
+  // FOR STONES
+  var stoneArray = [];
+  var stretchedStoneArray = [];
+  var numberOfStone = 2;
+  var xOffset = 10;
+  var stoneNameString = "";
+  var randomStone;
+  var randomStoneXPosition;
+  var stoneScaleFactor;
+
+  // FOR SOUND
+  var gamePlayBGM;
+  var blockClickSFX;
+  var buttonClickSFX;
+  var characterWalkSFX;
+  var gameOverSFX;
+  var CharacetrWalkIntervalValue;
+  var isSoundOn;
+
+  // FOR COLOR PURPOSE
+  var arrayOfColors;
+  var stepNumber = 0;
+  var stepCount = 512;
+  var currentColorIndex;
+  var nextColorIndex;
+
+  // FOR HINTS
+  var hintCircle;
+  var hintArrow;
+
+  //FOR PARTICAL EFFECT
+  var emitter;
+
+  // FOR STAR
+  var star = [];
+  var maxStar = 30;
+  var starRandomGap;
+  var starScaleFactor;
+
+  var upBlockIndexNumber = 0;
+  var downBlockIndexNumber = 0;
+  var isUpBlockFound = false;
+  var isDownBlockFound = false;
+  var isUpArrowShown = false;
+  var isDownArrowShown = false;
+
+  var blockHintOffsetX;
+  var blockHintOffsetY;
+  var hintBlockIndex;
+  var blockClickCounter = 0;
+
+  //FOR LEVELS INFOMATION(JSON)
+  var levels_data;
+  var levelNnumber;
+  var levelSpeed;
+  var levelTarget;
+  // var levelMaleReward;
+  // var levelFemaleReward;
+  var levelReward;
+
+
+  var currentLevel = 0;
+  // var isMale;
+  // var isCharacterChoosed = false;
+  var pleaseSelectCharacterText;
+
+  function preload() {
+
+    //LOAD THE LEVELS INFORMATION FROM JSON FILE
+    game.load.json('levels_data',"assets/json/levels.json");
+
+    game.load.spritesheet('music',"assets/images/music-notes-small.png",30,36,21);
+    game.load.image('star',"assets/images/scrolling_images/star.png");
+
+    game.load.image('block',"assets/images/block.png");
+
+    game.load.spritesheet('character', 'assets/images/girl.png', 128,128,106);
+
+    //FOR SPLASH PAGE
+    game.load.image('creditPageBackground',"assets/images/common_gui/one_pixel.png");
+    game.load.image('titleArt',"assets/images/common_gui/title_art.png");
+
+    // FOR MAIN MENU
+    game.load.image('mainMenuBackground',"assets/images/common_gui/game_overlay_screen.png");
+    game.load.image('characterSelectionButton',"assets/images/common_gui/character_selection_button.png");
+    game.load.image('playButton',"assets/images/common_gui/play.png");
+    game.load.spritesheet('soundButton',"assets/images/common_gui/sound.png",86,83,2);
+
+
+
+    //FOR CHARCATER CHOOSE PAGE
+    game.load.image('maleButton',"assets/images/common_gui/male_button.png");
+    game.load.image('femaleButton',"assets/images/common_gui/female_button.png");
+
+    //FOR HINTS ON THE MAIN MENU PLAY BUTTON
+    game.load.spritesheet('hintCircle', 'assets/images/hints/hint_circle.png', 66,66,140);
+    game.load.spritesheet('hintArrow', 'assets/images/hints/hint_arrow.png', 46,38,9);
+
+    //LEVEL SELECTION LOCK UNLOCK BUTTONS
+    game.load.image('levelUnlocked','assets/images/level-button/level_unlocked.png');
+    game.load.image('levelLocked','assets/images/level-button/level_locked.png');
+
+    // LOAD FONT
+    game.load.bitmapFont('wheelyFont', 'assets/font/wheely-font.png', 'assets/font/wheely-font.fnt');
+
+
+    game.load.image('backgroundFrontGradient',"assets/images/static_images/background_front_gradient.png");
+    game.load.image('whiteColorGradient',"assets/images/static_images/bg_color_gradient.png");
+    game.load.image('greenWaterGradient',"assets/images/static_images/under_water_gradient_one_px.png");
+    game.load.image('water',"assets/images/static_images/water.png");
+    game.load.image('frontWater',"assets/images/tile_images/water_wave.png");
+    game.load.image('backWaterWave',"assets/images/tile_images/water_wave.png");
+
+    game.load.image('backSky',"assets/images/static_images/back_sky_one_pixel.png");
+    game.load.image('cloudOne',"assets/images/scrolling_images/cloud_1.png");
+    game.load.image('cloudTwo',"assets/images/scrolling_images/cloud_2.png");
+    game.load.spritesheet('leaf','assets/images/static_images/leaf.png',35,99,6);
+
+    //FOR SCORE AND SLIDE BAR
+    game.load.image('scoreBoard',"assets/images/static_images/score_board.png");
+    game.load.image('emptyBar',"assets/images/static_images/empty_bar.png");
+    game.load.image('meter',"assets/images/static_images/meter.png");
+
+    game.load.image('frontGround',"assets/images/tile_images/front_ground.png");
+    game.load.image('shrubs',"assets/images/tile_images/shrubs.png");
+    game.load.image('frontShrubs',"assets/images/tile_images/front_shrubs.png");
+
+
+    //FOR GAME OVER
+    game.load.image('overlay_pixel',"assets/images/common_gui/one_pixel.png");
+    game.load.image('overScreen',"assets/images/common_gui/game_overlay_screen.png");
+    game.load.image('homeButton',"assets/images/common_gui/home.png");
+    game.load.image('replayButton',"assets/images/common_gui/replay.png");
+
+    //GAME WIN POPUP
+    game.load.spritesheet('levelSelectionButton',"assets/images/common_gui/level_selection_button.png");
+    game.load.image('nextButton',"assets/images/common_gui/next.png");
+
+
+    // FOR LOAD SOUND
+    // LOAD BGM
+    game.load.audio('gamePlayBGM', './assets/sounds/bgm/crazy-girl-bgm.ogg');
+    // LOAD SFX
+    game.load.audio('buttonClickSFX', './assets/sounds/sfx/button_click.ogg');
+    game.load.audio('blockClickSFX', './assets/sounds/sfx/block_click1.ogg');
+    game.load.audio('characterWalkSFX', './assets/sounds/sfx/character_walk.ogg');
+    game.load.audio('gameOverSFX', './assets/sounds/sfx/game_over_sound.ogg');
+
+    // FOR LOAD PARALLAX ITEMS TO THE ARRAY
+    for(i=1; i<=numberOfItem; i++){
+      fileNameString = "parallax_item_0" + i;
+      itemsArray[i-1] = game.load.image(fileNameString,'assets/images/scrolling_images/'+ fileNameString + '.png');
+    }
+
+    // FOR LOAD STONES TO THE ARRAY
+    for(i=1; i<=numberOfStone; i++){
+        stoneNameString = "stone_0" + i;
+        stoneArray[i-1] = game.load.image(
+                                          stoneNameString,
+                                          'assets/images/scrolling_images/'+ stoneNameString + '.png'
+                                        );
+    }
+
+  }//END OF PRELOAD FUNCTION
+
+//--------------------------------------------------------------------------------
+
+  function create() {
+
+    game.physics.startSystem(Phaser.Physics.P2JS);
+    game.physics.p2.setBoundsToWorld(false,false,false,false);
+    game.physics.p2.gravity.y = 2000;
+
+    //PARSE THE JSON FILE TO STORE THE LEVEL'S DATA
+    levels_data = game.cache.getJSON('levels_data');
+
+    console.log('JSON Loaded');
+    console.log(levels_data);
+
+
+    //ADD BACK SKY
+    backSky = game.add.sprite(0,0,"backSky");
+    backSky.scale.set(600,1);
+
+    // FOR SETUP THE PARALLAX LEVELS TO THE ARRAY
+    SetupParallaxLevels();
+
+    // FOR CREATE PARALLAX TEMS FROM THE ARRAY
+    CreateParallaxLayer(0,10);
+    CreateParallaxLayer(1,10);
+    CreateParallaxLayer(2,8);
+
+    //ADD SHRUBS
+    shrubs = game.add.tileSprite(0,186,700,59,"shrubs");
+
+    //ADD BACKGROUND FRONT GRADIENT
+    backgroundFrontGradient = game.add.sprite(0,120,"backgroundFrontGradient");
+    backgroundFrontGradient.scale.set(600,1);
+
+    //ADD WHITE COLOR GRADIENT
+    whiteColorGradient = game.add.sprite(0,0,"whiteColorGradient");
+    whiteColorGradient.scale.set(600,1);
+    whiteColorGradient.tint = '0xb83e15';
+
+    // FOR CREATE STAR
+    createStar(20,5);
+
+    //ADD CLOUD ONE
+    createCloudOne(50,5);
+
+    //ADD CLOUD TWO
+    cloudTwo = game.add.tileSprite(0,30,700,84,"cloudTwo");
+
+    //ADD FRONT GROUND
+    frontGround = game.add.tileSprite(0,210,700,169,"frontGround");
+    frontGround.scale.set(0.9,0.5);
+
+    // ADD BACK WATER
+    backWater = game.add.sprite(0,230,'water');
+    backWater.scale.set(30,1);
+    backWater.alpha = 0.7;
+
+    // ADD BACK WATER WAVE
+    backWaterWave = game.add.tileSprite(0,290,651,199,'backWaterWave');
+    backWaterWave.alpha = 0.5;
+
+    // GENERATE MORE STONE WITH LIMITED STONsE
+    generateMoreStone();
+
+    // ADD LEAF
+    createLeaf(50,410);
+
+    // ADD BLOCKS
+    createBlocks(30,265);
+
+    // ADD GREEN WATER GRADIENT
+    greenWaterGradient = game.add.sprite(0,260,'greenWaterGradient');
+    greenWaterGradient.scale.set(600,1);
+
+    // ADD FRONT WATER
+    frontWater = game.add.tileSprite(0,295,651,199,'frontWater');
+    frontWater.alpha = 0.8;
+
+    //ADD  FRONT SHRUBS
+    frontShrubs = game.add.tileSprite(0,319,600,81,"frontShrubs");
+
+    //ADD CHARACTER
+    character = game.add.sprite(-100,165,'character');
+    character.anchor.set(0.5,0.5);
+
+    //DEVIDE THE CHARACTER's ANIMATION SPRITE SHEET INTO WALK,HIT,FALL
+    characterWalkAnimation = character.animations.add('characterWalk',[70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106]);
+    characterHitAnimation = character.animations.add('characterHit',[32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65/*,66,67,68,69*/]);
+    characterFallAnimation = character.animations.add('characterFall',[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25/*,26,27,28,29,30,31*/]);
+
+    //PLAY CHARACTER WALK ANIMATION
+    playCharacterWalk();
+
+
+    // GAME OVER POPUP BACKGROUND
+    overlayPixel = game.add.sprite(300,200 ,'overlay_pixel');
+    overlayPixel.anchor.set(0.5,0.5);
+    overlayPixel.scale.set(900,600);
+    overlayPixel.tint = 0x000000;
+    overlayPixel.alpha = 0.5;
+    overlayPixel.visible = false;
+
+    // ADD GAME OVER SCREEN
+    overScreen = game.add.sprite(303,200 ,'overScreen');
+    overScreen.anchor.set(0.5,0.5);
+    overScreen.scale.set(2,2);
+    overScreen.visible = false;
+
+
+    // ADD HOME BUTTON
+    homeButton = game.add.button(650,230 ,'homeButton','',this);
+    homeButton.anchor.set(0.5,0.5);
+    homeButton.scale.set(0.9,0.9);
+    homeButton.onInputDown.add(homeButtonPress, this);
+    homeButton.events.onInputOver.add(homeButtonOver, this);
+    homeButton.events.onInputOut.add(homeButtonOut, this);
+    function homeButtonPress(){
+      // FOR PLAY THE BUTTON CLICK SOUND
+      if(isSoundOn){
+        buttonClickSFX.play();
+      }
+      HideGameOverPopup();
+      reArrangeBlocks();
+      setTimeout(ShowAllMainMenuButton,500);
+      character.body.x = -140;
+      character.body.y = 165;
+      stopCharacterHitAndFall();
+      playCharacterWalk();
+    } // END OF homeButtonPress
+
+    function homeButtonOver(){
+      homeButton.scale.set(0.8,0.8);
+    }
+    function homeButtonOut(){
+      homeButton.scale.set(0.9,0.9);
+    }
+
+    // ADD NEXT BUTTON
+    nextButton = game.add.button(300,-70 ,'nextButton','',this);
+    nextButton.anchor.set(0.5,0.5);
+    nextButton.scale.set(0.9,0.9);
+    nextButton.onInputDown.add(nextButtonPress, this);
+    nextButton.events.onInputOver.add(nextButtonOver, this);
+    nextButton.events.onInputOut.add(nextButtonOut, this);
+    function nextButtonPress(){
+      // FOR PLAY THE BUTTON CLICK SOUND
+      if(isSoundOn){
+        buttonClickSFX.play();
+      }
+      HideGameWinPopup();
+      reArrangeBlocks();
+      character.body.x = -140;
+      character.body.y = 165;
+      stopCharacterHitAndFall();
+      playCharacterWalk();
+      //FOR SET UP THE LEVEL INFORMATION AND PLAY
+      SetupLevelInformationAndStartGame(currentLevel+1);
+
+    }// END OF nextButtonPress FUNCTION
+
+    function nextButtonOver(){
+      nextButton.scale.set(0.8,0.8);
+    }
+    function nextButtonOut(){
+      nextButton.scale.set(0.9,0.9);
+    }
+
+    // ADD LEVEL SELECTION BUTTON TO THE GAME OVER PAGE
+    levelSelectionButton = game.add.sprite(-100,230 ,'levelSelectionButton');
+    levelSelectionButton.anchor.set(0.5,0.5);
+    levelSelectionButton.scale.set(0.8,0.8);
+    levelSelectionButton.inputEnabled = true;
+    levelSelectionButton.input.useHandCursor = true;
+    levelSelectionButton.events.onInputDown.add(levelSelectionButtonPress,this);
+    levelSelectionButton.events.onInputOver.add(levelSelectionButtonOver, this);
+    levelSelectionButton.events.onInputOut.add(levelSelectionButtonOut, this);
+    function levelSelectionButtonPress(){
+      // FOR PLAY THE BUTTON CLICK SOUND
+      if(isSoundOn){
+        buttonClickSFX.play();
+      }
+      HideGameWinPopup();
+      reArrangeBlocks();
+      character.body.x = -140;
+      character.body.y = 165;
+      stopCharacterHitAndFall();
+      playCharacterWalk();
+      //GENERATE LEVEL SELECTION BUTTONS
+      setTimeout(generateLevelButtons,500);
+
+    }// END OF levelSelectionButtonPress
+
+    function levelSelectionButtonOver(){
+      levelSelectionButton.scale.set(0.8,0.8);
+    }
+    function levelSelectionButtonOut(){
+      levelSelectionButton.scale.set(0.9,0.9);
+    }
+
+
+    // ADD REPLAY BUTTON
+    replayButton = game.add.button(300,-70 ,'replayButton','',this);
+    replayButton.anchor.set(0.5,0.5);
+    replayButton.scale.set(0.9,0.9);
+    replayButton.onInputDown.add(replayButtonPress, this);
+    replayButton.events.onInputOver.add(replayButtonOver, this);
+    replayButton.events.onInputOut.add(replayButtonOut, this);
+    function replayButtonPress(){
+      // FOR PLAY THE BUTTON CLICK SOUND
+      if(isSoundOn){
+        buttonClickSFX.play();
+      }
+      HideGameOverPopup();
+      HideGameWinPopup();
+      setTimeout(resetGame,600);
+    }
+
+    function replayButtonOver(){
+      replayButton.scale.set(0.8,0.8);
+    }
+    function replayButtonOut(){
+      replayButton.scale.set(0.9,0.9);
+    }
+
+
+    // ADD SOUND BUTTON TO THE GAME OVER PAGE
+    gameOverSoundButton = game.add.sprite(-50,230 ,'soundButton');
+    gameOverSoundButton.anchor.set(0.5,0.5);
+    gameOverSoundButton.scale.set(0.8,0.8);
+    gameOverSoundButton.inputEnabled = true;
+    gameOverSoundButton.input.useHandCursor = true;
+    gameOverSoundButton.events.onInputDown.add(gameOverSoundButtonPress,this);
+    gameOverSoundButton.events.onInputOver.add(gameOverSoundButtonOver, this);
+    gameOverSoundButton.events.onInputOut.add(gameOverSoundButtonOut, this);
+    function gameOverSoundButtonPress(){
+      // FOR PLAY THE BUTTON CLICK SOUND
+      if(isSoundOn){
+        buttonClickSFX.play();
+      }
+
+      // FOR TOGGLE THE IS SOUND ON FOR PLAYING SOUND
+      isSoundOn = !isSoundOn;
+      localStorage.setItem("crazy_girl_is_BGM_and_SFX_sound_on",isSoundOn);
+
+      // FOR CHANGING THE BUTTON'S IMAGE
+      setSoundButtonImage();
+
+      // FOR PLAY THE BGM SOUND
+      if(isGameRunning){
+          if(isSoundOn){
+            gamePlayBGM.play();
+            gamePlayBGM.loopFull();
+          }else{
+            gamePlayBGM.stop();
+          }
+       }
+   }// END OF gameOverSoundButtonPress
+
+    function gameOverSoundButtonOver(){
+      gameOverSoundButton.scale.set(0.8,0.8);
+    }
+    function gameOverSoundButtonOut(){
+      gameOverSoundButton.scale.set(0.9,0.9);
+    }
+
+
+    //ADD METER
+    meter = game.add.sprite(190,40 ,'meter');
+    meter.anchor.set(0,0.5);
+    meter.scale.set(0,1);
+    meter.visible = false;
+
+    //ADD EMPTY BAR
+    emptyBar = game.add.sprite(300,40 ,'emptyBar');
+    emptyBar.anchor.set(0.5,0.5);
+    // emptyBar.scale.set(0.8,0.8);
+    emptyBar.visible = false;
+
+    // ADD SCORE TEXT
+    scoreText = game.add.text(0, 0, '', { fill: '#ffff00',font: 'bold 20px century_gothic' ,boundsAlignH: "center",boundsAlignV: "middle"});
+    scoreText.setTextBounds(252,27,600,32);
+    scoreText.setShadow(2,2,'#383838',3);
+    scoreText.visible = false;
+
+    // ADD SCORE BOARD
+    scoreBoard = game.add.sprite(520,15 ,'scoreBoard');
+    scoreBoard.scale.set(1.2,1.1);
+    scoreBoard.visible = false;
+
+    //ADD YOUR SCORE TEXT
+    yourScoreText = game.add.text(0, 0, '', { fill: '#ffff00',font: 'bold 22px century_gothic' ,boundsAlignH: "center",boundsAlignV: "middle"});
+    yourScoreText.setTextBounds(0,85,600,80);
+    yourScoreText.setShadow(2,2,'#383838',3);
+    yourScoreText.visible = false;
+
+    //ADD LEVEL COMPLETE TEXT
+    levelCompleteText = game.add.text(175,140,"LEVEL COMPLETE",{fill: '#ffff00', fontSize: "28px", textShadow: "1px 1px 0px #000000"});
+    levelCompleteText.setShadow(0, 0, 'rgba(0,0,0,0.9)', 2);
+
+
+    //ADD YOU EARNED TEXT
+    youEarnedText = game.add.text(235,60,"YOU EARNED",{fill: '#ffffff', fontSize: "20px", textShadow: "1px 1px 0px #000000"});
+    youEarnedText.setShadow(0, 0, 'rgba(0,0,0,0.9)', 2);
+
+    //ADD REWARD TEXT
+    rewardText = game.add.text(260,100,"Reward",{fill: '#ffffff', fontSize: "20px", textShadow: "1px 1px 0px #000000"});
+    rewardText.setShadow(0, 0, 'rgba(0,0,0,0.9)', 2);
+
+    //HIDE THE LEVEL COMPLETE,YOU EARNED,LEVEL REWARD TEXT
+    HideLevelCompleteText();
+
+    // ADD CIRCLE HINT
+    hintCircle = game.add.sprite(-100,-100,'hintCircle');
+    hintCircle.anchor.set(0.5,0.5);
+    hintCircle.scale.set(2,2);
+    hintCircle.animations.add('hintCircle_animation');
+    hintCircle.animations.play('hintCircle_animation',30,true);
+
+    //ADD ARROW HINTS
+    hintArrow = game.add.sprite(-100,-100,'hintArrow');
+    hintArrow.anchor.set(0.5,0.5);
+    hintArrow.scale.set(1.3,1.3);
+    hintArrow.animations.add('hintArrow_animation');
+    hintArrow.animations.play('hintArrow_animation',30,true);
+
+
+    //ADD CHARACTER CHOOSE PAGE BACKGOUND
+    characterChoosePageBackground = game.add.sprite(0,0 ,'creditPageBackground');
+    characterChoosePageBackground.scale.set(600,400);
+    characterChoosePageBackground.tint = '0x369fcf';
+    characterChoosePageBackground.alpha = 0;
+
+    //ADD CHARACTER CHOOSE PAGE MALE BUTTON
+    maleButton = game.add.sprite(200,200 ,'maleButton');
+    maleButton.anchor.set(0.5,0.5);
+    maleButton.alpha = 0;
+    maleButton.events.onInputDown.add(maleButtonOnPress, this);
+    maleButton.events.onInputOver.add(maleButtonOver, this);
+    maleButton.events.onInputOut.add(maleButtonOut, this);
+    function maleButtonOnPress(){
+        console.log("maleButton BUTTON PRESSED");
+        // FOR PLAY THE BUTTON CLICK SOUND
+            if(isSoundOn){
+               buttonClickSFX.play();
+            }
+        maleButton.scale.set(1.5,1.5);
+
+        //SAVE THE CHARCTER WHICH ONE IS CHOOSED
+        SaveCharacterChoosedData(true);
+
+        game.add.tween(femaleButton).to({alpha: 0},500, Phaser.Easing.Linear.Out, true,100);
+        setTimeout(HideCharacterChoosePage,700);
+        setTimeout(ShowAllMainMenuButton,500);
+    }
+
+    function maleButtonOver(){
+        maleButton.scale.set(0.95,0.95);
+    }
+
+    function maleButtonOut(){
+        maleButton.scale.set(1,1);
+    }
+
+    //ADD CHARACTER CHOOSE PAGE FEMALE BUTTON
+    femaleButton = game.add.sprite(380,210 ,'femaleButton');
+    femaleButton.anchor.set(0.5,0.5);
+    femaleButton.alpha = 0;
+    femaleButton.events.onInputDown.add(femaleButtonPress, this);
+    femaleButton.events.onInputOver.add(femaleButtonOver, this);
+    femaleButton.events.onInputOut.add(femaleButtonOut, this);
+    function femaleButtonPress(){
+        console.log("femaleButton BUTTON PRESSED");
+        // FOR PLAY THE BUTTON CLICK SOUND
+        if(isSoundOn){
+           buttonClickSFX.play();
+        }
+        femaleButton.scale.set(1.5,1.5);
+
+        //SAVE THE CHARCTER WHICH ONE IS CHOOSED
+        SaveCharacterChoosedData(false);
+
+        game.add.tween(maleButton).to({alpha: 0},500, Phaser.Easing.Linear.Out, true,100);
+        setTimeout(HideCharacterChoosePage,700);
+        setTimeout(ShowAllMainMenuButton,500);
+    }
+
+    function femaleButtonOver(){
+        femaleButton.scale.set(0.95,0.95);
+    }
+
+    function femaleButtonOut(){
+        femaleButton.scale.set(1,1);
+    }
+
+
+
+    // ADD MAIN MENU BACKGROUND
+    mainMenuBackground = game.add.sprite(303,200 ,'mainMenuBackground');
+    mainMenuBackground.anchor.set(0.5,0.5);
+    mainMenuBackground.scale.set(3,3);
+
+    //CHARACTER SELECTION BUTTON
+    characterSelectionButton = game.add.sprite(-300,80 ,'characterSelectionButton');
+    characterSelectionButton.anchor.set(0.5,0.5);
+    characterSelectionButton.scale.set(0,0);
+    characterSelectionButton.events.onInputDown.add(characterSelectionButtonOnPress, this);
+    characterSelectionButton.events.onInputOver.add(characterSelectionButtonOver, this);
+    characterSelectionButton.events.onInputOut.add(characterSelectionButtonOut, this);
+    function characterSelectionButtonOnPress(){
+        console.log("CHARACTER BUTTON PRESSED");
+        // FOR PLAY THE BUTTON CLICK SOUND
+        if(isSoundOn){
+           buttonClickSFX.play();
+        }
+
+        //HIDE THE MAIN MENU
+        HideAllMainMenuButton();
+
+        //SHOW THE CHARACTER CHOOSE PAGE
+        setTimeout(ShowCharacterChoosePage,900);
+    }
+
+    function characterSelectionButtonOver(){
+        characterSelectionButton.scale.set(0.55,0.55);
+    }
+
+    function characterSelectionButtonOut(){
+        characterSelectionButton.scale.set(0.6,0.6);
+    }
+
+
+    // ADD PLAY BUTTON
+    playButton = game.add.sprite(800,200 ,'playButton');
+    playButton.anchor.set(0.5,0.5);
+    playButton.scale.set(0,0);
+    playButton.events.onInputDown.add(playButtonOnPress, this);
+    playButton.events.onInputOver.add(playButtonOver, this);
+    playButton.events.onInputOut.add(playButtonOut, this);
+    function playButtonOnPress(){
+        console.log("play BUTTON PRESSED");
+        var isCharacterChoosed = localStorage.getItem("crazy_girl_is_charcater_choosed_already");
+        if(isCharacterChoosed == "true"){
+          //FOR PLAY THE BUTTON CLICK SOUND
+            if(isSoundOn){
+                buttonClickSFX.play();
+            }
+            //HIDE ALL THE BUTTONS OF MAIN MENU
+            HideAllMainMenuButton();
+            //GENERATE LEVEL SELECTION BUTTONS
+            setTimeout(generateLevelButtons,1000);
+        }else{
+          //SHOW A TEXT POPUP TO CHOOSE THE CHARCATER
+          pleaseSelectCharacterText.visible = true;
+          game.add.tween(pleaseSelectCharacterText.scale).to({x: 1,y: 1},400, Phaser.Easing.Linear.Out, true);
+          game.add.tween(pleaseSelectCharacterText).to({alpha: 1},500, Phaser.Easing.Linear.Out, true);
+
+          game.add.tween(pleaseSelectCharacterText.scale).to({x: 0,y: 0},400, Phaser.Easing.Linear.Out, true,1500);
+          game.add.tween(pleaseSelectCharacterText).to({alpha: 0},500, Phaser.Easing.Linear.Out, true,1500);
+        }
+
+    }
+
+    function playButtonOver(){
+        playButton.scale.set(0.65,0.65);
+    }
+
+    function playButtonOut(){
+        playButton.scale.set(0.7,0.7);
+    }
+
+    //ADD SOUND BUTTON
+    menuSoundButton = game.add.sprite(-300,320 ,'soundButton');
+    menuSoundButton.anchor.set(0.5,0.5);
+    menuSoundButton.scale.set(0,0);
+    menuSoundButton.events.onInputDown.add(menuSoundButtonOnPress, this);
+    menuSoundButton.events.onInputOver.add(menuSoundButtonOver, this);
+    menuSoundButton.events.onInputOut.add(menuSoundButtonOut, this);
+    function menuSoundButtonOnPress(){
+      //FOR PLAY THE BUTTON CLICK SOUND
+        if(isSoundOn){
+           buttonClickSFX.play();
+        }
+
+        // FOR TOGGLE THE IS SOUND ON FOR PLAYING SOUND
+        isSoundOn = !isSoundOn;
+        localStorage.setItem("crazy_girl_is_BGM_and_SFX_sound_on",isSoundOn);
+
+        // FOR CHANGING THE BUTTON'S IMAGE
+        setSoundButtonImage();
+
+        // FOR PLAY THE BGM SOUND
+        if(isGameRunning){
+
+            if(isSoundOn){
+                gamePlayBGM.play();
+                gamePlayBGM.loopFull();
+            }else{
+                gamePlayBGM.stop();
+            }
+        }
+    }// END OF menuSoundButtonOnPress FUNCTION
+
+    function menuSoundButtonOver(){
+        menuSoundButton.scale.set(0.95,0.95);
+    }
+
+    function menuSoundButtonOut(){
+        menuSoundButton.scale.set(1,1);
+    }
+
+
+    // ADD SPLASH PAGE BACKGROUND
+    creditPageBackground = game.add.sprite(0,0 ,'creditPageBackground');
+    creditPageBackground.scale.set(600,400);
+    creditPageBackground.tint = '0x140004';
+
+    //ADD TITLE ART ON SPLASH PAGE
+    titleArt = game.add.sprite(300,-200 ,'titleArt');
+    titleArt.anchor.set(0.5,0.5);
+    titleArt.scale.set(0.35,0.35);
+
+    //ADD DEVELOPED BY TEXT ON SPLASH PAGE
+    developedText = game.add.text(-150, 320, 'Developed by', { fill: '#ffffff',font: 'bold 20px century_gothic' });
+    developedText.anchor.set(0.5,0.5);
+
+    //ADD RED APPLE TEXT ON SPLASH PAGE
+    redAppleText = game.add.text(810, 350, ' RED APPLE TECHNOLOGIES PVT. LTD.', { fill: '#ffffff',font: 'bold 22px century_gothic' });
+    redAppleText.anchor.set(0.5,0.5);
+
+    //TWEEN THE TITLE ART WHEN THE GAME IS ON
+    ShowTitleArtText();
+    //TWEEN THE DEVELOPMENT TEXT AND RED APPLE TEXT WHEN THE GAME IS ON
+    ShowDevelopAndRedAppleText();
+    // HIDE THE DEVELOPMENT TEXT AND RED APPLE TEXT AND TITLE ART AFTER SHOWING IT
+    setTimeout(hideDevelopmentAndRedAppleTextAndTitleArt,3500);
+    //SHOW ALL THE MAIN MENU'S BUTTON WITH TWEEN
+    setTimeout(ShowAllMainMenuButton,4500);
+
+    pleaseSelectCharacterText = game.add.text(190,60,"Please Select The Character!",{fill: '#ffffff', fontSize: "16px", textShadow: "1px 1px 0px #000000"});
+    pleaseSelectCharacterText.setShadow(0, 0, 'rgba(0,0,0,0.9)', 2);
+    pleaseSelectCharacterText.visible = false;
+
+    //ADD LEVEL TEXT UI
+    levelTextUI = game.add.text(10,20,"LEVEL",{fill: '#ffffff', fontSize: "17px", textShadow: "1px 1px 0px #000000"});
+    levelTextUI.setShadow(0, 0, 'rgba(0,0,0,0.9)', 2);
+    // levelTextUI.visible = false;
+    // ADD LEVEL TEXT NUMBER
+    levelTextNumber = game.add.text(70,20,"",{fill: '#ffffff', fontSize: "17px", textShadow: "1px 1px 0px #000000"});
+    // levelTextNumber.visible = false;
+    //HIDE THE LEVEL TEXT
+    HideLevelText();
+
+
+    // ENABLE PHYSICS TO THE OBJECTS
+    game.physics.p2.enable(
+                            [
+                              character,
+                            ]
+                          );
+    character.body.static = true;
+    character.body.clearShapes();
+    //addRectangle(width, height, offsetX, offsetY, rotation)
+    character.body.addRectangle(25,110,2,0,0);
+    // character.body.addCapsule(50,30,0,0,1.57);
+
+    character.body.fixedRotation = true;
+    // character.body.angularVelocity = -0.3;
+    // character.body.debug = true;
+    character.body.onBeginContact.add(collisionEvent,this);
+
+    // FOR CREATE DIFFERENT COLOR
+    createColorArray();
+    initIndices(0);
+
+    // FOR INCREASE THE SPEED OF THE OBJECTS
+    setInterval(increaseShiftAmount,400);
+
+    // SAVE THE SOUND VALUE TO THE LOCAL STORAGE
+    SaveSoundOnOffData();
+
+    // INITIALIZE SOUNDS
+    gamePlayBGM = game.add.audio('gamePlayBGM');
+    blockClickSFX = game.add.audio('blockClickSFX');
+    characterWalkSFX = game.add.audio('characterWalkSFX');
+    buttonClickSFX = game.add.audio('buttonClickSFX');
+    gameOverSFX = game.add.audio('gameOverSFX');
+
+    // FOR PLAYING THE BGM AND CHARACTER SOUND
+    if(isGameRunning){
+      if(isSoundOn){
+        gamePlayBGM.play();
+        gamePlayBGM.loopFull();
+        CharacetrWalkIntervalValue = setInterval(playCharacterSound,300);
+      }
+    }
+
+  }// END OF CREATE
+//----------------------------------------------------------------------------------------------------------------------------
+
+function SetupLevelInformationAndStartGame(levelNumberString){
+  // FOR PLAY THE BUTTON CLICK SOUND
+  if(isSoundOn){
+     buttonClickSFX.play();
+  }
+
+  currentLevel = (parseInt(levelNumberString)) - 1;
+
+  levelNumber = levels_data.levels[currentLevel].levelNumber;
+  levelSpeed = levels_data.levels[currentLevel].speed;
+  levelTarget = levels_data.levels[currentLevel].target;
+
+  var isMaleCharacter = localStorage.getItem("crazy_girl_is_male_charcater");
+  console.log(" male "+ isMaleCharacter);
+
+  if(isMaleCharacter == "true"){
+    levelReward = levels_data.levels[currentLevel].maleReward;
+  }else{
+    levelReward = levels_data.levels[currentLevel].femaleReward;
+  }
+  console.log(levelNumber,levelSpeed,levelTarget,levelReward);
+
+  //FOR SHOW THE LEVEL NUMBER ON THE SCREEN
+  levelTextNumber.text = levelNumber;
+  //FOR SHOW THE REWARD WHEN GET
+  rewardText.text = levelReward;
+  //FOR HIDE THE LEVEL SELECTION PAGE
+  HideLevelSelectionPage();
+  //FOR ENTRY OF THE CHARACTER FROM LEFT WHEN WE CLICK ON THE PLAY BUTTON AND THEN THE OTHERS WIIL BE START
+  setTimeout(characeterEntry,500);
+  // FOR STARTING AND RESET THE GAME WHEN GAME OVWER
+  setTimeout(resetGame,2500);
+}
+
+// GENERATE LEVELS BUTTONS
+function generateLevelButtons(){
+  levelSelectionBackground = game.add.sprite(-175,-68,'creditPageBackground');
+  levelSelectionBackground.scale.set(600,400);
+  levelSelectionBackground.tint = '0x140004';
+
+  levelSelectionGroup = game.add.group();
+  levelSelectionGroup.position.set(175,68);
+  levelSelectionGroup.alpha = 0;
+  levelSelectionGroup.scale.set(0,0);
+
+  levelButtonsArray = [];
+  var i;
+  var max = 15;
+
+  var lastLevelWon = localStorage.getItem("crazy_girl_last_level_won");
+  var maxUnlockIndex;
+
+  if(!lastLevelWon){
+      maxUnlockIndex = 0;
+  }else{
+      // WE NEED TO UNLOCK ONE INDEX HIGHER THAN THE LAST WON INDEX DENOTES
+      maxUnlockIndex = lastLevelWon;
+  }
+
+  var tempButton;
+  var tempText;
+  var yOffset = 0;
+  var xPosition = 0;
+
+  for(i=0; i<max; i++){
+      levelButtonsArray[i] = game.add.group();
+
+      if(i <= maxUnlockIndex){
+        tempButton = game.add.sprite(0,0,'levelUnlocked');
+       // END OF UNLOCKED BUTTONS
+      }else{
+          tempButton = game.add.sprite(0,0,'levelLocked');
+        // END OF LOCKED BUTTONS
+      }
+
+      tempButton.anchor.set(0.5,0.5);
+
+      tempText = game.add.text(-8,0, (i+1) ,35);
+      tempText.anchor.set(0.5,0.5);
+
+      levelButtonsArray[i].add(tempButton);
+      levelButtonsArray[i].add(tempText);
+      levelButtonsArray[i].scale.set(0.8,0.8);
+
+      levelButtonsArray[i].x = xPosition;
+      levelButtonsArray[i].y = yOffset;
+
+      tempButton.inputEnabled = true;
+      tempButton.input.useHandCursor = true;
+
+      tempButton.events.onInputOver.add(function(){this.scale.set(0.9,0.9);},levelButtonsArray[i]);
+      tempButton.events.onInputOut.add(function(){this.scale.set(0.8,0.8);},levelButtonsArray[i]);
+
+      if(i <= maxUnlockIndex){
+          tempButton.events.onInputDown.add(function(){SetupLevelInformationAndStartGame(this.text);},tempText);
+        }
+
+      if(i!=0 && (i+1)%4 == 0){
+          xPosition = 0;
+          yOffset += 85;
+      }else{
+          xPosition += 85;
+      }
+
+      levelSelectionGroup.add(levelSelectionBackground);
+      levelSelectionGroup.add(levelButtonsArray[i]);
+
+      //FOR SHOW THE LEVEL BUTTONS WITH ANIMATION
+      game.add.tween(levelSelectionGroup.scale).to({x: 1,y: 1},300, Phaser.Easing.Linear.Out, true,100);
+      game.add.tween(levelSelectionGroup).to({alpha: 1},300, Phaser.Easing.Linear.Out, true,100);
+
+    }  // END OF FOR LOOP
+} // END OF generateLevelButtons FUNCTION
+
+
+//FOR HIDE THE GAME OVER POPUP
+function HideGameOverPopup(){
+  overlayPixel.visible = false;
+  yourScoreText.visible = false;
+
+  game.add.tween(gameOverSoundButton.position).to({x: -50},300, Phaser.Easing.Linear.Out, true);
+  game.add.tween(replayButton.position).to({y: -70},300, Phaser.Easing.Linear.Out, true);
+  game.add.tween(homeButton.position).to({x: 650},300, Phaser.Easing.Linear.Out, true);
+  game.add.tween(overScreen.scale).to({x: 3,y: 3},500, Phaser.Easing.Linear.Out, true,300);
+}// END OF HideGameOverPopup FUNCTION
+
+//FOR HIDE THE GAME OVER POPUP
+function HideGameWinPopup(){
+  overlayPixel.visible = false;
+  HideLevelCompleteText();
+
+  // game.add.tween(homeButton.position).to({x: 650},300, Phaser.Easing.Linear.Out, true);
+  game.add.tween(levelSelectionButton.position).to({x: -100},300, Phaser.Easing.Linear.Out, true);
+  game.add.tween(nextButton.position).to({y: -70},300, Phaser.Easing.Linear.Out, true);
+  game.add.tween(replayButton.position).to({x: 700},300, Phaser.Easing.Linear.Out, true);
+  game.add.tween(overScreen.scale).to({x: 3,y: 3},500, Phaser.Easing.Linear.Out, true,300);
+
+}// END OF HideGameWinPopup FUNCTION
+
+
+//TWEEN THE TITLE ART WHEN THE GAME IS ON
+function ShowTitleArtText(){
+  game.add.tween(titleArt.position).to({x: 300,y: 170},1200, Phaser.Easing.Bounce.Out, true);
+}
+
+//TWEEN THE DEVELOPMENT TEXT AND RED APPLE TEXT WHEN THE GAME IS ON
+function ShowDevelopAndRedAppleText(){
+  game.add.tween(developedText.position).to({x: 300,y: 320},1000, Phaser.Easing.Bounce.Out, true,1000);
+  game.add.tween(redAppleText.position).to({x: 310,y: 350},1000, Phaser.Easing.Bounce.Out, true,2000);
+}
+
+// FOR HIDE THE DEVELOPMENT TEXT AND RED APPLE TEXT AND TITLE ART AND BACKGROUND AFTER SHOWING IT
+function hideDevelopmentAndRedAppleTextAndTitleArt(){
+    developedText.position.set(300,320);
+    redAppleText.position.set(310,350);
+    game.add.tween(developedText.position).to({x: -150,y: 320},1000, Phaser.Easing.Linear.Out, true);
+    game.add.tween(redAppleText.position).to({x: 810,y: 350},1000, Phaser.Easing.Linear.Out, true);
+    game.add.tween(titleArt).to({alpha: 0},1000, Phaser.Easing.Linear.Out, true,500);
+    game.add.tween(creditPageBackground).to({alpha : 0},1000, Phaser.Easing.Linear.Out, true,1200);
+
+}// END OF hideDevelopmentAndRedAppleTextAndTitleArt FUNCTION
+
+function ShowAllMainMenuButton(){
+    //TWEEN THE MAIN MENU BACKGROUND AND SHOW
+    game.add.tween(mainMenuBackground.scale).to({x: 0.8,y: 0.8},500, Phaser.Easing.Linear.Out, true,200);
+
+    //TWEEN THE CHARACTER SELECTION BUTTON AND SHOW ON THE MAIN MENU
+    game.add.tween(characterSelectionButton.position).to({x:300, y:80},600, Phaser.Easing.Linear.Out, true,600);
+    game.add.tween(characterSelectionButton.scale).to({x: 0.6,y: 0.6},600, Phaser.Easing.Linear.Out, true,600);
+
+    //TWEEN THE PLAY BUTTON AND SHOW ON THE MAIN MENU
+    game.add.tween(playButton.position).to({x:300, y:200},600, Phaser.Easing.Linear.Out, true,800);
+    game.add.tween(playButton.scale).to({x: 0.7,y: 0.7},600, Phaser.Easing.Linear.Out, true,800);
+
+    //TWEEN THE SOUND BUTTON AND SHOW ON THE MAIN MENU
+    game.add.tween(menuSoundButton.position).to({x:300, y:320},600, Phaser.Easing.Linear.Out, true,1000);
+    game.add.tween(menuSoundButton.scale).to({x: 1,y: 1},600, Phaser.Easing.Linear.Out, true,1000);
+
+    characterSelectionButton.inputEnabled = true;
+    characterSelectionButton.input.useHandCursor = true;
+
+    playButton.inputEnabled = true;
+    playButton.input.useHandCursor = true;
+
+    menuSoundButton.inputEnabled = true;
+    menuSoundButton.input.useHandCursor = true;
+    var isCharacterChoosed = localStorage.getItem("crazy_girl_is_charcater_choosed_already");
+    if(isCharacterChoosed == null){
+        setTimeout(function(){pleaseSelectCharacterText.visible = true;
+        game.add.tween(pleaseSelectCharacterText.scale).to({x: 0,y: 0},400, Phaser.Easing.Linear.Out, true,1500);
+        game.add.tween(pleaseSelectCharacterText).to({alpha: 0},400, Phaser.Easing.Linear.Out, true,1500);
+        characterSelectionButton.inputEnabled = true;
+        characterSelectionButton.input.useHandCursor = true;
+      },1500);
+    }
+
+
+}// END OF ShowAllMainMenuButton FUNCTION
+
+function HideAllMainMenuButton(){
+    //TWEEN THE CHARACTER SELECTION BUTTON AND HIDE ON THE MAIN MENU
+    game.add.tween(characterSelectionButton.position).to({x:-300, y:80},500, Phaser.Easing.Linear.Out, true,);
+    game.add.tween(characterSelectionButton.scale).to({x: 0,y: 0},500, Phaser.Easing.Linear.Out, true,);
+
+    //TWEEN THE PLAY BUTTON AND HIDE ON THE MAIN MENU
+    game.add.tween(playButton.position).to({x:800, y:200},500, Phaser.Easing.Linear.Out, true,300);
+    game.add.tween(playButton.scale).to({x: 0,y: 0},500, Phaser.Easing.Linear.Out, true,300);
+
+    //TWEEN THE SOUND BUTTON AND HIDE ON THE MAIN MENU
+    game.add.tween(menuSoundButton.position).to({x:-300, y:320},500, Phaser.Easing.Linear.Out, true,500);
+    game.add.tween(menuSoundButton.scale).to({x: 0,y: 0},500, Phaser.Easing.Linear.Out, true,500);
+
+    //TWEEN THE MAIN MENU BACKGROUND AND HIDE
+    game.add.tween(mainMenuBackground.scale).to({x: 3,y: 3},500, Phaser.Easing.Linear.Out, true,700);
+
+    characterSelectionButton.inputEnabled = false;
+    characterSelectionButton.input.useHandCursor = false;
+
+    playButton.inputEnabled = false;
+    playButton.input.useHandCursor = false;
+
+    menuSoundButton.inputEnabled = false;
+    menuSoundButton.input.useHandCursor = false;
+
+}// END OF HideAllMainMenuButton FUNCTION
+
+//SHOW THE CHARCTER CHOOSE PAGE
+function ShowCharacterChoosePage(){
+    characterChoosePageBackground.visible = true;
+    maleButton.visible = true;
+    femaleButton.visible = true;
+
+    game.add.tween(characterChoosePageBackground).to({alpha: 1},500, Phaser.Easing.Linear.Out, true,100);
+    game.add.tween(maleButton).to({alpha: 1},500, Phaser.Easing.Linear.Out, true,100);
+    game.add.tween(femaleButton).to({alpha: 1},500, Phaser.Easing.Linear.Out, true,100);
+
+    maleButton.inputEnabled = true;
+    maleButton.input.useHandCursor = true;
+
+    femaleButton.inputEnabled = true;
+    femaleButton.input.useHandCursor = true;
+
+}//END OF ShowCharacterChoosePage FUNCTION
+
+//HIDE THE CHARCTER CHOOSE PAGE
+function HideCharacterChoosePage(){
+    characterChoosePageBackground.visible = false;
+    maleButton.visible = false;
+    femaleButton.visible = false;
+
+}//END OF HideCharacterChoosePage FUNCTION
+
+////HIDE THE LEVEL SELECTION PAGE
+function HideLevelSelectionPage(){
+    game.add.tween(levelSelectionGroup.scale).to({x: 0,y: 0},500, Phaser.Easing.Linear.Out, true);
+    game.add.tween(levelSelectionGroup.position).to({x: 300,y: 200},500, Phaser.Easing.Linear.Out, true);
+    game.add.tween(levelSelectionGroup).to({alpha: 0},500, Phaser.Easing.Linear.Out, true);
+    // setTimeout(function(){levelSelectionGroup.visible = false;},2000);
+}
+
+function playCharacterWalk(){
+    character.animations.play('characterWalk',30,true);
+}
+
+function playCharacterHit(){
+    character.animations.play('characterHit',30,false);
+}
+
+function playCharacterFall(){
+    character.animations.play('characterFall',30,false);
+}
+
+function stopCharacterWalk(){
+    character.animations.stop('characterWalk');
+}
+function stopCharacterHitAndFall(){
+  character.animations.stop('characterHit');
+    character.animations.stop('characterFall');
+}
+
+
+// FOR ENTRY OF THE CHARACTER WHEN WE CLICK ON THE PLAY BUTTON AND THEN START THE MAIN GAME
+function characeterEntry(){
+    game.add.tween(character.body).to({x: 135},2000,Phaser.Easing.Linear.Out,true);
+    if(isSoundOn){
+      CharacetrWalkIntervalValue = setInterval(playCharacterSound,300);
+    }
+    // FOR CLEAR THE INTERVAL VALUE WHEN THE CHARACTER ENTERD TO THE SCREEN
+    setTimeout(clearCharacterWalkInterval,700);
+
+}  // END OF characeterEntry FUNCTION
+
+// FOR CLEAR THE INTERVAL VALUE WHEN THE CHARACTER ENTERD TO THE SCREEN
+function clearCharacterWalkInterval(){
+    clearInterval(CharacetrWalkIntervalValue);
+}// END OF clearCharacterWalkInterval FUNCTION
+
+
+// FOR SHOWING THE PLAY BUTTON HINT
+function showPlayButtonHint(){
+  hintCircle.visible = true;
+  hintArrow.visible = true;
+
+  hintCircle.x = playButton.x+5;
+  hintCircle.y = playButton.y-2;
+
+  hintArrow.x = hintCircle.x +85;
+  hintArrow.y = hintCircle.y -60;
+
+  hintCircle.animations.play('hint_circle_rotation',30,true);
+  hintArrow.animations.play('hint_arrow_animation',30,true);
+
+}// END OF showPlayButtonHint FUNCTION
+
+
+  // FOR SHOWING THE ARROW HINT TO CLICK ON THE BLOCK
+  // function showBlockHint(angle,xOffset,yOffset){
+  // 	hintArrow.visible = true;
+  //
+  // 	hintArrow.angle = angle;
+  //
+  // 	blockHintOffsetX = xOffset;
+  // 	blockHintOffsetY = yOffset;
+  //
+  //   hintArrow.x = blockArray[hintBlockIndex].body.x + blockHintOffsetX;
+  //   hintArrow.y = blockArray[hintBlockIndex].body.y + blockHintOffsetY;
+  // }// END OF showBlockHint FUNCTION
+
+
+  // // TO MOVE THE ARROW HINTS WITH BLOCK
+  // function maintainHintBlockOffset(){
+  // 	if(isDownBlockFound || isUpBlockFound){
+	//   	hintArrow.x = blockArray[hintBlockIndex].body.x + blockHintOffsetX;
+	//     hintArrow.y = blockArray[hintBlockIndex].body.y + blockHintOffsetY;
+	//   }
+  // }// END OF maintainHintBlockOffset FUNCTION
+
+  // FOR HIDE THE HINTS
+  function hideHints(){
+    hintCircle.visible = false;
+    hintArrow.visible = false;
+
+  }// END OF hideHints FUNCTION
+
+
+  // FOR CREATE BLOCKS
+  function createBlocks(xPos,yPos){
+    for(i=0;i<max;i++){
+      blockArray[i] = game.add.sprite(xPos + i*(64 + blockGapSize),yPos,'block');
+      blockArray[i].anchor.set(0.5,0.5);
+
+      game.physics.p2.enable(
+                              [
+                                blockArray[i],
+                              ]
+                            );
+      blockArray[i].body.static = true;
+      // blockArray[i].body.debug = true;
+      blockArray[i].body.clearShapes();
+      blockArray[i].body.addRectangle(60,92,0,2);
+      // blockArray[i].visible = false;
+	  blockArray[i].events.onInputDown.add(gotoOriginalPosition,this);
+    }// END OF FOR LOOP
+
+    blockWidth = blockArray[0].width;
+
+  }// END OF createBlocks FUNCTION
+
+
+  // FOR CREATE AMOUNT FOR MOVING THE BLOCKS
+  function shiftAllBlocks(){
+    for(i=0;i<max;i++){
+      // blockArray[i].body.x -= shiftAmount;
+      blockArray[i].body.x -= levelSpeed;
+    }
+  } // END OF shiftAllBlocks FUNCTION
+
+
+  // WHEN THE BLOCKS CROSS THE LEFT BOUNDARY, THEN RE-POSITION THE BLOCKS AND CREATE BLANK SPACES
+  function checkStartingBlock(){
+	var startBlockBody = blockArray[startBlockIndex].body;
+
+	if(startBlockBody.x < -32){
+								startBlockBody.x = (blockArray[lastBlockIndex].body.x + (blockWidth * 1 + blockGapSize));
+
+								lastBlockIndex = startBlockIndex;
+
+								startBlockIndex++;
+								if(startBlockIndex>(max-1)){
+									startBlockIndex = 0;
+								}
+
+								// console.log("Start Index: " + startBlockIndex + " | Last Block Index: " + lastBlockIndex);
+
+								var randomNumber = Math.random();
+
+                // if(blockClickCounter < 2){
+                  if(randomNumber < 0.33 && blockArray[lastBlockIndex].body.y > 205){
+  									// SHIFT UP
+  									blockArray[lastBlockIndex].body.y -= 60;
+
+                    if(blockClickCounter <2){
+                      //TO STORE THE FIRST UP BLOCK INDEX
+                      // if(!isUpBlockFound){
+    									// 	hintBlockIndex = lastBlockIndex;
+    									// 	// console.log('upBlockIndexNumber :' + hintBlockIndex);
+                      //
+    									// 	isUpBlockFound = true;
+                      //
+    									// 	// showBlockHint(-53,0,-90);
+                      //
+                      //   // STOP THE WALK ANIMATION OF THE CHARACTER
+                      //   stopCharacterWalk();
+                      //
+                      //   setTimeout(function(){
+                      //                           isGameRunning = false;
+                      //                         },2500);
+                      //
+    									// }
+
+                    }// END OF COUNTER IF STATEMENT FOR UP BLOCK
+
+
+
+  								}else if(randomNumber > 0.66 && blockArray[lastBlockIndex].body.y < 325){
+  									// SHIFT DOWN
+  									blockArray[lastBlockIndex].body.y += 60;
+
+                    if(blockClickCounter < 2){
+                      //TO STORE THE FIRST DOWN BLOCK INDEX
+    									// if(!isDownBlockFound){
+    									// 	hintBlockIndex = lastBlockIndex;
+    									// 	// console.log('downBlockIndexNumber :' + hintBlockIndex);
+    									// 	isDownBlockFound = true;
+                      //
+    									// 	// showBlockHint(126,0,75);
+                      //
+                      //   // STOP THE WALK ANIMATION OF THE CHARACTER
+                      //   stopCharacterWalk();
+                      //
+                      //   setTimeout(function(){
+                      //                           isGameRunning = false;
+                      //                         },2500);
+                      //
+    									// }
+
+                    }// END OF COUNTER IF STATEMENT FOR DOWN BLOCK
+
+
+  								}
+
+
+	  }// END OF LEFT BOUNDARY CROSS CHECK IF STATEMENT
+
+  }// END OF checkStartingBlock FUNCTION
+
+
+
+  // FOR MOVING THE BLOCKS TO THE ORIGINAL POSITION WHEN THE BLOCKS ARE EITHER IN DOWN OR UP
+  function gotoOriginalPosition(target){
+    if(isSoundOn){
+      blockClickSFX.play();
+    }
+
+    isGameRunning = true;
+    hideHints();
+    // character.animations.play('character',30,true);
+
+    playCharacterWalk();
+
+
+    blockClickCounter++;
+
+    //WHEN THE BLOCKS ARE NOT IN ORIGINAL POSITION THEN MOVE THEM IN ORIGINAL POSITION AND-
+    //MOVE THE ORIGINAL BLOCKS TO THE EITHER UP OR DOWN
+    if(target.body.y == 265){
+      var random = Math.random();
+      if(random < 0.5){
+        game.add.tween(target.body).to( { y: 325 }, 250, Phaser.Easing.Linear.Out, true);
+      }else{
+        game.add.tween(target.body).to( { y: 205 }, 250, Phaser.Easing.Linear.Out, true);
+      }
+    }else{
+      game.add.tween(target.body).to( { y: 265 }, 250, Phaser.Easing.Linear.Out, true);
+    }
+
+	}// END OF gotoOriginalPosition FUNCTION
+
+
+
+  // FOR COLLISION DETECT OF THE BLOCKS WITH CHARACTER AND SHOW GAME OVER POPUP
+  function collisionEvent(body, bodyB, shapeA, shapeB, equation){
+
+    // CHARCTER HIT
+    if(body.y < 265){
+        // FOR PLAY GAME OVER SOUND
+        if(isSoundOn){
+          gameOverSFX.play();
+        }
+
+        isGameRunning = false;
+        character.body.velocity.x = 0;
+        character.body.velocity.y = 0;
+        character.body.static = true;
+        gamePlayBGM.stop();
+        characterWalkSFX.stop();
+
+        // STOP CHARACTER WALK ANIMATION
+        stopCharacterWalk();
+
+        //PLAY HIT ANIMATION
+        playCharacterHit();
+
+        // FOR SHAKE THE SCREEN
+        game.camera.shake(0.03, 500);
+
+        //FOR SHOW THE GAME OVER POPUP
+        setTimeout(ShowGameOverPopup,600);
+
+    }// END OF HIT CHARACTER CHECKING IF STATEMENT
+
+
+    // CHARCTER FALL
+    if(body.y > 265){
+        // FOR PLAY GAME OVER SOUND
+        if(isSoundOn){
+          gameOverSFX.play();
+        }
+
+        isGameRunning = false;
+        character.body.velocity.x = 0;
+        character.body.velocity.y = 0;
+        character.body.static = true;
+        gamePlayBGM.stop();
+        characterWalkSFX.stop();
+
+        // STOP CHARACTER WALK ANIMATION
+        stopCharacterWalk();
+
+        //PLAY FALL ANIMATION
+        playCharacterFall();
+
+        // FOR SHAKE THE SCREEN
+        game.camera.shake(0.03, 500);
+
+        //FOR SHOW THE GAME OVER POPUP
+        setTimeout(ShowGameOverPopup,600);
+
+    }// END OF FALL CHARACTER CHECKING IF STATEMENT
+
+  }// END OF collisionEvent FUNCTION
+
+
+  // SETUP THE PARALLAX LEVELS TO THE ARRAY
+  function SetupParallaxLevels(){
+    // SETUP THE PARALLAX LEVELS TO THE ARRAY
+    parallaxLevelsArray = [];  // CREATE A BLANK ARRAY
+
+    // EACH OF THE ELEMENTS OF THE ARRAY CONTAINS AN ARRAY OF NUMBERS WHICH REPRESENT THE NUMBER OF PARALLAX ITEMS
+    parallaxLevelsArray[0] = [1];    // FAR
+    parallaxLevelsArray[1] = [2,3];  // MIDDLE
+    parallaxLevelsArray[2] = [4,5];  // NEAR
+
+    // YOU CAN ADD AS MANY LAYERS AS YOU WANT
+
+  }  // END OF SetupParallaxLevels FUNCTION
+
+
+  // FOR CREATE THE PARALLAX ITEMS FROM THE ARRAY
+  function CreateParallaxLayer(layerIndex,count){
+    // IMPORTANT - CALL THE SetupParallaxlevels() BEFORE CALLING THIS FUNCTION
+
+    // THE LAYER-INDEX REPRESENTS THE PARALLAX LEVEL ARRAY INDEX
+    // 0 = FAR
+    // 1 = MIDDLE
+    // 2 = NEAR
+
+    // THE COUNT REPRESENTS THE NUMBER OF ITEMS THAT NEED TO BE POPULATED
+
+    var i; // USED OF LOOPING
+    var layerIndexItemsCount = parallaxLevelsArray[layerIndex].length;
+    var randomIndex;
+    var targetImageNumber;
+    var tmp;
+    var randomXPosition;
+
+    // console.log("Count: " + layerIndexItemsCount);
+
+    for(i=0;  i<count;  i++){
+      // LOOP COUNT TIMES - PICK A RANDOM ITEM - ADD THE SPRITE
+      randomIndex = Math.floor(Math.random()*layerIndexItemsCount);
+
+      // TO CRAETE RANDOM X POSITION
+      randomXPosition = parseInt(Math.random() * 600);
+
+      // BY DEFAULT RANDOM GENERATES FROM 0 TO 1
+      // SO, GENERATE A RANDOM NUMBER FORM 0 to the (LAST-INDEX - 1) THAT IS WHY WE USE FLOOR
+      targetImageNumber = parallaxLevelsArray[layerIndex][randomIndex];
+
+      // console.log(targetImageNumber);
+
+      // NOW ADD THE IMAGE AS A SPRITE
+      tmp = game.add.sprite(
+                      // (i*100)+xOffset,  // CHANGE THIS ACCORDING TO YOUR LOGIC - OR USE FUNCTION PARAMETER
+                      (randomXPosition + xOffset),
+                      210,   // CHANGE THIS ACCORDING TO YOUR LOGIC - OR USE FUNCTION PARAMETER
+                      "parallax_item_0" + targetImageNumber
+                      );
+
+      tmp.anchor.set(0.5,1);  // FOR TESTING PURPOSE
+      var scaleFactorX = Math.random() * 0.4 + 0.2;
+      var scaleFactorY = Math.random() * 0.3 + 0.2;
+      tmp.scale.set(scaleFactorX,scaleFactorY);
+
+      allParallaxObjects[parallaxObjectsCounter] = tmp;
+      parallaxObjectsCounter++;
+      var setRandomVelocity = layerIndex *(shiftAmount*0.1) + Math.random()*0.3 + 0.1;
+      velocityOfParallaxObjects[parallaxObjectsCounter] = setRandomVelocity;
+
+    }
+  }  // END OF CreateParallaxLayer FUNCTION
+
+  function moveAllParallaxItems(){
+    for(i=0; i<parallaxObjectsCounter; i++){
+      allParallaxObjects[i].x -= velocityOfParallaxObjects[i];
+
+      if(allParallaxObjects[i].x < -100){
+        allParallaxObjects[i].x = Math.random()*300+600;
+      }
+    }
+  }  // END OF moveAllParallaxItems FUNCTION
+
+
+  // FOR CREATE LEAF
+  function createLeaf(xPos,yPos){
+    for(i=0;i<maxLeaf;i++){
+      leafRandomGap = Math.random()*100+100;
+      leafScaleFactor = Math.random()*0.3+0.4;
+
+      leafArray[i] = game.add.sprite(xPos + i*(35+leafRandomGap),yPos,'leaf');
+      leafArray[i].anchor.set(0,1);
+      leafArray[i].scale.set(leafScaleFactor,leafScaleFactor);
+
+      leafArray[i].tint = '0x4b3c00';
+      leafArray[i].animations.add('leaf');
+    }
+  }// END OF createLeaf
+
+
+  // FOR MOVING THE LEAF AND  WHEN THE LEAF CROSS THE LEFT BOUNDARY, THEN RE-POSITION THE LEAF
+    function shiftAllLeaf(){
+      for(i=0;i<maxLeaf;i++){
+        leafArray[i].x -= shiftAmount* 0.15;
+        if(leafArray[i].x < -30){
+          leafArray[i].x = Math.random() * 200 + 600;
+        }
+      }
+    } // END OF createLeaf FUNCTION
+
+
+    // FOR GENERATE MORE STONES WITH THE LIMITED STONES
+    function generateMoreStone(){
+      for(i=1; i<=5; i++ ){
+        randomStone = parseInt(Math.random() * 2 + 1);
+        randomStoneXPosition = parseInt(Math.random() * 600 );
+
+        stoneNameString = "0" + i;
+
+        stretchedStoneArray[i-1] = game.add.sprite(
+                                              (randomStoneXPosition + xOffset),
+                                              // i*10,
+                                              410,
+                                              'stone_0'+randomStone
+                                              );
+        stretchedStoneArray[i-1].anchor.set(0.5,1);
+        stoneScaleFactor = Math.random() * 0.4 + 0.5;
+        stretchedStoneArray[i-1].scale.set(stoneScaleFactor,stoneScaleFactor);
+      }
+    }// END OF generateMoreStone FUNCTION
+
+
+    // APPLY VELOCITY TO THE PARALLAX ITEMS
+    function shiftAllStones(){
+      for(i=1;i<=5;i++){
+        stretchedStoneArray[i-1].x -= shiftAmount * 0.15;
+        if(stretchedStoneArray[i-1].x < -50 ){
+          stretchedStoneArray[i-1].x = Math.random() * 200 + 600;
+        }
+      }
+    }// END OF shiftAllStones FUNCTION
+
+
+    // FOR CREATE CLOUD ONE
+    function createCloudOne(xPos,yPos){
+      for(i=0;i<maxCloudOne;i++){
+        cloudOneRandomGap = Math.random()*200+200;
+        cloudOneScaleFactor = Math.random()*0.4+0.2;
+        var yPositionrandom = Math.random()*5+5;
+
+        cloudOneArray[i] = game.add.sprite(xPos + i*(cloudOneRandomGap),(yPos+yPositionrandom),'cloudOne');
+        cloudOneArray[i].scale.set(cloudOneScaleFactor,cloudOneScaleFactor);
+      }
+    }// END OF createCloudOne FUNCTION
+
+
+    //  FOR MOVING THE CLOUD
+      function shiftAllCloud(){
+        for(i=0;i<maxCloudOne;i++){
+          cloudOneArray[i].x -= shiftAmount * 0.05;
+          if(cloudOneArray[i].x < -150){
+            cloudOneArray[i].x = 100+Math.random() * 300 + 600;
+          }
+        }
+      } // END OF shiftAllCloud FUNCTION
+
+
+      // FOR SET INITIAL INDEX FOR COLOR
+      function initIndices(startColorIndex){
+        currentColorIndex = startColorIndex;
+        nextColorIndex = currentColorIndex + 1;
+
+        if(nextColorIndex == arrayOfColors.length){
+          nextColorIndex = 0;
+        }
+        // console.log("Current: " + currentColorIndex + " | Next: " + nextColorIndex);
+      }
+
+
+      // FOR SET NEXT INDEX FOR COLOR
+      function setNextIndices(){
+        // console.log("setNextIndices()");
+        ++currentColorIndex;
+        ++nextColorIndex;
+
+        if(currentColorIndex == arrayOfColors.length){
+          currentColorIndex = 0;
+        }else if(nextColorIndex == arrayOfColors.length){
+          nextColorIndex = 0;
+        }
+        // console.log("Current: " + currentColorIndex + " | Next: " + nextColorIndex);
+      }
+
+
+      // FOR CREATE COLOR
+      function createColorArray(){
+          arrayOfColors = [];
+
+          arrayOfColors[0] = Phaser.Color.HSVtoRGB(15/360,0.89,0.72);
+          arrayOfColors[1] = Phaser.Color.HSVtoRGB(287/360,0.83,0.75);
+          arrayOfColors[2] = Phaser.Color.HSVtoRGB(263/360,0.94,0.71);
+          arrayOfColors[3] = Phaser.Color.HSVtoRGB(347/360,0.47,0.48);
+          arrayOfColors[4] = Phaser.Color.HSVtoRGB(70/360,0.41,0.52);
+
+          // arrayOfColors[0] = Phaser.Color.HSVtoRGB(2/360,0.98,0.41);
+          // arrayOfColors[1] = Phaser.Color.HSVtoRGB(27/360,0.65,0.78);
+          // arrayOfColors[2] = Phaser.Color.HSVtoRGB(38/360,0.54,0.92);
+          // arrayOfColors[3] = Phaser.Color.HSVtoRGB(39/360,0.31,0.84);
+          // arrayOfColors[4] = Phaser.Color.HSVtoRGB(229/360,0.12,0.73);
+          // arrayOfColors[5] = Phaser.Color.HSVtoRGB(225/360,0.55,0.76);
+          // arrayOfColors[6] = Phaser.Color.HSVtoRGB(212/360,0.87,0.97);
+          // arrayOfColors[7] = Phaser.Color.HSVtoRGB(247/360,0.72,0.90);
+          // arrayOfColors[8] = Phaser.Color.HSVtoRGB(272/360,0.69,0.82);
+          // arrayOfColors[9] = Phaser.Color.HSVtoRGB(251/360,0.76,0.48);
+      }
+
+      // FOR CHANGE THE BACKGROUND COLOR SMOOTHLY
+      function changeColor(){
+        var inrterpolatedColor = Phaser.Color.interpolateRGB(
+                                                          arrayOfColors[currentColorIndex].r,
+                                                          arrayOfColors[currentColorIndex].g,
+                                                          arrayOfColors[currentColorIndex].b,
+
+                                                          arrayOfColors[nextColorIndex].r,
+                                                          arrayOfColors[nextColorIndex].g,
+                                                          arrayOfColors[nextColorIndex].b,
+
+                                                          stepCount,
+                                                          stepNumber++
+                                                        );
+        whiteColorGradient.tint = inrterpolatedColor;
+        // backSky.tint = inrterpolatedColor;
+
+        if(stepNumber == stepCount){
+          stepNumber = 1;
+          setNextIndices();
+        }
+      }// END OF changeColor
+
+
+  // FOR PLAYING THE CHARACTER SOUND IN INTERVAL
+  function playCharacterSound(){
+    characterWalkSFX.play();
+  }
+
+
+  // FOR MUSIC FLOW PARTICAL EFFECT
+  function createMusicEffect(){
+    emitter = game.add.emitter(character.body.x-20, character.body.y, 5);
+
+    emitter.makeParticles('music', [0, 1, 2, 3, 4, 5, 6, 7,8,9,10,11,12,13,14,15,16,17,18,19,20]);
+
+    emitter.minParticleSpeed.setTo(5, 10);
+    emitter.gravity = -300;
+
+    emitter.setAlpha(1, 0, 1500, Phaser.Easing.Linear.None, false);
+
+    emitter.autoAlpha = true;
+    emitter.start(false, 1500, 20);
+
+  }// END OF createMusicEffect FUNCTION
+
+
+  // FOR CREATE STAR
+  function createStar(xPos,yPos){
+    for(i=0;i<maxStar;i++){
+      starRandomGap = Math.random()*40+20;
+      starScaleFactor = Math.random()*0.5+0.3;
+      var yPositionrandom = Math.random()*90+20;
+
+      star[i] = game.add.sprite(xPos + i*(starRandomGap),(yPos+yPositionrandom),'star');
+
+      star[i].rotation = 60;
+
+      star[i].scale.set(starScaleFactor,starScaleFactor);
+
+      var scaleTween = game.add.tween(star[i].scale).to( { x: 0, y: 0}, 5000, "Linear", true, 0, -10);
+      var alphaTween = game.add.tween(star[i]).to( { alpha: 0 }, 5000, "Linear", true, 0, -10);
+      alphaTween.yoyo(true, 500);
+      scaleTween.yoyo(true, 500);
+    }
+  }// END OF createStar FUNCTION
+
+  //  FOR MOVING THE STAR
+    function shiftAllStar(){
+      for(i=0;i<maxStar;i++){
+        star[i].x -= shiftAmount * 0.01;
+        if(star[i].x < -150){
+          star[i].x = 100+Math.random() * 300 + 600;
+      }
+    }
+    } // END OF shiftAllStar FUNCTION
+
+    // FOR SAVE WHICH CHARACTER WILL BE CHOOSED
+    function SaveCharacterChoosedData(value){
+
+        localStorage.setItem("crazy_girl_is_male_charcater",value);
+        console.log("Is male type"+localStorage.getItem("crazy_girl_is_male_charcater"));
+
+        localStorage.setItem("crazy_girl_is_charcater_choosed_already",true);
+        console.log("Is character choosed"+localStorage.getItem("crazy_girl_is_charcater_choosed_already"));
+
+    }// END OF SaveCharacterChoosedData FUNCTION
+
+    function SaveLastLevelWonData(){
+        // SAVE LAST LEVEL WON DATA
+        var lastLevelWon = localStorage.getItem("crazy_girl_last_level_won");
+        if(lastLevelWon){
+            // CHECK IF THE CURRENT LEVEL IS GREATER THAN THE ALREADY SAVED NUMBER
+            if(currentLevel > parseInt(lastLevelWon)){
+                localStorage.setItem("crazy_girl_last_level_won",currentLevel);
+            }
+        }else{
+            // NO DATA IS FOUND. SO WE CAN EASILY SAVE THE CURRENT LEVEL
+            localStorage.setItem("crazy_girl_last_level_won",currentLevel);
+        }
+
+        //FOR STORE THE REWARDS
+        // localStorage.setItem("crazy_girl_level_"+(currentLevel+1)+"_reward",levelReward);
+
+    }// END OF SaveLastLevelWonData FUNCTION
+
+    //FOR SET THE SOUND VALUE TO THE LOCAL STORAGE
+    function SaveSoundOnOffData(){
+      var soundStatus = localStorage.getItem("crazy_girl_is_BGM_and_SFX_sound_on");
+      if(soundStatus == null){
+          localStorage.setItem("crazy_girl_is_BGM_and_SFX_sound_on","true");
+          isSoundOn = true;
+      }else{
+          if(soundStatus == "true"){
+              isSoundOn = true;
+          }else if(soundStatus == "false"){
+              isSoundOn = false;
+          }
+      }
+      // FOR CHANGING THE BUTTON'S IMAGE
+      setSoundButtonImage();
+
+    }// END OF SaveSoundOnOffData FUNCTION
+
+    // FOR CHANGING THE BUTTON'S IMAGE
+    function setSoundButtonImage(){
+      if(isSoundOn){
+        menuSoundButton.frame = 1;
+        gameOverSoundButton.frame = 1;
+      }else{
+        menuSoundButton.frame = 0;
+        gameOverSoundButton.frame = 0;
+      }
+    }// END OF setSoundButtonImage FUNCTION
+
+
+
+//--------------------------------------------------------------------------------
+
+  // START OF UPDATE FUNCTION
+  function update() {
+
+      if(isGameRunning){
+        // FOR MOVING THE CHARACTER
+        applyCharacterVelocity();
+
+        // FOR MOVING THE BLOCKS
+        shiftAllBlocks();
+
+        // WHEN THE BLOCKS CROSS THE LEFT BOUNDARY, THEN RE-POSITION THE BLOCKS
+        checkStartingBlock();
+
+        // FOR MOVE THE SHRUBS,FRONTSHRUBS,FRONTGROUND,BLUE WATER GRADIENT
+        moveTheTileImages();
+
+        // FOR APPLY THE VELOCITY TO THE PARALLAX ITEMS
+        moveAllParallaxItems();
+
+        //FOR CALCULATE DISTANCE
+        calculateDistance();
+
+        // FOR MOVING THE LEAF AND RE-POSITION
+        shiftAllLeaf();
+
+        // FOR MOVING THE STONE AND RE-POSITION
+        shiftAllStones();
+
+        // FOR MOVING THE CLOUDS AND RE-POSITION
+        shiftAllCloud();
+
+        // FOR CHANGE BACKGROUND COLOR
+        changeColor();
+
+        // TO MOVE THE ARROW HINTS WITH BLOCK
+        // maintainHintBlockOffset();
+
+        // FOR MOVE STARS
+        shiftAllStar();
+      }
+
+  }// END OF UPDATE
+
+//----------------------------------------------------------------------------------------------------------------------
+
+  // FOR MOVING THE CHARACTER
+  function applyCharacterVelocity(){
+    character.body.velocity.x = 0.12;
+
+  }// END OF applyCharacterVelocity FUNCTION
+
+
+  // FOR INCREASE THE SPEED
+  function increaseShiftAmount(){
+    if(willIncreaseShiftAmount){
+      if(shiftAmount<10){
+      	shiftAmount +=0.03;
+      }
+    }
+  }// END OF increaseShiftAmount() FUNCTION
+
+
+  // FOR MOVE THE SHRUBS,FRONTSHRUBS,FRONTGROUND,BLUE WATER GRADIENT
+  function moveTheTileImages(){
+    frontGround.tilePosition.x -= shiftAmount * 1.4;
+    shrubs.tilePosition.x -= shiftAmount * 0.9;
+    frontShrubs.tilePosition.x -= shiftAmount * 1.6;
+    cloudTwo.tilePosition.x -= shiftAmount * 0.07;
+    frontWater.tilePosition.x -= shiftAmount*1.5;
+    backWaterWave.tilePosition.x -= 1.2;
+
+  }// END OF moveTheTileImages FUNCTION
+
+
+  // FOR SHOW THE GAME OVER POPUP
+  function ShowGameOverPopup(){
+    // isGameRunning = false;
+
+    // gamePlayBGM.stop();
+    // characterWalkSFX.stop();
+    // FOR STOP THE CHARACTER WALK AFTER ENTERD
+    clearInterval(CharacetrWalkIntervalValue);
+
+    // character.body.velocity.x = 0;
+    // character.body.velocity.y = 0;
+    // character.body.static = true;
+
+    shiftAmount = 0;
+    willIncreaseShiftAmount = false;
+    overlayPixel.visible = true;
+    scoreText.visible = false;
+    scoreBoard.visible = false;
+
+    emptyBar.visible = false;
+    meter.visible = false;
+
+    // FOR STOP THE PARTICAL EFFECT OF MUSIC
+    emitter.on = false;
+
+    //TO HIDE THE LEVEL TEXT
+    // setTimeout(HideLevelText,200);
+    HideLevelText();
+
+    // INPUT DISABLE TO THE BLOCKS
+    for(i=0;i<max;i++){
+      blockArray[i].body.velocity = 0;
+      blockArray[i].inputEnabled = false;
+    }
+
+    // FOR SHOW GAME OVER OVERSCREEN AND TWEEN IN THE GAME OVER POPUP
+    setTimeout(showGameOverScreen,300);
+
+    setTimeout(GameOverButtonsTween,1100);
+
+    // FOR SHOW THE YOUR SCORE TEXT IN GAME OVER POPUP
+    setTimeout(visibleYourScoreText,1000);
+
+  }// END OF ShowGameOverPopup() FUNCTION
+
+  function ShowWinPopUp(){
+    isGameRunning = false;
+
+    stopCharacterWalk();
+
+    character.body.velocity.x = 0;
+    character.body.velocity.y = 0;
+    character.body.static = true;
+
+    shiftAmount = 0;
+    willIncreaseShiftAmount = false;
+    overlayPixel.visible = true;
+    scoreText.visible = false;
+    scoreBoard.visible = false;
+
+    emptyBar.visible = false;
+    meter.visible = false;
+
+    gamePlayBGM.stop();
+    characterWalkSFX.stop();
+
+    // FOR STOP THE CHARACTER WALK AFTER ENTERD
+    clearInterval(CharacetrWalkIntervalValue);
+
+    // FOR STOP THE PARTICAL EFFECT OF MUSIC
+    emitter.on = false;
+
+    //TO HIDE THE LEVEL TEXT
+    HideLevelText();
+
+    // INPUT DISABLE TO THE BLOCKS
+    for(i=0;i<max;i++){
+      blockArray[i].inputEnabled = false;
+    }
+
+    // FOR SHOW GAME WIN OVERSCREEN AND TWEEN IN THE GAME WIN POPUP
+    setTimeout(ShowGameWinScreen,300);
+
+    setTimeout(GameWinButtonsTween,1500);
+
+    // TO SHOW THE LEVEL COMPLETE TEXT
+    setTimeout(VisibleLevelCompleteText,1000)
+  }// END OF ShowWinPopUp FUNCTION
+
+
+  // FOR SHOW THE YOUR SCORE TEXT IN GAME OVER POPUP
+  function visibleYourScoreText(){
+    yourScoreText.visible = true;
+  }
+
+  // TO SHOW THE LEVEL COMPLETE,YOU EARNED,LEVEL REWARD TEXT
+  function VisibleLevelCompleteText(){
+    levelCompleteText.visible = true;
+    youEarnedText.visible = true;
+    rewardText.visible = true;
+  }
+
+  // TO HIDE THE LEVEL COMPLETE,YOU EARNED,LEVEL REWARD TEXT
+  function HideLevelCompleteText(){
+    levelCompleteText.visible = false;
+    youEarnedText.visible = false;
+    rewardText.visible = false;
+  }
+
+  // FOR SHOW GAME OVER OVERSCREEN AND TWEEN IN THE GAME OVER POPUP
+  function showGameOverScreen(){
+    overScreen.visible = true;
+    game.add.tween(overScreen.scale).to({x: 0.9,y: 0.9},800, Phaser.Easing.Linear.Out, true,300);
+
+  }
+
+  // FOR SHOW AND TWEEN THE SOUND BUTTON, HOME BUTTON, REPLAY BUTTON
+  function GameOverButtonsTween(){
+    game.add.tween(homeButton.position).to({x: 450},400, Phaser.Easing.Bounce.Out, true);
+    game.add.tween(gameOverSoundButton.position).to({x: 150},400, Phaser.Easing.Bounce.Out, true);
+    game.add.tween(replayButton.position).to({x:300 ,y: 230},400, Phaser.Easing.Bounce.Out, true);
+
+  }// END OF GameOverButtonsTween() FUNCTION
+
+// FOR SHOW GAME WIN OVERSCREEN AND TWEEN IN THE GAME WIN POPUP
+  function ShowGameWinScreen(){
+    overScreen.visible = true;
+    game.add.tween(overScreen.scale).to({x: 0.9,y: 0.9},800, Phaser.Easing.Linear.Out, true,300);
+  }
+
+  // FOR SHOW AND TWEEN THE NEXT BUTTON,REPLAY BUTTON,LEVEL SELECTION BUTTON
+  function GameWinButtonsTween(){
+    game.add.tween(nextButton.position).to({y: 230},400, Phaser.Easing.Bounce.Out, true);
+    game.add.tween(replayButton.position).to({x: 450,y:230},400, Phaser.Easing.Bounce.Out, true,100);
+    game.add.tween(levelSelectionButton.position).to({x: 150},400, Phaser.Easing.Bounce.Out, true);
+  }
+
+  // FOR RESET THE GAME
+  function resetGame(){
+
+    isGameRunning = true;
+    willIncreaseShiftAmount = true;
+
+    overlayPixel.visible = false;
+    yourScoreText.visible = false;
+    shiftAmount = 0.25;
+    distance = 0;
+
+    character.body.static = false;
+    character.body.velocity.x = 0.12;
+
+    // FOR REARRANGE THE BLOCKS
+    reArrangeBlocks();
+
+    // FOR PLAYING THE LEAVES ANIMATION
+    for(i=0;i<maxLeaf;i++){
+      leafArray[i].animations.play('leaf',5,true);
+    }
+
+    playCharacterWalk();
+
+    // FOR PLAYING MUSIC PARTICAL EFFECT
+    createMusicEffect();
+
+    // FOR PLAY THE SOUNDS
+    setTimeout(playAllSound,300);
+
+    // FOR INPUT ENABLE TO THE BLOCKS
+    for(i=0;i<max;i++){
+      blockArray[i].inputEnabled = true;
+      blockArray[i].input.useHandCursor = true;
+    }
+
+    // TO SHOW THE SCORE ON THE SCREEN
+    setTimeout(showScoreOnScreen,200);
+    ShowLevelText();
+    // setTimeout(ShowLevelText,200);
+
+  }// END OF resetGame FUNCTION
+
+
+  //FOR SHOWING THE LEVEL TEXT
+  function ShowLevelText(){
+    levelTextUI.visible = true;
+    levelTextNumber.visible = true;
+  }//END OF ShowLevelText FUNCTION
+
+  //FOR SHOWING THE LEVEL TEXT
+  function HideLevelText(){
+    levelTextUI.visible = false;
+    levelTextNumber.visible = false;
+  }//END OF HideLevelText FUNCTION
+
+  // FOR PLAY THE SOUNDS
+  function playAllSound(){
+    if(isGameRunning){
+      if(isSoundOn){
+        gamePlayBGM.play();
+        gamePlayBGM.loopFull();
+        CharacetrWalkIntervalValue = setInterval(playCharacterSound,300);
+      }
+    }
+  }
+
+
+  // TO SHOW THE SCORE ON THE SCREEN
+  function showScoreOnScreen(){
+    overScreen.visible = false;
+    scoreBoard.visible = true;
+    scoreText.visible = true;
+    emptyBar.visible = true;
+    meter.visible = true;
+    meter.scale.x = 0;
+  }
+
+
+    // FOR RE-ARRANGE THE BLOCKS WHEN GAME OVER
+    function reArrangeBlocks(){
+      character.body.x = 135;
+      character.body.y = 165;
+
+      for(i=0;i<max;i++){
+        blockArray[i].body.x=30+i*(64 + blockGapSize);
+        blockArray[i].body.y=265;
+      }
+
+      startBlockIndex = 0;
+      lastBlockIndex = max-1;
+    }// END OF reArrangeBlocks FUNCTION
+
+
+  //FOR CALCULATE DISTANCE
+  function calculateDistance(){
+    distance += shiftAmount * 0.015;
+    // distance += shiftAmount * 0.0015;
+    var score = parseInt(distance);
+    scoreText.text = score;
+    yourScoreText.text = "YOUR SCORE: "+score;
+
+    // INCREMENT THE DISTANCE BAR
+    meter.scale.x = distance/levelTarget;
+
+    if(score == levelTarget){
+      console.log("LEVEl_" +levelNumber+ "_COmplete");
+      console.log("LEVEl_Reward : " +levelReward);
+      ShowWinPopUp();
+      // setTimeout(ShowWinPopUp,200);
+      currentLevel++
+      SaveLastLevelWonData();
+    //  levelTextNumber.text = (currentLevel);
+    }
+    // if(score == levels_data.levels[level].target){
+    //   ShowWinPopUp();
+    //   level++;
+    //   console.log("LEVEl" +level+ "COmplete");
+    //   levelTextUI.text = "LEVEL";
+    //   levelTextNumber.text = level;
+    //   console.log("level no : " + level);
+    // }
+
+  }// END OF calculateDistance FUNCTION
+
+  </script>
+</body>
+</html>

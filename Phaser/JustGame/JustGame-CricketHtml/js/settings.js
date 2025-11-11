@@ -1,0 +1,254 @@
+var CANVAS_WIDTH = 720;
+var CANVAS_HEIGHT = 1340;
+
+var oGameplayBg;
+
+var CANVAS_WIDTH_HALF = CANVAS_WIDTH * 0.5;
+var CANVAS_HEIGHT_HALF = CANVAS_HEIGHT * 0.5;
+
+var CANVAS_WIDTH_QUATER = CANVAS_WIDTH * 0.75;
+var CANVAS_HEIGHT_QUATER = CANVAS_HEIGHT * 0.75;
+
+// var FONT = "pixel_lcd7regular";
+// var FONT2 = "arialbold";
+var TondoBD = "Tondo_Std_Bd";
+var TondoLt = "Tondo_Std_Lt";
+var TondoRG = "Tondo_Std_Rg";
+var TondoSign = "Tondo_Std_Sign";
+
+
+
+var EDGEBOARD_X = 150;
+var EDGEBOARD_Y = 0;
+
+var FPS = 30;
+
+var FPS_TIME = 1 / FPS;
+
+var ROLL_BALL_RATE = 60 / FPS;
+
+var DISABLE_SOUND_MOBILE = false;
+
+var STATE_LOADING = 0;
+var STATE_MENU = 1;
+var STATE_HELP = 1;
+var STATE_GAME = 3;
+
+var BATTER_MODE = 0;
+var BOWLER_MODE = 1;
+
+var TOT_TEAMS = 6;
+
+
+//six run
+var POINT_TEXT_EXCELLENT; //115
+//four run
+var POINT_TEXT_GREAT = 95;
+//Out
+var POINT_TEXT_OUT = 80;
+//Three
+var POINT_TEXT_GOOD = 70;
+//Two
+var POINT_TEXT_LESS_GOOD = 60;
+
+
+var TEXT_EXCELLENT_COLOR = ["#fff", "#5d96fe"];
+
+var PLAYER_SELECTION_FLAG_START_POS = { x: CANVAS_WIDTH_HALF - 180, y: CANVAS_HEIGHT_HALF - 85 };
+
+var OPPONENT_SELECTION_FLAG_START_POS = { x: CANVAS_WIDTH_HALF + 72, y: CANVAS_HEIGHT_HALF - 85 };
+
+var MAX_COL_FLAG = 2;
+
+var FLAG_OFFSET = { x: 110, y: 75 };
+
+var TRAJECTORY_Y_BALL_CAUGHT = -250;
+
+var BATTER_X = (CANVAS_WIDTH / 2) - 20;
+var BATTER_Y = CANVAS_HEIGHT - 450;
+
+var NON_STRIKER_BATTER_X = (CANVAS_WIDTH / 2) - 210;
+var NON_STRIKER_BATTER_Y = (CANVAS_HEIGHT / 2) - 290;
+
+var BOWLER_X = (CANVAS_WIDTH / 2) - 100; //270
+var BOWLER_Y = (CANVAS_HEIGHT / 2) - 350; //320
+
+var STRIKER_RUN_X = BATTER_X - 50; //(CANVAS_WIDTH / 2) - 210;
+var STRIKER_RUN_Y = BATTER_Y + 20; //(CANVAS_HEIGHT / 2) - 290;
+
+var NON_STRIKER_RUN_X = NON_STRIKER_BATTER_X + 150;
+var NON_STRIKER_RUN_Y = NON_STRIKER_BATTER_Y + 150;
+
+var STRIKER_MODIFIED_X = 100;
+
+// //For UMPIRE
+var UMPIRE_X = (CANVAS_WIDTH / 2) - 5;
+var UMPIRE_Y = (CANVAS_HEIGHT / 2) - 230;
+var NUM_SPRITE_UMPIRE = 9;
+var secretKey;
+
+//FOR FIELDER
+var NUM_OF_FIELDER = 4;
+var FIELDER_X = [(CANVAS_WIDTH / 2) - 280, (CANVAS_WIDTH / 2) - 180, (CANVAS_WIDTH / 2) + 180, (CANVAS_WIDTH / 2) + 260];
+var FIELDER_Y = [(CANVAS_HEIGHT / 2) - 250, (CANVAS_HEIGHT / 2) - 290, (CANVAS_HEIGHT / 2) - 290, (CANVAS_HEIGHT / 2) - 250];
+var FIELDER_SCALE_X = [0.75, 0.3, -0.3, -0.75];
+var FIELDER_SCALE_Y = [0.75, 0.3, 0.3, 0.75];
+
+var BALL_X = BOWLER_X + 145; //315
+var BALL_Y = BOWLER_Y + 130; //450
+
+var BALL_TO_THROW;
+var STEP_SPEED_BALL;
+var BEAT_FORCE = 0.5;
+var STEP_SPEED_STADIUM;
+
+var TARGET_PREV_LUM_OFFSET = { min: -12, max: -5 };
+
+var _iRandDir = 0;
+
+var LAUNCH_DIR_OFFSET_RANGE = [{ min: -90, max: -50 }, { min: -5, max: 5 }, { min: 50, max: 90 }]; //LEFT CENTER RIGHT
+
+var POLE_POSITION = { x: CANVAS_WIDTH_HALF, y: CANVAS_HEIGHT - 150 };
+
+var OFFSET_FOR_HIT;
+var OFFSET_FOR_PERFECT_HIT;
+var PERFECT_HIT_X = BALL_X - 36;
+var PERFECT_HIT_Y = CANVAS_HEIGHT - 450;
+var ALMOST_MINUS;
+var ALMOST_PLUS;
+//WHEN BALL IS THROWN
+var END_POINT_X_THROWN = PERFECT_HIT_X;
+var END_POINT_Y_THROWN = PERFECT_HIT_Y;
+//WHEN BALL IS MISSED
+var END_POINT_X_MISSED_BALL = POLE_POSITION.x;
+var END_POINT_Y_MISSED_BALL = POLE_POSITION.y;
+
+//WHEN BALL IS HITTED
+var END_POINT_X_ALMOST_MINUS_LEFT = 0;
+var END_POINT_X_ALMOST_MINUS_RIGHT = CANVAS_WIDTH;
+var END_POINT_Y_ALMOST_MINUS = CANVAS_HEIGHT_HALF;
+
+var END_POINT_X_ALMOST_PLUS_LEFT = 0;
+var END_POINT_X_ALMOST_PLUS_RIGHT = CANVAS_WIDTH;
+var END_POINT_Y_ALMOST_PLUS = 500;
+
+var END_POINT_X_PERFECT_LEFT = (CANVAS_WIDTH / 2) - 100;
+var END_POINT_X_PERFECT_RIGHT = (CANVAS_WIDTH / 2) + 100;
+var END_POINT_Y_PERFECT = 200;
+
+var MAX_FRAMES_THROWN = 40;
+
+var START_POINT_STADIUM_X = (CANVAS_WIDTH / 2);
+var START_POINT_STADIUM_Y = (CANVAS_HEIGHT / 2) + 250;
+var NUM_SPRITE_PLAYERS = 40;
+var NUM_SPRITE_BATTING = 71;
+
+var NUM_SPRITE_BOWLER = 195;
+var NUM_SPRITE_BATTER_BOWLER_MODE = 81;
+
+var NUM_SPRITE_FIELDER = 8;
+
+var STEP_RATE = 1.5;
+
+var PHYSICS_ACCURACY = 3;
+
+var MOBILE_OFFSET_GLOVES_X = -45;
+var MOBILE_OFFSET_GLOVES_Y = -38;
+
+var BALL_VELOCITY_MULTIPLIER = 1;
+
+var PHYSICS_STEP = 1 / (FPS);
+
+var BALL_MASS = 0.16; //0.160
+
+var BALL_RADIUS = 0.6;
+
+var BALL_LINEAR_DAMPING = 0.2;
+
+var OFFSET_BALL_POS_X = 10;
+
+var OBJECT;
+
+var TEXT_SIZE = [50, 65, 80];
+
+var TIME_TRY_TO_SHOT_BALL_OPPONENT = 0.7;
+
+var MIN_BALL_VEL_ROTATION = 0.1;
+
+var TIME_RESET_AFTER_GOAL = 1;
+
+var TIME_RESET_AFTER_KEEPER_SAVED = 2;
+
+var TIME_RESET_AFTER_PERFECT_KEEPER_SAVED = 3;
+
+var TIME_BALL_IN_HAND = 1000;
+
+var FOV = 35;
+
+var INTERVAL_SHOOT = 1;
+
+var HAND_KEEPER_ANGLE_RATE = 0.15;
+
+var LIMIT_HAND_RANGE_POS = { x: 8.8, zMax: 5.1, zMin: -8.5 };
+
+var POSITION_BALL = { x: 60, y: 220, z: 0 };
+
+var LINE_GOAL_SIZE = { width: 17.5, depth: 1, height: 15.5 };
+
+var GOAL_LINE_POS = { x: 0, y: 10, z: -2.7 };
+
+var GLOVE_SIZE = { width: 1.4, depth: 1, height: 1.7 };
+
+var LEFT_GLOVE_POSITION = { x: -1.5, y: 40, z: 0 };
+var RIGHT_GLOVE_POSITION = { x: 1.5, y: 40, z: 0 };
+
+var LAUNCH_BALL_IMPULSE = { x: -4.47, y: 0, z: 1 };
+
+var LEFT_GLOVE = 0;
+var RIGHT_GLOVE = 1;
+
+var GLOVE_REG = [{ x: 3, y: -5 }, { x: -3, y: -5 }];
+
+var SHOW_3D_RENDER = false;
+
+var CAMERA_TEST = false;
+
+var MOUSE_SENSIBILTY = 0.03;
+
+var OFFSET_MOUSE_X = -75;
+
+var SCORE_ERROR_MULTIPLIER = 20;
+
+var INTENSITY_DISPLAY_SHOCK = [{ x: 30, y: 20, time: 75 }, { x: 50, y: 25, time: 75 }, { x: 70, y: 30, time: 75 }, { x: 90, y: 40, time: 75 }];
+
+var CAMERA_POSITION = { x: 0, y: 0, z: 100 };
+var NEAR = 10,
+    FAR = 2000;
+
+var STATE_INIT = 0;
+var STATE_PLAY = 1;
+var STATE_FINISH = 2;
+var STATE_PAUSE = 3;
+
+var ON_MOUSE_DOWN = 0;
+var ON_MOUSE_UP = 1;
+var ON_MOUSE_OVER = 2;
+var ON_MOUSE_OUT = 3;
+var ON_DRAG_START = 4;
+var ON_DRAG_END = 5;
+
+var HIT_LEFT = 0;
+var HIT_CENTER = 1;
+var HIT_RIGHT = 2;
+
+var ENABLE_FULLSCREEN;
+var ENABLE_CHECK_ORIENTATION;
+
+var _ballCounter = 0;
+var _OVER_TEXT = "0.0";
+
+var _iScore = 0;
+var _totalScore = 0;
+var token;
+var faqClicked = 0;
+var secretKey;

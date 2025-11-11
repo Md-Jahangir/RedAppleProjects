@@ -1,0 +1,109 @@
+{
+  "levels" :[
+      {
+        "levelNumber":1,
+        "speed":1,
+        "target":10,
+        "maleReward":"Bean Bag",
+        "femaleReward":"Chocolate"
+      },
+      {
+        "levelNumber":2,
+        "speed":1.5,
+        "target":15,
+        "maleReward":"Kiss",
+        "femaleReward":"Flowers"
+      },
+      {
+        "levelNumber":3,
+        "speed":2,
+        "target":16,
+        "maleReward":"Paid leave",
+        "femaleReward":"Paid leave "
+      },
+      {
+        "levelNumber":4,
+        "speed":2.5,
+        "target":17,
+        "maleReward":"Classy wrist watch",
+        "femaleReward":"Jewelry type A"
+      },
+      {
+        "levelNumber":5,
+        "speed":3,
+        "target":18,
+        "maleReward":"Bonus",
+        "femaleReward":"Bonus"
+      },
+      {
+        "levelNumber":6,
+        "speed":3.5,
+        "target":19,
+        "maleReward":"Flagship phone",
+        "femaleReward":"Dress"
+      },
+      {
+        "levelNumber":7,
+        "speed":4,
+        "target":20,
+        "maleReward":"Beverage",
+        "femaleReward":"Beverage"
+      },
+      {
+        "levelNumber":8,
+        "speed":4.5,
+        "target":21,
+        "maleReward":"Sports shoes",
+        "femaleReward":"Sports shoes"
+      },
+      {
+        "levelNumber":9,
+        "speed":5,
+        "target":22,
+        "maleReward":"Music system",
+        "femaleReward":"Music system"
+      },
+      {
+        "levelNumber":10,
+        "speed":5.5,
+        "target":23,
+        "maleReward":"Suits",
+        "femaleReward":"Jewelry type B"
+      },
+      {
+        "levelNumber":11,
+        "speed":6,
+        "target":24,
+        "maleReward":"TV",
+        "femaleReward":"TV"
+      },
+      {
+        "levelNumber":12,
+        "speed":6.5,
+        "target":25,
+        "maleReward":"Bike",
+        "femaleReward":"Jewelry type C"
+      },
+      {
+        "levelNumber":13,
+        "speed":7,
+        "target":26,
+        "maleReward":"Car",
+        "femaleReward":"Romantic vacation"
+      },
+      {
+        "levelNumber":14,
+        "speed":7.5,
+        "target":27,
+        "maleReward":"Gaming console",
+        "femaleReward":"Gaming console"
+      },
+      {
+        "levelNumber":15,
+        "speed":8,
+        "target":30,
+        "maleReward":"Manson",
+        "femaleReward":"Manson"
+      }
+    ]
+}

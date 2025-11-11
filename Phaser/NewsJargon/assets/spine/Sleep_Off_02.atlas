@@ -1,0 +1,132 @@
+
+Sleep_Off_02.png
+size: 660,1763
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+SleepOff_001
+  rotate: true
+  xy: 385, 1249
+  size: 174, 264
+  orig: 174, 264
+  offset: 0, 0
+  index: -1
+SleepOff_002
+  rotate: true
+  xy: 383, 1073
+  size: 174, 264
+  orig: 174, 264
+  offset: 0, 0
+  index: -1
+SleepOff_004
+  rotate: true
+  xy: 2, 2
+  size: 174, 264
+  orig: 174, 264
+  offset: 0, 0
+  index: -1
+SleepOff_005
+  rotate: true
+  xy: 357, 868
+  size: 203, 301
+  orig: 203, 302
+  offset: 0, 0
+  index: -1
+SleepOff_006
+  rotate: true
+  xy: 2, 416
+  size: 233, 314
+  orig: 233, 314
+  offset: 0, 0
+  index: -1
+SleepOff_008
+  rotate: true
+  xy: 2, 416
+  size: 233, 314
+  orig: 233, 314
+  offset: 0, 0
+  index: -1
+SleepOff_007
+  rotate: true
+  xy: 318, 386
+  size: 233, 314
+  orig: 233, 314
+  offset: 0, 0
+  index: -1
+SleepOff_009
+  rotate: true
+  xy: 2, 178
+  size: 236, 308
+  orig: 236, 308
+  offset: 0, 0
+  index: -1
+SleepOff_010
+  rotate: true
+  xy: 338, 621
+  size: 245, 315
+  orig: 246, 315
+  offset: 0, 0
+  index: -1
+SleepOff_011
+  rotate: true
+  xy: 2, 651
+  size: 220, 334
+  orig: 220, 334
+  offset: 0, 0
+  index: -1
+SleepOff_012
+  rotate: true
+  xy: 2, 873
+  size: 219, 353
+  orig: 219, 353
+  offset: 0, 0
+  index: -1
+SleepOff_013
+  rotate: true
+  xy: 2, 1313
+  size: 229, 381
+  orig: 229, 381
+  offset: 0, 0
+  index: -1
+SleepOff_014
+  rotate: true
+  xy: 2, 1544
+  size: 217, 394
+  orig: 217, 395
+  offset: 0, 0
+  index: -1
+SleepOff_015
+  rotate: true
+  xy: 2, 1094
+  size: 217, 379
+  orig: 217, 379
+  offset: 0, 0
+  index: -1
+SleepOff_016
+  rotate: false
+  xy: 398, 1425
+  size: 245, 336
+  orig: 246, 336
+  offset: 0, 0
+  index: -1
+SleepOff_017
+  rotate: true
+  xy: 312, 181
+  size: 203, 301
+  orig: 203, 302
+  offset: 0, 0
+  index: -1
+SleepOff_03
+  rotate: true
+  xy: 312, 5
+  size: 174, 264
+  orig: 174, 264
+  offset: 0, 0
+  index: -1
+SleepOff_018
+  rotate: true
+  xy: 312, 5
+  size: 174, 264
+  orig: 174, 264
+  offset: 0, 0
+  index: -1

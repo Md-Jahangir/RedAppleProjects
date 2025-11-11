@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Gobold';
+    src: url('./Gobold Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Euphorigenic';
+    src: url('Euphorigenic-Regular.woff2') format('woff2'),
+    url('Euphorigenic-Regular.woff') format('woff'),
+    url('Euphorigenic-Regular.svg#Euphorigenic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Happy-School';
+    src: url('Happy-School.woff') format('woff'),
+    url('Happy-School.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Balqis';
+    src: url('Balqis.woff') format('woff'),
+    url('Balqis.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

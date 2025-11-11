@@ -1,0 +1,30 @@
+{
+    "general": {
+      "factor": "0.3",
+      "color_scheme": "cold",
+      "answers_location": "NE",
+      "answers_location_spread": 70, 
+      "answers_location_spread_value": 10,
+      "movement_direction": "TTB",
+      "rotation": "counter_clockwise",
+      "rotation_time": -1,
+      "level_down": 10,
+      "level_up": 10,
+      "movement_time": 20,
+      "movement_type": "continuous",
+      "GID": "catch-me-if-you-can"
+    },
+    "specific": {
+      "high_score": 4783,
+      "success_rate": 0.8,
+      "level": 10,
+      "time_to_play": 5,
+      "number_of_questions": 0,
+      "brain_help": "This game requires completion of simple math calculation, concentration, eye-hand coordination, as well as mental rotation and tracking. These are associated with the parietal lobe, more so on the left, as well as the cerebellum and the frontal lobes, more so on the left side.",
+      "game_instructions": "Find the correct answer to the given equation",
+      "time_per_question": -1,
+      "number_of_object": 3,
+      "number_of_distractors": 3
+    }
+  }
+  

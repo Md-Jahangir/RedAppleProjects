@@ -1,0 +1,23 @@
+body {
+	margin: 0px;
+}
+
+@font-face {
+	font-family: "Bahnschrift";
+	src: url(./assets/fonts/Bahnschrift.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: "framd";
+	src: url(./assets/fonts/framd.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: "evil_empire";
+	src: url(./assets/fonts/evil_empire.otf) format('opentype');
+}
+
+@font-face {
+	font-family: "lilitaone_regular";
+	src: url(./assets/fonts/lilitaone_regular.ttf) format('truetype');
+}

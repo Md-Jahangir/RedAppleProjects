@@ -1,0 +1,377 @@
+{
+    "skeleton": {
+        "hash": "/O5QyduUOZ4",
+        "spine": "4.1.24",
+        "x": -198,
+        "y": -129,
+        "width": 441.84,
+        "height": 258,
+        "images": "../",
+        "audio": "D:/2d/just_game/cut_the_rope/background_animations/spine"
+    },
+    "bones": [
+        {
+            "name": "root",
+            "color": "ff0000ff"
+        },
+        {
+            "name": "baloon_blast",
+            "parent": "root",
+            "color": "fdff00ff"
+        }
+    ],
+    "slots": [
+        {
+            "name": "images/bubble_blast/bubble_1",
+            "bone": "baloon_blast",
+            "color": "ffffff00",
+            "attachment": "images/bubble_blast/bubble_6"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "images/bubble_blast/bubble_1": {
+                    "images/bubble_blast/bubble_1": {
+                        "x": 0.5,
+                        "width": 207,
+                        "height": 210
+                    },
+                    "images/bubble_blast/bubble_2": {
+                        "x": 0.5,
+                        "width": 207,
+                        "height": 210
+                    },
+                    "images/bubble_blast/bubble_3": {
+                        "x": 0.5,
+                        "y": 0.5,
+                        "width": 227,
+                        "height": 215
+                    },
+                    "images/bubble_blast/bubble_4": {
+                        "x": 0.5,
+                        "y": 0.5,
+                        "width": 247,
+                        "height": 237
+                    },
+                    "images/bubble_blast/bubble_5": {
+                        "y": 0.5,
+                        "width": 288,
+                        "height": 249
+                    },
+                    "images/bubble_blast/bubble_6": {
+                        "x": 0.5,
+                        "width": 331,
+                        "height": 258
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "bubble_blast": {
+            "slots": {
+                "images/bubble_blast/bubble_1": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.4333,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "images/bubble_blast/bubble_1"
+                        },
+                        {
+                            "time": 0.0667,
+                            "name": "images/bubble_blast/bubble_2"
+                        },
+                        {
+                            "time": 0.1333,
+                            "name": "images/bubble_blast/bubble_3"
+                        },
+                        {
+                            "time": 0.2,
+                            "name": "images/bubble_blast/bubble_4"
+                        },
+                        {
+                            "time": 0.2667,
+                            "name": "images/bubble_blast/bubble_5"
+                        },
+                        {
+                            "time": 0.3333,
+                            "name": "images/bubble_blast/bubble_6"
+                        }
+                    ]
+                }
+            }
+        },
+        "bubble_interaction": {
+            "slots": {
+                "images/bubble_blast/bubble_1": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "images/bubble_blast/bubble_1"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "baloon_blast": {
+                    "scalex": [
+                        {
+                            "value": 0.958,
+                            "curve": [
+                                0.056,
+                                0.919,
+                                0.111,
+                                0.868
+                            ]
+                        },
+                        {
+                            "time": 0.1667,
+                            "value": 0.868,
+                            "curve": [
+                                0.256,
+                                0.868,
+                                0.344,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.4333,
+                            "curve": [
+                                0.522,
+                                1,
+                                0.611,
+                                0.868
+                            ]
+                        },
+                        {
+                            "time": 0.7,
+                            "value": 0.868,
+                            "curve": [
+                                0.789,
+                                0.868,
+                                0.878,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.9667,
+                            "curve": [
+                                1,
+                                1,
+                                1.034,
+                                0.981
+                            ]
+                        },
+                        {
+                            "time": 1.0667,
+                            "value": 0.958
+                        }
+                    ],
+                    "scaley": [
+                        {
+                            "value": 1.031,
+                            "curve": [
+                                0.089,
+                                1.031,
+                                0.178,
+                                0.868
+                            ]
+                        },
+                        {
+                            "time": 0.2667,
+                            "value": 0.868,
+                            "curve": [
+                                0.356,
+                                0.868,
+                                0.444,
+                                1.031
+                            ]
+                        },
+                        {
+                            "time": 0.5333,
+                            "value": 1.031,
+                            "curve": [
+                                0.622,
+                                1.031,
+                                0.711,
+                                0.868
+                            ]
+                        },
+                        {
+                            "time": 0.8,
+                            "value": 0.868,
+                            "curve": [
+                                0.889,
+                                0.868,
+                                0.978,
+                                1.031
+                            ]
+                        },
+                        {
+                            "time": 1.0667,
+                            "value": 1.031
+                        }
+                    ]
+                }
+            }
+        },
+        "bubble_interaction2": {
+            "slots": {
+                "images/bubble_blast/bubble_1": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "images/bubble_blast/bubble_1"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "baloon_blast": {
+                    "scalex": [
+                        {
+                            "value": 0.968,
+                            "curve": [
+                                0.058,
+                                0.941,
+                                0.12,
+                                0.904
+                            ]
+                        },
+                        {
+                            "time": 0.1667,
+                            "value": 0.904,
+                            "curve": [
+                                0.256,
+                                0.904,
+                                0.344,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.4333,
+                            "curve": [
+                                0.51,
+                                1,
+                                0.624,
+                                0.904
+                            ]
+                        },
+                        {
+                            "time": 0.7,
+                            "value": 0.904,
+                            "curve": [
+                                0.776,
+                                0.904,
+                                0.89,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.9667,
+                            "curve": [
+                                0.996,
+                                1,
+                                1.031,
+                                0.986
+                            ]
+                        },
+                        {
+                            "time": 1.0667,
+                            "value": 0.968
+                        }
+                    ],
+                    "scaley": [
+                        {
+                            "curve": [
+                                0.076,
+                                1,
+                                0.19,
+                                0.904
+                            ]
+                        },
+                        {
+                            "time": 0.2667,
+                            "value": 0.904,
+                            "curve": [
+                                0.343,
+                                0.904,
+                                0.457,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.5333,
+                            "curve": [
+                                0.61,
+                                1,
+                                0.724,
+                                0.904
+                            ]
+                        },
+                        {
+                            "time": 0.8,
+                            "value": 0.904,
+                            "curve": [
+                                0.889,
+                                0.904,
+                                0.978,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.0667
+                        }
+                    ]
+                }
+            }
+        },
+        "bubble_static": {
+            "slots": {
+                "images/bubble_blast/bubble_1": {
+                    "rgba": [
+                        {
+                            "color": "ffffffff"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "images/bubble_blast/bubble_1"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "baloon_blast": {
+                    "translate": [
+                        {
+                            "time": 0.3333
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

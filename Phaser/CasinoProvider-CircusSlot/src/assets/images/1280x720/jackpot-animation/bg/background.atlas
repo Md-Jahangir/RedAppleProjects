@@ -1,0 +1,230 @@
+background.png
+size:2295,732
+filter:Linear,Linear
+pma:true
+scale:0.25
+Bulb  copy 98 (merged) copy 30
+bounds:1533,3,6,6
+Bulb  copy 98 (merged) copy 31
+bounds:1541,3,6,6
+Bulb  copy 98 (merged) copy 32
+bounds:1549,3,6,6
+Bulb  copy 98 (merged) copy 33
+bounds:1557,3,6,6
+Bulb  copy 98 (merged) copy 34
+bounds:1565,3,6,6
+Bulb  copy 98 (merged) copy 35
+bounds:1573,3,6,6
+Bulb  copy 98 (merged) copy 36
+bounds:1581,3,6,6
+Bulb  copy 98 (merged) copy 37
+bounds:1589,3,6,6
+Bulb  copy 98 (merged) copy 38
+bounds:1597,3,6,6
+Bulb  copy 98 (merged) copy 39
+bounds:1605,3,6,6
+Bulb  copy 98 (merged) copy 40
+bounds:1662,224,6,6
+Bulb  copy 98 (merged) copy 41
+bounds:1670,224,6,6
+Bulb  copy 98 (merged) copy 42
+bounds:1678,224,6,6
+Bulb  copy 98 (merged) copy 43
+bounds:1686,224,6,6
+Bulb  copy 98 (merged) copy 44
+bounds:1504,158,6,6
+Bulb  copy 98 (merged) copy 45
+bounds:1504,150,6,6
+Bulb  copy 98 (merged) copy 46
+bounds:2287,687,6,6
+Bulb  copy 98 (merged) copy 47
+bounds:2287,679,6,6
+Bulb  copy 98 (merged) copy 48
+bounds:2287,671,6,6
+Bulb  copy 98 (merged) copy 49
+bounds:2287,663,6,6
+Bulb  copy 98 (merged) copy 50
+bounds:2287,655,6,6
+Bulb  copy 98 (merged) copy 51
+bounds:2272,618,6,6
+Bulb  copy 98 (merged) copy 52
+bounds:2280,612,6,6
+Bulb  copy 98 (merged) copy 53
+bounds:2272,610,6,6
+Bulb copy 41
+bounds:1694,199,111,31
+Bulb copy 42
+bounds:2259,164,112,32
+rotate:90
+Layer 138
+bounds:1694,33,129,115
+offsets:17,23,146,138
+rotate:90
+Layer 139
+bounds:1181,4,140,124
+offsets:1,0,143,127
+rotate:90
+Layer 142
+bounds:2107,301,154,110
+offsets:5,3,164,116
+Layer 395 copy 2
+bounds:1613,3,11,11
+Layer 396 copy 2
+bounds:1307,2,5,5
+Layer 7
+bounds:2107,473,257,163
+rotate:90
+Tower_L_Bulb copy
+bounds:2284,631,9,10
+offsets:1,0,11,10
+Tower_L_Bulb copy 10
+bounds:1408,150,10,10
+offsets:0,1,11,11
+Tower_L_Bulb copy 11
+bounds:1420,150,10,10
+offsets:1,0,11,11
+Tower_L_Bulb copy 12
+bounds:2284,620,9,9
+offsets:1,0,11,10
+Tower_L_Bulb copy 2
+bounds:1432,150,10,10
+offsets:1,0,11,10
+Tower_L_Bulb copy 3
+bounds:1360,149,9,10
+offsets:1,0,11,10
+rotate:90
+Tower_L_Bulb copy 4
+bounds:1372,149,9,10
+offsets:1,0,11,11
+rotate:90
+Tower_L_Bulb copy 5
+bounds:1444,150,10,10
+offsets:1,0,11,11
+Tower_L_Bulb copy 6
+bounds:1384,149,9,10
+offsets:1,0,11,10
+rotate:90
+Tower_L_Bulb copy 7
+bounds:1396,149,9,10
+offsets:1,0,11,10
+rotate:90
+Tower_L_Bulb copy 8
+bounds:1456,150,10,10
+offsets:1,0,11,10
+Tower_L_Bulb copy 9
+bounds:2284,643,9,10
+offsets:1,0,11,10
+Tower_R_Bulb copy
+bounds:2272,637,10,10
+Tower_R_Bulb copy 10
+bounds:1468,150,10,10
+offsets:0,1,10,11
+Tower_R_Bulb copy 11
+bounds:1626,3,11,10
+offsets:0,0,11,11
+rotate:90
+Tower_R_Bulb copy 12
+bounds:2272,626,10,9
+offsets:0,0,10,10
+Tower_R_Bulb copy 2
+bounds:1638,3,11,10
+rotate:90
+Tower_R_Bulb copy 3
+bounds:1480,150,10,10
+Tower_R_Bulb copy 4
+bounds:1486,166,10,10
+offsets:0,0,10,11
+Tower_R_Bulb copy 5
+bounds:1650,3,11,10
+offsets:0,0,11,11
+rotate:90
+Tower_R_Bulb copy 6
+bounds:1498,166,10,10
+Tower_R_Bulb copy 7
+bounds:1492,154,10,10
+Tower_R_Bulb copy 8
+bounds:1662,3,11,10
+rotate:90
+Tower_R_Bulb copy 9
+bounds:2272,649,10,10
+bg
+bounds:2,2,970,728
+blue star
+bounds:1271,149,87,71
+offsets:1,6,91,80
+bulb copy 2
+bounds:1307,9,204,138
+offsets:1,1,206,140
+bulb copy 3
+bounds:974,4,205,140
+offsets:1,1,207,142
+bulb_OFF
+bounds:1606,16,204,86
+rotate:90
+bulb_ON
+bounds:1513,11,209,91
+offsets:1,1,211,93
+rotate:90
+candle flame_1
+bounds:1674,4,10,27
+rotate:90
+candle flame_2
+bounds:1638,222,8,22
+offsets:2,0,12,22
+rotate:90
+candle flame_3
+bounds:1613,222,8,23
+offsets:0,0,9,23
+rotate:90
+candle flame_4
+bounds:1513,3,6,18
+offsets:0,0,8,18
+rotate:90
+circus text
+bounds:2107,413,156,58
+offsets:0,0,160,58
+flag_1
+bounds:1360,160,60,44
+rotate:90
+flag_2
+bounds:1703,2,40,29
+front flag_1
+bounds:2272,661,13,32
+front flag_2
+bounds:2265,392,26,37
+front flag_3
+bounds:1486,206,14,25
+rotate:90
+front flag_4
+bounds:2140,123,39,37
+rotate:90
+front flag_6
+bounds:2272,695,15,35
+front flag_7
+bounds:2265,431,26,40
+front flag_8
+bounds:1492,178,17,26
+front flag_9
+bounds:2099,123,39,39
+left tent
+bounds:1613,232,492,498
+pngwing.com
+bounds:2107,192,107,150
+rotate:90
+red star
+bounds:1406,162,58,78
+offsets:0,3,58,85
+rotate:90
+ri8 ol
+bounds:1811,5,112,432
+rotate:90
+ri8 tent
+bounds:974,146,295,584
+tower
+bounds:1811,119,111,286
+rotate:90
+tower top bulb_OFF
+bounds:2263,278,112,29
+rotate:90
+tree
+bounds:1271,222,340,508

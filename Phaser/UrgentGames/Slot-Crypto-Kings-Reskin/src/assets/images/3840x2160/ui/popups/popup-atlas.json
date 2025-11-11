@@ -1,0 +1,40 @@
+{
+	"frames": [
+		{
+			"filename": "topLeft",
+			"frame": {"x":0,"y":0,"w":50,"h":50}
+		},
+		{
+			"filename": "topCenter",
+			"frame": {"x":50,"y":0,"w":50,"h":50}
+		},
+		{
+			"filename": "topRight",
+			"frame": {"x":100,"y":0,"w":50,"h":50}
+		},
+		{
+			"filename": "middleLeft",
+			"frame": {"x":0,"y":50,"w":50,"h":50}
+		},
+		{
+			"filename": "middleCenter",
+			"frame": {"x":50,"y":50,"w":50,"h":50}
+		},
+		{
+			"filename": "middleRight",
+			"frame": {"x":100,"y":50,"w":50,"h":50}
+		},
+		{
+			"filename": "bottomLeft",
+			"frame": {"x":0,"y":100,"w":50,"h":50}
+		},
+		{
+			"filename": "bottomCenter",
+			"frame": {"x":50,"y":100,"w":50,"h":50}
+		},
+		{
+			"filename": "bottomRight",
+			"frame": {"x":100,"y":100,"w":50,"h":50}
+		}
+	]
+}

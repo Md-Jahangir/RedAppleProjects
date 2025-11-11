@@ -1,0 +1,83 @@
+
+Barbas_Animation_sk.png
+size: 1037,215
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+barba
+  rotate: true
+  xy: 882, 24
+  size: 96, 143
+  orig: 97, 143
+  offset: 1, 0
+  index: -1
+barbas empty back
+  rotate: false
+  xy: 2, 2
+  size: 148, 211
+  orig: 150, 213
+  offset: 1, 1
+  index: -1
+barbas frame
+  rotate: true
+  xy: 653, 44
+  size: 169, 227
+  orig: 169, 227
+  offset: 0, 0
+  index: -1
+base barba
+  rotate: true
+  xy: 882, 122
+  size: 91, 153
+  orig: 91, 153
+  offset: 0, 0
+  index: -1
+bigote
+  rotate: false
+  xy: 653, 9
+  size: 62, 33
+  orig: 62, 34
+  offset: 0, 1
+  index: -1
+blanci
+  rotate: false
+  xy: 552, 4
+  size: 32, 9
+  orig: 32, 9
+  offset: 0, 0
+  index: -1
+frame_effect
+  rotate: false
+  xy: 152, 6
+  size: 355, 207
+  orig: 355, 207
+  offset: 0, 0
+  index: -1
+oldman copia
+  rotate: false
+  xy: 509, 15
+  size: 142, 198
+  orig: 142, 198
+  offset: 0, 0
+  index: -1
+parpadep
+  rotate: false
+  xy: 509, 4
+  size: 41, 9
+  orig: 41, 9
+  offset: 0, 0
+  index: -1
+pupila dere
+  rotate: false
+  xy: 594, 7
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+pupila iz
+  rotate: true
+  xy: 586, 6
+  size: 7, 6
+  orig: 7, 6
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,412 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #0F4B8F;
+}
+
+.btn-hide {
+    visibility: hidden;
+}
+
+.container {
+    margin: 0;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    background-color: white;
+    font-size: x-large;
+}
+
+.entranceTextBox {
+    width: 100px;
+    height: 50px;
+    box-sizing: border-box;
+}
+.text-center{
+    text-align: center;
+}
+.close {
+    /* margin: 0;
+    padding: 0; */
+    /* width: 50px;
+    font-size: large; */
+    font-size: large;
+    font-family: sans-serif;
+    width: 100px;
+    height: 50px;
+    background-color: #e9e9ed;
+}
+
+.btn-container {
+    position: relative;
+    justify-content: flex-end;
+    display: flex;
+    /* padding-left: 50%; */
+    padding-right: 20px;
+}
+
+.content {
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+.modal-outer {
+    position: absolute !important;
+    left: 0;
+    top: 0;
+    margin: 0 !important;
+    width: 100% !important;
+    background-color: transparent !important;
+    height: 100% !important;
+    display: flex !important;
+    align-items: stretch;
+    justify-content: center;
+    padding: 32px 32px !important;
+    box-sizing: border-box;
+    transform: none !important;
+}
+
+.timer-toast {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    margin: auto;
+    max-width: 150px;
+    background: #343432e0;
+    color: #fff;
+    padding: 15px 29px;
+    border-radius: 10px;
+    font-size: 19px;
+    font-family: Calibri;
+}
+
+.custom-toast {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 20px;
+    margin: auto;
+    max-width: 350px;
+    background: #343432e0;
+    color: #fff;
+    padding: 15px 29px;
+    border-radius: 10px;
+    font-size: 19px;
+    font-family: Calibri;
+}
+
+.logo {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.logo img {
+    width: auto;
+}
+
+.modal-outer * {
+    box-sizing: border-box;
+}
+
+.no-click {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.modal-outer .modal {
+    background-color: transparent !important;
+    margin-inline: auto;
+    width: min(100% - 32px, 1500px);
+    height: 100%;
+    position: relative !important;
+    transform: none !important;
+}
+
+.modal-outer .modal .title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 60px;
+    width: 100%;
+}
+
+.modal-outer .modal .title span {
+    text-overflow: ellipsis;
+    width: 88%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.modal-outer .modal .container {
+    font-family: Arial;
+    position: relative;
+    border: 5px solid #ffcb0e;
+    padding: 32px;
+    max-height: calc(100vh - 64px);
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-outer .modal .close-icon {
+    padding: 0;
+    cursor: pointer;
+    background-color: transparent;
+    border: 0;
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.modal-outer .modal .close-icon img {
+    max-height: 40px;
+}
+
+.modal-outer .modal .container .image {
+    text-align: center;
+}
+
+.modal-outer .modal .container .image img {
+    max-width: 100%;
+    max-height: 50vh;
+}
+
+.modal-outer .modal-body {
+    max-height: 100vh;
+    width: 100%;
+    overflow-y: auto;
+}
+
+.modal-outer .modal-body .heading {
+    text-align: center;
+    font-family: Arial;
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.modal-outer .modal-body .heading.xl {
+    font-size: 6rem;
+}
+
+.modal-outer .modal-body .heading.md {
+    font-size: 3rem;
+    font-weight: normal;
+    max-width: 1400px;
+    width: 100%;
+    margin-inline: auto;
+}
+
+.modal-outer .modal-body .image-with-data .wrap {
+    display: flex;
+    column-gap: 32px;
+    margin-top: 32px;
+    align-items: center;
+}
+
+.modal-outer .modal-body .image-with-data .wrap .image {
+    width: 50%;
+}
+
+.modal-outer .modal-body .image-with-data .wrap .image.characters {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 30px;
+}
+
+.modal-outer .modal-body .image-with-data .wrap .image.characters .char {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.modal-outer .modal-body .image-with-data .wrap .image.characters .char .name {
+    width: 30px;
+    background: #bfbfbf73;
+    border-radius: 50%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #240f0f;
+}
+
+.modal-outer .modal-body .image-with-data .wrap .image.characters .char img {
+    max-height: 300px;
+}
+
+.modal-outer .modal-body .image-with-data .wrap .data .btn-group {
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    gap: 10px;
+    width: 100%;
+    flex-direction: column;
+}
+
+.modal-outer .modal-body .image-with-data .wrap .data {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+}
+
+.modal-outer .modal-body p,
+.modal-outer .modal-body ol,
+.modal-outer .modal-body .data {
+    font-size: 18px;
+}
+
+.modal-outer .modal-body .btn {
+    padding: 9px 20px;
+    background-color: #e8e9e9;
+    border: 3px solid #6087b4;
+    font-family: Arial;
+    font-size: 18px;
+    width: 100%;
+    text-align: left;
+    font-weight: 400;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+.modal-outer .modal-body .image-with-data .wrap .data .btn:hover,
+.modal-outer .modal-body .image-with-data .wrap .data .btn:focus {
+    background-color: #5ea1be;
+    color: #fff;
+}
+
+.modal-outer .modal-body .form {
+    font-size: 48px;
+    max-width: 100%;
+    margin-top: 50px;
+    margin-inline: auto;
+}
+
+.modal-outer .modal-body .form .sm {
+    font-size: 20px;
+}
+
+.modal-outer .modal-body .form label {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-outer .modal-body .form label input {
+    padding: 7px 20px;
+    background-color: #e8e9e9;
+    border: 2px solid #6087b4;
+    font-family: Arial;
+    font-size: 24px;
+    width: 100%;
+    text-align: left;
+    font-weight: 400;
+    border-radius: 10px;
+    transition: all 0.5s;
+    margin-top: 20px;
+}
+
+.modal-outer .modal-body .form label textarea {
+    padding: 20px 30px;
+    background-color: #e8e9e9;
+    border: 3px solid #6087b4;
+    font-family: Arial;
+    font-size: 32px;
+    width: 100%;
+    text-align: left;
+    font-weight: 400;
+    border-radius: 20px;
+    transition: all 0.5s;
+    margin-top: 30px;
+    min-height: 150px;
+}
+
+.modal-outer .modal-body .form .submit {
+    background-color: #0e4a8f;
+    padding: 10px 20px;
+    color: white;
+    font-family: Arial;
+    font-size: 18px;
+    width: auto;
+    border: 0;
+    margin-left: auto;
+    margin-right: 0;
+    display: block;
+    font-weight: 400;
+    border-radius: 8px;
+    transition: all 0.5s;
+    margin-top: 20px;
+}
+
+.modal-outer .modal-body .form .submit:hover {
+    opacity: 0.8;
+}
+
+.modal-outer .modal-body .form .hint {
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+
+.modal-outer .modal-body .form label span {
+    font-size: 26px;
+}
+
+.modal.active {
+    display: block !important;
+}
+
+@media (max-width: 1024px) {
+    .modal-outer .modal-body .image-with-data .wrap .image.characters {
+        align-items: flex-start;
+    }
+    .modal-outer .modal-body .image-with-data .wrap .data .btn-group {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .modal-outer .modal-body .image-with-data .wrap .image.characters {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .modal-outer .modal .title {
+        min-height: 30px;
+    }
+    .modal-outer .modal-body .image-with-data .wrap {
+        flex-direction: column;
+    }
+    .modal-outer .modal-body .image-with-data .wrap .image {
+        width: 100%;
+    }
+    .modal-outer .modal-body .image-with-data .wrap .data {
+        width: 100%;
+        margin-top: 32px;
+    }
+    .modal-outer .modal .close-icon img {
+        max-height: 30px;
+    }
+    .modal-outer .modal .container {
+        padding: 16px;
+    }
+    .modal-outer {
+        padding: 16px;
+    }
+    .modal-outer .modal {
+        width: 100%;
+    }
+    .modal-outer .modal-body .image-with-data .wrap .data {
+        gap: 10px;
+    }
+}

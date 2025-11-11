@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="css/doc.css" rel="stylesheet" type="text/css">
+    <link href="css/all.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap" rel="stylesheet">
+
+    <title>Airtel</title>
+	<script type = "text/JavaScript">
+      var baseUrl = window.location.href;
+      var link = baseUrl;
+      var secretKey=baseUrl;
+      var token=baseUrl;
+      var start = baseUrl.indexOf("token=");
+      var end = baseUrl.indexOf("&secret");
+     
+      secretKey= secretKey.slice(end+8,secretKey.length);
+       console.log("secret "+secretKey);
+      token = token.slice(start + 6, end);
+      baseUrl= link.slice(0,baseUrl.indexOf("faqs"));
+      // var actualUrl="www.google.com";
+       var actualUrl = baseUrl + "index.html?token="+token +"&secret="+secretKey;
+       // console.log();
+       function myFunction(){
+        console.log("Click Me");
+        window.location.href = actualUrl;
+       }
+	</script>
+	
+  </head>
+  <body>
+
+    <header class="header_sec">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="header_inner">
+              <div class="header_lft">
+                <img src="sprites/logo.png" alt="">
+              </div>
+              <div class="header_rt">
+                <a href="#"><i class="fas fa-home"></i>Home</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+
+<section class="airtel_main">
+   <div class="container">
+     <div class="row">
+       <div class="col-sm-12">
+        <div class="back_sec">
+			<!--<a href=""+actualUrl><i class="fas fa-angle-left"></i>Back</a>-->
+			 <i class="fas fa-angle-left"></i><button onclick="myFunction()">Back</button>
+		</div>
+          <h4 class="faq">FAQ<span>S</span></h4>
+          <div id="accordion">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0">
+                  <a class="card-link" data-toggle="collapse" href="#collapseOne">
+                   How can I register in Airtel World Cup Campaign? <i class="fas fa-chevron-down"></i>
+                  </a>                  
+                </h5>
+              </div>
+
+              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <div class="card-body">
+                  <p>You can register in Airtel World Cup Campaign by visiting the Airtel Thanks<br/>App</p>
+                  <ul class="app">
+                   
+                    <li>Click on Airtel Cricket Bonanza banner or button</li>
+                    <li>Register with your playername</li>
+                    <li>Click on submit to complete the registration</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h5 class="mb-0">
+                  <a class="card-link collapsed" data-toggle="collapse" href="#collapseTwo">
+                   Who all can participate in the Campaign? <i class="fas fa-chevron-down"></i>
+                  </a>                   
+                </h5>
+              </div>
+              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                <div class="card-body">
+                  <p>All Airtel Thanks App customers can participate in the Campaign</p>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+                  <a class="card-link collapsed" data-toggle="collapse" href="#collapseThree">
+                   Can I participate daily in the Campaign? <i class="fas fa-chevron-down"></i>
+                  </a>                  
+                </h5>
+              </div>
+              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                <div class="card-body">
+                  Yes, you can participate everyday in the campaign
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingFour">
+                <h5 class="mb-0">
+                  <a class="card-link collapsed" data-toggle="collapse" href="#collapseFour">
+                   How can I score runs? <i class="fas fa-chevron-down"></i>
+                  </a>                   
+                </h5>
+              </div>
+              <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                <div class="card-body">
+                  <p>You can play a maximum of 2 overs in a day, and the runs you make in these overs will keep accumulating across days. If you have claimed a reward the corresponding number of runs will be reduced from your cumulative score.</p>
+                  <p>In the match, you have to tap at the right moment and direction to score maximum runs. You can get better at it with practice!</p>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingFive">
+                <h5 class="mb-0">
+                  <a class="card-link collapsed" data-toggle="collapse" href="#collapseFive">
+                   How can I claim rewards? <i class="fas fa-chevron-down"></i>
+                  </a>                   
+                </h5>
+              </div>
+              <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+                <div class="card-body">
+                  <p>You can claim rewards against the runs scored by you. Once you claim a reward the runs corresponding to the reward will get deducted. You can claim one type of reward only once. However, you can claim another type of reward on being eligible for it.</p>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingSix">
+                <h5 class="mb-0">
+                  <a class="card-link collapsed" data-toggle="collapse" href="#collapseSix">
+                   What is the Campaign duration? <i class="fas fa-chevron-down"></i>
+                  </a>                  
+                </h5>
+              </div>
+              <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+                <div class="card-body">
+                  <p>This offer is valid for Airtel Thanks App Customers, between 10th October 2019 to 09th November 2019.</p>
+                </div>
+              </div>
+            </div>
+             <div class="card">
+              <div class="card-header" id="headingSeven">
+                <h5 class="mb-0">
+                  <a class="card-link collapsed" data-toggle="collapse" href="#collapseSeven">
+                   How will the Top 10 Winners be selected? <i class="fas fa-chevron-down"></i>
+                  </a>                     
+                </h5>
+              </div>
+              <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
+                <div class="card-body">
+                  <p>At the end of the campaign the top 10 players with maximum runs scored will be declared as the winners. The top 10 scorers at any point of time is visible from the dashboard under the Top scorers tab</p>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingEight">
+                <h5 class="mb-0">
+                  <a class="card-link collapsed" data-toggle="collapse" href="#collapseEight">
+                   When will I receive my gifts? <i class="fas fa-chevron-down"></i>
+                  </a> 
+                  
+                </h5>
+              </div>
+              <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordion">
+                <div class="card-body">
+                  <p>Your gift will be dispatched within 5-6 working days from the date of winning. You will be contacted by email or SMS regarding the same.</p>
+                </div>
+              </div>
+            </div>
+          <!--  <div class="card">
+              <div class="card-header" id="headingNine">
+                <h5 class="mb-0">
+                  <a class="card-link collapsed" data-toggle="collapse" href="#collapseNine">
+                   How do I contact the program helpdesk in case of any issues? <i class="fas fa-chevron-down"></i>
+                  </a>                   
+                </h5>
+              </div>
+              <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordion">
+                <div class="card-body">
+                  <p>Our endeavour is to deliver you with best experience. However, if you need any assistance related to the Program, you may contact the Helpdesk (available in your Homepage) from Monday to Saturday between 10am to 6PM at <a href="tel:01204602911">0120-4602911</a> or email us at <a href="mailto:info@aircricketbonanza.in">info@aircricketbonanza.in</a></p>
+                </div>
+              </div>
+            </div>-->
+            <div class="card">
+              <div class="card-header" id="headingTen">
+                <h5 class="mb-0">
+                  <a class="card-link collapsed" data-toggle="collapse" href="#collapseTen">
+                   What is the practice mode? <i class="fas fa-chevron-down"></i>
+                  </a>   
+                  
+                </h5>
+              </div>
+              <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordion">
+                <div class="card-body">
+                  <p>You can play as many overs as you want to in this mode. Your score will not be altered. You can get better at timing and direction to score more when you play the actual match.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+         <!-- <div class="terms_sec">
+            <p><a href="#">Terms & Condition</a> </p>            
+          </div>-->
+          <div class="gotit_sec">
+				<button onclick="myFunction()">Okay, Got It</a>
+           </div>
+       </div>
+     </div>
+   </div>
+ 
+</section>
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,76 @@
+﻿{
+    "status": "1",
+    "message": "You are waiting in room",
+    "result": {
+        "room_id": 2,
+        "room_session": "6d644822-2bed-4053-90c2-cc9777506ab1",
+        "round_id": 2,
+        "round_session_id": "c037122a-7ab0-44d0-92cf-79861d1e2e96",
+        "player_id": 20,
+        "userslist": [
+            {
+                "userid": 3,
+                "name": "Jhon DIO",
+                "image": "1",
+                "sitting_index": 0,
+                "wallet_balance": 100000,
+                "boot_amount" : "1000",
+                "unique_id": "P1525432002"
+            },
+            {
+                "userid": 20,
+                "name": "Ghon DIO",
+                "image": "3",
+                "sitting_index": 1,
+                "wallet_balance": 100000,
+                "boot_amount" : "1000",
+                "unique_id": "P1525432002"
+            },
+            {
+              "userid": 21,
+              "name": "Rhon DIO",
+              "image": "4",
+              "sitting_index": 2,
+              "wallet_balance": 100000,
+              "boot_amount" : "1000",
+              "unique_id": "P1525432002"
+            },
+            {
+                "userid": 22,
+                "name": "Jahangir DIO",
+                "image": "5",
+                "sitting_index": 3,
+                "wallet_balance": 100000,
+                "boot_amount" : "1000",
+                "unique_id": "P1525432002"
+              },
+              {
+                "userid": 23,
+                "name": "Akbar DIO",
+                "image": "6",
+                "sitting_index": 4,
+                "wallet_balance": 100000,
+                "boot_amount" : "1000",
+                "unique_id": "P1525432002"
+              },
+              {
+                "userid": 24,
+                "name": "Babur DIO",
+                "image": "6",
+                "sitting_index": 5,
+                "wallet_balance": 100000,
+                "boot_amount" : "1000",
+                "unique_id": "P1525432002"
+              },
+              {
+                "userid": 25,
+                "name": "Sauvik DIO",
+                "image": "6",
+                "sitting_index": 6,
+                "wallet_balance": 100000,
+                "boot_amount" : "1000",
+                "unique_id": "P1525432002"
+              }
+        ]
+    }
+}

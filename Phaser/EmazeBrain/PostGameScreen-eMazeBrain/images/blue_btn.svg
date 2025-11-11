@@ -1,0 +1,28 @@
+<svg id="Group_3326" data-name="Group 3326" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="164.729" height="68.527" viewBox="0 0 164.729 68.527">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.379" y1="1.255" x2="0.621" y2="-0.255" gradientUnits="objectBoundingBox">
+      <stop offset="0.396"/>
+      <stop offset="0.582" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" y1="1.004" x2="0.5" y2="-0.004" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_3324" data-name="Group 3324" transform="translate(2.515 5.03)" opacity="0.3" style="mix-blend-mode: multiply;isolation: isolate">
+    <path id="Path_1500" data-name="Path 1500" d="M1506.36,1766.068a31.748,31.748,0,1,1,0-63.5h98.716a31.748,31.748,0,1,1,0,63.5Z" transform="translate(-1474.611 -1702.571)" fill="#050400"/>
+    <rect id="Rectangle_1718" data-name="Rectangle 1718" width="158.887" height="60.17" rx="30.085" transform="translate(1.664 1.663)" fill="#050400"/>
+    <rect id="Rectangle_1719" data-name="Rectangle 1719" width="158.887" height="60.17" rx="30.085" transform="translate(1.664 1.663)" fill="#050400" opacity="0.5" style="mix-blend-mode: overlay;isolation: isolate"/>
+    <path id="Path_1501" data-name="Path 1501" d="M1604.73,1765.554l-96.507-6.749c-16.243-1.136-28.585-13.881-27.564-28.467h0c1.02-14.586,15.015-25.49,31.258-24.354l96.507,6.749c16.244,1.135,28.585,13.881,27.565,28.467h0C1634.969,1755.786,1620.973,1766.689,1604.73,1765.554Z" transform="translate(-1477.216 -1704.021)" fill="#050400"/>
+    <path id="Path_1502" data-name="Path 1502" d="M1604.73,1765.554l-96.507-6.749c-16.243-1.136-28.585-13.881-27.564-28.467h0c1.02-14.586,15.015-25.49,31.258-24.354l96.507,6.749c16.244,1.135,28.585,13.881,27.565,28.467h0C1634.969,1755.786,1620.973,1766.689,1604.73,1765.554Z" transform="translate(-1477.216 -1704.021)" fill="#050400" opacity="0.4" style="mix-blend-mode: soft-light;isolation: isolate"/>
+    <path id="Path_1503" data-name="Path 1503" d="M1604.73,1765.554l-96.507-6.749c-16.243-1.136-28.585-13.881-27.564-28.467h0c1.02-14.586,15.015-25.49,31.258-24.354l96.507,6.749c16.244,1.135,28.585,13.881,27.565,28.467h0C1634.969,1755.786,1620.973,1766.689,1604.73,1765.554Z" transform="translate(-1477.216 -1704.021)" fill="#050400" style="mix-blend-mode: overlay;isolation: isolate"/>
+  </g>
+  <g id="Group_3325" data-name="Group 3325">
+    <path id="Path_1504" data-name="Path 1504" d="M1501.908,1757.165a31.748,31.748,0,1,1,0-63.5h98.716a31.748,31.748,0,1,1,0,63.5Z" transform="translate(-1470.16 -1693.668)" fill="#072636"/>
+    <rect id="Rectangle_1720" data-name="Rectangle 1720" width="158.887" height="60.17" rx="30.085" transform="translate(1.663 1.663)" fill="#47c2fb"/>
+    <rect id="Rectangle_1721" data-name="Rectangle 1721" width="158.887" height="60.17" rx="30.085" transform="translate(1.663 1.663)" opacity="0.5" fill="url(#linear-gradient)" style="mix-blend-mode: overlay;isolation: isolate"/>
+    <path id="Path_1505" data-name="Path 1505" d="M1600.278,1756.651l-96.507-6.748c-16.244-1.136-28.584-13.881-27.565-28.467h0c1.02-14.586,15.015-25.49,31.259-24.354l96.507,6.748c16.243,1.136,28.585,13.881,27.564,28.467h0C1630.517,1746.883,1616.522,1757.786,1600.278,1756.651Z" transform="translate(-1472.765 -1695.118)" fill="#47c2fb"/>
+    <path id="Path_1506" data-name="Path 1506" d="M1600.278,1756.651l-96.507-6.748c-16.244-1.136-28.584-13.881-27.565-28.467h0c1.02-14.586,15.015-25.49,31.259-24.354l96.507,6.748c16.243,1.136,28.585,13.881,27.564,28.467h0C1630.517,1746.883,1616.522,1757.786,1600.278,1756.651Z" transform="translate(-1472.765 -1695.118)" opacity="0.4" style="mix-blend-mode: soft-light;isolation: isolate"/>
+    <path id="Path_1507" data-name="Path 1507" d="M1600.278,1756.651l-96.507-6.748c-16.244-1.136-28.584-13.881-27.565-28.467h0c1.02-14.586,15.015-25.49,31.259-24.354l96.507,6.748c16.243,1.136,28.585,13.881,27.564,28.467h0C1630.517,1746.883,1616.522,1757.786,1600.278,1756.651Z" transform="translate(-1472.765 -1695.118)" fill="url(#linear-gradient-2)" style="mix-blend-mode: overlay;isolation: isolate"/>
+  </g>
+</svg>

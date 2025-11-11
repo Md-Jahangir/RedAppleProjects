@@ -1,0 +1,7 @@
+Coin.png
+size:315,273
+filter:Linear,Linear
+front
+bounds:2,2,269,269
+side
+bounds:273,4,40,267

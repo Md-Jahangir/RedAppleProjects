@@ -1,0 +1,27 @@
+
+Fog_back.png
+size: 1086,663
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fog_1_looped
+  rotate: true
+  xy: 2, 2
+  size: 659, 370
+  orig: 659, 370
+  offset: 0, 0
+  index: -1
+fog_2_looped
+  rotate: true
+  xy: 746, 2
+  size: 659, 338
+  orig: 659, 338
+  offset: 0, 0
+  index: -1
+fog_3_looped
+  rotate: true
+  xy: 374, 2
+  size: 659, 370
+  orig: 659, 370
+  offset: 0, 0
+  index: -1

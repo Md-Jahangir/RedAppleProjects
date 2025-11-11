@@ -1,0 +1,55 @@
+
+play_button.png
+size: 549,219
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+back
+  rotate: false
+  xy: 2, 2
+  size: 215, 215
+  orig: 215, 215
+  offset: 0, 0
+  index: -1
+bubble 1
+  rotate: false
+  xy: 421, 34
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+bubble 2
+  rotate: false
+  xy: 421, 14
+  size: 17, 18
+  orig: 17, 18
+  offset: 0, 0
+  index: -1
+bubble 3
+  rotate: false
+  xy: 440, 14
+  size: 17, 18
+  orig: 17, 18
+  offset: 0, 0
+  index: -1
+bubble 4
+  rotate: false
+  xy: 459, 14
+  size: 17, 18
+  orig: 17, 18
+  offset: 0, 0
+  index: -1
+highlight
+  rotate: true
+  xy: 219, 14
+  size: 203, 200
+  orig: 203, 200
+  offset: 0, 0
+  index: -1
+play
+  rotate: false
+  xy: 421, 74
+  size: 126, 143
+  orig: 126, 143
+  offset: 0, 0
+  index: -1

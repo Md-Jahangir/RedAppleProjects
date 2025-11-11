@@ -1,0 +1,16 @@
+super_coin.png
+size:1550,260
+filter:Linear,Linear
+pma:true
+coin_animation0001
+bounds:2,2,256,256
+coin_animation0002
+bounds:260,2,256,256
+coin_animation0003
+bounds:518,2,256,256
+coin_animation0004
+bounds:776,2,256,256
+coin_animation0005
+bounds:1034,2,256,256
+coin_animation0006
+bounds:1292,2,256,256

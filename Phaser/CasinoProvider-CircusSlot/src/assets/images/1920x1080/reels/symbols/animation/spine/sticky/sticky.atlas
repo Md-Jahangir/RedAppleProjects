@@ -1,0 +1,57 @@
+sticky.png
+size:285,917
+filter:Linear,Linear
+pma:true
+scale:0.1852
+Bg
+bounds:2,617,163,163
+Frame
+bounds:2,152,154,154
+Glow
+bounds:160,220,88,88
+Layer 280
+bounds:197,750,12,30
+Layer 284
+bounds:167,700,46,112
+rotate:90
+Layer 296
+bounds:241,901,14,38
+rotate:90
+New Project
+bounds:2,782,237,133
+Rays_01
+bounds:150,24,126,126
+Rays_02
+bounds:161,452,122,121
+Target
+bounds:167,575,106,123
+Target_Up
+bounds:257,308,25,51
+Text_off light
+bounds:160,310,92,19
+Text_on light 01
+bounds:160,406,96,19
+Text_on light 02
+bounds:263,361,89,20
+rotate:90
+handle
+bounds:160,331,73,95
+rotate:90
+metal
+bounds:158,165,53,56
+rotate:90
+off light
+bounds:2,2,148,146
+rotate:90
+on light 01
+bounds:2,459,156,157
+rotate:90
+on light 02
+bounds:2,308,156,149
+signboard
+bounds:241,748,151,32
+rotate:90
+sparkle
+bounds:167,750,28,30
+text
+bounds:160,427,101,23

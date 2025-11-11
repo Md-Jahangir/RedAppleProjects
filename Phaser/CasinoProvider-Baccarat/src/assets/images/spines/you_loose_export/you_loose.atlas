@@ -1,0 +1,41 @@
+you_loose.png
+size:1688,1032
+filter:Linear,Linear
+pma:true
+LOSE Glow
+bounds:676,41,415,171
+offsets:1072,620,2562,1440
+LOSE SHADOW
+bounds:1093,303,364,593
+offsets:32,64,426,658
+rotate:90
+LOSE text
+bounds:2,13,367,121
+YOU  Glow
+bounds:878,317,350,171
+offsets:1113,752,2562,1440
+rotate:90
+YOU SHADOW
+bounds:1093,2,299,585
+offsets:33,69,365,655
+rotate:90
+YOU text
+bounds:371,13,303,121
+particle
+bounds:2,136,894,537
+offsets:1,51,896,589
+rotate:90
+ribbon
+bounds:541,214,816,335
+rotate:90
+ribbon glow
+bounds:878,669,799,361
+offsets:8,7,815,371
+sparkle 1
+bounds:541,149,63,48
+offsets:2,1,67,51
+rotate:90
+sparkle 2
+bounds:541,149,63,48
+offsets:2,1,67,51
+rotate:90

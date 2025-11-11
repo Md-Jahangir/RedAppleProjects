@@ -1,0 +1,21 @@
+body {
+    /* background: url("./assets/images/common/background.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center; */
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: "Kh_KoulenL";
+    font-weight: 900;
+    src: url(./assets/fonts/Kh_KoulenL_Version_2.20.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "NotoSans_Regular";
+    font-weight: 600;
+    src: url(./assets/fonts/NotoSans-Regular.ttf) format('truetype');
+}

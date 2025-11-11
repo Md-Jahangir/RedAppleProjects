@@ -1,0 +1,85 @@
+rabbit_expression.png
+size:896,237
+filter:Linear,Linear
+scale:0.5
+EyeBlink_L
+bounds:850,88,36,39
+offsets:0,11,36,50
+EyeBlink_R
+bounds:849,187,45,48
+offsets:0,1,45,49
+Group 135
+bounds:2,5,230,245
+offsets:0,0,242,245
+rotate:90
+Group 27
+bounds:344,14,66,221
+offsets:0,2,66,223
+Layer 46
+bounds:249,9,226,93
+offsets:1,0,227,93
+rotate:90
+Layer 47
+bounds:843,129,30,49
+body
+bounds:412,21,78,101
+offsets:0,2,78,103
+chin
+bounds:565,5,59,41
+eye whit_2
+bounds:800,63,41,48
+rotate:90
+eye white_1
+bounds:745,164,65,71
+eye_ball_1
+bounds:745,144,18,18
+eye_ball_2
+bounds:745,144,18,18
+eye_off
+bounds:412,124,111,51
+rotate:90
+eyebrows_1
+bounds:412,2,73,17
+offsets:1,0,74,17
+eyebrows_2
+bounds:487,3,76,16
+inner_mouth
+bounds:688,58,77,39
+rotate:90
+left_arm
+bounds:812,180,35,55
+left_forearm
+bounds:785,4,57,57
+left_forearm copy
+bounds:524,26,20,26
+offsets:0,0,20,28
+rotate:90
+left_leg
+bounds:738,3,58,45
+rotate:90
+nose
+bounds:492,48,87,75
+rotate:90
+pant
+bounds:729,63,72,69
+rotate:90
+pant_left
+bounds:626,3,50,53
+rotate:90
+pant_right
+bounds:631,56,55,79
+right_arm
+bounds:844,5,34,56
+right_forearm
+bounds:800,106,56,41
+rotate:90
+right_forearm1
+bounds:681,2,52,55
+rotate:90
+right_leg
+bounds:569,55,60,80
+rightear
+bounds:465,137,98,278
+rotate:90
+tooth
+bounds:492,24,30,22

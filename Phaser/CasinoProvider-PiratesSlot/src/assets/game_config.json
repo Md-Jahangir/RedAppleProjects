@@ -1,0 +1,76 @@
+{
+    "symbol": {
+        "displayWidth": 165,
+        "displayHeight": 243
+    },
+    "reelView": {
+        "reelFrameBg": {
+            "displayWidth": 876,
+            "displayHeight": 773
+        },
+        "reelOffsetArryX": [
+            10,
+            170,
+            340,
+            510,
+            680
+        ],
+        "reelIndexArray": [
+            -1,
+            0,
+            1,
+            2,
+            3
+        ]
+    },
+    "wheel": {
+        "leftWheel": {
+            "x": 60,
+            "y": 200,
+            "movement": "clockwise"
+        },
+        "rightWheel": {
+            "x": 940,
+            "y": 200,
+            "movement": "anticlockwise"
+        }
+    },
+    "score":{
+      "firstTween" : {
+        "y" : 220
+      },
+      "sprinkleCoin":{
+        "y" : 500,
+        "x" : 350
+    }
+    },
+    
+    "repeat": {
+        "regularSpin": [
+            5,
+            10,
+            15,
+            20,
+            25
+        ],
+        "fastSpin": [
+            2,
+            4,
+            6,
+            8,
+            10
+        ]
+    },
+    "bottomPanel": {
+        "balanceHeadingTextX": -500,
+        "balanceHeadingTextY": -100,
+        "offsetX": 55,
+        "offsetY": -0,
+        "betArea": {
+            "betHeadingTextX": -130,
+            "betHeadingTextY": -100,
+            "offsetX": -30,
+            "offsetY": -30
+        }
+    }
+}

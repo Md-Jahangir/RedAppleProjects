@@ -1,0 +1,125 @@
+
+Roughboy_scaled.png
+size: 472,738
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Verde copia 3
+  rotate: false
+  xy: 359, 464
+  size: 90, 162
+  orig: 193, 244
+  offset: 48, 82
+  index: -1
+back color  (1)
+  rotate: true
+  xy: 2, 80
+  size: 207, 294
+  orig: 207, 294
+  offset: 0, 0
+  index: -1
+back color  (2)
+  rotate: true
+  xy: 2, 289
+  size: 238, 320
+  orig: 238, 320
+  offset: 0, 0
+  index: -1
+base cara
+  rotate: false
+  xy: 367, 21
+  size: 90, 59
+  orig: 90, 59
+  offset: 0, 0
+  index: -1
+base coleta
+  rotate: true
+  xy: 359, 628
+  size: 53, 105
+  orig: 53, 105
+  offset: 0, 0
+  index: -1
+base hombreo dere
+  rotate: true
+  xy: 2, 2
+  size: 76, 159
+  orig: 76, 159
+  offset: 0, 0
+  index: -1
+base pechera
+  rotate: false
+  xy: 298, 82
+  size: 159, 128
+  orig: 170, 128
+  offset: 0, 0
+  index: -1
+bigote
+  rotate: true
+  xy: 324, 459
+  size: 68, 23
+  orig: 68, 23
+  offset: 0, 0
+  index: -1
+blanco de los ojos
+  rotate: true
+  xy: 451, 587
+  size: 39, 15
+  orig: 39, 15
+  offset: 0, 0
+  index: -1
+brazo
+  rotate: false
+  xy: 319, 19
+  size: 46, 61
+  orig: 46, 61
+  offset: 0, 0
+  index: -1
+coleta
+  rotate: true
+  xy: 359, 683
+  size: 53, 110
+  orig: 53, 110
+  offset: 0, 0
+  index: -1
+frame_effect
+  rotate: false
+  xy: 2, 529
+  size: 355, 207
+  orig: 355, 207
+  offset: 0, 0
+  index: -1
+hombro der
+  rotate: true
+  xy: 163, 2
+  size: 76, 154
+  orig: 76, 159
+  offset: 0, 0
+  index: -1
+hombro izq
+  rotate: true
+  xy: 319, 212
+  size: 73, 151
+  orig: 74, 174
+  offset: 0, 23
+  index: -1
+parpadep
+  rotate: true
+  xy: 451, 546
+  size: 39, 12
+  orig: 39, 12
+  offset: 0, 0
+  index: -1
+pechera
+  rotate: true
+  xy: 324, 287
+  size: 170, 128
+  orig: 170, 128
+  offset: 0, 0
+  index: -1
+pupilas
+  rotate: true
+  xy: 451, 509
+  size: 35, 12
+  orig: 35, 12
+  offset: 0, 0
+  index: -1

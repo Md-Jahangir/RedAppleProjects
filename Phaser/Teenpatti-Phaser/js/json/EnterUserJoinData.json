@@ -1,0 +1,49 @@
+﻿{
+    "status": "1",
+    "message": "You are waiting in room",
+    "result": {
+        "room_id": 2,
+        "room_session": "6d644822-2bed-4053-90c2-cc9777506ab1",
+        "round_id": 2,
+        "round_session_id": "c037122a-7ab0-44d0-92cf-79861d1e2e96",
+        "player_id": 20,
+        "userslist": [
+            {
+                "userid": 19,
+                "name": "Jhon DIO",
+                "image": "",
+                "sitting_index": 0,
+                "wallet_balance": 100000,
+                "boot_amount" : "1000",
+                "unique_id": "P1525432002"
+            },
+            {
+                "userid": 20,
+                "name": "Jhon DIO",
+                "image": "",
+                "sitting_index": 1,
+                "wallet_balance": 100000,
+                "boot_amount" : "1000",
+                "unique_id": "P1525432002"
+            },
+            {
+              "userid": 21,
+              "name": "Jhon DIO",
+              "image": "",
+              "sitting_index": 2,
+              "wallet_balance": 100000,
+              "boot_amount" : "1000",
+              "unique_id": "P1525432002"
+            },
+           {
+            "userid": 22,
+            "name": "Fhon DIO",
+            "image": "",
+            "sitting_index": 3,
+            "wallet_balance": 100000,
+            "boot_amount" : "1000",
+            "unique_id": "P1525432002"
+          }
+        ]
+    }
+}

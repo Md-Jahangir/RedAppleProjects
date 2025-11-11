@@ -1,0 +1,152 @@
+{
+    "usercardstartpos": [
+        {
+            "x": 0,
+            "y": 150,
+            "angle": 0
+        },
+        {
+            "x": 200,
+            "y": 0,
+            "angle": -90
+        },
+        {
+            "x": 0,
+            "y": -150,
+            "angle": -180
+        },
+        {
+            "x": -200,
+            "y": 0,
+            "angle": -270
+        }
+    ],
+    "usercardalignment": [
+        {
+            "widthGap": 50,
+            "heightGap": 0
+        },
+        {
+            "widthGap": 0,
+            "heightGap": 25
+        },
+        {
+            "widthGap": 50,
+            "heightGap": 0
+        },
+        {
+            "widthGap": 0,
+            "heightGap": 25
+        }
+    ],
+    "usercardtiltData": [
+        {
+            "tiltwidth": 0,
+            "tiltheight": 35,
+            "tiltRotate": -45
+        },
+        {
+            "tiltwidth": 17.5,
+            "tiltheight": 0,
+            "tiltRotate": 45
+        },
+        {
+            "tiltwidth": 0,
+            "tiltheight": -35,
+            "tiltRotate": 45
+        },
+        {
+            "tiltwidth": -17.5,
+            "tiltheight": 0,
+            "tiltRotate": -45
+        }
+    ],
+    "playerPosition": [
+        {
+            "x": 0,
+            "y": 300
+        },
+        {
+            "x": -600,
+            "y": 0
+        },
+        {
+            "x": 0,
+            "y": -300
+        },
+        {
+            "x": 600,
+            "y": 0
+        }
+    ],
+    "cardstorePosition": [
+        {
+            "x": -800,
+            "y": 450
+        },
+        {
+            "x": -800,
+            "y": -450
+        },
+        {
+            "x": 800,
+            "y": -450
+        },
+        {
+            "x": 800,
+            "y": 450
+        }
+    ],
+    "cardonTableposition": [
+        {
+            "x": 0,
+            "y": 100
+        },
+        {
+            "x": -150,
+            "y": 0
+        },
+        {
+            "x": 100,
+            "y": 0
+        },
+        {
+            "x": 150,
+            "y": 0
+        }
+    ],
+    "playerAdjustPos": [
+        {
+            "offsetX": 0,
+            "offsetY": 150,
+            "stGap": -45,
+            "avgGap": 90,
+            "waveSpace": -50,
+            "angle": 0
+        },
+        {
+            "offsetX": -150,
+            "offsetY": 0,
+            "stGap": -25,
+            "avgGap": 50,
+            "waveSpace": 25,
+            "angle": -90
+        },
+        {
+            "offsetX": 0,
+            "offsetY": -150,
+            "stGap": -45,
+            "avgGap": 90,
+            "waveSpace": 50,
+            "angle": -180
+        },
+        {
+            "offsetX": 150,
+            "offsetY": 0,
+            "stGap": -25,
+            "avgGap": 50,
+            "waveSpace": -25,
+            "angle": -270
+        }
+    ]
+}

@@ -1,0 +1,95 @@
+import BootScene from './BootScene.js';
+import PreloadScene from './PreloadScene.js';
+import GameScene from './GameScene.js';
+
+// Load our scenes
+var bootScene = new BootScene();
+var preloadScene = new PreloadScene();
+var gameScene = new GameScene();
+
+window.onload = function() {
+    isMobile = /iPhone|iPhoneX|iPod|iPad|BlackBerry|kindle|playbook|Windows Phone|Android/i.test(navigator.userAgent);
+    isIPad = /iPod|iPad/i.test(navigator.userAgent);
+    if (isMobile) {
+        var config = {
+            type: Phaser.AUT0,
+            backgroundColor: 0x000000,
+            parent: 'theshadower',
+            scale: {
+                mode: Phaser.Scale.FIT,
+                autoCenter: Phaser.Scale.CENTER_BOTH,
+            },
+            width: window.innerWidth,
+            height: window.innerHeight,
+            banner: false
+        };
+    } else {
+        var config = {
+            type: Phaser.AUT0,
+            backgroundColor: 0x00A475,
+            parent: 'theshadower',
+            scale: {
+                mode: Phaser.Scale.FIT,
+                autoCenter: Phaser.Scale.CENTER_BOTH,
+            },
+            width: 1920,
+            height: 1080,
+            banner: false
+        };
+    }
+    game = new Phaser.Game(config);
+    if (isIPad) {
+        scaleFactorX = (config.width / 1920);
+        scaleFactorY = (config.height / 1024);
+    } else {
+        scaleFactorX = (config.width / 1920);
+        scaleFactorY = (config.width / 1920);
+    }
+    window.focus();
+    // load scenes
+    game.scene.add('BootScene', bootScene);
+    game.scene.add('PreloadScene', preloadScene);
+    game.scene.add("GameScene", gameScene);
+
+    // start title 
+    if (window.innerHeight > window.innerWidth) {
+        // alert("Please use Landscape!");
+        // console.log("portrait"); 
+    } else {
+        game.scene.start('BootScene');
+        // console.log("landscape");
+        // game.scene.start('PreloadScene');
+    }
+    window.addEventListener("orientationchange", function() {
+        if (window.orientation == 0 || window.orientation == 180) // WHEN IN PORTRAIT MODE//
+        {} else {
+            if (!gameStarted) {
+                window.location.reload();
+            }
+        }
+    }, false);
+    /* Version*/
+    const Style = {
+        base: [
+            "color: #fff",
+            "background-color: #444",
+            "padding: 2px 4px",
+            "border-radius: 2px"
+        ],
+        warning: [
+            "color: #eee",
+            "background-color: red"
+        ],
+        success: [
+            "background-color: green"
+        ]
+    }
+    const log = (text, extra = []) => {
+        let style = Style.base.join(';') + ';';
+        style += extra.join(';'); // Add any additional styles
+        console.log(`%c${text}`, style);
+    }
+
+    log("Match-The-Pairs(Version 1.0.0)", Style.success);
+    /* Version*/
+}

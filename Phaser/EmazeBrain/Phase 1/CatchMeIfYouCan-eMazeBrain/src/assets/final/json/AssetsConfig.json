@@ -1,0 +1,50 @@
+{
+  "params": {
+    "baseUrl": "./"
+  },
+  "assets": [
+    {
+      "name": "fonts",
+      "path": "../font/fonts/fonts.css",
+      "metadata": {}
+    },
+    {
+      "name": "asset-1",
+      "path": "../sheets/asset-1.json",
+      "metadata": {}
+    },
+    {
+      "name": "fontWin",
+      "path": "../font/fontWin.xml",
+      "metadata": {}
+    },
+    {
+      "name": "GameConfig",
+      "path": "./GameConfig.json",
+      "metadata": {}
+    },
+    {
+      "name": "timeIsUp",
+      "path": "./../bigImages/popup/emazebrain_ui_game_timesupmdpi.png",
+      "metadata": {}
+    },
+    {
+      "name": "levelUp",
+      "path": "./../bigImages/popup/emazebrain_ui_game_levelupmdpi.png",
+      "metadata": {}
+    },
+    {
+      "name": "indicator_correct",
+      "path": "./../bigImages/indicators/indicator_correct.png",
+      "metadata": {}
+    },
+    {
+      "name": "indicator_incorrect",
+      "path": "./../bigImages/indicators/indicator_incorrect.png",
+      "metadata": {}
+    }
+  ],
+  "metadata": {
+    "type": "assetsList"
+  }
+}

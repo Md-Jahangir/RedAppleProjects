@@ -1,0 +1,273 @@
+{
+    "parents": [{
+            "question1": "5",
+            "question2": "4",
+            "rightAnswer": "9",
+            "answers": [{
+                    "answer": "4"
+                },
+                {
+                    "answer": "5"
+                },
+                {
+                    "answer": "8"
+                },
+                {
+                    "answer": "9"
+                }
+            ]
+        },
+        {
+            "question1": "5",
+            "question2": "3",
+            "rightAnswer": "8",
+            "answers": [{
+                    "answer": "8"
+                },
+                {
+                    "answer": "9"
+                },
+                {
+                    "answer": "4"
+                },
+                {
+                    "answer": "1"
+                }
+            ]
+        },
+        {
+            "question1": "3",
+            "question2": "5",
+            "rightAnswer": "8",
+            "answers": [{
+                    "answer": "8"
+                },
+                {
+                    "answer": "1"
+                },
+                {
+                    "answer": "3"
+                },
+                {
+                    "answer": "9"
+                }
+            ]
+        },
+        {
+            "question1": "9",
+            "question2": "0",
+            "rightAnswer": "9",
+            "answers": [{
+                    "answer": "3"
+                },
+                {
+                    "answer": "7"
+                },
+                {
+                    "answer": "13"
+                },
+                {
+                    "answer": "9"
+                }
+            ]
+        },
+        {
+            "question1": "1",
+            "question2": "2",
+            "rightAnswer": "3",
+            "answers": [{
+                    "answer": "3"
+                },
+                {
+                    "answer": "9"
+                },
+                {
+                    "answer": "4"
+                },
+                {
+                    "answer": "2"
+                }
+            ]
+        },
+        {
+            "question1": "3",
+            "question2": "2",
+            "rightAnswer": "5",
+            "answers": [{
+                    "answer": "9"
+                },
+                {
+                    "answer": "5"
+                },
+                {
+                    "answer": "4"
+                },
+                {
+                    "answer": "2"
+                }
+            ]
+        },
+        {
+            "question1": "5",
+            "question2": "2",
+            "rightAnswer": "7",
+            "answers": [{
+                    "answer": "5"
+                },
+                {
+                    "answer": "9"
+                },
+                {
+                    "answer": "7"
+                },
+                {
+                    "answer": "2"
+                }
+            ]
+        },
+        {
+            "question1": "1",
+            "question2": "6",
+            "rightAnswer": "7",
+            "answers": [{
+                    "answer": "6"
+                },
+                {
+                    "answer": "8"
+                },
+                {
+                    "answer": "7"
+                },
+                {
+                    "answer": "2"
+                }
+            ]
+        },
+        {
+            "question1": "2",
+            "question2": "6",
+            "rightAnswer": "8",
+            "answers": [{
+                    "answer": "2"
+                },
+                {
+                    "answer": "9"
+                },
+                {
+                    "answer": "8"
+                },
+                {
+                    "answer": "12"
+                }
+            ]
+        },
+        {
+            "question1": "6",
+            "question2": "3",
+            "rightAnswer": "9",
+            "answers": [{
+                    "answer": "9"
+                },
+                {
+                    "answer": "7"
+                },
+                {
+                    "answer": "2"
+                },
+                {
+                    "answer": "6"
+                }
+            ]
+        },
+        {
+            "question1": "4",
+            "question2": "2",
+            "rightAnswer": "6",
+            "answers": [{
+                    "answer": "3"
+                },
+                {
+                    "answer": "4"
+                },
+                {
+                    "answer": "2"
+                },
+                {
+                    "answer": "6"
+                }
+            ]
+        },
+        {
+            "question1": "2",
+            "question2": "3",
+            "rightAnswer": "6",
+            "answers": [{
+                    "answer": "5"
+                },
+                {
+                    "answer": "9"
+                },
+                {
+                    "answer": "2"
+                },
+                {
+                    "answer": "1"
+                }
+            ]
+        },
+        {
+            "question1": "1",
+            "question2": "1",
+            "rightAnswer": "2",
+            "answers": [{
+                    "answer": "5"
+                },
+                {
+                    "answer": "3"
+                },
+                {
+                    "answer": "2"
+                },
+                {
+                    "answer": "1"
+                }
+            ]
+        },
+        {
+            "question1": "8",
+            "question2": "0",
+            "rightAnswer": "8",
+            "answers": [{
+                    "answer": "9"
+                },
+                {
+                    "answer": "3"
+                },
+                {
+                    "answer": "8"
+                },
+                {
+                    "answer": "0"
+                }
+            ]
+        },
+        {
+            "question1": "2",
+            "question2": "7",
+            "rightAnswer": "9",
+            "answers": [{
+                    "answer": "9"
+                },
+                {
+                    "answer": "3"
+                },
+                {
+                    "answer": "5"
+                },
+                {
+                    "answer": "0"
+                }
+            ]
+        }
+    ]
+}

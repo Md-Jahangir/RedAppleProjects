@@ -1,0 +1,72 @@
+bg_exterior.png
+size:3714,2327
+filter:Linear,Linear
+pma:true
+scale:0.45
+DUST
+bounds:2,2,1425,373
+FAR_PILLAR
+bounds:3493,454,128,459
+Layer 1
+bounds:1429,67,308,300
+rotate:90
+Layer 3
+bounds:2,1352,1747,973
+Layer 4
+bounds:3456,915,133,192
+rotate:90
+Layer 5
+bounds:2975,613,96,229
+offsets:0,1,99,233
+Layer 6
+bounds:3278,873,176,175
+offsets:0,1,176,176
+Layer 7
+bounds:3419,1863,462,293
+rotate:90
+Mid_Piramid
+bounds:1751,596,1729,973
+rotate:90
+PYRAMID_LEFT
+bounds:1733,35,813,559
+PYRAMID_Right
+bounds:2726,1541,784,691
+offsets:0,15,784,706
+rotate:90
+Piller_2
+bounds:2726,844,422,550
+offsets:450,15,922,565
+rotate:90
+Piller_3
+bounds:3278,1050,216,418
+offsets:779,47,995,565
+rotate:90
+Piller_4
+bounds:3376,1364,141,315
+offsets:368,58,509,565
+rotate:90
+Piller_5
+bounds:2726,602,240,247
+offsets:352,58,1123,564
+rotate:90
+Piller_6
+bounds:3419,1507,284,354
+offsets:44,52,1127,575
+RIGHT_SIDE_TREE
+bounds:3097,365,394,477
+offsets:2,26,396,503
+SKY
+bounds:2,377,1729,973
+Statue_1
+bounds:2726,1268,271,648
+rotate:90
+Trunk
+bounds:2548,17,184,71
+left_coconut_tree
+bounds:3097,10,353,514
+offsets:0,11,354,525
+rotate:90
+upper_Tree
+bounds:2548,90,504,547
+offsets:0,4,508,551
+rotate:90

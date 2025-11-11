@@ -1,0 +1,22 @@
+level_fail.png
+size:592,929
+filter:Linear,Linear
+pma:true
+Layer 78
+bounds:2,42,885,309
+rotate:90
+full_ribon
+bounds:313,86,841,277
+offsets:0,45,841,334
+rotate:90
+letter_!
+bounds:526,2,39,82
+offsets:233,0,272,82
+letter_o
+bounds:378,2,62,82
+letter_p
+bounds:442,25,59,82
+rotate:90
+letter_s
+bounds:313,2,63,82
+offsets:3,0,69,82

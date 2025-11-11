@@ -1,0 +1,33 @@
+{
+    "game_id": 1,
+    "general": {
+        "factor": "0.3",
+        "bg_images_cdn_location": "games/shtraous/background/texture/cold/",
+        "main_images_cdn_location": "games/shtraous/objects/images/cold/",
+        "color_scheme": "cold",
+        "auto_correct": 0,
+        "answers_location": "NE",
+        "answers_location_spread": 70,
+        "answers_location_spread_value": 10,
+        "movement_direction": "LTR",
+        "rotation": "counter_clockwise",
+        "rotation_time": 10,
+        "level_down": 1,
+        "level_up": 1,
+        "movement_time": 5,
+        "movement_type": 5
+    },
+    "lastHighestScore": 0,
+    "specific": {
+        "high_score": 4783,
+        "level": 7,
+        "success_rate": 0.8,
+        "time_to_play": 60,
+        "number_of_questions": null,
+        "brain_help": "This game requires completion of simple math calculation, concentration, eye-hand coordination, as well as mental rotation and tracking. These are associated with the parietal lobe, more so on the left, as well as the cerebellum and the frontal lobes, more so on the left side.",
+        "game_instructions": "Find the correct answer to the given equation",
+        "time_per_question": 2,
+        "number_of_object": 3,
+        "number_of_distractors": 3
+    }
+}

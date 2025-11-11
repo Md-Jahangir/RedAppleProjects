@@ -1,0 +1,14 @@
+body {
+	margin: 0px;
+}
+
+.check-font-3 {
+	font-family: 'BAHNSCHRIFT';
+}
+
+@font-face {
+	font-family: "BAHNSCHRIFT";
+	src: url(./assets/fonts/BAHNSCHRIFT.TTF) format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}

@@ -1,0 +1,48 @@
+
+splash page yellow turtle.png
+size: 372,171
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: false
+  xy: 2, 43
+  size: 168, 126
+  orig: 168, 126
+  offset: 0, 0
+  index: -1
+hand L
+  rotate: true
+  xy: 172, 51
+  size: 118, 95
+  orig: 118, 95
+  offset: 0, 0
+  index: -1
+hand R
+  rotate: true
+  xy: 2, 10
+  size: 31, 155
+  orig: 31, 155
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 269, 94
+  size: 97, 75
+  orig: 97, 75
+  offset: 0, 0
+  index: -1
+leg L
+  rotate: false
+  xy: 172, 2
+  size: 137, 47
+  orig: 137, 47
+  offset: 0, 0
+  index: -1
+leg R
+  rotate: false
+  xy: 311, 24
+  size: 59, 68
+  orig: 59, 68
+  offset: 0, 0
+  index: -1

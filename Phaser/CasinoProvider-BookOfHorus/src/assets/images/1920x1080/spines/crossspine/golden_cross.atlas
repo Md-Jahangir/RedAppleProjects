@@ -1,0 +1,80 @@
+Golden_Cross.png
+size:445,527
+filter:Linear,Linear
+pma:true
+scale:0.1953
+Cross
+bounds:2,175,145,148
+offsets:0,17,145,165
+Cross_Glow
+bounds:2,2,163,166
+offsets:0,1,163,167
+Frame_BG
+bounds:204,170,171,171
+Frame_Frame
+bounds:204,343,182,185
+rotate:90
+Layer 0
+bounds:2,325,200,200
+Layer 1
+bounds:167,161,23,24
+rotate:90
+Layer 2
+bounds:167,20,23,22
+rotate:90
+Layer 3
+bounds:167,136,24,23
+Layer 4
+bounds:349,120,23,23
+Layer 5
+bounds:167,111,23,24
+rotate:90
+Layer 6
+bounds:323,94,23,22
+Layer 7
+bounds:349,145,24,23
+Layer 8
+bounds:349,95,23,23
+Reg_Gem_Glow
+bounds:391,461,64,52
+rotate:90
+Sparkle
+bounds:149,186,30,33
+frame_00000
+bounds:391,409,50,50
+frame_00001
+bounds:391,357,50,50
+frame_00002
+bounds:391,305,50,50
+frame_00003
+bounds:377,253,50,50
+frame_00004
+bounds:377,201,50,50
+frame_00005
+bounds:377,149,50,50
+frame_00006
+bounds:149,273,50,50
+frame_00007
+bounds:149,221,50,50
+frame_00008
+bounds:193,118,50,50
+frame_00009
+bounds:245,118,50,50
+frame_00010
+bounds:297,118,50,50
+frame_00011
+bounds:375,97,50,50
+frame_00012
+bounds:374,45,50,50
+frame_00013
+bounds:167,59,50,50
+frame_00014
+bounds:191,7,50,50
+frame_00015
+bounds:219,66,50,50
+frame_00016
+bounds:243,14,50,50
+frame_00017
+bounds:271,66,50,50
+frame_00018
+bounds:295,14,50,50

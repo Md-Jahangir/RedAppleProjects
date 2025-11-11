@@ -1,0 +1,23 @@
+pirate_win_bg.png
+size:3250,3008
+filter:Linear,Linear
+pma:true
+Layer 7
+bounds:2168,1087,1919,1080
+offsets:1,1,1922,1082
+rotate:90
+Rays_01
+bounds:2,2,1920,1080
+offsets:1,1,1922,1082
+Rays_02
+bounds:1086,1086,1920,1080
+offsets:1,1,1922,1082
+rotate:90
+bg
+bounds:2,1084,1922,1082
+rotate:90
+left tanticles
+bounds:1924,159,436,925
+right tanticles
+bounds:2362,569,516,678
+rotate:90

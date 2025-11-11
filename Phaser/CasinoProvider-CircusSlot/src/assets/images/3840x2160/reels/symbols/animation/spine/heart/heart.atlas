@@ -1,0 +1,22 @@
+heart.png
+size:603,900
+filter:Linear,Linear
+pma:true
+scale:0.3704
+Layer 520 copy 4
+bounds:2,278,313,288
+offsets:0,0,316,289
+all_bulb_off
+bounds:287,2,274,259
+rotate:90
+bulb_on
+bounds:317,285,281,270
+offsets:0,0,281,272
+rotate:90
+bulb_on_alternative
+bounds:360,615,283,241
+rotate:90
+heart_glow
+bounds:2,568,356,330
+white beat
+bounds:2,4,283,272

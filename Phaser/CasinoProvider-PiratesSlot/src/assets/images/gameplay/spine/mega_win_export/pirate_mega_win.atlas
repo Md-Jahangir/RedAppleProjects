@@ -1,0 +1,41 @@
+pirate_mega_win.png
+size:3873,930
+filter:Linear,Linear
+pma:true
+Board
+bounds:2,17,1228,911
+Flags_L
+bounds:2086,2,342,350
+rotate:90
+Flags_R
+bounds:3398,157,383,323
+Mega
+bounds:1865,346,582,372
+rotate:90
+Mega_Shadow
+bounds:1445,283,645,418
+rotate:90
+Sparkle_01
+bounds:3398,24,314,131
+Sparkle_02
+bounds:1445,14,639,267
+Win
+bounds:2438,6,429,250
+rotate:90
+Win_Shadow
+bounds:2415,437,491,302
+rotate:90
+hat
+bounds:3105,36,444,291
+rotate:90
+ol left coins
+bounds:2239,420,508,174
+rotate:90
+ol low coin stacks with glow
+bounds:2719,482,1152,446
+ol mid coins
+bounds:1232,108,820,211
+rotate:90
+treasure box
+bounds:2719,12,468,384
+rotate:90

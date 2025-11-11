@@ -1,0 +1,14 @@
+body {
+	margin: 0px;
+}
+
+.check-font-1 {
+	font-family: 'CAMBRIAB';
+}
+
+@font-face {
+	font-family: 'CAMBRIAB';
+	src: url('CAMBRIAB.TTF') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}

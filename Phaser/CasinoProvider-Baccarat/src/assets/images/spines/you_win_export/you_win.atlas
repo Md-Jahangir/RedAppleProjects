@@ -1,0 +1,100 @@
+you_win.png
+size:2017,936
+filter:Linear,Linear
+pma:true
+WIN Glow
+bounds:819,123,348,169
+offsets:1109,621,2562,1440
+WIN SHADOW
+bounds:898,294,303,589
+offsets:34,62,371,652
+rotate:90
+WIN text
+bounds:819,3,299,118
+YOU Glow
+bounds:1489,247,350,171
+offsets:1113,752,2562,1440
+rotate:90
+YOU SHADOW
+bounds:1716,349,299,585
+offsets:33,69,365,655
+YOU text
+bounds:1169,171,303,121
+crown
+bounds:1392,25,219,144
+crown blue glow
+bounds:1662,201,228,146
+offsets:3,1,236,150
+crown_glow_golden
+bounds:1169,3,221,166
+offsets:4,4,228,182
+crown_sparkle
+bounds:1120,65,56,43
+rotate:90
+particles
+bounds:2,411,894,523
+offsets:1,65,896,589
+ribbon
+bounds:898,599,816,335
+ribbon glow
+bounds:2,33,815,376
+sparkle 1
+bounds:1662,452,67,51
+rotate:90
+sparkle 2
+bounds:1662,452,67,51
+rotate:90
+star1 L
+bounds:1392,2,21,24
+offsets:1,1,23,26
+rotate:90
+star1 L motion
+bounds:819,323,86,70
+offsets:1,11,88,82
+rotate:90
+star1 R
+bounds:1418,2,21,24
+offsets:1,1,23,26
+rotate:90
+star1 R motion
+bounds:1613,27,54,48
+offsets:1,6,57,55
+star2 L
+bounds:1744,132,67,67
+offsets:2,1,70,69
+star2 L motion
+bounds:1613,77,129,122
+offsets:3,1,133,124
+star2 R
+bounds:1813,132,67,67
+offsets:1,1,70,69
+star2 R motion
+bounds:1892,219,128,123
+offsets:1,2,134,126
+rotate:90
+star3 L
+bounds:2,3,28,32
+offsets:1,1,30,34
+rotate:90
+star3 L motion
+bounds:1662,521,76,52
+offsets:8,6,85,69
+rotate:90
+star3 R
+bounds:1662,418,28,32
+offsets:1,1,30,34
+star3 R motion
+bounds:1744,79,66,51
+offsets:1,6,68,61
+star4 L
+bounds:1892,202,14,15
+offsets:1,1,16,17
+star4 L motion
+bounds:819,296,33,25
+offsets:8,5,44,40
+star4 R
+bounds:1669,60,14,15
+offsets:1,1,16,17
+star4 R motion
+bounds:1812,105,33,25
+offsets:13,24,84,68

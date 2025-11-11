@@ -1,0 +1,11 @@
+var game;
+var scaleFactor;
+var scaleFactorX;
+var scaleFactorY;
+var isIPad;
+var isMobile;
+var white = null;
+var test = null;
+var length = 1;
+var gameStarted = false;
+var gameId = 9;

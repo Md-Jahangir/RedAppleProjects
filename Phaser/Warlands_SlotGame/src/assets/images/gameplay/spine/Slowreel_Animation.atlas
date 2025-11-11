@@ -1,0 +1,368 @@
+
+Slowreel_Animation.png
+size: 370,1170
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+slowreeldef_00005
+  rotate: false
+  xy: 185, 379
+  size: 139, 30
+  orig: 231, 916
+  offset: 47, 771
+  index: -1
+slowreeldef_00006
+  rotate: false
+  xy: 185, 411
+  size: 166, 59
+  orig: 231, 916
+  offset: 41, 742
+  index: -1
+slowreeldef_00007
+  rotate: true
+  xy: 2, 2
+  size: 171, 262
+  orig: 231, 916
+  offset: 36, 539
+  index: -1
+slowreeldef_00008
+  rotate: false
+  xy: 2, 175
+  size: 181, 295
+  orig: 231, 916
+  offset: 26, 506
+  index: -1
+slowreeldef_00009
+  rotate: false
+  xy: 2, 472
+  size: 182, 696
+  orig: 231, 916
+  offset: 25, 105
+  index: -1
+slowreeldef_00010
+  rotate: false
+  xy: 186, 472
+  size: 182, 696
+  orig: 231, 916
+  offset: 25, 105
+  index: -1
+
+Slowreel_Animation2.png
+size: 368,700
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+slowreeldef_00014
+  rotate: false
+  xy: 2, 4
+  size: 182, 694
+  orig: 231, 916
+  offset: 25, 105
+  index: -1
+slowreeldef_00048
+  rotate: false
+  xy: 186, 2
+  size: 180, 696
+  orig: 231, 916
+  offset: 25, 105
+  index: -1
+
+Slowreel_Animation3.png
+size: 370,700
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+slowreeldef_00013
+  rotate: false
+  xy: 2, 2
+  size: 182, 696
+  orig: 231, 916
+  offset: 25, 105
+  index: -1
+slowreeldef_00015
+  rotate: false
+  xy: 186, 2
+  size: 182, 696
+  orig: 231, 916
+  offset: 25, 105
+  index: -1
+
+Slowreel_Animation4.png
+size: 370,700
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+slowreeldef_00017
+  rotate: false
+  xy: 2, 2
+  size: 182, 696
+  orig: 231, 916
+  offset: 25, 105
+  index: -1
+slowreeldef_00018
+  rotate: false
+  xy: 186, 2
+  size: 182, 696
+  orig: 231, 916
+  offset: 25, 105
+  index: -1
+
+Slowreel_Animation5.png
+size: 370,700
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+slowreeldef_00019
+  rotate: false
+  xy: 2, 2
+  size: 182, 696
+  orig: 231, 916
+  offset: 25, 105
+  index: -1
+slowreeldef_00020
+  rotate: false
+  xy: 186, 2
+  size: 182, 696
+  orig: 231, 916
+  offset: 25, 105
+  index: -1
+
+Slowreel_Animation6.png
+size: 370,700
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+slowreeldef_00021
+  rotate: false
+  xy: 2, 2
+  size: 182, 696
+  orig: 231, 916
+  offset: 25, 105
+  index: -1
+slowreeldef_00022
+  rotate: false
+  xy: 186, 2
+  size: 182, 696
+  orig: 231, 916
+  offset: 25, 105
+  index: -1
+
+Slowreel_Animation7.png
+size: 369,700
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+slowreeldef_00023
+  rotate: false
+  xy: 2, 2
+  size: 182, 696
+  orig: 231, 916
+  offset: 25, 105
+  index: -1
+slowreeldef_00024
+  rotate: false
+  xy: 186, 2
+  size: 181, 696
+  orig: 231, 916
+  offset: 25, 105
+  index: -1
+
+Slowreel_Animation8.png
+size: 368,700
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+slowreeldef_00025
+  rotate: false
+  xy: 2, 2
+  size: 181, 696
+  orig: 231, 916
+  offset: 25, 105
+  index: -1
+slowreeldef_00026
+  rotate: false
+  xy: 185, 2
+  size: 181, 696
+  orig: 231, 916
+  offset: 25, 105
+  index: -1
+
+Slowreel_Animation9.png
+size: 369,700
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+slowreeldef_00027
+  rotate: false
+  xy: 2, 2
+  size: 182, 696
+  orig: 231, 916
+  offset: 25, 105
+  index: -1
+slowreeldef_00028
+  rotate: false
+  xy: 186, 2
+  size: 181, 696
+  orig: 231, 916
+  offset: 26, 105
+  index: -1
+
+Slowreel_Animation10.png
+size: 370,700
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+slowreeldef_00029
+  rotate: false
+  xy: 2, 2
+  size: 182, 696
+  orig: 231, 916
+  offset: 25, 105
+  index: -1
+slowreeldef_00030
+  rotate: false
+  xy: 186, 2
+  size: 182, 696
+  orig: 231, 916
+  offset: 25, 105
+  index: -1
+slowreeldef_00031
+  rotate: false
+  xy: 186, 2
+  size: 182, 696
+  orig: 231, 916
+  offset: 25, 105
+  index: -1
+
+Slowreel_Animation11.png
+size: 370,700
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+slowreeldef_00032
+  rotate: false
+  xy: 2, 2
+  size: 182, 696
+  orig: 231, 916
+  offset: 25, 105
+  index: -1
+slowreeldef_00033
+  rotate: false
+  xy: 186, 2
+  size: 182, 696
+  orig: 231, 916
+  offset: 25, 105
+  index: -1
+
+Slowreel_Animation12.png
+size: 370,700
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+slowreeldef_00034
+  rotate: false
+  xy: 2, 2
+  size: 182, 696
+  orig: 231, 916
+  offset: 25, 105
+  index: -1
+slowreeldef_00035
+  rotate: false
+  xy: 186, 2
+  size: 182, 696
+  orig: 231, 916
+  offset: 25, 105
+  index: -1
+
+Slowreel_Animation13.png
+size: 370,700
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+slowreeldef_00036
+  rotate: false
+  xy: 2, 2
+  size: 182, 696
+  orig: 231, 916
+  offset: 25, 105
+  index: -1
+slowreeldef_00037
+  rotate: false
+  xy: 186, 2
+  size: 182, 696
+  orig: 231, 916
+  offset: 25, 105
+  index: -1
+
+Slowreel_Animation14.png
+size: 370,700
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+slowreeldef_00038
+  rotate: false
+  xy: 2, 2
+  size: 182, 696
+  orig: 231, 916
+  offset: 25, 105
+  index: -1
+slowreeldef_00042
+  rotate: false
+  xy: 186, 2
+  size: 182, 696
+  orig: 231, 916
+  offset: 25, 105
+  index: -1
+
+Slowreel_Animation15.png
+size: 369,700
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+slowreeldef_00043
+  rotate: false
+  xy: 2, 2
+  size: 182, 696
+  orig: 231, 916
+  offset: 25, 105
+  index: -1
+slowreeldef_00044
+  rotate: false
+  xy: 186, 2
+  size: 181, 696
+  orig: 231, 916
+  offset: 25, 105
+  index: -1
+
+Slowreel_Animation16.png
+size: 368,700
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+slowreeldef_00045
+  rotate: false
+  xy: 2, 2
+  size: 181, 696
+  orig: 231, 916
+  offset: 25, 105
+  index: -1
+slowreeldef_00046
+  rotate: false
+  xy: 185, 2
+  size: 181, 696
+  orig: 231, 916
+  offset: 25, 105
+  index: -1
+
+Slowreel_Animation17.png
+size: 184,700
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+slowreeldef_00047
+  rotate: false
+  xy: 2, 2
+  size: 180, 696
+  orig: 231, 916
+  offset: 25, 105
+  index: -1

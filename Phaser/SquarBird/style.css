@@ -1,0 +1,11 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: "PoetsenOne-Regular";
+    src: url(assets/fonts/PoetsenOne-Regular.otf)format('opentype');
+    font-weight: 800;
+    font-weight: bold;
+}

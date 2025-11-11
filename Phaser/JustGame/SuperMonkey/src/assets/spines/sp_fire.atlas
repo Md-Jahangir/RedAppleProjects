@@ -1,0 +1,14 @@
+Fire.png
+size:149,81
+filter:Linear,Linear
+pma:true
+fiew_3
+bounds:2,5,65,74
+offsets:0,0,66,81
+fire
+bounds:69,39,78,40
+offsets:1,1,80,42
+fire_3
+bounds:69,2,35,44
+offsets:0,0,36,44
+rotate:90

@@ -1,0 +1,158 @@
+import Reel from "./reel";
+import { SelectedResolution } from "../resolution-selector";
+import { getScale, getRandomSymbols } from "../utils";
+import { Model } from "../model";
+import FreeSpinsView from "../ui/free-spins-view";
+import GameLogoView from "../ui/game-logo";
+import PopupFreeSpins from "../ui/popups/popup-free-spins";
+import PopupBonus from "../ui/popups/popup-bonus";
+import { Server } from "../server";
+class ReelsView {
+    constructor(scene) {
+        this.scene = scene;
+        this.background = null;
+        this.reels = [];
+        this.config = this.scene.cache.json.get("resolution-config");
+        this.leftX = 0;
+
+        this.reelsCount = 5;
+        this.spinDelays = [400, 550, 700, 800, 850];
+        this.totalWidth = 0;
+
+
+        this.freeSpinsView = null;
+        this.gameLogoView = null;
+
+        this.create();
+
+        this.scene.game.events.on("evtSpinStart", this.onSpinStart, this);
+        this.scene.game.events.on("evtSpinStop", this.onSpinStop, this);
+        this.scene.game.events.on("evtPaylinesShowingDone", this.showPopups, this);
+        this.scene.game.events.on("evtBonusPopupClosed", this.showPopups, this);
+    };
+
+    create() {
+        // this.background = this.scene.add.image(0, 0, "reels_bg").setOrigin(0);
+
+        for (let i = 0; i < this.reelsCount; i++) {
+            let rndSymbols = getRandomSymbols();
+            let delay = this.spinDelays[i];
+            let reel = new Reel(this.scene, 0, 0, rndSymbols, delay, i);
+            this.reels.push(reel);
+        }
+        this.background = this.scene.add.image(0, 0, "reels_bg").setOrigin(0);
+
+        this.arrange(this.scene.scale.width, this.scene.scale.height);
+
+        this.gameLogoView = new GameLogoView(this.scene);
+        this.freeSpinsView = new FreeSpinsView(this.scene);
+
+    };
+
+    arrange(newWidth, newHeight, newScale = 1) {
+        this.totalWidth = 0;
+        let startX = newWidth / 2;
+        let startY = newHeight / 2;
+
+        this.reels.forEach((elem) => {
+            let reelHeight = elem.getHeight();
+            let reelWidth = elem.getWidth();
+            elem.setPosition(startX + this.totalWidth, startY - reelHeight / 2 - this.config.reels.offsetY * newScale);
+            this.totalWidth += (reelWidth + this.config.reels.distance * newScale);
+        });
+
+        this.totalWidth -= this.config.reels.distance * newScale;
+        let centerOffset = this.totalWidth / 2;
+        this.leftX = startX - centerOffset;
+
+        this.reels.forEach((elem) => {
+            let pos = elem.getPosition();
+            elem.setPosition(pos.x - centerOffset, pos.y);
+            // elem.resize(newWidth, newHeight)
+        });
+    };
+
+    resize(newWidth, newHeight) {
+        let newScale = getScale(SelectedResolution.width, SelectedResolution.height, newWidth, newHeight);
+        this.reels.forEach((elem) => {
+            elem.setScale(newScale);
+        });
+        // this.reel.resize(newWidth, newHeight, newScale);
+        this.background.setScale(newScale);
+        this.background.setPosition(newWidth / 2 + this.config.reels.bg.x * newScale, newHeight / 2 - this.background.displayWidth / 2 + this.config.reels.bg.y * newScale);
+        this.arrange(newWidth, newHeight, newScale);
+
+        this.gameLogoView.resize(newWidth, newScale, this.getY());
+        this.freeSpinsView.resize(newWidth, newScale, this.getX(), this.getY(), this.getWidth());
+    };
+
+    getWidth() {
+        return this.totalWidth;
+    };
+
+    getHeight() {
+        return this.reels[0].getHeight();
+    }
+
+    getX() {
+        return this.leftX;
+    };
+
+    getY() {
+        if (this.reels.length) {
+            return this.reels[0].getPosition().y;
+        }
+        return 0;
+    };
+
+    onSpinStart() {
+        this.scene.game.events.emit("evtSpinStartClearPayLine");
+        this.reels.forEach((elem) => {
+            elem.ResumeAnimation();
+        });
+    };
+
+    getSymbolPosition(reelIndex, symbolIndex) {
+        let reel = this.reels[reelIndex];
+        return reel.getSymbolPosition(symbolIndex);
+    };
+
+    getSymbol(reelIndex, symbolIndex) {
+        let reel = this.reels[reelIndex];
+        return reel.getSymbolByIndex(reelIndex, symbolIndex);
+    };
+
+    onSpinStop() {
+        // let grid = Model.getGrid();
+        this.reels.forEach((elem, index) => {
+            if (Server.mode == 'offline') {
+                setTimeout(() => {
+                    elem.StopAnimation();
+                }, 800 * (index + 1));
+            } else {
+                elem.StopAnimation();
+            }
+        });
+
+    };
+
+    showPopups() {
+        let bonus = Model.getBonus();
+        if (bonus > 0) {
+            let cfg = this.scene.cache.json.get("resolution-config").bonusPopup;
+            new PopupBonus(this.scene, cfg, "bonus", bonus).create();
+        } else {
+            // let listOfFreeSpins = Model.getFreeSpinsData();
+            // if (listOfFreeSpins.length > 0 && !this.isFreeSpinsMode) {
+            //     let cfg = this.scene.cache.json.get("resolution-config").freeSpinsPopup;
+            //     new PopupFreeSpins(this.scene, cfg, "freeSpins", listOfFreeSpins.length).create();
+            // } else {
+            //     this.onFreeSpin();
+            // }
+        }
+    }
+
+
+};
+
+export default ReelsView;

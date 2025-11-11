@@ -1,0 +1,103 @@
+
+Thor_Animation.png
+size: 504,1330
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BRILLO4
+  rotate: false
+  xy: 2, 959
+  size: 369, 369
+  orig: 369, 369
+  offset: 0, 0
+  index: -1
+Dust-Particles-PNG-Picture
+  rotate: false
+  xy: 2, 2
+  size: 279, 279
+  orig: 279, 279
+  offset: 0, 0
+  index: -1
+Martillo
+  rotate: false
+  xy: 464, 1276
+  size: 38, 52
+  orig: 38, 52
+  offset: 0, 0
+  index: -1
+TRUENO2
+  rotate: false
+  xy: 2, 283
+  size: 182, 674
+  orig: 182, 674
+  offset: 0, 0
+  index: -1
+antebrazo nada
+  rotate: false
+  xy: 413, 1274
+  size: 29, 26
+  orig: 29, 26
+  offset: 0, 0
+  index: -1
+blanco brillo
+  rotate: false
+  xy: 186, 283
+  size: 163, 674
+  orig: 163, 674
+  offset: 0, 0
+  index: -1
+brazo martillo
+  rotate: true
+  xy: 373, 1302
+  size: 26, 89
+  orig: 26, 89
+  offset: 0, 0
+  index: -1
+brazo nada
+  rotate: false
+  xy: 444, 1271
+  size: 14, 29
+  orig: 14, 29
+  offset: 0, 0
+  index: -1
+martillo white
+  rotate: false
+  xy: 373, 1263
+  size: 38, 37
+  orig: 38, 52
+  offset: 0, 15
+  index: -1
+thor
+  rotate: true
+  xy: 283, 112
+  size: 169, 185
+  orig: 169, 185
+  offset: 0, 0
+  index: -1
+
+Thor_Animation2.png
+size: 349,880
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+TRUENO
+  rotate: false
+  xy: 167, 355
+  size: 173, 523
+  orig: 290, 1080
+  offset: 96, 557
+  index: -1
+back thor
+  rotate: false
+  xy: 2, 204
+  size: 163, 674
+  orig: 163, 674
+  offset: 0, 0
+  index: -1
+frame_effect
+  rotate: false
+  xy: 2, 2
+  size: 345, 200
+  orig: 355, 207
+  offset: 5, 4
+  index: -1

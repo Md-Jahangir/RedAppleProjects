@@ -1,0 +1,11 @@
+hand_cut.png
+size:555,126
+filter:Linear,Linear
+pma:true
+hand
+bounds:399,2,122,154
+offsets:0,3,122,158
+rotate:90
+line
+bounds:2,76,395,48
+offsets:1,0,396,49

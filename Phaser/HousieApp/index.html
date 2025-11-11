@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
+
+    <title>Housie</title>
+
+    <script type="text/javascript" src="js/phaser.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/nosleep/0.12.0/NoSleep.min.js"></script>
+    <script type="text/javascript" src="js/phaser-input.min.js"></script>
+    <script type="text/javascript" src="js/phaser-state-transition.umd.js"></script>
+    <script type="text/javascript" src="js/phaser-fade.js"></script>
+    <script type="text/javascript" src="js/phaser-scrollable.min.js"></script>
+    <script type="text/javascript" src="js/socket.io/socket.io.js"></script>
+    <script type="text/javascript" src="js/moment.js"></script>
+
+    <style type="text/css">
+        @font-face {
+            font-family: Lato-Heavy;
+            src: url('assets/font/Lato-Heavy.ttf');
+            font-weight: 600;
+        }
+        
+        @font-face {
+            font-family: Lato-Medium;
+            src: url('assets/font/Lato-Medium.ttf');
+            font-weight: 500;
+            font-weight: normal;
+        }
+        
+        @font-face {
+            font-family: Lato-Regular;
+            src: url('assets/font/Lato-Regular.ttf');
+            font-weight: 300;
+            font-weight: normal;
+        }
+        
+        .fontLoader {
+            position: absolute;
+            left: -1000px;
+            visibility: hidden;
+        }
+        
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #021a1a;
+            background-image: url(assets/index_background.png);
+            background-position: bottom left;
+            background-size: contain;
+        }
+        
+        canvas {
+            box-shadow: 0px 0px 5px black;
+        }
+    </style>
+</head>
+<div style="font-family:Lato-Heavy; position:absolute; left:-1000px; visibility:hidden;">.</div>
+<div style="font-family:Lato-Medium; position:absolute; left:-1000px; visibility:hidden;">.</div>
+<div style="font-family:Lato-Regular; position:absolute; left:-1000px; visibility:hidden;">.</div>
+
+<!-- <script src="js/Constant.js" type="text/javascript"></script> -->
+<script src="js/Main.js" type="text/javascript"></script>
+<script src="js/LoadAssets.js" type="text/javascript"></script>
+<script src="js/Utils.js" type="text/javascript"></script>
+<script src="js/StateTransition.js" type="text/javascript"></script>
+<script src="js/Alert.js" type="text/javascript"></script>
+<script src="js/LoadingPopup.js" type="text/javascript"></script>
+<script src="js/ProfilePopup.js" type="text/javascript"></script>
+<script src="js/SoundOptionPopup.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/API.js"></script>
+<script src="js/Client.js" type="text/javascript"></script>
+<script src="js/Player.js" type="text/javascript"></script>
+<script src="js/PlayerDetails.js" type="text/javascript"></script>
+<script src="js/SoundManager.js" type="text/javascript"></script>
+
+<script>
+    var isIos = false;
+    var iOS = !window.MSStream && /iPad|iPhone|iPod/.test(navigator.userAgent);
+    if (iOS) {
+        isIos = true;
+    } else {
+        isIos = false;
+    }
+    var noSleep = new NoSleep();
+    var game;
+    var gameStatus = "";
+    var gamePage = "";
+    window.onload = function() {
+        noSleep.enable();
+        game = new Phaser.Game(1080, 1920, Phaser.CANVAS, 'game');
+        game.state.add('Main', Main);
+        game.state.start('Main');
+        //When the app kill or refresh the browser then known to the server and destroy the data of the player
+        localStorage.setItem("page_name", "kill");
+
+        window.addEventListener('online', HandleConnectionChange);
+        window.addEventListener('offline', HandleConnectionChange);
+    }
+
+    function HandleConnectionChange(_event) {
+        if (_event.type == "offline") {
+            // console.log("You are offline.");
+            gameStatus = "offline";
+            if (gamePage == "Gameplay") {
+                Alert.HideAlert();
+                Alert.ShowAlert("You Lost Internet Connection!");
+            } else {
+                Alert.HideAlert();
+                Alert.ShowAlert("You Lost Internet Connection!");
+            }
+        } else {}
+
+        if (_event.type == "online") {
+            // console.log("You are online");
+            gameStatus = "online";
+            if (gamePage == "Login") {
+                Alert.HideAlert();
+                Alert.ShowAlert("Your Internet Connection back!");
+                StateTransition.TransitToLogin();
+            } else if (gamePage == "SignUp") {
+                Alert.HideAlert();
+                Alert.ShowAlert("Your Internet Connection back!");
+                StateTransition.TransitToSignUp();
+            } else if (gamePage == "ForgotPassword") {
+                Alert.HideAlert();
+                Alert.ShowAlert("Your Internet Connection back!");
+                StateTransition.TransitToForgotPassword();
+            } else if (gamePage == "Otp") {
+                Alert.HideAlert();
+                Alert.ShowAlert("Your Internet Connection back!");
+                StateTransition.TransitToOtp();
+            } else if (gamePage == "ResetPassword") {
+                Alert.HideAlert();
+                Alert.ShowAlert("Your Internet Connection back!");
+                StateTransition.TransitToResetPassword();
+            } else if (gamePage == "HowToPlay") {
+                Alert.HideAlert();
+                Alert.ShowAlert("Your Internet Connection back!");
+                StateTransition.TransitToHowToPlay();
+            } else if (gamePage == "WalletPage") {
+                Alert.HideAlert();
+                Alert.ShowAlert("Your Internet Connection back!");
+                StateTransition.TransitToWalletPage();
+            } else if (gamePage == "GameHistory") {
+                Alert.HideAlert();
+                Alert.ShowAlert("Your Internet Connection back!");
+                StateTransition.TransitToGameHistory();
+            } else if (gamePage == "LeaderBoard") {
+                Alert.HideAlert();
+                Alert.ShowAlert("Your Internet Connection back!");
+                StateTransition.TransitToLeaderBoard();
+            } else if (gamePage == "MenuPopup") {
+                Alert.HideAlert();
+                Alert.ShowAlert("Your Internet Connection back!");
+                StateTransition.TransitToMenuPopup();
+            } else if (gamePage == "EditProfile") {
+                Alert.HideAlert();
+                Alert.ShowAlert("Your Internet Connection back!");
+                StateTransition.TransitToEditProfile();
+            } else if (gamePage == "SettingsPage") {
+                Alert.HideAlert();
+                Alert.ShowAlert("Your Internet Connection back!");
+                StateTransition.TransitToSettingsPage();
+            } else if (gamePage == "Menu") {
+                Alert.HideAlert();
+                Alert.ShowAlert("Your Internet Connection back!");
+                StateTransition.TransitToMenu();
+            } else if (gamePage == "Gameplay") {
+                Alert.HideAlert();
+                Alert.ShowAlert("Your Internet Connection back!");
+            } else {}
+        } else {}
+    }
+</script>
+
+</html>

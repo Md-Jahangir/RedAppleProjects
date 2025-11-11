@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
+
+    <title>Run Merle Run</title>
+    <!-- <script src="https://games.playzhub.com/sdk/PlayzhubSDk_E5_IIFE.js"></script>//Production  -->
+    <!-- <script src="https://stg-games.playzhub.com/sdk/PlayzhubSDk_E5_IIFE.js"></script> -->
+    <!-- <script src="https://stg-games.playzhub.com/sdk/PlayzhubSDk_E5.js" onload="
+        window.PlayzhubInstance = new PlayzhubSDk_E5('RunMerleRun', true);
+    "></script> -->
+
+    <script src="https://games.playzhub.com/sdk/PlayzhubSDk_E5.js" onload="
+                window.PlayzhubInstance = new PlayzhubSDk_E5('RunMerleRun', true);
+    "></script>
+
+    <img src="assets/images/gui/overlay.png" style="display: none;">
+    <img id="rotatescreen" src="assets/images/screen_rotation.png" style="display: none;">
+    <script type="text/javascript" src="js/phaser.min.js"></script>
+    <script type="text/javascript" src="js/phaser-state-transition.umd.js"></script>
+    <script type="text/javascript" src="js/phaser-fade.js"></script>
+    <style type="text/css">
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            background-image: url(assets/images/gui/overlay.png);
+            background-size: cover;
+            background-position: center;
+        }
+
+        canvas {
+            box-shadow: 0px 0px 5px black;
+        }
+
+        #rotatescreen {
+            display: none;
+            position: fixed;
+            width: 100vw;
+            height: 100vh;
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            text-align: center;
+            font-size: 24px;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+        }
+    </style>
+</head>
+
+<body>
+    <span id="preload-font"></span>
+    <img id="rotatescreen" src="assets/images/screen_rotation.png" style="display:none;">
+</body>
+
+<script src="https://download.gameanalytics.com/js/GameAnalytics-4.0.11.min.js"></script>
+<script src="js/GameAnalytics.js" type="text/javascript"></script>
+<script src="js/MuteConsole.js" type="text/javascript"></script>
+
+<script>
+    var GAME_KEY = "448d446c0c0879a1e4c50616fed8af66";
+    var SECRET_KEY = "40e48c38a0cf7d44aa264690632cac1c8072c90d";
+
+    window.addEventListener("load", function () {
+        console.log("Initializing GameAnalytics...");
+        GameAnalytics("setEnabledManualSessionHandling", false);
+        GameAnalytics("setEnabledEventSubmission", true);
+        GameAnalytics("setEnabledInfoLog", true);
+        GameAnalytics("initialize", GAME_KEY, SECRET_KEY);
+    });
+
+    console.log('Game Analytics object:', GameAnalytics);
+</script>
+
+
+<!-- <script src="js/GameAnalytics.js" type="text/javascript"></script> -->
+<!-- <script src="js/MuteConsole.js" type="text/javascript"></script> -->
+<script src="js/PlayzhubEventHandler.js" type="text/javascript"></script>
+<script src="js/LoadAssets.js" type="text/javascript"></script>
+<script src="js/Database.js" type="text/javascript"></script>
+<script src="js/Server.js" type="text/javascript"></script>
+<!-- <script src="js/Splash.js" type="text/javascript"></script> -->
+<script src="js/Main.js" type="text/javascript"></script>
+<!-- <script src="js/Potrait.js" type="text/javascript"></script> -->
+<script src="js/Utils.js" type="text/javascript"></script>
+<script src="js/StateTransition.js" type="text/javascript"></script>
+<script src="js/SoundManager.js" type="text/javascript"></script>
+<script src="js/PausePopup.js" type="text/javascript"></script>
+<script src="js/QuitPopup.js" type="text/javascript"></script>
+<script src="js/GameplayUI.js" type="text/javascript"></script>
+<script src="js/Background.js" type="text/javascript"></script>
+<script src="js/SettingsPopup.js" type="text/javascript"></script>
+<script src="js/ParentsPopup.js" type="text/javascript"></script>
+<script src="js/GameOverPopup.js" type="text/javascript"></script>
+<script src="js/Block.js" type="text/javascript"></script>
+<script src="js/Character.js" type="text/javascript"></script>
+<script src="js/FakeCounter.js" type="text/javascript"></script>
+<script src="js/ParentsPopup.js" type="text/javascript"></script>
+<script src="js/CreditPopup.js" type="text/javascript"></script>
+<script src="js/WrongPopup.js" type="text/javascript"></script>
+<script src="js/Tutorial.js" type="text/javascript"></script>
+<script src="js/Obstacle.js" type="text/javascript"></script>
+
+<!-- ✅ Game Boot -->
+<script>
+    var game;
+    var isMobile = /iPhone|iPhoneX|iPod|iPad|BlackBerry|kindle|playbook|Windows Phone|Android/i.test(navigator.userAgent);
+
+    game = new Phaser.Game(1280, 720, Phaser.CANVAS, 'game');
+    game.state.add('Main', Main);
+    game.state.start('Main');
+
+    var rotateBG = document.getElementById("overlay");
+    var rotateScreen = document.getElementById("rotatescreen");
+
+    function applyOrientation() {
+        console.log('applyOrientation');
+
+        if (window.innerHeight > window.innerWidth && isMobile) {
+            if (rotateBG) rotateBG.style.display = "flex";
+            rotateScreen.style.display = "flex";
+            game.paused = true;
+        } else {
+            if (rotateBG) rotateBG.style.display = "none";
+            rotateScreen.style.display = "none";
+            game.paused = false;
+        }
+    }
+
+    window.onresize = applyOrientation;
+</script>
+
+<!-- <script>
+    var game;
+
+
+    var isMobile = /iPhone|iPhoneX|iPod|iPad|BlackBerry|kindle|playbook|Windows Phone|Android/i.test(navigator.userAgent);
+    game = new Phaser.Game(1280, 720, Phaser.CANVAS, 'game');
+    game.state.add('Main', Main);
+    game.state.start('Main');
+    var rotateBG = document.getElementById("overlay");
+    var rotateScreen = document.getElementById("rotatescreen");
+    // applyOrientation();
+    // window.onresize = function (event) {
+    //     applyOrientation();
+    // }
+
+
+
+    // function applyOrientation() {
+    //     console.log('applyOrientation');
+
+    //     if (window.innerHeight > window.innerWidth && isMobile) {
+    //         rotateBG.style.display = "flex";
+    //         rotateScreen.style.display = "flex";  // Show rotate message
+    //         game.paused = true;  // Pause the game
+    //     } else {
+    //         rotateBG.style.display = "none";
+    //         rotateScreen.style.display = "none";  // Hide message
+    //         game.paused = false; // Resume the game
+    //     }
+    // }
+
+    // (function (w, d, a, m) { var s = 'script'; var g = 'GameAnalytics'; w[g] = w[g] || function () { (w[g].q = w[g].q || []).push(arguments) }, a = d.createElement(s), m = d.getElementsByTagName(s)[0]; a.async = 1; a.src = 'http://download.gameanalytics.com/js/GameAnalytics-[VERSION].min.js'; m.parentNode.insertBefore(a, m) })(window, document);
+
+    // console.log('Game Analytics object:', GameAnalytics);
+
+    // // Disable manual session handling (default)
+    // GameAnalytics("setEnabledManualSessionHandling", false);
+    // // Enable automatic event sending
+    // GameAnalytics("setEnabledEventSubmission", true);
+    // // Enable logs (turn off later in production)
+    // GameAnalytics("setEnabledInfoLog", true);
+    // GameAnalytics("setEnabledVerboseLog", true);
+    // // Initialize your game
+    // GameAnalytics("initialize", GAME_KEY, SECRET_KEY);
+    // Log a design event (custom event)
+    // GameAnalytics("addDesignEvent", { eventId: "game:boot" });
+
+</script> -->
+
+</html>

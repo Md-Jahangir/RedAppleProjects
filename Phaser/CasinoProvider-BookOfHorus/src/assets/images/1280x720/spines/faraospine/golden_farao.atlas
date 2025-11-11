@@ -1,0 +1,104 @@
+Golden_Farao.png
+size:442,263
+filter:Linear,Linear
+pma:true
+scale:0.1299
+Beard
+bounds:402,137,19,58
+offsets:0,0,19,59
+Face
+bounds:156,6,43,45
+rotate:90
+Face copy
+bounds:156,51,47,49
+Frame_BG
+bounds:137,147,114,114
+Frame_Frame
+bounds:2,3,121,123
+Head
+bounds:205,50,50,28
+offsets:0,32,50,60
+rotate:90
+Head copy
+bounds:386,197,54,64
+Layer 0
+bounds:2,128,133,133
+Layer 1
+bounds:412,119,15,16
+Layer 2
+bounds:412,66,15,15
+Layer 3
+bounds:412,101,16,15
+rotate:90
+Layer 4
+bounds:410,32,15,15
+Layer 5
+bounds:412,83,15,16
+Layer 6
+bounds:404,15,15,15
+Layer 7
+bounds:410,49,16,15
+Layer 8
+bounds:421,15,15,15
+Layer 9
+bounds:253,154,50,107
+Left PArt
+bounds:125,9,29,91
+offsets:0,0,46,91
+Left PArt copy
+bounds:305,142,49,95
+rotate:90
+Right Part
+bounds:137,102,43,98
+offsets:3,1,47,99
+rotate:90
+Snake 1
+bounds:374,6,13,24
+Snake 1 copy
+bounds:423,167,17,28
+Snake 2
+bounds:389,10,13,20
+Snake 2 copy
+bounds:423,141,17,24
+Throat
+bounds:203,10,29,38
+Torso
+bounds:305,193,79,68
+frame_00000
+bounds:237,112,33,33
+frame_00001
+bounds:237,77,33,33
+frame_00002
+bounds:235,42,33,33
+frame_00003
+bounds:234,7,33,33
+frame_00004
+bounds:272,107,33,33
+frame_00005
+bounds:307,107,33,33
+frame_00006
+bounds:342,107,33,33
+frame_00007
+bounds:272,72,33,33
+frame_00008
+bounds:307,72,33,33
+frame_00009
+bounds:342,72,33,33
+frame_00010
+bounds:270,37,33,33
+frame_00011
+bounds:305,37,33,33
+frame_00012
+bounds:340,37,33,33
+frame_00013
+bounds:269,2,33,33
+frame_00014
+bounds:304,2,33,33
+frame_00015
+bounds:339,2,33,33
+frame_00016
+bounds:377,102,33,33
+frame_00017
+bounds:377,67,33,33
+frame_00018
+bounds:375,32,33,33

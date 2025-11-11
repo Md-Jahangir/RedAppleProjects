@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="./assets/images/favicon.ico" type="image/x-icon" />
+    <title>Snake & Ladder</title>
+    <script src="https://games.playzhub.com/sdk/PlayzhubSDk_E6_IIFE.js"></script>
+    <!-- <script src="https://stg-games.playzhub.com/sdk/PlayzhubSDk_E6_IIFE.js"></script> -->
+    <link rel="stylesheet" href="./style.css" />
+    <img id="rotate-screen" src="assets/images/rotate_screen_landscape.png" style="display: none;">
+    <!-- <img id="splash" src="assets/images/bg/splash_bg.png" style="display: none;"> -->
+    <!-- <img id="error_logo" src="assets/images/error_logo.png" style="display: none;"> -->
+    <!-- <img id="progress_base" src="assets/images/progress_base.png" style="display: none;"> -->
+    <!-- <img id="progress_bar" src="assets/images/progress_bar.png" style="display: none;"> -->
+    <img id="logo" src="assets/images/icon/game_icon.png" style="display: none;">
+</head>
+
+<body>
+    <script type="text/javascript">
+        function getMobileOperatingSystem() {
+            let userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+            // Windows Phone must come first because its UA also contains "Android"
+            if (/windows phone/i.test(userAgent)) {
+                return "Windows Phone";
+            }
+
+            if (/android/i.test(userAgent)) {
+                return "Android";
+            }
+
+            // iOS detection from: http://stackoverflow.com/a/9039885/177710
+            if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+                return "iOS";
+            }
+
+            return "unknown";
+        };
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+var buttonLinkArray=
+[
+    "UpsideCatDown.html",
+    "Zoodrag.html",
+    "Village.html",
+    "ValentinesDayCookies.html",
+    "UsingArrowKeys.html",
+    "Snowflake.html",
+    "Sandwriting.html",
+    "Costumes.html",
+    "Cake.html",
+    "Beedot.html",
+    "SceneryDifference.html",
+    // "http://localhost/html/UpsideCatDown/UpsideCatDown.html",
+    // "http://localhost/html/UpsideCatDown/UpsideCatDown.html",
+    // "http://localhost/html/UpsideCatDown/UpsideCatDown.html",
+    // "http://localhost/html/UpsideCatDown/UpsideCatDown.html",
+    // "http://localhost/html/UpsideCatDown/UpsideCatDown.html",
+    // "http://localhost/html/UpsideCatDown/UpsideCatDown.html",
+    // "http://localhost/html/UpsideCatDown/UpsideCatDown.html",
+    // "http://localhost/html/UpsideCatDown/UpsideCatDown.html",
+    // "http://localhost/html/UpsideCatDown/UpsideCatDown.html",
+    // "http://localhost/html/UpsideCatDown/UpsideCatDown.html",
+    // "http://localhost/html/UpsideCatDown/UpsideCatDown.html",
+    // "http://localhost/html/UpsideCatDown/UpsideCatDown.html",
+    // "http://localhost/html/UpsideCatDown/UpsideCatDown.html",
+    // "http://localhost/html/UpsideCatDown/UpsideCatDown.html"
+];

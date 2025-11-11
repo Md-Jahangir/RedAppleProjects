@@ -1,0 +1,90 @@
+
+Morena_Animation.png
+size: 1315,243
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+base cara
+  rotate: false
+  xy: 1225, 99
+  size: 88, 142
+  orig: 88, 142
+  offset: 0, 0
+  index: -1
+blanco de los ojos
+  rotate: true
+  xy: 1071, 28
+  size: 43, 17
+  orig: 43, 17
+  offset: 0, 0
+  index: -1
+brazo
+  rotate: true
+  xy: 976, 4
+  size: 67, 93
+  orig: 67, 93
+  offset: 0, 0
+  index: -1
+chunga back
+  rotate: true
+  xy: 672, 20
+  size: 221, 302
+  orig: 221, 302
+  offset: 0, 0
+  index: -1
+chunga frame
+  rotate: true
+  xy: 2, 2
+  size: 239, 321
+  orig: 239, 321
+  offset: 0, 0
+  index: -1
+coleta
+  rotate: true
+  xy: 1205, 23
+  size: 70, 56
+  orig: 70, 56
+  offset: 0, 0
+  index: -1
+frame_effect
+  rotate: false
+  xy: 325, 41
+  size: 345, 200
+  orig: 355, 207
+  offset: 5, 4
+  index: -1
+homrbro armadura
+  rotate: true
+  xy: 1091, 3
+  size: 90, 112
+  orig: 90, 112
+  offset: 0, 0
+  index: -1
+ojois
+  rotate: false
+  xy: 391, 26
+  size: 35, 13
+  orig: 35, 13
+  offset: 0, 0
+  index: -1
+oreja
+  rotate: true
+  xy: 325, 11
+  size: 28, 64
+  orig: 28, 64
+  offset: 0, 0
+  index: -1
+parte trasera
+  rotate: false
+  xy: 976, 73
+  size: 113, 168
+  orig: 113, 168
+  offset: 0, 0
+  index: -1
+pelo compelto
+  rotate: false
+  xy: 1091, 95
+  size: 132, 146
+  orig: 132, 147
+  offset: 0, 0
+  index: -1

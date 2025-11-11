@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style type="text/css">
+    @font-face {
+      font-family: 'Conv_comicSans';
+      src: url('Font/UsingArrowKey/comicSans.eot');
+      src: local('☺'), url('Font/UsingArrowKey/comicSans.woff') format('woff'), url('Font/UsingArrowKey/comicSans.ttf') format('truetype'), url('Font/UsingArrowKey/comicSans.svg') format('svg');
+      font-weight: normal;
+      font-style: normal;
+    }
+    
+    #canvas {
+        width: 1200px;
+        height: 500px;
+    }
+    #gm_main_canvas
+    {
+      width: 800px;
+      height: 100%;
+    }
+    .mainDiv{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      min-height: 100%;
+      position: relative;
+      width: 100%;
+      height: 100%;
+    }
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+    #canvas {
+        width: 1024px;
+        height: 500px;
+      }
+      #gm_main_canvas
+      {
+        width: 600px;
+        height: 100%;
+      }
+      .test_li
+      {
+        width: 270px; 
+      }
+      .mainDiv{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      min-height: 100%;
+      position: fixed;
+      width: 100%;
+      height: 100%;
+    }
+    }  
+
+
+
+
+    .gm_mainTextText{
+      font-family: 'Conv_comicSans'; 
+      font-size: 18px;
+      font-weight: bolder;
+      margin: 0;
+      padding: 0;
+    }
+
+    .gm_box {
+      width: 50px;
+      height: 50px;
+      display: inline-block;
+      border: 1px solid #000;
+      cursor: pointer;
+    }
+
+      .gm_inputTxtSpan input{
+        height: 130px;
+        width: 450px;
+        background: transparent;
+        border: 0;
+        outline: none;
+        font-size: 140px;
+        padding: 0px 120px 0px 120px;
+        font-family: 'verdana'; 
+        text-align: center;
+        font-weight: bolder;
+        color: #0000CD;
+      }
+
+      .gm_numberDispText{
+        font-family: 'verdana'; 
+        font-size: 170px;
+        font-weight: bolder;
+        margin: 0;
+        padding: 0;
+        color: #ffcc13;
+      }
+
+      .gm_ul {
+        width: 100%;
+        display: table;
+        table-layout: fixed;
+        border-collapse: collapse;
+      }
+      .gm_li {
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle;
+        /* word-wrap: break-word; */
+        margin: 0;
+        padding: 0;
+        text-align: center;
+      }
+
+      #gm_undoBtn{
+          background-color: #3399FF;
+          color: #fff;
+          padding: 0.1em 1.2em;
+          text-decoration: none;
+          font-family: 'Conv_comicSans';
+          font-size:21px;
+          font-weight: bolder;
+          cursor: pointer;
+        }
+        #gm_doneBtn{
+          background-color: #3399FF;
+          color: #fff;
+          padding: 0.1em 1.2em;
+          text-decoration: none;
+          font-family: 'Conv_comicSans';
+          font-size:21px;
+          font-weight: bolder;
+          cursor: pointer;
+        }
+        body {
+          display: block;
+          margin: 0 auto;
+        }
+</style>
+</head>
+<body>
+<div class="mainDiv">
+  <div id="canvas" style="background-color: #FFFF99;">
+      <ul class="gm_ul"id="top_items"  style="width: 980px; margin-left: 220px; height: 50px;">
+        <li class="gm_li">
+          <ul class="gm_ul">
+            <li class="gm_li test_li" style="text-align: left;margin: 0px;padding-left: 80px;">
+              <!-- <span class="gm_mainTextText">1) Pick a color</span> -->
+              <span class="gm_mainTextText">1) Select a Color</span>
+            </li>
+            <li class="gm_li" style="text-align: left;margin: 0px;padding-right: 10px;">
+              <span class="gm_mainTextText">3) Click on the white space below</span>
+              <!-- <span class="gm_mainTextText">3) Click on the paper to begin</span> -->
+            </li>
+          </ul>
+          <ul class="gm_ul">
+            <li class="gm_li test_li" style="text-align: left;margin: 0px;padding-left: 80px;">
+              <span  class="gm_mainTextText">2) Select a Line Size</span>
+              <!-- <span  class="gm_mainTextText">2) Pick a line width</span> -->
+            </li>
+            <li class="gm_li" style="text-align: left;margin: 0px;padding-right: 10px;">
+              <span class="gm_mainTextText">4) Use the Arrow keys to start drawing <strong>&#8592;</strong>, <strong>&#8593;</strong>, <strong>&#8594;</strong> or <strong>&#8595;</strong></span>
+            </li>
+          </ul>
+      </ul>
+      <ul class="gm_ul">
+        <li id="left_items" class="gm_li" style="vertical-align: top; width: 120px; height: 300px;padding: 0;margin: 0px;">
+            <!-- <ul style="list-style-type: none; padding-left: 0;">
+              <li class="gm_box" style="background-color: #FFFF99;"></li>
+              <li class="gm_box" style="background-color: #990099;"></li>
+              <li class="gm_box" style="background-color: #CC0000;"></li>
+            </ul> -->
+            <ul style="list-style-type: none; padding-left: 0;">
+              <li class="gm_box" style="background-color: #FFCC00;"></li>
+              <li class="gm_box" style="background-color: #3399FF;"></li>
+              <!-- <li class="gm_box" style="background-color: #6633CC;"></li> -->
+            </ul>
+            <ul style="list-style-type: none; padding-left: 0;">
+              <!-- <li class="gm_box" style="background-color: #666600;"></li> -->
+              <li class="gm_box" style="background-color: #00CC66;"></li>
+              <!-- <li class="gm_box" style="background-color: #3300CC;"></li> -->
+              <li class="gm_box" style="background-color: #6633CC;"></li>
+            </ul>
+            <ul style="list-style-type: none; padding-left: 0;">
+              <li class="gm_box" style="background-color: #336600;"></li>
+              <li class="gm_box" style="background-color: #999999;"></li>
+              <!-- <li class="gm_box" style="background-color: #99CC66;"></li> -->
+              <!-- <li class="gm_box" style="background-color: #9999FF;"></li> -->
+            </ul>
+            <ul style="list-style-type: none; padding-left: 0;">
+              <!-- <li class="gm_box" style="background-color: #999999;"></li> -->
+              <li class="gm_box" style="background-color: #FF0000;"></li>
+              <li class="gm_box" style="background-color: #000000;"></li>
+              <!-- <li class="gm_box" style="background-color: #333333;"></li> -->
+            </ul>
+            <!-- <ul style="list-style-type: none; padding-left: 0;">
+              <li class="gm_box" style="background-color: #CC0066;"></li>
+              <li class="gm_box" style="background-color: #CC9999;"></li>
+              <li class="gm_box" style="background-color: #FF9933;"></li>
+            </ul> -->
+            <!-- <ul style="list-style-type: none; padding-left: 0;">
+              <li class="gm_box" style="background-color: #663366;"></li>
+              <li class="gm_box" style="background-color: #336633;"></li>
+              <li class="gm_box" style="background-color: #333366;"></li>
+            </ul> -->
+            <!-- <ul style="list-style-type: none; padding-left: 0;">
+              <li class="gm_box" style="background-color: #66CC00;"></li>
+              <li class="gm_box" style="background-color: #009966;"></li>
+              <li class="gm_box" style="background-color: #333300;"></li>
+            </ul> -->
+            <ul style="list-style-type: none; padding-left: 0;">
+              <!-- <li class="gm_box" style="background-color: #FF0000;"></li> -->
+              <!-- <li class="gm_box" style="background-color: #FF33CC;"></li> -->
+              <li class="gm_box" style="background-color: #996600;"></li>
+              <li class="gm_box" style="background-color: #FF99FF;"></li>
+            </ul>
+            <ul style="list-style-type: none; padding-left: 0;">
+              <!-- <li class="gm_box" style="background-color: #996600;"></li> -->
+              <!-- <li class="gm_box" style="background-color: #660000;"></li> -->
+              <li class="gm_box" style="background-color: #CC9900;"></li>
+              <li class="gm_box" style="background-color: #FF6600;"></li>
+            </ul>
+            <ul style="list-style-type: none; padding-left: 0;">
+              <!-- <li class="gm_box" style="background-color: #00FF00;"></li> -->
+              <!-- <li class="gm_box" style="background-color: #CC9900;"></li> -->
+            </ul>
+
+            <ul style="list-style-type: none;margin-top: 20px; padding-left: 0;">
+              <li>
+                <a id="gm_undoBtn">Undo</a>
+              </li>
+            </ul>
+        </li>
+        <li id="right_items" class="gm_li" style="width: 50px; height: 300px;padding-right: 50px;">
+          <ul style="list-style-type: none; padding-left: 70px;padding-top: 100px;">
+            <li class="gm_deflt" style="display: inline-block; background-color: #000000; width: 10px; height: 10px;cursor: pointer;"></li>
+          </ul>
+          <ul style="list-style-type: none; margin-top: 10px; padding-left: 68px;">
+            <li class="gm_deflt" style="display: inline-block; background-color: #000000; width: 15px; height: 15px;cursor: pointer;"></li>
+          </ul>
+          <ul style="list-style-type: none; margin-top: 10px; padding-left: 66px;">
+            <li class="gm_deflt slctd" style="display: inline-block; background-color: #000000; width: 20px; height: 20px;cursor: pointer;"></li>
+          </ul>
+          <ul style="list-style-type: none; margin-top: 10px; padding-left: 64px;">
+            <li class="gm_deflt" style="display: inline-block; background-color: #000000; width: 25px; height: 25px;cursor: pointer;"></li>
+          </ul>
+          <ul style="list-style-type: none; margin-top: 10px; padding-left: 62px;">
+            <li class="gm_deflt" style="display: inline-block; background-color: #000000; width: 30px; height: 30px;cursor: pointer;"></li>
+          </ul>
+          <ul style="list-style-type: none; margin-top: 10px; padding-left: 60px;">
+            <li class="gm_deflt" style="display: inline-block; background-color: #000000; width: 35px; height: 35px;cursor: pointer;"></li>
+          </ul>
+          <ul style="list-style-type: none;margin: 0; padding-left: 30px;padding-top: 20px; width: 100px;">
+            <li>
+              <a id="gm_doneBtn">Done</a>
+            </li>
+          </ul>
+      </li>
+        <li class="gm_li" style="width: 800px; height: 400px; padding: 0px;margin: 0px;"> 
+          <ul class="gm_ul">
+            <li class="gm_li" style="width: 800x; height: 400px;padding: 0;margin: 0px;">
+              <canvas id="gm_main_canvas"  width="600" height="400" style="background-color:#fff;padding: 0;margin: 0px; padding-left:60px;"></canvas>
+            </li>
+          </ul>
+        </li>
+       
+      </ul>
+  </div>
+</div>
+</body>
+<script src="Library/jquery-3.4.1.min.js"></script>
+<script type="text/javascript">
+
+  function getMousePosition(canvas, event) { 
+    let rect = canvas.getBoundingClientRect(); 
+    let x = event.clientX - rect.left; 
+    let y = event.clientY - rect.top; 
+    return {'left':x,'top':y};
+  } 
+  
+  var bxClr = '#000';
+  var points=[];
+
+  var boxSize = parseInt($(".slctd").css('width'));
+  var moveSize = 3;
+  var canvas = $('#gm_main_canvas')[0];
+
+  var ctx = canvas.getContext('2d');
+
+  var posLeft = '';
+  var posTop = '';
+
+  var iscolorSelect = false;
+  var isMouseDown = false;
+var donePressed=false;
+  var cntClck = 0;
+
+  $(".gm_deflt").click(function(e){
+    boxSize = parseInt($(this).css("width"));
+  });
+
+  $(".gm_box").click(function(e){
+    bxClr = $(this).css("background-color");
+    iscolorSelect = true;
+  });
+  
+  $("#gm_main_canvas").click(function(e){
+    cntClck++;
+    isMouseDown = false;
+    posLeft = getMousePosition(canvas, e).left;
+    posTop = getMousePosition(canvas, e).top;
+
+    if(posLeft >= canvas.width-boxSize){
+      posLeft = canvas.width-boxSize;
+    }
+
+    if(posLeft < 0){
+      posLeft = 0;
+    }
+
+    if(posTop >= canvas.height-boxSize){
+      posTop = canvas.height-boxSize;
+    }
+
+    if(posTop < 0){
+      posTop = 0;
+    }
+
+    points.push({left: posLeft, top: posTop, moveSize: moveSize, boxSize: boxSize, direction: ''});
+    
+    if(points.length > 1 && !isMouseDown){
+      ctx.clearRect(points[points.length-2].left,points[points.length-2].top,points[points.length-2].boxSize+1,points[points.length-2].boxSize+1);
+      points.splice(-2,1);
+    }
+    
+    ctx.fillStyle = bxClr;
+    ctx.fillRect(posLeft, posTop, boxSize, boxSize);
+    
+    
+  });
+
+  $(window).keydown(function(e) { 
+    isMouseDown = true;
+  if(!donePressed)
+  {
+      if(posLeft >= 0 && posTop >= 0 && iscolorSelect == true){ 
+        if(e.which == 37){
+          posLeft = posLeft-moveSize;
+          posTop = posTop;
+        }else if(e.which == 39){
+          posLeft = posLeft+moveSize;
+          posTop = posTop;
+        }else if(e.which == 38){
+          posLeft = posLeft;
+          posTop = posTop-moveSize;
+        }else if(e.which == 40){
+          posLeft = posLeft;
+          posTop = posTop+moveSize;
+        }
+
+        if(posLeft >= canvas.width-boxSize){
+          posLeft = canvas.width-boxSize;
+        }
+
+        
+        if(posLeft < moveSize){
+          posLeft = 0;
+        }
+
+        if(posTop >= canvas.height-boxSize){
+          posTop = canvas.height-boxSize;
+        }
+
+        if(posTop < moveSize){
+          posTop = 0;
+        }
+
+        e.preventDefault();
+        
+        ctx.fillStyle = bxClr;
+        ctx.fillRect(posLeft, posTop, boxSize, boxSize);
+
+        if(e.which == 37){
+          ctx.fillRect(posLeft+moveSize, posTop, boxSize, boxSize);
+        }else if(e.which == 39){
+          ctx.fillRect(posLeft-moveSize, posTop, boxSize, boxSize);
+        }else if(e.which == 38){
+          ctx.fillRect(posLeft, posTop+moveSize, boxSize, boxSize);
+        }else if(e.which == 40){
+          ctx.fillRect(posLeft, posTop-moveSize, boxSize, boxSize);
+        }else{
+          ctx.fillRect(posLeft, posTop, boxSize, boxSize);
+        }
+
+        points.push({left: posLeft, top: posTop, moveSize: moveSize, boxSize: boxSize, direction: e.which});
+      }
+    }
+  });
+
+  $("#gm_undoBtn").click(function(e){
+    if(points.length==0){return;}
+    undoDraw(ctx);
+  });
+  $("#gm_doneBtn").click(function(e){
+    // $("div").hide();
+    document.getElementById("top_items").style.visibility = "hidden"; 
+    document.getElementById("left_items").style.visibility = "hidden"; 
+    document.getElementById("right_items").style.visibility = "hidden"; 
+    document.getElementById("canvas").style.backgroundColor="#ffffff"; 
+    donePressed=true;
+    if(points.length==0){return;}
+    finalDraw();
+  });
+  var sizeBuffer = 0;
+  function undoDraw(ctx){
+    if(points[points.length-1].direction == 37){
+      ctx.clearRect(points[points.length-1].left+sizeBuffer,points[points.length-1].top+sizeBuffer,points[points.length-1].moveSize+sizeBuffer,points[points.length-1].boxSize+sizeBuffer);
+    }else if(points[points.length-1].direction == 39){
+      ctx.clearRect(points[points.length-1].left+(points[points.length-1].boxSize-points[points.length-1].moveSize)+sizeBuffer,points[points.length-1].top+sizeBuffer,points[points.length-1].moveSize+sizeBuffer,points[points.length-1].boxSize+sizeBuffer);
+    }else if(points[points.length-1].direction == 38){
+      ctx.clearRect(points[points.length-1].left+sizeBuffer,points[points.length-1].top+sizeBuffer,points[points.length-1].boxSize+sizeBuffer,points[points.length-1].moveSize+sizeBuffer);
+    }else if(points[points.length-1].direction == 40){
+      ctx.clearRect(points[points.length-1].left+sizeBuffer,points[points.length-1].top+(points[points.length-1].boxSize-points[points.length-1].moveSize)+sizeBuffer,points[points.length-1].boxSize+sizeBuffer,points[points.length-1].moveSize+sizeBuffer);
+    }else{
+      ctx.clearRect(points[points.length-1].left+sizeBuffer,points[points.length-1].top+sizeBuffer,points[points.length-1].boxSize+sizeBuffer,points[points.length-1].boxSize+sizeBuffer);
+    }
+    
+    // console.log(points.length);
+   points.pop()     
+  //  console.log(points.length);
+   posLeft=points[points.length-1].left;
+   posTop=points[points.length-1].top;
+  }
+  function finalDraw()
+  {
+    // var y=document.getElementById("canvas");
+       
+  }
+</script>

@@ -1,0 +1,66 @@
+scatter.png
+size:190,525
+filter:Linear,Linear
+pma:true
+scale:0.1231
+Bg
+bounds:2,314,94,105
+Frame
+bounds:2,421,102,102
+Glow
+bounds:87,239,59,59
+Knife 1
+bounds:149,66,36,58
+Knife 2
+bounds:99,48,26,76
+Knife 3
+bounds:127,44,20,80
+Knife 4
+bounds:148,230,40,68
+Knife 5
+bounds:96,126,51,46
+rotate:90
+Rays_01
+bounds:98,334,84,84
+Rays_02
+bounds:2,25,81,81
+Sign board
+bounds:2,2,100,21
+Text_off light
+bounds:85,36,83,12
+rotate:90
+Text_on light 01
+bounds:104,300,84,14
+Text_on light 02
+bounds:80,121,85,14
+rotate:90
+blue glow
+bounds:147,170,58,38
+rotate:90
+knife glow 1
+bounds:99,38,8,8
+knife glow 2
+bounds:85,25,9,9
+knife glow 3
+bounds:87,229,7,8
+knife glow 4
+bounds:87,300,11,12
+knife glow 5
+bounds:149,52,11,12
+off light
+bounds:2,108,98,76
+rotate:90
+on light 01
+bounds:106,420,103,82
+rotate:90
+on light 02
+bounds:2,208,104,83
+rotate:90
+rope
+bounds:96,179,58,49
+offsets:0,0,62,52
+rotate:90
+shadow
+bounds:144,126,33,42
+type
+bounds:98,316,89,16

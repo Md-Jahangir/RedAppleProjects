@@ -1,0 +1,107 @@
+title_art.png
+size:2668,4150
+filter:Linear,Linear
+pma:true
+Clown Carnival  depth
+bounds:1469,591,1710,274
+rotate:90
+JOCKER
+bounds:1781,245,370,377
+offsets:1,1,372,379
+Joker_cloth
+bounds:1152,2303,1074,544
+rotate:90
+Layer 1
+bounds:1641,146,443,138
+rotate:90
+Layer 2
+bounds:1144,2,122,122
+Layer 3
+bounds:1017,2,122,125
+rotate:90
+OWL
+bounds:1745,624,194,290
+rotate:90
+board
+bounds:2,3379,1791,769
+bulb glow 1
+bounds:2539,350,145,125
+offsets:14,12,177,151
+rotate:90
+bulb glow 2
+bounds:2037,625,206,178
+offsets:20,16,251,213
+rotate:90
+bulb glow 3
+bounds:2004,833,211,163
+offsets:34,23,273,213
+rotate:90
+bulb glow 4
+bounds:2004,833,211,163
+offsets:34,23,273,213
+rotate:90
+bulb glow 5
+bounds:1982,67,198,176
+offsets:30,19,250,214
+bulb glow 6
+bounds:1781,68,199,175
+offsets:22,19,251,213
+bulb yellow glow
+bounds:561,841,1390,597
+offsets:3,5,1398,605
+rotate:90
+clown carnival text
+bounds:1745,820,1710,257
+rotate:90
+clown carnival text glow
+bounds:1160,541,1760,307
+rotate:90
+eye lid_L
+bounds:2286,957,188,117
+rotate:90
+eye lid_R
+bounds:1268,16,186,108
+golden cloth
+bounds:2,2,1013,567
+lower bulb off
+bounds:2163,1083,1447,121
+offsets:1,1,1449,123
+rotate:90
+lower bulb on 1
+bounds:2004,1046,1484,157
+offsets:2,3,1489,162
+rotate:90
+lower bulb on 2
+bounds:2405,392,1343,132
+offsets:2,3,1348,137
+rotate:90
+mouth
+bounds:2,2233,1148,1144
+owl and board shadow
+bounds:1017,126,413,622
+offsets:9,6,429,632
+rotate:90
+pink cloth
+bounds:2,571,1660,557
+rotate:90
+red hat side
+bounds:1795,3079,778,520
+upper bulb off
+bounds:2286,1147,1383,117
+offsets:1,1,1385,119
+rotate:90
+upper bulb on 1
+bounds:2539,497,1238,127
+offsets:2,3,1243,132
+rotate:90
+upper bulb on 2
+bounds:2405,1737,1340,153
+offsets:2,3,1345,158
+rotate:90
+violet cloth
+bounds:1795,3601,837,547
+offsets:578,56,1415,603
+violet hat side
+bounds:1698,2532,695,545
+whole eye
+bounds:561,660,511,179

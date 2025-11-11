@@ -1,0 +1,15 @@
+{
+    "status" : "1",
+    "result" : 
+    {
+    "user_id" : "19",
+    "user_amount" : "10000",
+    "image_url" : "https://lorem/",
+    "user_name" : "Lorem Ipsum",
+    "session_id" : "djsadhkajsads3233dsadsaa6sad",
+    "classic_amount" : "1000",
+    "muflis_amount" : "2000",
+    "joker_amount" : "3000",
+    "user_image" : "1"
+    }
+}

@@ -1,0 +1,100 @@
+{
+  "params": {
+    "baseUrl": "./"
+  },
+  "assets": [
+    {
+      "name": "correct_1",
+      "path": "../sounds/correct_answer.wav",
+      "metadata": {}
+    },
+    {
+      "name": "correct_2",
+      "path": "../sounds/correct_answer_smack (1).wav",
+      "metadata": {}
+    },
+    {
+      "name": "correct_3",
+      "path": "../sounds/correct_answer_smack (2).wav",
+      "metadata": {}
+    },{
+      "name": "correct_4",
+      "path": "../sounds/correct_answer_smack (3).wav",
+      "metadata": {}
+    },{
+      "name": "correct_5",
+      "path": "../sounds/correct_answer_smack (4).wav",
+      "metadata": {}
+    },{
+      "name": "correct_6",
+      "path": "../sounds/correct_answer_smack (5).wav",
+      "metadata": {}
+    },{
+      "name": "correct_7",
+      "path": "../sounds/correct_answer_smack (6).wav",
+      "metadata": {}
+    },{
+      "name": "correct_8",
+      "path": "../sounds/correct_answer_smack (7).wav",
+      "metadata": {}
+    },{
+      "name": "correct_9",
+      "path": "../sounds/correct_answer_smack (8).wav",
+      "metadata": {}
+    },{
+      "name": "correct_10",
+      "path": "../sounds/correct_answer_smack (9).wav",
+      "metadata": {}
+    },{
+      "name": "correct_11",
+      "path": "../sounds/correct_answer_smack (10).wav",
+      "metadata": {}
+    },{
+      "name": "correct_12",
+      "path": "../sounds/correct_answer_smack (11).wav",
+      "metadata": {}
+    },{
+      "name": "correct_13",
+      "path": "../sounds/correct_answer_smack (12).wav",
+      "metadata": {}
+    },
+    {
+      "name": "incorrect_1",
+      "path": "../sounds/false_crow.wav",
+      "metadata": {}
+    },
+    {
+      "name": "incorrect_2",
+      "path": "../sounds/False_glass_break.wav",
+      "metadata": {}
+    },
+    {
+      "name": "incorrect_3",
+      "path": "../sounds/false_glass_breaking.wav",
+      "metadata": {}
+    },
+    {
+      "name": "incorrect_4",
+      "path": "../sounds/false_quack_tone.wav",
+      "metadata": {}
+    },
+    {
+      "name": "level_up",
+      "path": "../sounds/Water Splash Small 01.wav",
+      "metadata": {}
+    },
+    {
+      "name": "level_down",
+      "path": "../sounds/Water Splash Small 02.wav",
+      "metadata": {}
+    },
+    {
+      "name": "game_finish",
+      "path": "../sounds/Water Pour Glugs.wav",
+      "metadata": {}
+    }
+  ],
+  "metadata": {
+    "type": "assetsList"
+  }
+}

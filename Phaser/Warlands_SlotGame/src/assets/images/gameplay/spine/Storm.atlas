@@ -1,0 +1,41 @@
+
+Storm.png
+size: 1924,1381
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Lightning_04
+  rotate: false
+  xy: 2, 299
+  size: 1920, 1080
+  orig: 1920, 1080
+  offset: 0, 0
+  index: -1
+STORM
+  rotate: false
+  xy: 529, 32
+  size: 525, 265
+  orig: 525, 265
+  offset: 0, 0
+  index: -1
+STORM0
+  rotate: false
+  xy: 2, 2
+  size: 525, 295
+  orig: 525, 295
+  offset: 0, 0
+  index: -1
+STORM1
+  rotate: false
+  xy: 1056, 38
+  size: 525, 259
+  orig: 525, 259
+  offset: 0, 0
+  index: -1
+shine
+  rotate: false
+  xy: 1583, 89
+  size: 247, 208
+  orig: 247, 208
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,594 @@
+{
+    "gameLogo": {
+        "x": 12,
+        "y": 58
+    },
+    "loading": {
+        "logo": {
+            "y": 185,
+            "stepAfter": 205,
+            "baseY": 205,
+            "barY": 205,
+            "offsetY": 50
+        },
+        "text": {
+            "y": -25,
+            "fontSize": 20
+        },
+        "playbtn": {
+            "y": 200
+        },
+        "checkBox": {
+            "x": 25,
+            "y": 25
+        },
+        "tick": {
+            "x": 300,
+            "y": 100
+        },
+        "tickBoxText": {
+            "x": 300,
+            "y": 100,
+            "stepX": 20
+        }
+    },
+    "error": {
+        "logo": {
+            "y": 67
+        },
+        "text": {
+            "y": 67,
+            "fontSize": 20
+        }
+    },
+    "score": {
+        "fontSize": "80px",
+        "y": 75,
+        "firstTween": {
+            "y": 145
+        }
+    },
+    "betBase": {
+        "x": 225,
+        "y": 104
+    },
+    "valueSwitcher": {
+        "width": 122,
+        "shadowOffsetX": 0,
+        "shadowOffsetY": 0,
+        "fontSize": 22,
+        "fontColor": "#fff9cb",
+        "title": {
+            "fontSize": 16,
+            "fontColor": "#f4dc33",
+            "offsetY": 28,
+            "shadowOffsetX": 2,
+            "shadowOffsetY": 3
+        },
+        "plusMinusButton": {
+            "y": 8
+        }
+    },
+    "betsSwitcher": {
+        "x": 174,
+        "y": 122
+    },
+    "balanceBase": {
+        "x": 245,
+        "y": 104
+    },
+    "balance": {
+        "title": {
+            "fontSize": 16,
+            "x": 70,
+            "y": 10,
+            "shadowOffsetX": 2,
+            "shadowOffsetY": 3
+        },
+        "value": {
+            "shadowOffsetX": 0,
+            "shadowOffsetY": 0,
+            "fontSize": 22,
+            "fontColor": "#fff9cb",
+            "x": 75,
+            "y": 18
+        }
+    },
+    "menuButton": {
+        "x": 120,
+        "y": 121,
+        "title": {
+            "x": 0,
+            "y": 28,
+            "fontSize": 16,
+            "shadowOffsetX": 2,
+            "shadowOffsetY": 3
+        }
+    },
+    "spinButton": {
+        "x": 115,
+        "y": 105
+    },
+    "bottomPanel": {
+        "x": 450,
+        "y": 195
+    },
+    "lastWinBase": {
+        "x": 120,
+        "y": 104
+    },
+    "coinSprinkle": {
+        "x": 165,
+        "y": 104
+    },
+    "lastWin": {
+        "title": {
+            "fontSize": 16,
+            "x": 52,
+            "y": 10,
+            "shadowOffsetX": 2,
+            "shadowOffsetY": 3
+        },
+        "value": {
+            "shadowOffsetX": 0,
+            "shadowOffsetY": 0,
+            "fontSize": 22,
+            "fontColor": "#fff9cb",
+            "x": 50,
+            "y": 18
+        }
+    },
+    "fastSpinButton": {
+        "x": 72,
+        "y": 105,
+        "title": {
+            "fontSize": 15,
+            "x": 0,
+            "y": 0,
+            "shadowOffsetX": 2,
+            "shadowOffsetY": 3
+        }
+    },
+    "autoSpinButton": {
+        "x": 72,
+        "y": 105,
+        "title": {
+            "fontSize": 15,
+            "x": 0,
+            "y": 0,
+            "shadowOffsetX": 2,
+            "shadowOffsetY": 3
+        },
+        "value":{
+            "fontSize": 25
+        }
+    },
+    "reels": {
+        "distance": 0,
+        "offsetY": -9,
+        "offsetX": 80,
+        "bg": {
+            "x": -367,
+            "y": 46
+        }
+    },
+    "symbols": {
+        "startY": 80,
+        "distance": 0,
+        "frame": {
+            "width": 133,
+            "height": 133
+        }
+    },
+    "paylines": {
+        "dotRadius": 10,
+        "lineWidth": 7
+    },
+    "freeSpinsPopup": {
+        "width": 330,
+        "height": 396,
+        "hasCloseButton": false,
+        "backButton": {
+            "x": -1550,
+            "y": -50
+        },
+        "closeButton": {
+            "x": -5000,
+            "y": -50
+        },
+        "content": {
+            "background": {
+                "x": 400,
+                "y": 200
+            },
+            "close": {
+                "x": 0,
+                "y": 110
+            },
+            "titleImage": {
+                "x": 170,
+                "y": 180
+            },
+            "title": {
+                "y": 50,
+                "fontColor": "#ffffff",
+                "fontSize": 40
+            },
+            "message": {
+                "y": 180,
+                "wordWrap": 290,
+                "fontColor": "#020001",
+                "fontSize": 36
+            },
+            "count": {
+                "x": 5,
+                "y": -46,
+                "shadowOffsetX": 2,
+                "shadowOffsetY": 3,
+                "fontColor": "#d80a0f",
+                "fontSize": 50
+            }
+        }
+    },
+    "freeSpins": {
+        "x": 5,
+        "y": 30,
+        "gamesLeft": {
+            "x": 20,
+            "y": 16,
+            "textY": 10,
+            "fontSize": 26,
+            "fontColor": "#fff9cb"
+        },
+        "multiplier": {
+            "x": 20,
+            "y": 16,
+            "textY": 10,
+            "fontSize": 26,
+            "fontColor": "#fff9cb"
+        }
+    },
+    "bonusPopup": {
+        "width": 330,
+        "height": 396,
+        "hasCloseButton": false,
+        "backButton": {
+            "x": -1550,
+            "y": -50
+        },
+        "closeButton": {
+            "x": 5000,
+            "y": -50
+        },
+        "content": {
+            "title": {
+                "y": 60,
+                "fontColor": "#ffffff",
+                "fontSize": 60
+            },
+            "background": {
+                "x": 400,
+                "y": 200
+            },
+            "close": {
+                "x": 165,
+                "y": 110
+            },
+            "titleImage": {
+                "x": 170,
+                "y": 110
+            },
+            "logo": {
+                "x": 0,
+                "y": 55
+            },
+            "message": {
+                "y": 50,
+                "wordWrap": 290,
+                "fontColor": "#ffffff",
+                "fontSize": 32
+            },
+            "coins": {
+                "y": 30,
+                "text": {
+                    "y": 40,
+                    "shadowOffsetX": 2,
+                    "shadowOffsetY": 3,
+                    "fontSize": 48,
+                    "fontColor": "#fff9cb"
+                }
+            }
+        }
+    },
+    "autoGamePopup": {
+        "width": 330,
+        "height": 396,
+        "hasAcceptButton": true,
+        "hasDeclineButton": true,
+        "backButton": {
+            "x": -1550,
+            "y": -50
+        },
+        "acceptButton": {
+            "x": 240,
+            "y": 300
+        },
+        "declineButton": {
+            "x": 110,
+            "y": 300
+        },
+        "content": {
+            "background": {
+                "x": 420,
+                "y": 250
+            },
+            "titleImage": {
+                "x": 240,
+                "y": 20
+            },
+            "title": {
+                "y": 35,
+                "fontColor": "#ffcb3d",
+                "fontSize": 50
+            },
+            "message": {
+                "y": 35,
+                "wordWrap": 290,
+                "fontColor": "#fffcc7",
+                "fontSize": 26
+            },
+            "gamesCount": {
+                "y": 55
+            }
+        }
+    },
+    "autoGameValues": {
+        "width": 132,
+        "shadowOffsetX": 0,
+        "shadowOffsetY": 0,
+        "fontSize": 53,
+        "fontColor": "#ffd12b",
+        "title": {
+            "fontSize": 16,
+            "fontColor": "#ffffff",
+            "offsetY": 36
+        },
+        "plusMinusButton": {
+            "y": 0
+        }
+    },
+    "optionsPopup": {
+        "width": 880,
+        "height": 631,
+        "hasCloseButton": false,
+        "closeButton": {
+            "x": 425,
+            "y": -20
+        },
+        "backButton": {
+            "x": 50,
+            "y": 100
+        },
+        "content": {
+            "background": {
+                "x": 400,
+                "y": 305
+            },
+            "title": {
+                "y": 33,
+                "fontColor": "#ffffff",
+                "fontSize": 40
+            },
+            "musicBase": {
+                "x": 180,
+                "y": 0,
+                "title": {
+                    "x": 40,
+                    "y": 9
+                }
+            },
+            "musicSwitcher": {
+                "text": {
+                    "fontColor": "#ffffff",
+                    "fontSize": 26,
+                    "x": 16,
+                    "y": 0
+                },
+                "x": 200,
+                "y": 23,
+                "ballOffset": 0,
+                "ballOffsetY": 1
+            },
+            "soundBase": {
+                "x": 180,
+                "y": -100,
+                "title": {
+                    "x": 40,
+                    "y": 9
+                }
+            },
+            "soundsSwitcher": {
+                "text": {
+                    "fontColor": "#ffffff",
+                    "fontSize": 26,
+                    "x": 16,
+                    "y": 63
+                },
+                "x": 200,
+                "y": 23,
+                "ballOffset": 0,
+                "ballOffsetY": 1
+            }
+        }
+    },
+    "menu": {
+        "showX": 148,
+        "hideX": -148,
+        "y": 155,
+        "step": 66,
+        "fontSize": 26,
+        "strokeThickness": 2
+    },
+    "paylinesPopup": {
+        "width": 990,
+        "height": 594,
+        "hasCloseButton": false,
+        "closeButton": {
+            "x": 940,
+            "y": 185
+        },
+        "backButton": {
+            "x": 70,
+            "y": 85
+        },
+        "topLogo": {
+            "x": 150,
+            "y": 50
+        },
+        "bottomLogo": {
+            "x": 150,
+            "y": 310
+        },
+        "bottomText": {
+            "x": 500,
+            "y": 250
+        },
+        "content": {
+            "background": {
+                "x": 530,
+                "y": 305
+            },
+            "title": {
+                "y": 40,
+                "fontColor": "#ffffff",
+                "fontSize": 40
+            },
+            "message": {
+                "y": 40,
+                "wordWrap": 891,
+                "fontColor": "#ffffff",
+                "fontSize": 26
+            },
+            "icons": {
+                "fontSize": 26,
+                "textOffsetX": 7,
+                "iconWidth": 119,
+                "iconHeight": 71,
+                "startX": 210,
+                "startY": 115,
+                "stepX": 25,
+                "stepY": 10
+            }
+        }
+    },
+    "paytableCell": {
+        "width": 230,
+        "height": 214,
+        "symbol": {
+            "x": 100,
+            "y": 175
+        },
+        "description": {
+            "x": 50,
+            "y": 2,
+            "fontSize": 20,
+            "wordWrap": 380
+        },
+        "topLogo": {
+            "x": 150,
+            "y": 50
+        },
+        "bottomLogo": {
+            "x": 150,
+            "y": 310
+        },
+        "bottomText": {
+            "x": 500,
+            "y": 250
+        },
+        "values": {
+            "x": 170,
+            "stepY": -3,
+            "counter": {
+                "shadowOffsetX": 2,
+                "shadowOffsetY": 3,
+                "fontSize": 20,
+                "fontColor": "#ffffff"
+            },
+            "multiplier": {
+                "stepX": 37,
+                "fontSize": 20,
+                "fontColor": "#ffffff"
+            }
+        }
+    },
+    "regularPaytablePopup": {
+        "width": 880,
+        "height": 631,
+        "hasCloseButton": false,
+        "closeButton": {
+            "x": 950,
+            "y": 150
+        },
+        "backButton": {
+            "x": 50,
+            "y": 50
+        },
+        "topLogo": {
+            "x": 150,
+            "y": -50
+        },
+        "bottomLogo": {
+            "x": 150,
+            "y": 310
+        },
+        "bottomText": {
+            "x": 500,
+            "y": 250
+        },
+        "content": {
+            "background": {
+                "x": 530,
+                "y": 305
+            },
+            "title": {
+                "y": 40,
+                "fontColor": "#ffffff",
+                "fontSize": 40
+            }
+        }
+    },
+    "featurePaytablePopup": {
+        "width": 880,
+        "height": 631,
+        "hasCloseButton": false,
+        "content": {
+            "title": {
+                "y": 100,
+                "fontColor": "#ffffff",
+                "fontSize": 40
+            }
+        }
+    },
+    "pageScroller": {
+        "x": 0,
+        "y": 80,
+        "content": {
+            "width": 880,
+            "height": 631,
+            "stepX": 40,
+            "stepY": 26
+        },
+        "scrollWidth": 880,
+        "scrollButtons": {
+            "offsetX": 40,
+            "offsetY": 0
+        },
+        "pages": {
+            "count": 2,
+            "offsetY": 20,
+            "offsetX": 0,
+            "stepX": 16
+        }
+    }
+}

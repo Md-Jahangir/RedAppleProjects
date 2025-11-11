@@ -1,0 +1,202 @@
+
+Door_Shut_02.png
+size: 2821,561
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer_001
+  rotate: false
+  xy: 1554, 2
+  size: 174, 264
+  orig: 174, 264
+  offset: 0, 0
+  index: -1
+Layer_002
+  rotate: false
+  xy: 2647, 63
+  size: 172, 238
+  orig: 172, 238
+  offset: 0, 0
+  index: -1
+Layer_003
+  rotate: true
+  xy: 708, 255
+  size: 304, 256
+  orig: 304, 256
+  offset: 0, 0
+  index: -1
+Layer_004
+  rotate: true
+  xy: 450, 239
+  size: 320, 256
+  orig: 320, 256
+  offset: 0, 0
+  index: -1
+Layer_005
+  rotate: true
+  xy: 966, 265
+  size: 294, 279
+  orig: 294, 279
+  offset: 0, 0
+  index: -1
+Layer_006
+  rotate: true
+  xy: 1247, 266
+  size: 293, 279
+  orig: 294, 279
+  offset: 1, 0
+  index: -1
+Layer_007
+  rotate: true
+  xy: 1889, 3
+  size: 270, 279
+  orig: 270, 279
+  offset: 0, 0
+  index: -1
+Layer_008
+  rotate: false
+  xy: 1757, 275
+  size: 266, 284
+  orig: 266, 284
+  offset: 0, 0
+  index: -1
+Layer_009
+  rotate: true
+  xy: 801, 5
+  size: 248, 290
+  orig: 248, 290
+  offset: 0, 0
+  index: -1
+Layer_010
+  rotate: true
+  xy: 518, 3
+  size: 234, 281
+  orig: 234, 281
+  offset: 0, 0
+  index: -1
+Layer_011
+  rotate: true
+  xy: 1093, 7
+  size: 256, 283
+  orig: 256, 283
+  offset: 0, 0
+  index: -1
+Layer_012
+  rotate: false
+  xy: 1528, 268
+  size: 227, 291
+  orig: 227, 291
+  offset: 0, 0
+  index: -1
+Layer_013
+  rotate: true
+  xy: 260, 21
+  size: 201, 256
+  orig: 201, 256
+  offset: 0, 0
+  index: -1
+Layer_014
+  rotate: false
+  xy: 1730, 10
+  size: 157, 256
+  orig: 157, 256
+  offset: 0, 0
+  index: -1
+Layer_015
+  rotate: false
+  xy: 2025, 303
+  size: 157, 256
+  orig: 157, 256
+  offset: 0, 0
+  index: -1
+Layer_016
+  rotate: false
+  xy: 2170, 45
+  size: 157, 256
+  orig: 157, 256
+  offset: 0, 0
+  index: -1
+Layer_017
+  rotate: false
+  xy: 2184, 303
+  size: 157, 256
+  orig: 157, 256
+  offset: 0, 0
+  index: -1
+Layer_018
+  rotate: true
+  xy: 2, 23
+  size: 177, 256
+  orig: 177, 256
+  offset: 0, 0
+  index: -1
+Layer_019
+  rotate: false
+  xy: 1378, 8
+  size: 174, 256
+  orig: 175, 256
+  offset: 0, 0
+  index: -1
+Layer_020
+  rotate: false
+  xy: 2329, 45
+  size: 157, 256
+  orig: 157, 256
+  offset: 0, 0
+  index: -1
+Layer_021
+  rotate: false
+  xy: 2343, 303
+  size: 157, 256
+  orig: 157, 256
+  offset: 0, 0
+  index: -1
+Layer_022
+  rotate: false
+  xy: 2488, 45
+  size: 157, 256
+  orig: 157, 256
+  offset: 0, 0
+  index: -1
+Layer_023
+  rotate: false
+  xy: 2, 202
+  size: 223, 357
+  orig: 223, 358
+  offset: 0, 1
+  index: -1
+Layer_024
+  rotate: false
+  xy: 227, 224
+  size: 221, 335
+  orig: 221, 335
+  offset: 0, 0
+  index: -1
+Layer_025
+  rotate: false
+  xy: 2502, 303
+  size: 157, 256
+  orig: 157, 256
+  offset: 0, 0
+  index: -1
+Layer_026
+  rotate: false
+  xy: 2502, 303
+  size: 157, 256
+  orig: 157, 256
+  offset: 0, 0
+  index: -1
+Tail
+  rotate: false
+  xy: 2647, 4
+  size: 70, 57
+  orig: 70, 57
+  offset: 0, 0
+  index: -1
+door
+  rotate: false
+  xy: 2661, 303
+  size: 157, 256
+  orig: 157, 256
+  offset: 0, 0
+  index: -1

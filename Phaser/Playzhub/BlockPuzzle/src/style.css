@@ -1,0 +1,19 @@
+body {
+	margin: 0px;
+}
+
+/* .check-font-3 {
+	font-family: 'BAHNSCHRIFT';
+} */
+
+@font-face {
+	font-family: "Anja Eliane";
+	src: url(./assets/fonts/Anja\ Eliane.ttf) format('truetype');
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: "Happy School";
+	src: url(./assets/fonts/Happy\ School.ttf) format('truetype');
+	font-weight: 700;
+}

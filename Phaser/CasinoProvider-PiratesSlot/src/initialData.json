@@ -1,0 +1,121 @@
+{
+    "error": false,
+    "message": "game logic data!",
+    "data": {
+        "status": true,
+        "result": {
+            "balance": "7190.48",
+            "betsValues": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9
+            ],
+            "paylines": [
+                {
+                    "points": [
+                        1,
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    "color": "#4ddd07"
+                },
+                {
+                    "points": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "color": "#05e5f9"
+                },
+                {
+                    "points": [
+                        2,
+                        2,
+                        2,
+                        2,
+                        2
+                    ],
+                    "color": "#fab4f6"
+                },
+                {
+                    "points": [
+                        0,
+                        1,
+                        2,
+                        1,
+                        0
+                    ],
+                    "color": "#f4eb05"
+                },
+                {
+                    "points": [
+                        2,
+                        1,
+                        0,
+                        1,
+                        2
+                    ],
+                    "color": "#ff1038"
+                },
+                {
+                    "points": [
+                        0,
+                        0,
+                        1,
+                        0,
+                        0
+                    ],
+                    "color": "#f105c1"
+                },
+                {
+                    "points": [
+                        2,
+                        2,
+                        1,
+                        2,
+                        2
+                    ],
+                    "color": "#0782fb"
+                },
+                {
+                    "points": [
+                        1,
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    "color": "#f8d004"
+                },
+                {
+                    "points": [
+                        1,
+                        2,
+                        2,
+                        2,
+                        1
+                    ],
+                    "color": "#aa4804"
+                }
+            ],
+            "betAmountValue": [
+                0.01,
+                0.05,
+                0.1,
+                0.25,
+                0.5,
+                1
+            ]
+        }
+    }
+}

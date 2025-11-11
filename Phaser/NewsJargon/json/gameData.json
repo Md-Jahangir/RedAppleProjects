@@ -1,0 +1,144 @@
+{
+    "QuestionType": [{
+            "type": "MCQ",
+            "Elements": [{
+                "question": "Here the question will be shown.",
+                "options": ["This is a hill", "This is flower", "This is ground", "This is sea"],
+                "imageUrl": ["assets/images/module1_mcq/mcq_option_image_0.png",
+                    "assets/images/module1_mcq/mcq_option_image_1.png",
+                    "assets/images/module1_mcq/mcq_option_image_2.png",
+                    "assets/images/module1_mcq/mcq_option_image_3.png"
+                ],
+                "answer": "This is a hill"
+            }]
+        },
+        {
+            "type": "MCQ",
+            "Elements": [{
+                "question": "Which one is correct?",
+                "options": ["Sun rise in the east", "Sun rise in the west", "Sun rise in the north", "Sun rise in the south"],
+                "imageUrl": [],
+                "answer": "Sun rise in the east"
+            }]
+        },
+        {
+            "type": "PAIR_MATCHING",
+            "Elements": [{
+                "question": "Select the matching pairs :",
+                "opt1": ["Hot", "Turtle", "Left", "Up"],
+                "opt2": ["Down", "Cold", "Reptile", "Right"],
+                "imageUrl": [],
+                "imageUrl1": [],
+                "answer": [
+                    [0, 1],
+                    [1, 2],
+                    [2, 3],
+                    [3, 0]
+                ]
+            }]
+        }, {
+            "type": "PAIR_MATCHING",
+            "Elements": [{
+                "question": "Select the matching pairs :",
+                "opt1": ["Hot", "Turtle", "Left", "Up"],
+                "opt2": ["Down", "Cold", "Reptile", "Right"],
+                "imageUrl": ["assets/images/module2_pair_mattching/pair_matching_option_image_0.png",
+                    "assets/images/module2_pair_mattching/pair_matching_option_image_1.png",
+                    "assets/images/module2_pair_mattching/pair_matching_option_image_2.png",
+                    "assets/images/module2_pair_mattching/pair_matching_option_image_3.png"
+                ],
+                "imageUrl1": ["assets/images/module2_pair_mattching/pair_matching_option_image_3.png",
+                    "assets/images/module2_pair_mattching/pair_matching_option_image_2.png",
+                    "assets/images/module2_pair_mattching/pair_matching_option_image_1.png",
+                    "assets/images/module2_pair_mattching/pair_matching_option_image_0.png"
+                ],
+                "answer": [
+                    [0, 3],
+                    [1, 2],
+                    [2, 1],
+                    [3, 0]
+                ]
+            }]
+        },
+        {
+            "type": "PAIR_MATCHING",
+            "Elements": [{
+                "question": "Select the matching pairs :",
+                "opt1": ["This is dog", "This is elephant", "This is wolf", "This is cat"],
+                "imageUrl": ["assets/images/module2_pair_mattching/pair_matching_option_image_0.png",
+                    "assets/images/module2_pair_mattching/pair_matching_option_image_1.png",
+                    "assets/images/module2_pair_mattching/pair_matching_option_image_2.png",
+                    "assets/images/module2_pair_mattching/pair_matching_option_image_3.png"
+                ],
+                "opt2": ["Wolf", "Elephant", "Cat", "Dog"],
+                "imageUrl1": [],
+                "answer": [
+                    [0, 3],
+                    [1, 2],
+                    [2, 1],
+                    [3, 0]
+                ]
+            }]
+        },
+        {
+            "type": "IMAGE_OR_VIDEO",
+            "Elements": [{
+                "question": "The question based on the following image shown here.",
+                "imageUrl": "assets/images/module3_image_or_video/image_or_video_option_image.png",
+                "videoUrl": "",
+                "options": ["Color of the shirt is Red", "Color of the shirt is Blue", "Color of the shirt is Green", "Color of the shirt is Black"],
+                "answer": "Color of the shirt is Blue"
+            }]
+        },
+        {
+            "type": "IMAGE_OR_VIDEO",
+            "Elements": [{
+                "question": "The question based on the following image shown here.",
+                "imageUrl": "",
+                "videoUrl": "assets/images/module3_image_or_video/image_or_video_option_video.mp4",
+                "options": ["There is 3 dogs", "There is 1 dog", "There is 2 dogs", "There is 4 dogs"],
+                "answer": "There is 2 dogs"
+            }]
+        },
+        {
+            "type": "DRAG",
+            "Elements": [{
+                "question": "What happened this Year?",
+                "imageUrl": ["assets/images/module4_drag/drag_module_image_0.png", "assets/images/module4_drag/drag_module_image_1.png", "assets/images/module4_drag/drag_module_image_2.png"],
+                "descriptionYear": ["1947", "1971", "1999"],
+                "description": ["Every year on 15 August, Independence Day is celebrated", "This war was unique in the way that it did not involve the issue", ""],
+                "options": ["Pink's War", "Kargil War", "World War I", "India China War"],
+                "answer": "Kargil War"
+            }]
+        },
+        {
+            "type": "FILL_THE_BLANKS",
+            "Elements": [{
+                "question": "Drag the correct answer into the gap to complete the sentence.",
+                "fillTheBlanksQuestion": [
+                    { "text": "The", "status": 1 },
+                    { "text": "quick", "status": 1 },
+                    { "text": "brown", "status": 0 },
+                    { "text": "fox", "status": 0 },
+                    { "text": "jumps", "status": 1 },
+                    { "text": "over", "status": 1 },
+                    { "text": "the", "status": 1 },
+                    { "text": "lazy", "status": 1 },
+                    { "text": "dog", "status": 1 }
+                ],
+                "options": ["red fox", "brown dog", "brown fox", "black fox"],
+                "answer": "brown fox"
+            }]
+        },
+        {
+            "type": "SLIDE",
+            "Elements": [{
+                "question": "Memories the image and the description, Click start to proceed.",
+                "imageUrl": ["assets/images/module6_slide/slide_module_image_0.png", "assets/images/module6_slide/slide_module_image_1.png", "assets/images/module6_slide/slide_module_image_2.png"],
+                "message_heading": "Sachin Tendulkar",
+                "message": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the"
+
+            }]
+        }
+    ]
+}

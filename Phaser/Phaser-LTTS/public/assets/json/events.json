@@ -1,0 +1,278 @@
+{
+    "events": [{
+            "id": "EntranceDoorOpen",
+            "actions": [{
+                    "type": "HideModal",
+                    "modalId": "ENTRANCE_DOOR"
+                },
+                {
+                    "type": "PlayAnimation",
+                    "elementId": "door"
+                },
+                {
+                    "type": "UpdateState",
+                    "elementId": "door",
+                    "newState": "open"
+                }
+            ]
+        },
+        {
+            "id": "UsbTerminalDoorOpen",
+            "actions": [{
+                    "type": "HideModal",
+                    "modalId": "Usb_terminal_door"
+                },
+                {
+                    "type": "PlayAnimation",
+                    "elementId": "top_left_door"
+                },
+                {
+                    "type": "UpdateState",
+                    "elementId": "top_left_door",
+                    "newState": "open"
+                },
+                {
+                    "type": "SetVisibility",
+                    "elementId": "top_left_door",
+                    "visibility": false
+                }
+            ]
+        },
+        {
+            "id": "VendingPlugEvent",
+            "actions": [{
+                    "type": "ToggleState",
+                    "elementId": "vending"
+                },
+                {
+                    "type": "HideModal",
+                    "modalId": "vendingPlug"
+                },
+                {
+                    "type": "ShowModal",
+                    "elementId": "vendingUnplug"
+                }
+            ]
+        },
+        {
+            "id": "VendingUnplugEvent",
+            "actions": [{
+                    "type": "ToggleState",
+                    "elementId": "vending"
+                },
+                {
+                    "type": "HideModal",
+                    "modalId": "vendingUnplug"
+                },
+                {
+                    "type": "ShowModal",
+                    "elementId": "vendingPlug"
+                }
+            ]
+        },
+        {
+            "id": "ScannerToggle",
+            "actions": [{
+                    "type": "ToggleState",
+                    "elementId": "scanner"
+                },
+                {
+                    "type": "HideModal",
+                    "modalId": "scanner"
+                }
+            ]
+        },
+        {
+            "id": "PrinterToggle",
+            "actions": [{
+                    "type": "ToggleState",
+                    "elementId": "printer"
+                },
+                {
+                    "type": "HideModal",
+                    "modalId": "printer"
+                }
+            ]
+        },
+        {
+            "id": "SecurityTerminal1Complete",
+            "actions": [{
+                    "type": "HideModal",
+                    "modalId": "security_terminal_1"
+                },
+                {
+                    "type": "ShowModal",
+                    "modalId": "security_terminal_2"
+                },
+                {
+                    "type": "UpdateState",
+                    "elementId": "security_terminal",
+                    "newState": "installationDate"
+                }
+            ]
+        },
+        {
+            "id": "SecurityTerminal2Complete",
+            "actions": [{
+                    "type": "HideModal",
+                    "modalId": "security_terminal_2"
+                },
+                {
+                    "type": "ShowModal",
+                    "modalId": "security_terminal_3"
+                },
+                {
+                    "type": "UpdateState",
+                    "elementId": "security_terminal",
+                    "newState": "maidenName"
+                }
+            ]
+        },
+        {
+            "id": "SecurityTerminal3Complete",
+            "actions": [{
+                    "type": "HideModal",
+                    "modalId": "security_terminal_3"
+                },
+                {
+                    "type": "ShowModal",
+                    "modalId": "security_terminal_4"
+                },
+                {
+                    "type": "UpdateState",
+                    "elementId": "security_terminal",
+                    "newState": "open"
+                },
+                {
+                    "type": "UpdateState",
+                    "elementId": "security_terminal",
+                    "newState": "revertUpdate"
+                }
+            ]
+        },
+        {
+            "id": "RevertSecurityUpdate",
+            "actions": [{
+                    "type": "RevertSecurityTerminalUpdate",
+                    "elementId": "security_terminal"
+                },
+                {
+                    "type": "HideModal",
+                    "modalId": "security_terminal_4"
+                },
+                {
+                    "type": "UpdateState",
+                    "elementId": "security_terminal",
+                    "newState": "open"
+                }
+            ]
+        },
+        {
+            "id": "RestartLine1",
+            "actions": [{
+                    "type": "UpdateState",
+                    "elementId": "line_1_terminal",
+                    "newState": "completed"
+                },
+                {
+                    "type": "HideModal",
+                    "modalId": "Line_1_TERMINAL_2"
+                }
+            ]
+        },
+        {
+            "id": "RestartLine2",
+            "actions": [{
+                    "type": "UpdateState",
+                    "elementId": "line_2_terminal",
+                    "newState": "completed"
+                },
+                {
+                    "type": "HideModal",
+                    "modalId": "Line_2_TERMINAL_2"
+                }
+            ]
+        },
+        {
+            "id": "RestartLine3",
+            "actions": [{
+                    "type": "UpdateState",
+                    "elementId": "line_3_terminal",
+                    "newState": "completed"
+                },
+                {
+                    "type": "HideModal",
+                    "modalId": "Line_3_TERMINAL_2"
+                }
+            ]
+        },
+        {
+            "id": "IdTerminalComplete",
+            "actions": [{
+                    "type": "HideModal",
+                    "modalId": "id_terminal"
+                },
+                {
+                    "type": "ShowModal",
+                    "modalId": "id_terminal_1"
+                },
+                {
+                    "type": "UpdateState",
+                    "elementId": "id_card_terminal",
+                    "newState": "open"
+                }
+            ]
+        },
+        {
+            "id": "HideEmailTerminalModal",
+            "actions": [{
+                    "type": "HideModal",
+                    "modalId": "EMAIL_TERMINAL"
+                },
+                {
+                    "type": "UpdateState",
+                    "elementId": "start_icon",
+                    "newState": "hide"
+                }
+            ]
+        },
+        {
+            "id": "HideHowToPlayModal",
+            "actions": [{
+                    "type": "HideModal",
+                    "modalId": "HOW_TO_PLAY"
+                },
+                {
+                    "type": "UpdateState",
+                    "elementId": "red_button",
+                    "newState": "open"
+                },
+                {
+                    "type": "UpdateState",
+                    "elementId": "press_icon",
+                    "newState": "hide"
+                }
+            ]
+        },
+        {
+            "id": "Usb_terminal_without_spanner_event",
+            "actions": [{
+                "type": "ShowModal",
+                "modalId": "Usb_terminal"
+            }]
+        },
+        {
+            "id": "Usb_terminal_with_spanner_event",
+            "actions": [{
+                    "type": "UpdateState",
+                    "elementId": "usb_terminal",
+                    "newState": "none"
+                },
+                {
+                    "type": "ShowModal",
+                    "modalId": "Usb_terminal_none"
+                }
+            ]
+        }
+    ]
+}

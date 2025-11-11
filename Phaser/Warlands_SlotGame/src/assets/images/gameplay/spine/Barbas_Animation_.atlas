@@ -1,0 +1,305 @@
+
+Barbas_Animation_.png
+size: 466,346
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BARBAS_00001
+  rotate: true
+  xy: 2, 174
+  size: 170, 230
+  orig: 450, 450
+  offset: 140, 110
+  index: -1
+BARBAS_00002
+  rotate: true
+  xy: 234, 174
+  size: 170, 230
+  orig: 450, 450
+  offset: 140, 110
+  index: -1
+BARBAS_00027
+  rotate: true
+  xy: 2, 2
+  size: 170, 230
+  orig: 450, 450
+  offset: 140, 110
+  index: -1
+BARBAS_00028
+  rotate: true
+  xy: 234, 2
+  size: 170, 230
+  orig: 450, 450
+  offset: 140, 110
+  index: -1
+
+Barbas_Animation_2.png
+size: 466,346
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BARBAS_00029
+  rotate: true
+  xy: 2, 174
+  size: 170, 230
+  orig: 450, 450
+  offset: 140, 110
+  index: -1
+BARBAS_00030
+  rotate: true
+  xy: 234, 174
+  size: 170, 230
+  orig: 450, 450
+  offset: 140, 110
+  index: -1
+BARBAS_00031
+  rotate: true
+  xy: 2, 2
+  size: 170, 230
+  orig: 450, 450
+  offset: 140, 110
+  index: -1
+BARBAS_00032
+  rotate: true
+  xy: 234, 2
+  size: 170, 230
+  orig: 450, 450
+  offset: 140, 110
+  index: -1
+
+Barbas_Animation_3.png
+size: 466,348
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BARBAS_00003
+  rotate: true
+  xy: 234, 2
+  size: 172, 230
+  orig: 450, 450
+  offset: 139, 110
+  index: -1
+BARBAS_00033
+  rotate: true
+  xy: 2, 176
+  size: 170, 230
+  orig: 450, 450
+  offset: 140, 110
+  index: -1
+BARBAS_00034
+  rotate: true
+  xy: 234, 176
+  size: 170, 230
+  orig: 450, 450
+  offset: 140, 110
+  index: -1
+BARBAS_00035
+  rotate: true
+  xy: 2, 4
+  size: 170, 230
+  orig: 450, 450
+  offset: 140, 110
+  index: -1
+
+Barbas_Animation_4.png
+size: 472,352
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BARBAS_00004
+  rotate: true
+  xy: 2, 178
+  size: 172, 230
+  orig: 450, 450
+  offset: 139, 110
+  index: -1
+BARBAS_00005
+  rotate: true
+  xy: 234, 178
+  size: 172, 232
+  orig: 450, 450
+  offset: 139, 109
+  index: -1
+BARBAS_00006
+  rotate: true
+  xy: 2, 4
+  size: 172, 232
+  orig: 450, 450
+  offset: 139, 109
+  index: -1
+BARBAS_00007
+  rotate: true
+  xy: 236, 2
+  size: 174, 234
+  orig: 450, 450
+  offset: 138, 108
+  index: -1
+
+Barbas_Animation_5.png
+size: 482,370
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BARBAS_00008
+  rotate: true
+  xy: 2, 194
+  size: 174, 235
+  orig: 450, 450
+  offset: 138, 108
+  index: -1
+BARBAS_00023
+  rotate: true
+  xy: 2, 2
+  size: 183, 238
+  orig: 450, 450
+  offset: 134, 106
+  index: -1
+BARBAS_00024
+  rotate: true
+  xy: 242, 2
+  size: 183, 238
+  orig: 450, 450
+  offset: 134, 106
+  index: -1
+BARBAS_00026
+  rotate: true
+  xy: 239, 187
+  size: 181, 236
+  orig: 450, 450
+  offset: 135, 107
+  index: -1
+
+Barbas_Animation_6.png
+size: 404,455
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BARBAS_00016
+  rotate: false
+  xy: 2, 193
+  size: 199, 260
+  orig: 450, 450
+  offset: 126, 97
+  index: -1
+BARBAS_00017
+  rotate: false
+  xy: 203, 193
+  size: 199, 260
+  orig: 450, 450
+  offset: 126, 96
+  index: -1
+BARBAS_00021
+  rotate: true
+  xy: 2, 2
+  size: 189, 247
+  orig: 450, 450
+  offset: 131, 102
+  index: -1
+
+Barbas_Animation_7.png
+size: 403,456
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BARBAS_00010
+  rotate: true
+  xy: 2, 2
+  size: 191, 251
+  orig: 450, 450
+  offset: 130, 100
+  index: -1
+BARBAS_00018
+  rotate: false
+  xy: 2, 195
+  size: 199, 259
+  orig: 450, 450
+  offset: 126, 96
+  index: -1
+BARBAS_00019
+  rotate: false
+  xy: 203, 195
+  size: 198, 259
+  orig: 450, 450
+  offset: 127, 97
+  index: -1
+
+Barbas_Animation_8.png
+size: 399,450
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BARBAS_00009
+  rotate: true
+  xy: 2, 2
+  size: 185, 246
+  orig: 450, 450
+  offset: 133, 103
+  index: -1
+BARBAS_00013
+  rotate: false
+  xy: 201, 190
+  size: 196, 258
+  orig: 450, 450
+  offset: 127, 98
+  index: -1
+BARBAS_00015
+  rotate: false
+  xy: 2, 189
+  size: 197, 259
+  orig: 450, 450
+  offset: 127, 97
+  index: -1
+
+Barbas_Animation_9.png
+size: 398,448
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BARBAS_00012
+  rotate: false
+  xy: 201, 191
+  size: 195, 255
+  orig: 450, 450
+  offset: 128, 99
+  index: -1
+BARBAS_00014
+  rotate: false
+  xy: 2, 189
+  size: 197, 257
+  orig: 450, 450
+  offset: 127, 98
+  index: -1
+BARBAS_00022
+  rotate: true
+  xy: 2, 2
+  size: 185, 242
+  orig: 450, 450
+  offset: 133, 105
+  index: -1
+
+Barbas_Animation_10.png
+size: 454,384
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BARBAS_00011
+  rotate: false
+  xy: 2, 128
+  size: 194, 254
+  orig: 450, 450
+  offset: 128, 99
+  index: -1
+BARBAS_00020
+  rotate: true
+  xy: 198, 188
+  size: 194, 254
+  orig: 450, 450
+  offset: 129, 100
+  index: -1
+BARBAS_00025
+  rotate: true
+  xy: 198, 2
+  size: 184, 239
+  orig: 450, 450
+  offset: 134, 105
+  index: -1

@@ -1,0 +1,121 @@
+wild_symbol.png
+size:1397,269
+filter:Linear,Linear
+pma:true
+scale:0.2607
+Frame_
+bounds:2,4,262,263
+WILD
+bounds:1174,211,208,56
+bg
+bounds:266,7,262,260
+body
+bounds:761,162,236,105
+offsets:0,0,236,120
+cape glow
+bounds:761,49,111,173
+rotate:90
+crown
+bounds:845,6,60,41
+crown glow
+bounds:1128,97,60,41
+rotate:90
+diamond 1 copy
+bounds:1371,88,16,15
+diamond 1
+bounds:1371,88,16,15
+diamond 2
+bounds:1371,71,15,15
+diamond 3
+bounds:1371,54,15,15
+diamond 4
+bounds:1371,37,15,15
+eye ball_L
+bounds:1106,80,18,13
+eye ball_R
+bounds:1106,80,18,13
+eye lid_L
+bounds:1384,250,17,11
+offsets:0,1,17,12
+rotate:90
+eye lid_R
+bounds:1384,235,13,11
+offsets:3,0,16,11
+rotate:90
+face
+bounds:1287,23,82,101
+offsets:0,0,96,105
+glow 1
+bounds:907,23,25,24
+glow 2
+bounds:1339,133,25,24
+glow 3
+bounds:1371,132,25,24
+rotate:90
+glow 4
+bounds:1371,105,25,24
+rotate:90
+head body highlight
+bounds:530,47,229,220
+irish_L
+bounds:1143,2,9,10
+rotate:90
+irish_R
+bounds:1143,2,9,10
+rotate:90
+leaf 01
+bounds:992,60,33,94
+offsets:0,0,33,95
+rotate:90
+leaf 02
+bounds:1244,13,40,60
+leaf 03
+bounds:771,7,40,72
+rotate:90
+leaf 04
+bounds:1044,10,48,97
+rotate:90
+leaf 05
+bounds:1339,159,50,56
+rotate:90
+leaf 06
+bounds:1143,13,60,99
+offsets:192,0,252,99
+rotate:90
+left cap glow
+bounds:992,95,62,134
+offsets:0,0,64,134
+rotate:90
+left cape
+bounds:635,5,40,134
+rotate:90
+left ear
+bounds:530,2,43,103
+offsets:5,0,48,103
+rotate:90
+left ear highlight
+bounds:1171,75,49,114
+rotate:90
+neck copy
+bounds:1174,126,83,163
+rotate:90
+right cape
+bounds:999,159,108,173
+rotate:90
+right ear
+bounds:936,2,47,106
+offsets:0,0,50,106
+rotate:90
+right ear highlight
+bounds:936,51,54,109
+offsets:8,0,62,109
+star 1
+bounds:1088,60,14,15
+rotate:90
+star 2
+bounds:1105,60,14,15
+rotate:90
+star 3
+bounds:907,2,19,19
+star 4
+bounds:1088,76,16,17

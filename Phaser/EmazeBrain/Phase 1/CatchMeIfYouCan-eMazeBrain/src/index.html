@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>emaze Catch Me If You Can</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+<meta charset="utf-8" />
+<meta name="emaze Catch Me If You Can" content="game"/>
+
+
+<head>
+
+    <link rel="stylesheet" type="text/css" href="buttons.module.css">
+
+    <style>
+        body {
+            background-color: #000000
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<div id="container">
+    <canvas id="gameCanvas"></canvas>
+    <div id="menuButton"></div>
+    <div id="system"></div>
+</div>
+<div id="info"></div>
+
+<?php $GameConfig= $_POST["GameConfig"] ?>
+<script>
+    // window.GameConfigPOST='<?php echo json_encode($GameConfig); ?>';
+    // if(window.GameConfigPOST != "null"){
+    //     window.GameConfigPOST = window.GameConfigPOST.substring(1, window.GameConfigPOST.length - 1);
+    // }
+    // console.log("GameConfigPOST", window.GameConfigPOST);
+</script>
+
+</body>
+
+
+</html>

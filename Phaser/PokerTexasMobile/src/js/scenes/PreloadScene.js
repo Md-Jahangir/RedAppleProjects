@@ -1,0 +1,357 @@
+/* global window,setTimeout,document,console */
+/********* Script_Details ************
+ * @Original_Creator :- Md Jahangir.
+ * @Created_Date :- 16-02-2024.
+ * @Last_Update_By :- Md Jahangir.
+ * @Last_Updatd_Date :- 09-08-2024
+ * @Description :- Load all the assests and showing the progress bar.
+ ************************************/
+
+import Phaser from 'phaser';
+import FontFaceObserver from 'fontfaceobserver';
+import { Utils } from '../Utils.js';
+import { SelectedResolution } from '../ResolutionSelector.js';
+import { Constant } from '../Constant.js';
+import { Model } from '../Model.js';
+
+export default class PreloadScene extends Phaser.Scene {
+
+  constructor() {
+    super('PreloadScene');
+    this.progressBar = null;
+    this.loadingText = null;
+    this.numberOfTable = 5;
+    this.numberOfProfilePic = 10;
+    this.numberOfFrontCard = 4;
+    this.fonts = {
+      'BAHNSCHRIFT': null,
+      'Poppins-Regular': null,
+      'Poppins-SemiBold': null,
+      'Poppins-Medium': null
+    };
+  }
+
+  //#region - Load all images
+  preload() {
+    this.load.json('position-config', 'assets/json/PositionConfig.json');
+    this.device = Constant.isMobile ? 'OnMobile' : 'OnDesktop';
+    //SPLASH 
+    // this.load.image('background', 'assets/images/common/background.png');
+    // this.load.image('progress_base', 'assets/images/preloadScene/progress_base.png');
+    // this.load.image('progress_bar', 'assets/images/preloadScene/progress_bar.png');
+    this.load.spine('coin', 'assets/images/spine/coin.json', 'assets/images/spine/coin.atlas');
+    this.load.spine('confetti', 'assets/images/spine/confetti.json', 'assets/images/spine/confetti.atlas');
+  };
+  //#endregion
+
+  //#region - Create all images
+  create() {
+    this.game.events.on('resize', this.resize, this);
+    const detailedPosConfig = this.cache.json.get('position-config');
+    this.posConfig = detailedPosConfig.Preload[this.device];
+    this.loadArray = new Array();
+    const getBackground = document.getElementById('background');
+    const getProgressBase = document.getElementById('progress_base');
+    const getProgressBar = document.getElementById('progress_bar');
+    this.loadArray.push(getBackground, getProgressBase, getProgressBar);
+    for (let index = 0; index < this.loadArray.length; index++) {
+      const element = this.loadArray[index];
+      if (element.complete) {
+        this.AddTextures(element);
+      }
+      else {
+        element.onload = () => this.AddTextures(element);
+      }
+      if (index === this.loadArray.length - 1) {
+      }
+    }
+
+    // this.splashBg = this.add.image(0, 0, 'background').setOrigin(0);
+    // this.progressBase = this.add.image(Math.round(this.scale.width / 2), Math.round(this.scale.height / 1.1), 'progress_base').setOrigin(0.5);
+    // this.progressBar = this.add.image(Math.round(this.scale.width / 2), Math.round(this.scale.height / 1.11), 'progress_bar').setOrigin(0.5);
+    const loadingTextStyle = { fontFamily: 'Poppins-Regular', fontSize: '42px', fill: '#FFF', fontStyle: 'normal', align: 'center' };
+    this.loadingText = this.add.text(Math.round(this.scale.width / 2), Math.round(this.scale.height / 1.1), 'Loading: ', loadingTextStyle).setOrigin(0.5);
+    // this.progressBar.setCrop(0, 0, 0, this.progressBar.height);
+    this.LoadFonts();
+    this.resize(window.innerWidth, window.innerHeight);
+  };
+  AddTextures(element) {
+    const textureKey = element.id;
+    if (!this.textures.exists(textureKey)) {
+      this.textures.addImage(textureKey, element);
+    }
+    if (textureKey === 'background') {
+
+      this.splashBg = this.add.image(0, 0, textureKey).setOrigin(0);
+      this.ResizeBackground(window.innerWidth, window.innerHeight);
+    }
+    else if (textureKey === 'progress_base') {
+      this.progressBase = this.add.image(0, 0, textureKey).setOrigin(0.5);
+      this.ResizeProgressBase(window.innerWidth, window.innerHeight);
+    }
+    else if (textureKey === 'progress_bar') {
+      this.progressBar = this.add.image(0, 0, 'progress_bar').setOrigin(0.5);
+
+      this.progressBar.setCrop(0, 0, 0, this.progressBar.height);
+      this.ResizeProgressBar(window.innerWidth, window.innerHeight);
+    } else {
+      // eslint-disable-next-line no-console
+      console.log('Element doesnt exist', element, element.id);
+    }
+
+  }
+  //#endregion
+
+  //#region - Load Fonts
+  LoadFonts() {
+    const propNames = Object.getOwnPropertyNames(this.fonts);
+    propNames.forEach((fontName, index) => {
+      const isLast = index >= propNames.length - 1;
+      this.fonts[fontName] = new FontFaceObserver(fontName);
+      this.fonts[fontName].load().then(this.FontLoadSuccess.bind(this, fontName, isLast), this.FontLoadError.bind(this, fontName));
+    });
+  };
+  //#endregion
+
+  //#region - Load font success
+  FontLoadSuccess(_fontName, _isLast) {
+    if (_isLast) {
+      // if (Server.IsParamsMissing()) {
+      // if (Client.IsParamsMissing()) {
+      //     this.scene.start("GameErrorScene");
+      // } else {
+      this.LoadAssests();
+      // }
+    } else {
+    }
+  };
+  //#endregion
+
+  //#region - Load Font Error
+  FontLoadError() { };
+
+  //#region - Load all assests
+  LoadAssests() {
+    this.load.on('progress', this.LoadProgress, this);
+    this.load.on('complete', this.OnComplete, { scene: this.scene });
+    const cardFrameWidth = 1155 / 13;
+    const cardFrameHeight = 650 / 5;
+    const loadingWheelFrameWidth = 157;
+    const loadingWheelFrameHeight = 157;
+    // const sitInArrowFrameWidth = 98 / 2;
+    // const sitInArrowFrameHeight = 70;
+    this.load.image('game_bg', 'assets/images/common/background.png');
+    //Game Scene
+    this.load.spritesheet('toggle_button_normal', 'assets/images/popups/toggle_button.png', {
+      frameWidth: 189 / 2, // width of a single frame
+      frameHeight: 50  // height of a single frame
+    });
+    this.load.spritesheet('toggle_button_hover', 'assets/images/popups/toggle_button.png', {
+      frameWidth: 189 / 2, // width of a single frame
+      frameHeight: 50  // height of a single frame
+    });
+    this.load.spritesheet('toggle_button_disabled', 'assets/images/popups/toggle_button.png', {
+      frameWidth: 189 / 2, // width of a single frame
+      frameHeight: 50  // height of a single frame
+    });
+
+
+    this.load.audio('card', 'assets/sounds/card.mp3');
+    this.load.image('pot_value_base', 'assets/images/gameScene/pot_value_base.png');
+    this.load.image('pot_value_chip', 'assets/images/gameScene/pot_value_chip.png');
+    this.load.image('call_button_normal', 'assets/images/gameScene/call_button_base.png');
+    this.load.image('call_button_hover', 'assets/images/gameScene/call_button_base.png');
+    this.load.image('call_button_disabled', 'assets/images/gameScene/call_button_base.png');
+
+    for (let i = 0; i < this.numberOfTable; i++) {
+      this.load.image(`table_bg_${i}`, `assets/images/gameScene/table_bg_${i}.png`);
+    }
+    this.load.image('raise_half_pot_button_normal', 'assets/images/gameScene/raise_half_pot_button.png');
+    this.load.image('raise_half_pot_button_hover', 'assets/images/gameScene/raise_half_pot_button.png');
+    this.load.image('raise_half_pot_button_disabled', 'assets/images/gameScene/raise_half_pot_button.png');
+
+    this.load.image('select_raise_half_pot_button_normal', 'assets/images/gameScene/select_raise_half_pot_button.png');
+    this.load.image('select_raise_half_pot_button_hover', 'assets/images/gameScene/select_raise_half_pot_button.png');
+    this.load.image('select_raise_half_pot_button_disabled', 'assets/images/gameScene/select_raise_half_pot_button.png');
+
+    this.load.image('raise_popup_cancel_button_normal', 'assets/images/gameScene/raise_popup_cancel_button.png');
+    this.load.image('raise_popup_cancel_button_hover', 'assets/images/gameScene/raise_popup_cancel_button.png');
+    this.load.image('raise_popup_cancel_button_disabled', 'assets/images/gameScene/raise_popup_cancel_button.png');
+
+    this.load.image('leave_button_normal', 'assets/images/gameScene/leave_button.png');
+    this.load.image('leave_button_hover', 'assets/images/gameScene/leave_button.png');
+    this.load.image('leave_button_disabled', 'assets/images/gameScene/leave_button.png');
+
+    this.load.image('setting_button_normal', 'assets/images/gameScene/setting_button.png');
+    this.load.image('setting_button_hover', 'assets/images/gameScene/setting_button.png');
+    this.load.image('setting_button_disabled', 'assets/images/gameScene/setting_button.png');
+
+    this.load.image('waiting_sit_button_normal', 'assets/images/gameScene/waiting_sit_button.png');
+    this.load.image('waiting_sit_button_hover', 'assets/images/gameScene/waiting_sit_button.png');
+    this.load.image('waiting_sit_button_disabled', 'assets/images/gameScene/waiting_sit_button.png');
+
+
+    //GAME SCENE PLAYER
+    for (let i = 0; i < this.numberOfProfilePic; i++) {
+      this.load.image(`profile_pic_${i}`, `assets/images/gameScene/player/profile_pic_${i}.png`);
+    }
+
+    this.load.image('user_base', 'assets/images/gameScene/player/user_base.png');
+    this.load.image('user_allin_decision_base', 'assets/images/gameScene/player/allin_decision_base.png');
+    this.load.image('user_called_decision_base', 'assets/images/gameScene/player/call_decision_base.png');
+    this.load.image('user_raised_decision_base', 'assets/images/gameScene/player/raise_decision_base.png');
+    this.load.image('user_check_decision_base', 'assets/images/gameScene/player/check_decision_base.png');
+    this.load.image('user_fold_decision_base', 'assets/images/gameScene/player/fold_decision_base.png');
+    this.load.image('user_name_base', 'assets/images/gameScene/player/user_name_base.png');
+    this.load.image('localUser_name_base', 'assets/images/gameScene/player/localUser_name_base.png');
+    this.load.image('user_name_bar', 'assets/images/gameScene/player/user_name_bar.png');
+    this.load.image('user_ring', 'assets/images/gameScene/player/user_ring.png');
+    this.load.image('user_win_ring', 'assets/images/gameScene/player/win_glow_ring.png');
+    this.load.image('user_win_effect', 'assets/images/gameScene/player/win_glow_effect.png');
+    this.load.image('user_role_base', 'assets/images/gameScene/player/blind_delear_base.png');
+    this.load.image('poker_chip', 'assets/images/gameScene/player/poker_chip.png');
+    this.load.image('black_layer', 'assets/images/gameScene/player/black_layer.png');
+    this.load.image('green_layer', 'assets/images/gameScene/player/green_layer.png');
+    this.load.image('sit_in_arrow', 'assets/images/gameScene/player/sit_in_arrow.png');
+
+    this.load.image('raise_base', 'assets/images/gameScene/raise_base.png');
+    this.load.image('raise_slider_chip', 'assets/images/gameScene/raise_slider_chip.png');
+    this.load.image('raise_bar', 'assets/images/gameScene/raise_bar.png');
+    this.load.image('raise_slider', 'assets/images/gameScene/raise_slider.png');
+    this.load.image('raise_slider_base', 'assets/images/gameScene/raise_slider_base.png');
+    this.load.image('replay_base', 'assets/images/gameScene/replay_base.png');
+
+
+    for (let i = 0; i < this.numberOfFrontCard; i++) {
+      this.load.spritesheet(`front_card_${i}`, `assets/images/gameScene/player/front_card_${i}.png`, { frameWidth: cardFrameWidth, frameHeight: cardFrameHeight });
+    }
+    this.load.image('card_outline', 'assets/images/card_outline.png');
+
+    //POPUP
+    this.load.spritesheet('loading_wheel', 'assets/images/popups/loading_wheel.png', { frameWidth: loadingWheelFrameWidth, frameHeight: loadingWheelFrameHeight });
+    this.load.image('overlay', 'assets/images/popups/overlay.png');
+    this.load.image('popup_base', 'assets/images/popups/popup_base.png');
+    this.load.image('buy_in_popup_yesBut_normal', 'assets/images/popups/buy_in_popup_yesBut.png');
+    this.load.image('buy_in_popup_yesBut_hover', 'assets/images/popups/buy_in_popup_yesBut.png');
+    this.load.image('buy_in_popup_yesBut_disabled', 'assets/images/popups/buy_in_popup_yesBut.png');
+    this.load.image('buy_in_popup_noBut_normal', 'assets/images/popups/buy_in_popup_noBut.png');
+    this.load.image('buy_in_popup_noBut_hover', 'assets/images/popups/buy_in_popup_noBut.png');
+    this.load.image('buy_in_popup_noBut_disabled', 'assets/images/popups/buy_in_popup_noBut.png');
+    this.load.image('buy_in_slider_chip', 'assets/images/popups/buy_in_slider_chip.png');
+    this.load.image('close_button_normal', 'assets/images/popups/close_button.png');
+    this.load.image('close_button_hover', 'assets/images/popups/close_button.png');
+    this.load.image('close_button_disabled', 'assets/images/popups/close_button.png');
+    this.load.image('buyin_bottom_base_normal', 'assets/images/popups/buyin_bottom_base.png');
+    this.load.image('buyin_bottom_base_hover', 'assets/images/popups/buyin_bottom_base.png');
+    this.load.image('buyin_bottom_base_disabled', 'assets/images/popups/buyin_bottom_base.png');
+    this.load.image('poker_chip_popup', 'assets/images/popups/poker_chip_popup.png');
+    this.load.image('buyin_popup_base', 'assets/images/popups/buyin_popup_base.png');
+    this.load.image('buy_in_amount_base', 'assets/images/popups/buy_in_amount_base.png');
+    this.load.image('buy_in_slider_base', 'assets/images/popups/buy_in_slider_base.png');
+    this.load.image('buy_in_slider_bar', 'assets/images/popups/buy_in_slider_bar.png');
+    this.load.image('buy_in_minmaxamount_base_normal', 'assets/images/popups/buy_in_minmaxamount_base.png');
+    this.load.image('buy_in_minmaxamount_base_hover', 'assets/images/popups/buy_in_minmaxamount_base.png');
+    this.load.image('buy_in_minmaxamount_base_disabled', 'assets/images/popups/buy_in_minmaxamount_base.png');
+    this.load.image('chat_icon_normal', 'assets/images/popups/chat_icon.png');
+    this.load.image('chat_icon_hover', 'assets/images/popups/chat_icon.png');
+    this.load.image('chat_icon_disabled', 'assets/images/popups/chat_icon.png');
+    this.load.image('chat_hide_button_normal', 'assets/images/popups/chat_hide_button.png');
+    this.load.image('chat_hide_button_hover', 'assets/images/popups/chat_hide_button.png');
+    this.load.image('chat_hide_button_disabled', 'assets/images/popups/chat_hide_button.png');
+    this.load.image('send_button_normal', 'assets/images/popups/send_button.png');
+    this.load.image('send_button_hover', 'assets/images/popups/send_button.png');
+    this.load.image('send_button_disabled', 'assets/images/popups/send_button.png');
+    this.load.image('inputText_base', 'assets/images/popups/inputText_base.png');
+    this.load.image('chat_base', 'assets/images/popups/chat_base.png');
+    this.load.image('chat_base_text', 'assets/images/popups/chat_base_text.png');
+
+    this.load.start();
+  };
+  //#endregion
+
+  //#region - Load progress bar
+  LoadProgress(_percentage) {
+    if (this.progressBar) {
+      this.progressBar.setCrop(0, 0, this.progressBar.width * _percentage, this.progressBar.height);
+    }
+    _percentage = _percentage * 100;
+    this.loadingText.setText(`Loading: ${parseInt(_percentage)} %`);
+  };
+  //#endregion
+
+  //#region - On complete event
+  OnComplete() {
+    setTimeout(() => {
+      // Constant.game.scene.stop('PreloadScene');
+      this.scene.stop('PreloadScene');
+      // this.scene.start("TitleScene");
+      // this.scene.start('GameScene');
+      // this.scene.start("GameErrorScene");
+      this.scene.scene.TransitToSpecificScene();
+    }, 1000);
+  };
+  //#endregion
+
+  TransitToSpecificScene() {
+    const type = Model.GetType();
+    const auth = Model.GetAuthToken();
+    switch (type) {
+      case 'cash':
+        this.scene.start('GameScene');
+        break;
+      case 'tournament':
+        this.scene.start('GameScene');
+        break;
+      case 'replay':
+        this.scene.start('ReplayHandScene');
+        break;
+      default:
+        this.scene.start('GameErrorScene', { type, auth });
+        break;
+    }
+  };
+
+  ResizeBackground(_newWidth, _newHeight) {
+    this.splashBg.setDisplaySize(_newWidth, _newHeight);
+  }
+  ResizeProgressBase(_newWidth, _newHeight) {
+    const newScale = Utils.GetScale(SelectedResolution.width, SelectedResolution.height, _newWidth, _newHeight);
+    this.progressBase.setScale(newScale);
+    this.progressBase.setPosition(
+      _newWidth / 2,
+      _newHeight / 1.1
+    );
+  }
+  ResizeProgressBar(_newWidth, _newHeight) {
+    const newScale = Utils.GetScale(SelectedResolution.width, SelectedResolution.height, _newWidth, _newHeight);
+    if (this.progressBar) {
+
+      this.progressBar.setScale(newScale);
+      this.progressBar.setPosition(
+        _newWidth / 2,
+        _newHeight / 1.102
+      );
+    }
+  }
+
+  //#region - Resize
+  resize(_newWidth, _newHeight) {
+    const newScale = Utils.GetScale(SelectedResolution.width, SelectedResolution.height, _newWidth, _newHeight);
+    if (this.splashBg) {
+      this.ResizeBackground(_newWidth, _newHeight);
+    }
+    if (this.progressBase) {
+      this.ResizeProgressBase(_newWidth, _newHeight);
+    }
+    if (this.progressBar) {
+      this.ResizeProgressBar(_newWidth, _newHeight);
+    }
+    this.loadingText.setScale(newScale);
+    this.loadingText.setPosition(
+      _newWidth / 2,
+      _newHeight / 1.07
+    );
+  };
+  //#endregion
+
+}

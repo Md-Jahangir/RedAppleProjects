@@ -1,0 +1,83 @@
+freature_reel.png
+size:898,2043
+filter:Linear,Linear
+pma:true
+scale:0.5
+Alternative ON_01 copy
+bounds:611,1156,426,244
+offsets:1,1,428,246
+rotate:90
+Alternative ON_02 copy
+bounds:366,1143,439,243
+offsets:1,1,441,245
+rotate:90
+Joker_cloth
+bounds:277,78,537,272
+Layer 1
+bounds:170,932,222,69
+Layer 2
+bounds:493,15,61,61
+Layer 22
+bounds:394,939,375,202
+Layer 3
+bounds:277,13,61,63
+Off
+bounds:614,1619,422,227
+rotate:90
+bottom
+bounds:2,928,1113,84
+offsets:1,8,1114,92
+rotate:90
+carnival
+bounds:556,16,209,60
+offsets:0,1,209,61
+clown
+bounds:340,15,151,61
+offsets:0,1,151,62
+eye lid_L
+bounds:767,17,94,59
+eye lid_R
+bounds:576,430,93,54
+rotate:90
+left
+bounds:576,525,52,412
+lowerbulb_off
+bounds:170,1003,1038,21
+rotate:90
+lowerbulb_on_1
+bounds:216,1013,1028,33
+rotate:90
+lowerbulb_on_2
+bounds:286,1014,1027,38
+offsets:1,1,1031,40
+rotate:90
+mouth
+bounds:2,352,574,572
+rotate:90
+red hat side
+bounds:630,548,389,260
+rotate:90
+right
+bounds:843,1627,53,414
+top
+bounds:88,928,1113,80
+offsets:1,0,1114,88
+rotate:90
+top reel
+bounds:366,1584,457,246
+rotate:90
+uper_bulb_off
+bounds:193,1003,1038,21
+rotate:90
+uperbulb_on_1
+bounds:251,1013,1028,33
+rotate:90
+upperbulb_on_2
+bounds:326,1014,1027,38
+offsets:1,1,1031,40
+rotate:90
+violet hat side
+bounds:2,2,348,273
+rotate:90
+whole eye
+bounds:632,456,256,90

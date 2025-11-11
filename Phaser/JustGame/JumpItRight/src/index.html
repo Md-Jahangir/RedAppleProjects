@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./style.css" />
+    <img id="rotate-screen" src="assets/images/rotate_screen_landscape.png" style="display: none;">
+    <img id="splash_bg" src="assets/images/loading/splash_bg.png" style="display: none;">
+    <img id="jump_it_right" src="assets/images/loading/jump_it_right.png" style="display: none;">
+    <img id="progress_base" src="assets/images/loading/progress_base.png" style="display: none;">
+    <img id="progress_bar" src="assets/images/loading/progress_bar.png" style="display: none;">
+
+    <script src="lib/phaser.min.js"></script>
+    <script src="lib/fontfaceobserver.standalone.js"></script>
+    <script src="lib/SpinePlugin.min.js"></script>
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    <title>JumpItRight</title>
+</head>
+
+<body>
+    <!-- <div class="rotation"> -->
+    <!-- <img src="assets/images/screen_rotation.png"> -->
+    <script type="text/javascript">
+        function getMobileOperatingSystem() {
+            var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+            // Windows Phone must come first because its UA also contains "Android"
+            if (/windows phone/i.test(userAgent)) {
+                return "Windows Phone";
+            }
+
+            if (/android/i.test(userAgent)) {
+                return "Android";
+            }
+
+            // iOS detection from: http://stackoverflow.com/a/9039885/177710
+            if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+                return "iOS";
+            }
+
+            return "unknown";
+        }
+        console.log("The mobile operating system.............." + getMobileOperatingSystem());
+        // function sendMessage(_message) {
+        //     if (getMobileOperatingSystem() == "Android") {
+        //         console.log("Insert into the Send Message Function..............");
+        //         try {
+        //             JSBridge.receivedFromJS(_message);
+        //         } catch (error) {
+        //             console.log("The error................" + error);
+        //         }
+        //     }
+        // }
+        function sendMessage(eventName, data) {
+            try {
+                window.parent.postMessage({ eventName, data }, "*");
+                console.log("Message sent via postMessage:", eventName, data);
+            } catch (error) {
+                console.log("The error................" + error);
+            }
+        };
+
+    </script>
+</body>
+<script>
+    // let game;
+</script>
+
+</html>

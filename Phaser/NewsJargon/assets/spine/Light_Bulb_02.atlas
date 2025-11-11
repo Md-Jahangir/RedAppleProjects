@@ -1,0 +1,69 @@
+
+Light_Bulb_02.png
+size: 1382,370
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+lightBulb_001
+  rotate: true
+  xy: 2, 2
+  size: 174, 264
+  orig: 174, 264
+  offset: 0, 0
+  index: -1
+lightBulb_002
+  rotate: true
+  xy: 309, 19
+  size: 166, 294
+  orig: 166, 294
+  offset: 0, 0
+  index: -1
+lightBulb_003
+  rotate: true
+  xy: 2, 178
+  size: 190, 305
+  orig: 190, 305
+  offset: 0, 0
+  index: -1
+lightBulb_004
+  rotate: false
+  xy: 1206, 42
+  size: 174, 326
+  orig: 174, 326
+  offset: 0, 0
+  index: -1
+lightBulb_005
+  rotate: true
+  xy: 907, 192
+  size: 176, 297
+  orig: 176, 297
+  offset: 0, 0
+  index: -1
+lightBulb_006
+  rotate: true
+  xy: 608, 191
+  size: 177, 297
+  orig: 178, 297
+  offset: 1, 0
+  index: -1
+lightBulb_007
+  rotate: true
+  xy: 309, 187
+  size: 181, 297
+  orig: 182, 297
+  offset: 1, 0
+  index: -1
+lightBulb_008
+  rotate: true
+  xy: 907, 14
+  size: 176, 297
+  orig: 176, 297
+  offset: 0, 0
+  index: -1
+lightBulb_009
+  rotate: true
+  xy: 608, 13
+  size: 176, 297
+  orig: 176, 297
+  offset: 0, 0
+  index: -1

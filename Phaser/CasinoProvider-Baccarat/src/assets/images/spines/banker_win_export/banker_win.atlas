@@ -1,0 +1,101 @@
+banker_win.png
+size:1951,952
+filter:Linear,Linear
+pma:true
+BANKER Glow
+bounds:1229,12,624,170
+offsets:972,753,2562,1440
+BANKER SHADOW
+bounds:1229,557,640,393
+offsets:0,264,640,657
+BANKER text
+bounds:654,16,573,116
+offsets:1,1,575,118
+WIN Glow
+bounds:1481,207,348,169
+offsets:1109,621,2562,1440
+rotate:90
+WIN SHADOW
+bounds:1222,184,371,257
+offsets:0,395,371,652
+rotate:90
+WIN text
+bounds:1652,439,297,116
+offsets:1,1,299,118
+crown
+bounds:1652,220,217,140
+offsets:1,3,219,144
+rotate:90
+crown sparkle
+bounds:158,2,52,40
+offsets:2,1,56,43
+rotate:90
+particle
+bounds:2,56,894,523
+offsets:1,54,896,578
+rotate:90
+ribbon
+bounds:527,134,816,335
+rotate:90
+ribbon glow
+bounds:864,151,799,356
+offsets:8,11,817,368
+rotate:90
+sparkle 1
+bounds:200,6,63,48
+offsets:2,1,67,51
+sparkle 2
+bounds:200,6,63,48
+offsets:2,1,67,51
+star 1 L
+bounds:379,30,21,24
+offsets:1,1,23,26
+star 1 L motion
+bounds:1871,797,88,72
+offsets:2,9,91,82
+rotate:90
+star 1 R
+bounds:379,4,21,24
+offsets:1,1,23,26
+star 1 R motion
+bounds:1871,887,78,63
+offsets:1,18,82,82
+star 2 L
+bounds:1871,728,67,67
+offsets:2,1,70,69
+star 2 L motion
+bounds:1794,305,139,132
+offsets:1,2,141,135
+star 2 R
+bounds:1871,659,67,67
+offsets:1,1,70,69
+star 2 R motion
+bounds:527,2,130,125
+offsets:1,2,134,128
+rotate:90
+star 3 L
+bounds:319,22,28,32
+offsets:1,1,30,34
+star 3 L motion
+bounds:2,2,76,52
+offsets:9,14,86,68
+star 3 R
+bounds:349,22,28,32
+offsets:1,1,30,34
+star 3 R motion
+bounds:80,2,76,52
+offsets:1,14,101,81
+star 4 L
+bounds:265,4,14,15
+offsets:1,1,16,17
+star 4 L motion
+bounds:265,21,33,25
+offsets:21,14,56,44
+rotate:90
+star 4 R
+bounds:281,4,14,15
+offsets:1,1,16,17
+star 4 R motion
+bounds:292,21,33,25
+offsets:10,14,62,50
+rotate:90

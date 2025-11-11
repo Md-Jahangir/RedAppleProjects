@@ -1,0 +1,1721 @@
+{
+  "gameTitle": {
+    "en": {
+      "text": "",
+      "styleName": "gameTitle"
+    }
+  },
+  "answer": {
+    "en": {
+      "text": "",
+      "styleName": "answer"
+    }
+  },
+  "like": {
+    "en": {
+      "text": "0",
+      "styleName": "like"
+    }
+  },
+  "question": {
+    "en": {
+      "text": "QUESTION",
+      "styleName": "question"
+    }
+  },
+  "questionTime": {
+    "en": {
+      "text": "00:00",
+      "styleName": "question"
+    }
+  },
+  "popup": {
+    "en": {
+      "text": "popup",
+      "styleName": "popup"
+    }
+  },
+  "splashSlide1": {
+    "en": {
+      "text": "QUESTION",
+      "styleName": "question"
+    }
+  },
+  "splashSlide2": {
+    "en": {
+      "text": "QUESTION",
+      "styleName": "question"
+    }
+  },
+  "bonusGame": {
+    "en": {
+      "text": "Bonus game",
+      "styleName": "bonusGame"
+    },
+    "ru": {
+      "text": "Бонусная игра",
+      "styleName": "bonusGame"
+    },
+    "sv": {
+      "text": "Bonusspel",
+      "styleName": "bonusGame"
+    },
+    "de": {
+      "text": "Bonusspiel",
+      "styleName": "bonusGame"
+    },
+    "es": {
+      "text": "Juego de bonificación",
+      "styleName": "bonusGame"
+    },
+    "fr": {
+      "text": "Jeu bonus",
+      "styleName": "bonusGame"
+    },
+    "hu": {
+      "text": "Bónuszjáték",
+      "styleName": "bonusGame"
+    },
+    "it": {
+      "text": "Gioco bonus",
+      "styleName": "bonusGame"
+    },
+    "lv": {
+      "text": "Bonusa spēle",
+      "styleName": "bonusGame"
+    },
+    "pt": {
+      "text": "Jogo de bónus",
+      "styleName": "bonusGame"
+    },
+    "pt(br)": {
+      "text": "Jogo bônus",
+      "styleName": "bonusGame"
+    },
+    "ro": {
+      "text": "Joc bonus",
+      "styleName": "bonusGame"
+    },
+    "tr": {
+      "text": "Bonus oyun",
+      "styleName": "bonusGame"
+    }
+  },
+  "sessionTimeout": {
+    "en": {
+      "text": "Session timeout",
+      "styleName": "system"
+    },
+    "ru": {
+      "text": "Время ожидания сеанса истекло",
+      "styleName": "system"
+    },
+    "sv": {
+      "text": "Sessionen har gått ut",
+      "styleName": "system"
+    },
+    "de": {
+      "text": "Sitzungs-Timeout",
+      "styleName": "system"
+    },
+    "es": {
+      "text": "Tiempo de espera de la sesión",
+      "styleName": "system"
+    },
+    "fr": {
+      "text": "Session expirée",
+      "styleName": "system"
+    },
+    "hu": {
+      "text": "Munkamenet időtúllépés",
+      "styleName": "system"
+    },
+    "it": {
+      "text": "Timeout sessione",
+      "styleName": "system"
+    },
+    "lv": {
+      "text": "Sesijas taimauts",
+      "styleName": "system"
+    },
+    "pt": {
+      "text": "Tempo limite da sessão",
+      "styleName": "system"
+    },
+    "pt(br)": {
+      "text": "Sessão expirada",
+      "styleName": "system"
+    },
+    "ro": {
+      "text": "Expirare sesiune",
+      "styleName": "system"
+    },
+    "tr": {
+      "text": "Oturum zaman aşımına uğradı",
+      "styleName": "system"
+    }
+  },
+  "reloadThisPage": {
+    "en": {
+      "text": "Reload this page",
+      "styleName": "system"
+    },
+    "ru": {
+      "text": "Перезагрузите страницу",
+      "styleName": "system"
+    },
+    "sv": {
+      "text": "Ladda om sidan",
+      "styleName": "system"
+    },
+    "de": {
+      "text": "Diese Seite neu laden",
+      "styleName": "system"
+    },
+    "es": {
+      "text": "Recargue esta página",
+      "styleName": "system"
+    },
+    "fr": {
+      "text": "Recharger cette page",
+      "styleName": "system"
+    },
+    "hu": {
+      "text": "Aktuális oldal újratöltése",
+      "styleName": "system"
+    },
+    "it": {
+      "text": "Ricarica questa pagina",
+      "styleName": "system"
+    },
+    "lv": {
+      "text": "Pārlādēt šo lapu",
+      "styleName": "system"
+    },
+    "pt": {
+      "text": "Recarregar esta página",
+      "styleName": "system"
+    },
+    "pt(br)": {
+      "text": "Recarregar a página",
+      "styleName": "system"
+    },
+    "ro": {
+      "text": "Reîncărcați această paginăe",
+      "styleName": "system"
+    },
+    "tr": {
+      "text": "Bu sayfayı yeniden yükle",
+      "styleName": "system"
+    }
+  },
+  "sessionTimeoutTitle": {
+    "en": {
+      "text": "Info",
+      "styleName": "system"
+    },
+    "ru": {
+      "text": "Info",
+      "styleName": "system"
+    },
+    "sv": {
+      "text": "Info",
+      "styleName": "system"
+    },
+    "de": {
+      "text": "Info",
+      "styleName": "system"
+    },
+    "es": {
+      "text": "Información",
+      "styleName": "system"
+    },
+    "fr": {
+      "text": "Information",
+      "styleName": "system"
+    },
+    "hu": {
+      "text": "Információ",
+      "styleName": "system"
+    },
+    "it": {
+      "text": "Info",
+      "styleName": "system"
+    },
+    "lv": {
+      "text": "Informācija",
+      "styleName": "system"
+    },
+    "pt": {
+      "text": "Info",
+      "styleName": "system"
+    },
+    "pt(br)": {
+      "text": "Aviso",
+      "styleName": "system"
+    },
+    "ro": {
+      "text": "Informații",
+      "styleName": "system"
+    },
+    "tr": {
+      "text": "Bilgi",
+      "styleName": "system"
+    }
+  },
+  "popupCongrats": {
+    "en": {
+      "text": "Congratulations!",
+      "styleName": "popupCongrats"
+    },
+    "ru": {
+      "text": "Поздравляем!",
+      "styleName": "popupCongrats"
+    },
+    "sv": {
+      "text": "GRATTIS!",
+      "styleName": "popupCongrats"
+    },
+    "de": {
+      "text": "Herzlichen Glückwunsch!",
+      "styleName": "popupCongrats"
+    },
+    "es": {
+      "text": "¡Felicidades!",
+      "styleName": "popupCongrats"
+    },
+    "fr": {
+      "text": "Félicitations !",
+      "styleName": "popupCongrats"
+    },
+    "hu": {
+      "text": "Gratulálunk!",
+      "styleName": "popupCongrats"
+    },
+    "it": {
+      "text": "Congratulazioni!",
+      "styleName": "popupCongrats"
+    },
+    "lv": {
+      "text": "Apsveicam!",
+      "styleName": "popupCongrats"
+    },
+    "pt": {
+      "text": "Parabéns!",
+      "styleName": "popupCongrats"
+    },
+    "pt(br)": {
+      "text": "Parabéns!",
+      "styleName": "popupCongrats"
+    },
+    "ro": {
+      "text": "Felicitări!",
+      "styleName": "popupCongrats"
+    },
+    "tr": {
+      "text": "Tebrikler!",
+      "styleName": "popupCongrats"
+    }
+  },
+  "popupTotalWinnings": {
+    "en": {
+      "text": "Total Winnings",
+      "styleName": "popupTotalWinnings"
+    },
+    "ru": {
+      "text": "Total winnings",
+      "styleName": "popupTotalWinnings"
+    },
+    "sv": {
+      "text": "Total Vinst",
+      "styleName": "popupTotalWinnings"
+    },
+    "de": {
+      "text": "Gesamtgewinn",
+      "styleName": "popupTotalWinnings"
+    },
+    "es": {
+      "text": "Ganancias totales",
+      "styleName": "popupTotalWinnings"
+    },
+    "fr": {
+      "text": "Total des gains",
+      "styleName": "popupTotalWinnings"
+    },
+    "hu": {
+      "text": "Nyeremények összesen",
+      "styleName": "popupTotalWinnings"
+    },
+    "it": {
+      "text": "Totale delle vincite",
+      "styleName": "popupTotalWinnings"
+    },
+    "lv": {
+      "text": "Kopējie laimesti",
+      "styleName": "popupTotalWinnings"
+    },
+    "pt": {
+      "text": "Ganhos totais",
+      "styleName": "popupTotalWinnings"
+    },
+    "pt(rb)": {
+      "text": "Ganhos totais",
+      "styleName": "popupTotalWinnings"
+    },
+    "ro": {
+      "text": "Câștiguri totale",
+      "styleName": "popupTotalWinnings"
+    },
+    "tr": {
+      "text": "Toplam kazanç",
+      "styleName": "popupTotalWinnings"
+    }
+  },
+  "popupFreespins": {
+    "en": {
+      "text": "Free spins",
+      "styleName": "forPopUp"
+    },
+    "ru": {
+      "text": "Фриспинов:",
+      "styleName": "forPopUp"
+    },
+    "sv": {
+      "text": "Frispel",
+      "styleName": "forPopUp"
+    },
+    "de": {
+      "text": "Freispiele:",
+      "styleName": "forPopUp"
+    },
+    "es": {
+      "text": "Giros libres:",
+      "styleName": "forPopUp"
+    },
+    "fr": {
+      "text": "Tours gratuits :",
+      "styleName": "forPopUp"
+    },
+    "hu": {
+      "text": "Ingyenes pörgetések:",
+      "styleName": "forPopUp"
+    },
+    "it": {
+      "text": "Giri gratis:",
+      "styleName": "forPopUp"
+    },
+    "lv": {
+      "text": "Bezmaksas griezieni:",
+      "styleName": "forPopUp"
+    },
+    "pt": {
+      "text": "Rotações gratuitas:",
+      "styleName": "forPopUp"
+    },
+    "pt(br)": {
+      "text": "Rodadas grátis:",
+      "styleName": "forPopUp"
+    },
+    "ro": {
+      "text": "Rotiri gratuite:",
+      "styleName": "forPopUp"
+    },
+    "tr": {
+      "text": "Ücretsiz döndürme:",
+      "styleName": "forPopUp"
+    }
+  },
+  "youHaveWon": {
+    "en": {
+      "text": "You have won",
+      "styleName": "forPopUp"
+    },
+    "ru": {
+      "text": "Вы выиграли:",
+      "styleName": "forPopUp"
+    },
+    "sv": {
+      "text": "Du har vunnit",
+      "styleName": "forPopUp"
+    },
+    "de": {
+      "text": "DU HAST GEWONNEN:",
+      "styleName": "forPopUp"
+    },
+    "es": {
+      "text": "HA GANADO:",
+      "styleName": "forPopUp"
+    },
+    "fr": {
+      "text": "VOUS AVEZ GAGNÉ :",
+      "styleName": "forPopUp"
+    },
+    "hu": {
+      "text": "NYEREMÉNYE:",
+      "styleName": "forPopUp"
+    },
+    "it": {
+      "text": "HAI VINTO:",
+      "styleName": "forPopUp"
+    },
+    "lv": {
+      "text": "JŪS UZVARĒJĀT:",
+      "styleName": "forPopUp"
+    },
+    "pt": {
+      "text": "GANHOU:",
+      "styleName": "forPopUp"
+    },
+    "pt(br)": {
+      "text": "VOCÊ GANHOU:",
+      "styleName": "forPopUp"
+    },
+    "ro": {
+      "text": "AȚI CÂȘTIGAT:",
+      "styleName": "forPopUp"
+    },
+    "tr": {
+      "text": "KAZANDINIZ:",
+      "styleName": "forPopUp"
+    }
+  },
+  "popupCoins": {
+    "en": {
+      "text": "COINS:",
+      "styleName": "forPopUp"
+    },
+    "ru": {
+      "text": "Монет:",
+      "styleName": "forPopUp"
+    },
+    "sv": {
+      "text": "MYNT:",
+      "styleName": "forPopUp"
+    },
+    "de": {
+      "text": "Münzen:",
+      "styleName": "forPopUp"
+    },
+    "es": {
+      "text": "Monedas:",
+      "styleName": "forPopUp"
+    },
+    "fr": {
+      "text": "Pièces :",
+      "styleName": "forPopUp"
+    },
+    "hu": {
+      "text": "Érmék:",
+      "styleName": "forPopUp"
+    },
+    "it": {
+      "text": "Monete:",
+      "styleName": "forPopUp"
+    },
+    "lv": {
+      "text": "Monētas:",
+      "styleName": "forPopUp"
+    },
+    "pt": {
+      "text": "Moedas:",
+      "styleName": "forPopUp"
+    },
+    "pt(br)": {
+      "text": "Moedas:",
+      "styleName": "forPopUp"
+    },
+    "ro": {
+      "text": "Fise:",
+      "styleName": "forPopUp"
+    },
+    "tr": {
+      "text": "Jeton:",
+      "styleName": "forPopUp"
+    }
+  },
+  "popupCashText": {
+    "en": {
+      "text": "WIN:",
+      "styleName": "forPopUp"
+    },
+    "ru": {
+      "text": "Монет:",
+      "styleName": "forPopUp"
+    },
+    "sv": {
+      "text": "VINST",
+      "styleName": "forPopUp"
+    },
+    "de": {
+      "text": "GEWINN",
+      "styleName": "forPopUp"
+    },
+    "es": {
+      "text": "Monedas:",
+      "styleName": "forPopUp"
+    },
+    "fr": {
+      "text": "Pièces :",
+      "styleName": "forPopUp"
+    },
+    "hu": {
+      "text": "Érmék:",
+      "styleName": "forPopUp"
+    },
+    "it": {
+      "text": "Monete:",
+      "styleName": "forPopUp"
+    },
+    "lv": {
+      "text": "Monētas:",
+      "styleName": "forPopUp"
+    },
+    "pt": {
+      "text": "Moedas:",
+      "styleName": "forPopUp"
+    },
+    "pt(br)": {
+      "text": "Moedas:",
+      "styleName": "forPopUp"
+    },
+    "ro": {
+      "text": "Fise:",
+      "styleName": "forPopUp"
+    },
+    "tr": {
+      "text": "Jeton:",
+      "styleName": "forPopUp"
+    }
+  },
+  "bonusMynt": {
+    "en": {
+      "text": "COINS",
+      "styleName": "bonusGameText"
+    },
+    "ru": {
+      "text": "МИНТ",
+      "styleName": "bonusGameText"
+    },
+    "sv": {
+      "text": "MYNT",
+      "styleName": "bonusGameText"
+    },
+    "de": {
+      "text": "MÜNZEN:",
+      "styleName": "bonusGameText"
+    },
+    "es": {
+      "text": "MONEDAS",
+      "styleName": "bonusGameText"
+    },
+    "fr": {
+      "text": "PIÈCES",
+      "styleName": "bonusGameText"
+    },
+    "hu": {
+      "text": "ÉRMÉK",
+      "styleName": "bonusGameText"
+    },
+    "it": {
+      "text": "MONETE",
+      "styleName": "bonusGameText"
+    },
+    "lv": {
+      "text": "MONĒTAS",
+      "styleName": "bonusGameText"
+    },
+    "pt": {
+      "text": "MOEDAS",
+      "styleName": "bonusGameText"
+    },
+    "pt(br)": {
+      "text": "MOEDAS",
+      "styleName": "bonusGameText"
+    },
+    "ro": {
+      "text": "FISE",
+      "styleName": "bonusGameText"
+    },
+    "tr": {
+      "text": "JETON",
+      "styleName": "bonusGameText"
+    }
+  },
+  "bonusWin": {
+    "en": {
+      "text": "WIN",
+      "styleName": "bonusGameText"
+    },
+    "ru": {
+      "text": "Виграш",
+      "styleName": "bonusGameText"
+    },
+    "sv": {
+      "text": "VINST",
+      "styleName": "bonusGameText"
+    },
+    "de": {
+      "text": "GEWINN",
+      "styleName": "bonusGameText"
+    },
+    "es": {
+      "text": "MONEDAS",
+      "styleName": "bonusGameText"
+    },
+    "fr": {
+      "text": "PIÈCES",
+      "styleName": "bonusGameText"
+    },
+    "hu": {
+      "text": "ÉRMÉK",
+      "styleName": "bonusGameText"
+    },
+    "it": {
+      "text": "MONETE",
+      "styleName": "bonusGameText"
+    },
+    "lv": {
+      "text": "MONĒTAS",
+      "styleName": "bonusGameText"
+    },
+    "pt": {
+      "text": "MOEDAS",
+      "styleName": "bonusGameText"
+    },
+    "pt(br)": {
+      "text": "MOEDAS",
+      "styleName": "bonusGameText"
+    },
+    "ro": {
+      "text": "FISE",
+      "styleName": "bonusGameText"
+    },
+    "tr": {
+      "text": "JETON",
+      "styleName": "bonusGameText"
+    }
+  },
+  "popupContinueButtonText": {
+    "en": {
+      "text": "CONTINUE",
+      "styleName": "bonusGameText"
+    },
+    "ru": {
+      "text": "ПРОДОЛЖИТЬ",
+      "styleName": "bonusGameText"
+    },
+    "sv": {
+      "text": "FORTSÄTT",
+      "styleName": "bonusGameText"
+    },
+    "de": {
+      "text": "WEITER",
+      "styleName": "bonusGameText"
+    },
+    "es": {
+      "text": "CONTINUAR",
+      "styleName": "bonusGameText"
+    },
+    "fr": {
+      "text": "CONTINUER",
+      "styleName": "bonusGameText"
+    },
+    "hu": {
+      "text": "FOLYTAT",
+      "styleName": "bonusGameText"
+    },
+    "it": {
+      "text": "CONTINUA",
+      "styleName": "bonusGameText"
+    },
+    "lv": {
+      "text": "TURPINĀT",
+      "styleName": "bonusGameText"
+    },
+    "pt": {
+      "text": "CONTINUAR",
+      "styleName": "bonusGameText"
+    },
+    "pt(br)": {
+      "text": "CONTINUAR",
+      "styleName": "bonusGameText"
+    },
+    "ro": {
+      "text": "CONTINUAȚI",
+      "styleName": "bonusGameText"
+    },
+    "tr": {
+      "text": "DEVAM ET",
+      "styleName": "bonusGameText"
+    }
+  },
+  "bonusFreespins": {
+    "en": {
+      "text": "FREE\nSPINS",
+      "styleName": "bonusGameText"
+    },
+    "ru": {
+      "text": "ФРИ\nСПИНЫ",
+      "styleName": "bonusGameText"
+    },
+    "sv": {
+      "text": "FREE\nSPINS",
+      "styleName": "bonusGameText"
+    },
+    "de": {
+      "text": "FREI\nSPIELE",
+      "styleName": "bonusGameText"
+    },
+    "es": {
+      "text": "GIROS\nLIBRES",
+      "styleName": "bonusGameText"
+    },
+    "fr": {
+      "text": "TOURS\nGRATUITS",
+      "styleName": "bonusGameText"
+    },
+    "hu": {
+      "text": "INGYENES\nPÖRGETÉSEK",
+      "styleName": "bonusGameText"
+    },
+    "it": {
+      "text": "GIRI\nLIBERI",
+      "styleName": "bonusGameText"
+    },
+    "lv": {
+      "text": "BEZMAKSAS\nGRIEZIENI",
+      "styleName": "bonusGameText"
+    },
+    "pt": {
+      "text": "ROTAÇÕES\nGRATUITAS",
+      "styleName": "bonusGameText"
+    },
+    "pt(br)": {
+      "text": "RODADAS\nGRÁTIS",
+      "styleName": "bonusGameText"
+    },
+    "ro": {
+      "text": "ROTIRI\nGRATUITE",
+      "styleName": "bonusGameText"
+    },
+    "tr": {
+      "text": "ÜCRETSİZ\nDÖNDÜRME",
+      "styleName": "bonusGameText"
+    }
+  },
+  "clickToContinue": {
+    "en": {
+      "text": "CLICK TO CONTINUE",
+      "styleName": "clickToContinue2"
+    },
+    "ru": {
+      "text": "НАЖМИТЕ ДЛЯ ПРОДОЛЖЕНИЯ",
+      "styleName": "clickToContinue2"
+    },
+    "sv": {
+      "text": "KLICKA FÖR ATT FORTSÄTTA",
+      "styleName": "clickToContinue2"
+    },
+    "de": {
+      "text": "KLICKE, UM FORTZUFAHREN",
+      "styleName": "clickToContinue2"
+    },
+    "es": {
+      "text": "HAGA CLIC PARA CONTINUAR",
+      "styleName": "clickToContinue2"
+    },
+    "fr": {
+      "text": "CLIQUEZ POUR CONTINUER",
+      "styleName": "clickToContinue2"
+    },
+    "hu": {
+      "text": "KATT A FOLYTATÁSHOZ",
+      "styleName": "clickToContinue2"
+    },
+    "it": {
+      "text": "CLICCA PER CONTINUARE",
+      "styleName": "clickToContinue2"
+    },
+    "lv": {
+      "text": "NOKLIKŠĶINIET, LAI TURPINĀTU",
+      "styleName": "clickToContinue2"
+    },
+    "pt": {
+      "text": "CLIQUE PARA CONTINUAR",
+      "styleName": "clickToContinue2"
+    },
+    "pt(br)": {
+      "text": "CLIQUE PARA CONTINUAR",
+      "styleName": "clickToContinue2"
+    },
+    "ro": {
+      "text": "FACEȚI CLIC PENTRU A CONTINUA",
+      "styleName": "clickToContinue2"
+    },
+    "tr": {
+      "text": "DEVAM ETMEK İÇİN TIKLAYIN",
+      "styleName": "clickToContinue2"
+    }
+  },
+  "winUpTo": {
+    "en": {
+      "text": "WIN UP TO 80000 COINS",
+      "styleName": "winUpTo"
+    },
+    "ru": {
+      "text": "WIN UP TO 80000 COINS",
+      "styleName": "winUpTo"
+    },
+    "sv": {
+      "text": "VINN UPP TILL 80000 MYNT",
+      "styleName": "winUpTo"
+    },
+    "de": {
+      "text": "GEWINNE BIS ZU 80000 MÜNZEN",
+      "styleName": "winUpTo"
+    },
+    "es": {
+      "text": "GANAR HASTA 80000 MONEDAS",
+      "styleName": "winUpTo"
+    },
+    "fr": {
+      "text": "GAGNER JUSQU'À 80000 PIÈCES",
+      "styleName": "winUpTo"
+    },
+    "hu": {
+      "text": "NYERJEN AKÁR 80000 ÉRMÉT",
+      "styleName": "winUpTo"
+    },
+    "it": {
+      "text": "VINCI FINO A 80000 MONETE",
+      "styleName": "winUpTo"
+    },
+    "lv": {
+      "text": "LAIMĒJIET LĪDZ 80000 MONĒTĀM",
+      "styleName": "winUpTo"
+    },
+    "pt": {
+      "text": "GANHE ATÉ 80000 MOEDAS",
+      "styleName": "winUpTo"
+    },
+    "pt(br)": {
+      "text": "GANHE ATÉ 80000 MOEDAS",
+      "styleName": "winUpTo"
+    },
+    "ro": {
+      "text": "CÂȘTIGAȚI PÂNĂ LA 80000 DE FISE",
+      "styleName": "winUpTo"
+    },
+    "tr": {
+      "text": "80000 JETON KAZAN",
+      "styleName": "winUpTo"
+    }
+  },
+  "undeadVikingsBonus": {
+    "en": {
+      "text": "UNDEAD VIKINGS BONUS",
+      "styleName": "undeadVikingsBonus"
+    },
+    "ru": {
+      "text": "UNDEAD VIKINGS BONUS",
+      "styleName": "undeadVikingsBonus"
+    },
+    "sv": {
+      "text": "UNDEAD VIKINGS BONUS",
+      "styleName": "undeadVikingsBonus"
+    },
+    "de": {
+      "text": "UNDEAD VIKINGS BONUS",
+      "styleName": "undeadVikingsBonus"
+    },
+    "es": {
+      "text": "BONIFICACIÓN DE UNDEAD VIKINGS",
+      "styleName": "undeadVikingsBonus"
+    },
+    "fr": {
+      "text": "BONUS UNDEAD VIKINGS",
+      "styleName": "undeadVikingsBonus"
+    },
+    "hu": {
+      "text": "UNDEAD VIKINGS BÓNUSZ",
+      "styleName": "undeadVikingsBonus"
+    },
+    "it": {
+      "text": "BONUS PER GLI UNDEAD VIKINGS",
+      "styleName": "undeadVikingsBonus"
+    },
+    "lv": {
+      "text": "UNDEAD VIKINGS BONUSS",
+      "styleName": "undeadVikingsBonus"
+    },
+    "pt": {
+      "text": "BÓNUS DO VIKINGS MORTOS-VIVOS",
+      "styleName": "undeadVikingsBonus"
+    },
+    "pt(br)": {
+      "text": "BÔNUS DE UNDEAD VIKINGS",
+      "styleName": "undeadVikingsBonus"
+    },
+    "ro": {
+      "text": "BONUS VIKINGI ZOMBII",
+      "styleName": "undeadVikingsBonus"
+    },
+    "tr": {
+      "text": "UNDEAD VIKINGS BONUSU",
+      "styleName": "undeadVikingsBonus"
+    }
+  },
+  "angryElf": {
+    "en": {
+      "text": "ANGRY ELF BONUS",
+      "styleName": "preloadText"
+    },
+    "ru": {
+      "text": "ANGRY ELF BONUS",
+      "styleName": "preloadText"
+    },
+    "sv": {
+      "text": "ANGRY ELF BONUS",
+      "styleName": "preloadText"
+    },
+    "de": {
+      "text": "ANGRY ELF BONUS",
+      "styleName": "preloadText"
+    }
+  },
+  "freeSpinsModeWithSymbolMultiplier": {
+    "en": {
+      "text": "FREE SPINS MODE SYMBOL\nMULTIPLIERS",
+      "styleName": "preloadText"
+    },
+    "ru": {
+      "text": "FREE SPINS MODE SYMBOL\nMULTIPLIERS",
+      "styleName": "preloadText"
+    },
+    "sv": {
+      "text": "FREE SPINS LÄGE SYMBOL\nMULTIPLIKATOR",
+      "styleName": "preloadText"
+    },
+    "de": {
+      "text": "SYMBOLMULTIPLIKATOREN\nIM FREISPIELMODUS",
+      "styleName": "preloadText"
+    },
+    "es": {
+      "text": "MULTIPLICADORES DE SÍMBOLOS\nDEL MODO GIROS LIBRES",
+      "styleName": "preloadText"
+    },
+    "fr": {
+      "text": "SYMBOLES MULTIPLICATEURS\nEN MODE TOURS GRATUITS",
+      "styleName": "preloadText"
+    },
+    "hu": {
+      "text": "SZIMBÓLUMSZORZÓK INGYENES\nPÖRGETÉSEK MÓBAN",
+      "styleName": "preloadText"
+    },
+    "it": {
+      "text": "MOLTIPLICATORI SIMBOLO DELLA\nMODALITÀ A GIRO GRATUITO",
+      "styleName": "preloadText"
+    },
+    "lv": {
+      "text": "BEZMAKSAS GRIEZIENU REŽĪMA\nSIMBOLA REIZINĀTĀJI",
+      "styleName": "preloadText"
+    },
+    "pt": {
+      "text": "MULTIPLICADORES DE SÍMBOLOS\nDO MODO ROTAÇÕES GRATUITAS",
+      "styleName": "preloadText"
+    },
+    "pt(br)": {
+      "text": "MULTIPLICADOR DE SÍMBOLOS\nNO MODO RODADAS GRÁTIS",
+      "styleName": "preloadText"
+    },
+    "ro": {
+      "text": "MULTIPLICATORI SIMBOL\nMODUL ROTIRI GRATUITE",
+      "styleName": "preloadText"
+    },
+    "tr": {
+      "text": "ÜCRETSİZ DÖNDÜRME MODU\nSEMBOL ÇARPANLARI",
+      "styleName": "preloadText"
+    }
+  },
+  "bonusActivated": {
+    "en": {
+      "text": "BONUS,FEATURE,ACTIVATED",
+      "styleName": "system"
+    },
+    "ru": {
+      "text": "BONUS,FEATURE,ACTIVATED",
+      "styleName": "system"
+    },
+    "sv": {
+      "text": "BONUSEN,AKTIVERAD",
+      "styleName": "system"
+    },
+    "de": {
+      "text": "BONUS,FUNKTION,AKTIVIERT",
+      "styleName": "system"
+    }
+  },
+  "bonusReactivated": {
+    "en": {
+      "text": "BONUS,FEATURE,REACTIVATED",
+      "styleName": "system"
+    },
+    "ru": {
+      "text": "BONUS,FEATURE,REACTIVATED",
+      "styleName": "system"
+    },
+    "sv": {
+      "text": "BONUSEN,ÅTERAKTIVERAS",
+      "styleName": "system"
+    },
+    "de": {
+      "text": "BONUS,FUNKTION,REAKTIVIERT",
+      "styleName": "system"
+    }
+  },
+  "raceInfo": {
+    "en": {
+      "text": "RACE INFO",
+      "styleName": "system"
+    },
+    "sv": {
+      "text": "LOPP INFO",
+      "styleName": "system"
+    }
+  },
+  "ChooseYourHorse": {
+    "en": {
+      "text": "Choose your horse",
+      "styleName": "splashSlide"
+    },
+    "sv": {
+      "text": "Välj din travhäst",
+      "styleName": "splashSlide"
+    }
+  },
+  "splashRace": {
+    "en": {
+      "text": "Get challenged by Delicious\n in the Bonus Race!",
+      "styleName": "splashSlide"
+    },
+    "sv": {
+      "text": "Bli utmanad av Delicious\ni Bonusloppet!",
+      "styleName": "splashSlide"
+    }
+  },
+  "ToEnterTheBonusGame": {
+    "en": {
+      "text": "Land three symbols to enter\nthe Trotting Bonus Race",
+      "styleName": "splashSlide"
+    },
+    "sv": {
+      "text": "Landa tre symboler för inträde\ntill Bonusloppet",
+      "styleName": "splashSlide"
+    }
+  },
+  "Landing3OrMore": {
+    "en": {
+      "text": "Three Golden Cups\n award free spins",
+      "styleName": "splashSlide"
+    },
+    "sv": {
+      "text": "Tre Guldpokaler\nbelönas med frispel",
+      "styleName": "splashSlide"
+    }
+  },
+  "Landing3OrMore2": {
+    "en": {
+      "text": "Three Golden Cups\n award free spins",
+      "styleName": "splashSlide2"
+    },
+    "sv": {
+      "text": "Tre Guldpokaler\nbelönas med frispel",
+      "styleName": "splashSlide2"
+    }
+  },
+  "popupBonusEnter": {
+    "en": {
+      "text": "WELCOME TO THE BONUS RACE!",
+      "styleName": "popupBonusIntro"
+    },
+    "sv": {
+      "text": "VÄLKOMMEN TILL BONUSLOPPET!",
+      "styleName": "popupBonusIntro"
+    }
+  },
+  "popupBonusEnterRetrigger": {
+    "en": {
+      "text": "Welcome back to\nthe Bonus Race!",
+      "styleName": "popupBonusIntro"
+    },
+    "sv": {
+      "text": "Välkommen åter\ntill Bonusloppet!",
+      "styleName": "popupBonusIntro"
+    }
+  },
+  "bonusRewardsTitle": {
+		"en": {
+			"text": "Bonus race winnings",
+			"styleName": "popupBonusIntro"
+		},
+		"sv": {
+			"text": "Priser från Bonusloppet",
+			"styleName": "popupBonusIntro"
+		}
+  },
+  "popupRewardsMultiplier": {
+    "en": {
+      "text": "Multiplier",
+      "styleName": "bonusRewardsInfo"
+    },
+    "sv": {
+      "text": "Multiplikator",
+      "styleName": "bonusRewardsInfo"
+    }
+  },
+  "popupRewardsBonusRetrigger": {
+    "en": {
+      "text": "Wildcard",
+      "styleName": "bonusRewardsInfo"
+    },
+    "sv": {
+        "text": "Wildcard",
+        "styleName": "bonusRewardsInfo"
+    }
+  },
+  "connectionErrorTitle": {
+    "en": {
+      "text": "CONNECTION ERROR",
+      "styleName": "system"
+    },
+    "sv": {
+      "text": "NÄTVERKSFEL",
+      "styleName": "system"
+    },
+    "de": {
+      "text": "VERBINDUNGSFEHLER",
+      "styleName": "system"
+    }
+  },
+  "connectionErrorText": {
+    "en": {
+      "text": "The network connection has been lost.\n Please check your internet connection or choose another network.",
+      "styleName": "system"
+    },
+    "sv": {
+      "text": "Internetanslutningen har brutits.\nVänligen kontrollera din anslutning eller välj ett annat nätverk.",
+      "styleName": "system"
+    },
+    "de": {
+      "text": "Die Verbindung zum Netzwerk wurde unterbrochen.\nBitte überprüfen Sie Ihre Netzwerkverbindung oder wählen Sie ein anderes Netzwerk aus.",
+      "styleName": "system"
+    }
+  },
+  "connectionErrorButton": {
+    "en": {
+      "text": "OK",
+      "styleName": "system"
+    },
+    "sv": {
+      "text": "OK",
+      "styleName": "system"
+    },
+    "de": {
+      "text": "OK",
+      "styleName": "system"
+    }
+  },
+  "DeliciousInfoSlide0": {
+    "en": {
+      "text": "Delicious föddes 25 mars 2009 på\nLindy Farms i Connecticut.\n\nDelicious väckte stor uppmärksamhet då hon\nmäter endast 147 cm i mankhöjd likt en D-ponny.\n\nDen 14:e augusti 2015 satte Delicious världsrekord på\nBollnästravet med tiden 1.08,6 på distansen 1640 m.\n\nDen 29:e augusti 2015 satte Delicious världsrekord på\nBergsåker med tiden 1.10,0 på distansen 2140 m.",
+      "styleName": "deliciousInfoSlide"
+    },
+    "sv": {
+      "text": "Delicious föddes 25 mars 2009 på\nLindy Farms i Connecticut.\n\nDelicious väckte stor uppmärksamhet då hon\nmäter endast 147 cm i mankhöjd likt en D-ponny.\n\nDen 14:e augusti 2015 satte Delicious världsrekord på\nBollnästravet med tiden 1.08,6 på distansen 1640 m.\n\nDen 29:e augusti 2015 satte Delicious världsrekord på\nBergsåker med tiden 1.10,0 på distansen 2140 m.",
+      "styleName": "deliciousInfoSlide"
+    },
+    "de": {
+      "text": "Delicious föddes 25 mars 2009 på\nLindy Farms i Connecticut.\n\nDelicious väckte stor uppmärksamhet då hon\nmäter endast 147 cm i mankhöjd likt en D-ponny.\n\nDen 14:e augusti 2015 satte Delicious världsrekord på\nBollnästravet med tiden 1.08,6 på distansen 1640 m.\n\nDen 29:e augusti 2015 satte Delicious världsrekord på\nBergsåker med tiden 1.10,0 på distansen 2140 m.",
+      "styleName": "deliciousInfoSlide"
+    }
+  },
+  "DeliciousInfoSlide1": {
+    "en": {
+      "text": "Den 24:e oktober 2015 satte Delicious världsrekord på\nJägersro på med tiden 1.12,1 på distansen 2640 m.\n\nDelicious vann 29 av sina 55 starter under åren\n2012-2017\n\n2015 framröstades Delicious till Årets Häst\nav en jury samt svenska folket.\n\nDelicious lider av IBD en allvarlig magsjukdom,\nsom i sin tur satte stopp för fortsatt tävlande.",
+      "styleName": "deliciousInfoSlide"
+    },
+    "sv": {
+      "text": "Den 24:e oktober 2015 satte Delicious världsrekord på\nJägersro på med tiden 1.12,1 på distansen 2640 m.\n\nDelicious vann 29 av sina 55 starter under åren\n2012-2017\n\n2015 framröstades Delicious till Årets Häst\nav en jury samt svenska folket.\n\nDelicious lider av IBD en allvarlig magsjukdom,\nsom i sin tur satte stopp för fortsatt tävlande.",
+      "styleName": "deliciousInfoSlide"
+    },
+    "de": {
+      "text": "Den 24:e oktober 2015 satte Delicious världsrekord på\nJägersro på med tiden 1.12,1 på distansen 2640 m.\n\nDelicious vann 29 av sina 55 starter under åren\n2012-2017\n\n2015 framröstades Delicious till Årets Häst\nav en jury samt svenska folket.\n\nDelicious lider av IBD en allvarlig magsjukdom,\nsom i sin tur satte stopp för fortsatt tävlande.",
+      "styleName": "deliciousInfoSlide"
+    }
+  },
+  "DeliciousInfoSlide2": {
+    "en": {
+      "text": "Hennes tävlingskarriär avslutades den 14 juli 2017 efter en akut\nmagoperation i samband med hennes magsjukdom.\n\nDelicious lyder även under smeknamnet Dee.\n\nDen 7:e mars 2020 föder Delicious sitt första föl,\nen hingst med namnet Heavenly Zet\n\nIdag är Delicious en lycklig mamma till fölet Heavenly Zet och\ntillbringar mycket tid i hagarna på gården",
+      "styleName": "deliciousInfoSlide"
+    },
+    "sv": {
+      "text": "Hennes tävlingskarriär avslutades den 14 juli 2017 efter en akut\nmagoperation i samband med hennes magsjukdom.\n\nDelicious lyder även under smeknamnet Dee.\n\nDen 7:e mars 2020 föder Delicious sitt första föl,\nen hingst med namnet Heavenly Zet\n\nIdag är Delicious en lycklig mamma till fölet Heavenly Zet och\ntillbringar mycket tid i hagarna på gården",
+      "styleName": "deliciousInfoSlide"
+    },
+    "de": {
+      "text": "Hennes tävlingskarriär avslutades den 14 juli 2017 efter en akut\nmagoperation i samband med hennes magsjukdom.\n\nDelicious lyder även under smeknamnet Dee.\n\nDen 7:e mars 2020 föder Delicious sitt första föl,\nen hingst med namnet Heavenly Zet\n\nIdag är Delicious en lycklig mamma till fölet Heavenly Zet och\ntillbringar mycket tid i hagarna på gården",
+      "styleName": "deliciousInfoSlide"
+    }
+  },
+
+  "symbol8_TEXT": {
+    "en": {
+      "text": "The Blazing Horseshoe replaces\nany symbol, except scatter and\nbonus in the winning combination\nwith the highest possible payment.",
+      "styleName": "paytableText"
+    },
+    "sv": {
+      "text": "Glödande Hästskon ersätter\nalla symboler, utom scatter och\nbonusi den vinnande kombination\nsom har högsta möjliga betalning.",
+      "styleName": "paytableText"
+    }
+  },
+  "symbol9_TEXT": {
+    "en": {
+      "text": "Three (3) Golden Cup scatter\nsymbols award the player with 10\nfreespins and triggers the\nfree spin mode.",
+      "styleName": "paytableText"
+    },
+    "sv": {
+      "text": "3 av scattersymbolen\nGuldpokalen ger 10 frispel samt\naktiverar frispelsläget.",
+      "styleName": "paytableText"
+    }
+  },
+  "symbol10_TEXT": {
+    "en": {
+      "text": "Three (3) Racing Champions in\nthe base game, or one (1) Racing\nChampions in free spin mode,\ntriggers the bonus race.",
+      "styleName": "paytableText"
+    },
+    "sv": {
+      "text": "3 respektive 1\nav bonussymbolen Mästarna\n triggar Bonusloppet\ni basspelet respektive frispelsläget.",
+      "styleName": "paytableText"
+    }
+  },
+  "lines_TEXT": {
+    "en": {
+      "text": "LINES",
+      "styleName": "desktopLabels"
+    },
+    "sv": {
+      "text": "LINJER",
+      "styleName": "desktopLabels"
+    }
+  },
+  "coinValue_TEXT": {
+    "en": {
+      "text": "COIN VALUE",
+      "styleName": "desktopLabels"
+    },
+    "sv": {
+      "text": "MYNT VÄRDE",
+      "styleName": "desktopLabels"
+    }
+  },
+  "bet_TEXT": {
+    "en": {
+      "text": "BET",
+      "styleName": "desktopLabels"
+    },
+    "sv": {
+      "text": "INSATS",
+      "styleName": "desktopLabels"
+    }
+  },
+  "win_TEXT": {
+    "en": {
+      "text": "WIN",
+      "styleName": "desktopLabels"
+    },
+    "sv": {
+      "text": "VINST",
+      "styleName": "desktopLabels"
+    }
+  },
+  "balance_TEXT": {
+    "en": {
+      "text": "BALANCE",
+      "styleName": "desktopLabels"
+    },
+    "sv": {
+      "text": "SALDO",
+      "styleName": "desktopLabels"
+    }
+  },
+  "fsFreespins_TEXT": {
+    "en": {
+      "text": "FREESPINS",
+      "styleName": "desktopLabelsFS"
+    },
+    "sv": {
+      "text": "FRISPEL",
+      "styleName": "desktopLabelsFS"
+    }
+  },
+  "fsTotalWin_TEXT": {
+    "en": {
+      "text": "TOTAL WIN",
+      "styleName": "desktopLabelsFS"
+    },
+    "sv": {
+      "text": "TOTAL VINST",
+      "styleName": "desktopLabelsFS"
+    }
+  },
+  "autoplayStop_TEXT": {
+    "en": {
+      "text": "STOP",
+      "styleName": "systemCenter15"
+    },
+    "sv": {
+      "text": "STOPP",
+      "styleName": "systemCenter15"
+    }
+  },
+  "settingsLabel_TEXT": {
+    "en": {
+      "text": "GENERAL SETTINGS",
+      "styleName": "systemCenter30Brown"
+    },
+    "sv": {
+      "text": "INSTÄLLNINGAR",
+      "styleName": "systemCenter30Brown"
+    }
+  },
+  "mobileAutoplayStop_TEXT": {
+    "en": {
+      "text": "STOP",
+      "styleName": "systemCenter15"
+    },
+    "sv": {
+      "text": "STOPP",
+      "styleName": "systemCenter15"
+    }
+  },
+  "soundEffectsLabel_TEXT": {
+    "en": {
+      "text": "Sound Effects",
+      "styleName": "systemLeft30Brown"
+    },
+    "sv": {
+      "text": "Ljudeffekter",
+      "styleName": "systemLeft30Brown"
+    }
+  },
+  "soundEffectsPortraitLabel_TEXT": {
+    "en": {
+      "text": "Sound Effects",
+      "styleName": "systemLeft35"
+    },
+    "sv": {
+      "text": "Ljudeffekter",
+      "styleName": "systemLeft35"
+    }
+  },
+  "musicLabel_TEXT": {
+    "en": {
+      "text": "Music",
+      "styleName": "systemLeft30Brown"
+    },
+    "sv": {
+      "text": "Musik",
+      "styleName": "systemLeft30Brown"
+    }
+  },
+  "musicPortraitLabel_TEXT": {
+    "en": {
+      "text": "Music",
+      "styleName": "systemLeft35"
+    },
+    "sv": {
+      "text": "Musik",
+      "styleName": "systemLeft35"
+    }
+  },
+  "spaceToSpinLabel_TEXT": {
+    "en": {
+      "text": "Press space to spin",
+      "styleName": "systemLeft30Brown"
+    },
+    "sv": {
+      "text": "Tryck mellanslag för spinn",
+      "styleName": "systemLeft30Brown"
+    }
+  },
+  "spaceToSpinPortraitLabel_TEXT": {
+    "en": {
+      "text": "Press space to spin",
+      "styleName": "systemLeft35"
+    },
+    "sv": {
+      "text": "Tryck mellanslag för spinn",
+      "styleName": "systemLeft35"
+    }
+  },
+  "quickSpinLabel_TEXT": {
+    "en": {
+      "text": "Quick spin",
+      "styleName": "systemLeft30Brown"
+    },
+    "sv": {
+      "text": "Snabbspinn",
+      "styleName": "systemLeft30Brown"
+    }
+  },
+  "quickSpinPortraitLabel_TEXT": {
+    "en": {
+      "text": "Quick spin",
+      "styleName": "systemLeft35"
+    },
+    "sv": {
+      "text": "Snabbspinn",
+      "styleName": "systemLeft35"
+    }
+  },
+  "fullScreenLabel_TEXT": {
+    "en": {
+      "text": "Fullscreen",
+      "styleName": "systemLeft30Brown"
+    },
+    "sv": {
+      "text": "Fullskärm",
+      "styleName": "systemLeft30Brown"
+    }
+  },
+  "fullScreenPortraitLabel_TEXT": {
+    "en": {
+      "text": "Fullscreen",
+      "styleName": "systemLeft35"
+    },
+    "sv": {
+      "text": "Fullskärm",
+      "styleName": "systemLeft35"
+    }
+  },
+  "autospinsSettingsLabel_TEXT": {
+    "en": {
+      "text": "AUTOPLAY SETTINGS",
+      "styleName": "systemCenter30Brown"
+    },
+    "sv": {
+      "text": "AUTOSPEL INSTÄLLNINGAR",
+      "styleName": "systemCenter30Brown"
+    }
+  },
+  "stopAutoplayLabel_TEXT": {
+    "en": {
+      "text": "STOP AUTOPLAY",
+      "styleName": "systemCenter30Brown"
+    },
+    "sv": {
+      "text": "STOPPA AUTOSPEL",
+      "styleName": "systemCenter30Brown"
+    }
+  },
+  "singleWinLabel_TEXT": {
+    "en": {
+      "text": "On Single win of total bet",
+      "styleName": "systemLeft30Brown"
+    },
+    "sv": {
+      "text": "Med en singel vinst om minst",
+      "styleName": "systemLeft30Brown"
+    }
+  },
+  "singleWinPortrait_TEXT": {
+    "en": {
+      "text": "On Single win of total bet",
+      "styleName": "systemLeft35"
+    },
+    "sv": {
+      "text": "Med en singel vinst om minst",
+      "styleName": "systemLeft35"
+    }
+  },
+  "cashIncreaseLabel_TEXT": {
+    "en": {
+      "text": "If each increased by",
+      "styleName": "systemLeft30Brown"
+    },
+    "sv": {
+      "text": "If each increased by",
+      "styleName": "systemLeft30Brown"
+    }
+  },
+  "cashIncreasePortrait_TEXT": {
+    "en": {
+      "text": "If each increased by",
+      "styleName": "systemLeft35"
+    },
+    "sv": {
+      "text": "If each increased by",
+      "styleName": "systemLeft35"
+    }
+  },
+  "cashDecreaseLabel_TEXT": {
+    "en": {
+      "text": "If each decreased by",
+      "styleName": "systemLeft30Brown"
+    },
+    "sv": {
+      "text": "If each decreased by",
+      "styleName": "systemLeft30Brown"
+    }
+  },
+  "cashDecreasePortrait_TEXT": {
+    "en": {
+      "text": "If each decreased by",
+      "styleName": "systemLeft35"
+    },
+    "sv": {
+      "text": "If each decreased by",
+      "styleName": "systemLeft35"
+    }
+  },
+  "whenFreespinsLabel_TEXT": {
+    "en": {
+      "text": "When entering Free Spins",
+      "styleName": "systemLeft30Brown"
+    },
+    "sv": {
+      "text": "När du når Frispel",
+      "styleName": "systemLeft30Brown"
+    }
+  },
+  "whenFreespinsPortrait_TEXT": {
+    "en": {
+      "text": "When entering Free Spins",
+      "styleName": "systemLeft35"
+    },
+    "sv": {
+      "text": "När du når Frispel",
+      "styleName": "systemLeft35"
+    }
+  },
+  "dropDownPaytable_TEXT": {
+    "en": {
+      "text": "PAYTABLE",
+      "styleName": "systemLeft40"
+    },
+    "sv": {
+      "text": "VINSTTABELL",
+      "styleName": "systemLeft40"
+    }
+  },
+  "dropDownSettings_TEXT": {
+    "en": {
+      "text": "SETTINGS",
+      "styleName": "systemLeft40"
+    },
+    "sv": {
+      "text": "INSTÄLLNINGAR",
+      "styleName": "systemLeft40"
+    }
+  },
+  "dropDownGameRules_TEXT": {
+    "en": {
+      "text": "GAME RULES",
+      "styleName": "systemLeft40"
+    },
+    "sv": {
+      "text": "SPELREGLER",
+      "styleName": "systemLeft40"
+    }
+  },
+  "generalSettingsPortrait_TEXT": {
+    "en": {
+      "text": "GENERAL SETTINGS",
+      "styleName": "systemCenter50"
+    },
+    "sv": {
+      "text": "INSTÄLLNINGAR",
+      "styleName": "systemCenter50"
+    }
+  },
+  "generalSettingsLabelPortrait_TEXT": {
+    "en": {
+      "text": "SETTINGS",
+      "styleName": "systemCenter35"
+    },
+    "sv": {
+      "text": "INSTÄLLNINGAR",
+      "styleName": "systemCenter35"
+    }
+  },
+  "stopAutospinLabelPortrait_TEXT": {
+    "en": {
+      "text": "STOP AUTOSPIN",
+      "styleName": "systemCenter35"
+    },
+    "sv": {
+      "text": "STOPPA AUTOSPEL",
+      "styleName": "systemCenter35"
+    }
+  },
+  "autospinSettingsLabelPortrait_TEXT": {
+    "en": {
+      "text": "AUTOSPIN SETTINGS",
+      "styleName": "systemCenter50"
+    },
+    "sv": {
+      "text": "AUTOSPEL INSTÄLLNINGAR",
+      "styleName": "systemCenter50"
+    }
+  },
+  "cashBetLabelPortrait_TEXT": {
+    "en": {
+      "text": "CASH BET",
+      "styleName": "systemCenter50"
+    },
+    "sv": {
+      "text": "TOTAL INSATS",
+      "styleName": "systemCenter50"
+    }
+  },
+  "autoplayStart_TEXT": {
+    "en": {
+      "text": "START",
+      "styleName": "systemCenter35Grey"
+    },
+    "sv": {
+      "text": "STARTA",
+      "styleName": "systemCenter35Grey"
+    }
+  },
+  "cashBetConfirm_TEXT": {
+    "en": {
+      "text": "CONFIRM",
+      "styleName": "systemCenter35Grey"
+    },
+    "sv": {
+      "text": "BEKRÄFTA",
+      "styleName": "systemCenter35Grey"
+    }
+  },
+  "cancel_TEXT": {
+    "en": {
+      "text": "CANCEL",
+      "styleName": "systemCenter35"
+    },
+    "sv": {
+      "text": "AVBRYT",
+      "styleName": "systemCenter35"
+    }
+  },
+  "paytableLabel_TEXT": {
+    "en": {
+      "text": "PAYTABLE",
+      "styleName": "paytableCenter"
+    },
+    "sv": {
+      "text": "VINSTTABELL",
+      "styleName": "paytableCenter"
+    }
+  }
+}

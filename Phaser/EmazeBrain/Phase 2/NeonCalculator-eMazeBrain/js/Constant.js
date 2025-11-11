@@ -1,0 +1,14 @@
+var game;
+var scaleFactor;
+var scaleFactorX;
+var scaleFactorY;
+var isIPad;
+var isMobile;
+// var offset ;
+var white = null;
+var test = null;
+var length = 1;
+var gameStarted = false;
+var gameId = 14;
+
+var demo = null;

@@ -1,0 +1,78 @@
+FS SYMBOL_400x400.png
+size:1801,935
+filter:Linear,Linear
+pma:true
+scale:0.6675
+Border
+bounds:2,105,240,195
+Frame_BG
+bounds:625,348,585,585
+Frame_Frame
+bounds:2,302,621,631
+Free_Highlight
+bounds:1212,348,239,80
+Layer 1
+bounds:1711,767,79,81
+Layer 2
+bounds:486,50,77,77
+Layer 3
+bounds:1711,601,81,78
+rotate:90
+Layer 4
+bounds:244,50,79,77
+Layer 5
+bounds:1711,850,79,83
+Layer 6
+bounds:325,50,79,77
+Layer 7
+bounds:1711,684,81,79
+rotate:90
+Layer 8
+bounds:406,50,78,77
+Shadow
+bounds:1212,617,324,316
+Sparkle
+bounds:1317,234,101,112
+Spin_hightlight
+bounds:2,20,239,83
+offsets:0,0,239,185
+Surface
+bounds:1212,430,239,185
+frame_00000
+bounds:1538,762,171,171
+frame_00001
+bounds:244,129,171,171
+frame_00002
+bounds:417,129,171,171
+frame_00003
+bounds:1538,589,171,171
+frame_00004
+bounds:1453,416,171,171
+frame_00005
+bounds:1626,416,171,171
+frame_00006
+bounds:1453,243,171,171
+frame_00007
+bounds:1626,243,171,171
+frame_00008
+bounds:625,175,171,171
+frame_00009
+bounds:798,175,171,171
+frame_00010
+bounds:971,175,171,171
+frame_00011
+bounds:1144,175,171,171
+frame_00012
+bounds:590,2,171,171
+frame_00013
+bounds:763,2,171,171
+frame_00014
+bounds:936,2,171,171
+frame_00015
+bounds:1109,2,171,171
+frame_00016
+bounds:1282,2,171,171
+frame_00017
+bounds:1455,70,171,171
+frame_00018
+bounds:1628,70,171,171

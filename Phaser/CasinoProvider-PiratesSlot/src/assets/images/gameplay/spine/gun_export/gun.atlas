@@ -1,0 +1,386 @@
+gun.png
+size:3970,1073
+filter:Linear,Linear
+pma:true
+scale:0.5
+Gun front ring
+bounds:2444,206,204,264
+rotate:90
+Layer 666
+bounds:3820,823,52,78
+Layer 669
+bounds:2800,726,188,345
+Layer 694
+bounds:1204,410,603,661
+offsets:0,0,603,677
+Layer 697
+bounds:98,320,751,1104
+rotate:90
+Particles
+bounds:1809,412,659,645
+rotate:90
+frame_bottom
+bounds:343,191,751,127
+frame_l
+bounds:2,173,46,898
+frame_r
+bounds:50,177,46,894
+frame_top
+bounds:1096,196,751,122
+fx1/Elements - Explosion 05 MIX Right Shot Hit noCT noRZS/gunshot_01
+bounds:202,18,199,157
+offsets:43,13,320,180
+fx1/Elements - Explosion 05 MIX Right Shot Hit noCT noRZS/gunshot_010
+bounds:1961,2,199,157
+offsets:43,13,320,180
+rotate:90
+fx1/Elements - Explosion 05 MIX Right Shot Hit noCT noRZS/gunshot_011
+bounds:1961,2,199,157
+offsets:43,13,320,180
+rotate:90
+fx1/Elements - Explosion 05 MIX Right Shot Hit noCT noRZS/gunshot_012
+bounds:2120,2,199,157
+offsets:43,13,320,180
+rotate:90
+fx1/Elements - Explosion 05 MIX Right Shot Hit noCT noRZS/gunshot_02
+bounds:2279,2,199,157
+offsets:43,13,320,180
+rotate:90
+fx1/Elements - Explosion 05 MIX Right Shot Hit noCT noRZS/gunshot_03
+bounds:2438,2,199,157
+offsets:43,13,320,180
+rotate:90
+fx1/Elements - Explosion 05 MIX Right Shot Hit noCT noRZS/gunshot_04
+bounds:2597,5,199,157
+offsets:43,13,320,180
+rotate:90
+fx1/Elements - Explosion 05 MIX Right Shot Hit noCT noRZS/gunshot_05
+bounds:2456,419,199,157
+offsets:43,13,320,180
+fx1/Elements - Explosion 05 MIX Right Shot Hit noCT noRZS/gunshot_06
+bounds:2657,419,199,157
+offsets:43,13,320,180
+fx1/Elements - Explosion 05 MIX Right Shot Hit noCT noRZS/gunshot_07
+bounds:2710,218,199,157
+offsets:43,13,320,180
+rotate:90
+fx1/Elements - Explosion 05 MIX Right Shot Hit noCT noRZS/gunshot_08
+bounds:2710,218,199,157
+offsets:43,13,320,180
+rotate:90
+fx1/Elements - Explosion 05 MIX Right Shot Hit noCT noRZS/gunshot_09
+bounds:2756,17,199,157
+offsets:43,13,320,180
+rotate:90
+fx1/Elements - Explosion 08 MIX Radial Hit noCT noRZS/Elements - Explosion 08 MIX Radial Hit noCT noRZS_00000
+bounds:660,9,189,180
+offsets:71,0,320,180
+fx1/Elements - Explosion 08 MIX Radial Hit noCT noRZS/Elements - Explosion 08 MIX Radial Hit noCT noRZS_00001
+bounds:851,9,189,180
+offsets:71,0,320,180
+fx1/Elements - Explosion 08 MIX Radial Hit noCT noRZS/Elements - Explosion 08 MIX Radial Hit noCT noRZS_00002
+bounds:1042,9,189,180
+offsets:71,0,320,180
+fx1/Elements - Explosion 08 MIX Radial Hit noCT noRZS/Elements - Explosion 08 MIX Radial Hit noCT noRZS_00003
+bounds:1233,5,189,180
+offsets:71,0,320,180
+rotate:90
+fx1/Elements - Explosion 08 MIX Radial Hit noCT noRZS/Elements - Explosion 08 MIX Radial Hit noCT noRZS_00004
+bounds:1415,5,189,180
+offsets:71,0,320,180
+rotate:90
+fx1/Elements - Explosion 08 MIX Radial Hit noCT noRZS/Elements - Explosion 08 MIX Radial Hit noCT noRZS_00005
+bounds:1597,5,189,180
+offsets:71,0,320,180
+rotate:90
+fx1/Elements - Explosion 08 MIX Radial Hit noCT noRZS/Elements - Explosion 08 MIX Radial Hit noCT noRZS_00006
+bounds:1779,5,189,180
+offsets:71,0,320,180
+rotate:90
+fx1/Elements - Explosion 08 MIX Radial Hit noCT noRZS/Elements - Explosion 08 MIX Radial Hit noCT noRZS_00007
+bounds:2858,420,189,180
+offsets:71,0,320,180
+fx1/Elements - Explosion 08 MIX Radial Hit noCT noRZS/Elements - Explosion 08 MIX Radial Hit noCT noRZS_00008
+bounds:3049,420,189,180
+offsets:71,0,320,180
+fx1/Elements - Explosion 08 MIX Radial Hit noCT noRZS/Elements - Explosion 08 MIX Radial Hit noCT noRZS_00009
+bounds:2915,32,189,180
+offsets:71,0,320,180
+rotate:90
+fx1/Elements - Explosion 08 MIX Radial Hit noCT noRZS/Elements - Explosion 08 MIX Radial Hit noCT noRZS_00010
+bounds:3094,229,189,180
+offsets:71,0,320,180
+rotate:90
+fx1/Elements - Explosion 08 MIX Radial Hit noCT noRZS/Elements - Explosion 08 MIX Radial Hit noCT noRZS_00011
+bounds:3097,38,189,180
+offsets:71,0,320,180
+rotate:90
+fx1/Elements - Explosion 08 MIX Radial Hit noCT noRZS/Elements - Explosion 08 MIX Radial Hit noCT noRZS_00012
+bounds:3240,435,189,180
+offsets:71,0,320,180
+rotate:90
+fx1/Elements - Explosion 08 MIX Radial Hit noCT noRZS/Elements - Explosion 08 MIX Radial Hit noCT noRZS_00013
+bounds:3276,244,189,180
+offsets:71,0,320,180
+rotate:90
+fx1/Elements - Explosion 08 MIX Radial Hit noCT noRZS/Elements - Explosion 08 MIX Radial Hit noCT noRZS_00014
+bounds:3332,882,189,180
+offsets:71,0,320,180
+rotate:90
+fx1/Elements - Explosion 08 MIX Radial Hit noCT noRZS/Elements - Explosion 08 MIX Radial Hit noCT noRZS_00015
+bounds:3514,882,189,180
+offsets:71,0,320,180
+rotate:90
+fx1/Elements - Explosion 08 MIX Radial Hit noCT noRZS/Elements - Explosion 08 MIX Radial Hit noCT noRZS_00016
+bounds:3422,443,189,180
+offsets:71,0,320,180
+rotate:90
+fx1/Elements - Explosion 08 MIX Radial Hit noCT noRZS/Elements - Explosion 08 MIX Radial Hit noCT noRZS_00017
+bounds:3422,443,189,180
+offsets:71,0,320,180
+rotate:90
+fx1/Elements - Explosion 08 MIX Radial Hit noCT noRZS/Elements - Explosion 08 MIX Radial Hit noCT noRZS_00018
+bounds:3279,53,189,180
+offsets:71,0,320,180
+rotate:90
+fx1/Elements - Explosion 08 MIX Radial Hit noCT noRZS/Elements - Explosion 08 MIX Radial Hit noCT noRZS_00019
+bounds:3458,252,189,180
+offsets:71,0,320,180
+rotate:90
+golden metal
+bounds:2990,741,330,231
+rotate:90
+gun body
+bounds:403,3,186,255
+rotate:90
+gun body shadow
+bounds:3223,835,107,236
+gun front back
+bounds:2,6,165,198
+offsets:0,7,166,205
+rotate:90
+gun pipe
+bounds:2456,578,493,342
+rotate:90
+gun pipe interior
+bounds:2869,223,195,223
+rotate:90
+images/Outline_Animation_03_01860
+bounds:1204,325,83,122
+offsets:22,19,128,160
+rotate:90
+images/Outline_Animation_03_01919
+bounds:1204,325,83,122
+offsets:22,19,128,160
+rotate:90
+images/Outline_Animation_03_01861
+bounds:1328,325,83,122
+offsets:22,19,128,160
+rotate:90
+images/Outline_Animation_03_01862
+bounds:1452,325,83,122
+offsets:22,19,128,160
+rotate:90
+images/Outline_Animation_03_01863
+bounds:1576,325,83,122
+offsets:22,19,128,160
+rotate:90
+images/Outline_Animation_03_01864
+bounds:1700,325,83,122
+offsets:22,19,128,160
+rotate:90
+images/Outline_Animation_03_01865
+bounds:1824,327,83,122
+offsets:22,19,128,160
+rotate:90
+images/Outline_Animation_03_01866
+bounds:1849,203,83,122
+offsets:22,19,128,160
+images/Outline_Animation_03_01867
+bounds:1934,203,83,122
+offsets:22,19,128,160
+images/Outline_Animation_03_01868
+bounds:1948,327,83,122
+offsets:22,19,128,160
+rotate:90
+images/Outline_Animation_03_01869
+bounds:2019,203,83,122
+offsets:22,19,128,160
+images/Outline_Animation_03_01870
+bounds:2072,327,83,122
+offsets:22,19,128,160
+rotate:90
+images/Outline_Animation_03_01871
+bounds:2104,203,83,122
+offsets:22,19,128,160
+images/Outline_Animation_03_01872
+bounds:2189,203,83,122
+offsets:22,19,128,160
+images/Outline_Animation_03_01873
+bounds:2196,327,83,122
+offsets:22,19,128,160
+rotate:90
+images/Outline_Animation_03_01874
+bounds:2274,203,83,122
+offsets:22,19,128,160
+images/Outline_Animation_03_01875
+bounds:2320,327,83,122
+offsets:22,19,128,160
+rotate:90
+images/Outline_Animation_03_01876
+bounds:2359,203,83,122
+offsets:22,19,128,160
+images/Outline_Animation_03_01877
+bounds:2800,602,83,122
+offsets:22,19,128,160
+images/Outline_Animation_03_01878
+bounds:2885,602,83,122
+offsets:22,19,128,160
+images/Outline_Animation_03_01879
+bounds:2970,602,83,122
+offsets:22,19,128,160
+images/Outline_Animation_03_01880
+bounds:3055,617,83,122
+offsets:22,19,128,160
+images/Outline_Animation_03_01881
+bounds:3140,617,83,122
+offsets:22,19,128,160
+images/Outline_Animation_03_01882
+bounds:3223,750,83,122
+offsets:22,19,128,160
+rotate:90
+images/Outline_Animation_03_01883
+bounds:3225,626,83,122
+offsets:22,19,128,160
+images/Outline_Animation_03_01884
+bounds:3310,626,83,122
+offsets:22,19,128,160
+images/Outline_Animation_03_01885
+bounds:3347,758,83,122
+offsets:22,19,128,160
+images/Outline_Animation_03_01886
+bounds:3395,634,83,122
+offsets:22,19,128,160
+images/Outline_Animation_03_01887
+bounds:3432,758,83,122
+offsets:22,19,128,160
+images/Outline_Animation_03_01888
+bounds:3480,634,83,122
+offsets:22,19,128,160
+images/Outline_Animation_03_01889
+bounds:3517,758,83,122
+offsets:22,19,128,160
+images/Outline_Animation_03_01890
+bounds:3565,634,83,122
+offsets:22,19,128,160
+images/Outline_Animation_03_01891
+bounds:3602,758,83,122
+offsets:22,19,128,160
+images/Outline_Animation_03_01892
+bounds:3604,510,83,122
+offsets:22,19,128,160
+images/Outline_Animation_03_01893
+bounds:3650,634,83,122
+offsets:22,19,128,160
+images/Outline_Animation_03_01894
+bounds:3687,758,83,122
+offsets:22,19,128,160
+images/Outline_Animation_03_01895
+bounds:3689,510,83,122
+offsets:22,19,128,160
+images/Outline_Animation_03_01896
+bounds:3735,634,83,122
+offsets:22,19,128,160
+images/Outline_Animation_03_01897
+bounds:3820,988,83,122
+offsets:22,19,128,160
+rotate:90
+images/Outline_Animation_03_01898
+bounds:3696,988,83,122
+offsets:22,19,128,160
+rotate:90
+images/Outline_Animation_03_01899
+bounds:3761,903,83,122
+offsets:22,19,128,160
+rotate:90
+images/Outline_Animation_03_01900
+bounds:3885,864,83,122
+offsets:22,19,128,160
+images/Outline_Animation_03_01901
+bounds:3874,740,83,122
+offsets:22,19,128,160
+images/Outline_Animation_03_01902
+bounds:3820,655,83,122
+offsets:22,19,128,160
+rotate:90
+images/Outline_Animation_03_01903
+bounds:3820,570,83,122
+offsets:22,19,128,160
+rotate:90
+images/Outline_Animation_03_01904
+bounds:3774,485,83,122
+offsets:22,19,128,160
+rotate:90
+images/Outline_Animation_03_01905
+bounds:3461,128,83,122
+offsets:22,19,128,160
+images/Outline_Animation_03_01906
+bounds:3461,4,83,122
+offsets:22,19,128,160
+images/Outline_Animation_03_01907
+bounds:3546,128,83,122
+offsets:22,19,128,160
+images/Outline_Animation_03_01908
+bounds:3546,4,83,122
+offsets:22,19,128,160
+images/Outline_Animation_03_01909
+bounds:3631,128,83,122
+offsets:22,19,128,160
+images/Outline_Animation_03_01910
+bounds:3631,4,83,122
+offsets:22,19,128,160
+images/Outline_Animation_03_01911
+bounds:3640,319,83,122
+offsets:22,19,128,160
+images/Outline_Animation_03_01912
+bounds:3725,400,83,122
+offsets:22,19,128,160
+rotate:90
+images/Outline_Animation_03_01913
+bounds:3849,361,83,122
+offsets:22,19,128,160
+images/Outline_Animation_03_01914
+bounds:3725,315,83,122
+offsets:22,19,128,160
+rotate:90
+images/Outline_Animation_03_01915
+bounds:3849,237,83,122
+offsets:22,19,128,160
+images/Outline_Animation_03_01916
+bounds:3716,230,83,122
+offsets:22,19,128,160
+rotate:90
+images/Outline_Animation_03_01917
+bounds:3840,152,83,122
+offsets:22,19,128,160
+rotate:90
+images/Outline_Animation_03_01918
+bounds:3716,145,83,122
+offsets:22,19,128,160
+rotate:90
+top tower
+bounds:98,177,141,154
+offsets:0,0,161,154
+rotate:90
+triger
+bounds:3898,490,78,66
+rotate:90
+triger guard back
+bounds:254,182,136,87
+offsets:0,0,136,115
+rotate:90
+triger guard front
+bounds:3604,443,65,104
+rotate:90
+upper  triger
+bounds:3696,888,63,98

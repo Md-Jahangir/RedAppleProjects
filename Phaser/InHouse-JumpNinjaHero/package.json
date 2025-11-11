@@ -1,0 +1,22 @@
+{
+  "name": "inhouse-jumpninjahero",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "http-server -p 8002"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Redapple2014/InHouse-JumpNinjaHero.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Redapple2014/InHouse-JumpNinjaHero/issues"
+  },
+  "homepage": "https://github.com/Redapple2014/InHouse-JumpNinjaHero#readme",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}

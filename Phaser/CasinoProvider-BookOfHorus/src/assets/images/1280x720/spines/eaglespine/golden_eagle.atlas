@@ -1,0 +1,131 @@
+Golden_Eagle.png
+size:761,142
+filter:Linear,Linear
+pma:true
+scale:0.1299
+Blue Pot Front part
+bounds:490,53,24,35
+rotate:90
+Blue Pot Front part_Glow
+bounds:687,112,28,40
+rotate:90
+Body
+bounds:435,80,53,60
+offsets:0,3,53,64
+Body_Glow
+bounds:376,77,57,63
+offsets:0,2,57,65
+Eye
+bounds:754,60,5,5
+Frame_BG
+bounds:260,26,114,114
+Frame_Frame
+bounds:137,17,121,123
+Head Upper Part
+bounds:260,2,22,30
+rotate:90
+Head Upper Part_Glow
+bounds:376,2,26,34
+rotate:90
+Head lower part
+bounds:490,79,27,41
+rotate:90
+Head lower part_Glow
+bounds:376,30,30,45
+Layer 0
+bounds:2,7,133,133
+Layer 1
+bounds:509,36,15,16
+rotate:90
+Layer 2
+bounds:742,84,15,15
+Layer 3
+bounds:708,95,16,15
+Layer 4
+bounds:742,67,15,15
+Layer 5
+bounds:708,77,15,16
+Layer 6
+bounds:737,50,15,15
+Layer 7
+bounds:725,77,16,15
+rotate:90
+Layer 8
+bounds:737,33,15,15
+Left Upper leg
+bounds:190,2,13,24
+rotate:90
+Left Upper leg_Glow
+bounds:509,3,28,31
+Left Wing
+bounds:729,101,30,39
+Left lower Leg
+bounds:292,2,24,22
+Main Base
+bounds:569,112,72,28
+Main Base_Glow
+bounds:490,108,77,32
+Right Leg lower part
+bounds:318,2,24,22
+Right Leg lower part_Glow
+bounds:408,37,38,27
+rotate:90
+Right Leg upper part
+bounds:472,52,16,26
+Right Wing
+bounds:643,112,28,42
+rotate:90
+Right Wing copy
+bounds:216,5,10,20
+rotate:90
+Shadow of egal
+bounds:137,3,51,12
+Snake
+bounds:366,13,7,11
+Snake_Glow
+bounds:238,4,11,15
+rotate:90
+Sparkle
+bounds:344,2,20,22
+frame_00000
+bounds:412,2,33,33
+frame_00001
+bounds:437,45,33,33
+frame_00002
+bounds:533,73,33,33
+frame_00003
+bounds:527,38,33,33
+frame_00004
+bounds:474,17,33,33
+frame_00005
+bounds:562,38,33,33
+frame_00006
+bounds:568,73,33,33
+frame_00007
+bounds:603,77,33,33
+frame_00008
+bounds:638,77,33,33
+frame_00009
+bounds:673,77,33,33
+frame_00010
+bounds:597,38,33,33
+frame_00011
+bounds:632,42,33,33
+frame_00012
+bounds:667,42,33,33
+frame_00013
+bounds:702,42,33,33
+frame_00014
+bounds:632,7,33,33
+frame_00015
+bounds:667,7,33,33
+frame_00016
+bounds:702,7,33,33
+frame_00017
+bounds:539,3,33,33
+frame_00018
+bounds:574,3,33,33
+round ear piece
+bounds:609,3,21,33
+round ear pieceGlow
+bounds:447,6,25,37

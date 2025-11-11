@@ -1,0 +1,37 @@
+lose.png
+size:1915,1179
+filter:Linear,Linear
+pma:true
+scale:0.8
+frame
+bounds:511,30,480,351
+offsets:0,9,480,374
+frame_glow
+bounds:2,2,507,379
+offsets:2,1,510,382
+light
+bounds:2,383,1098,794
+offsets:107,71,1306,866
+lose
+bounds:1759,263,382,154
+offsets:3,14,492,171
+rotate:90
+particles
+bounds:1102,212,655,416
+offsets:57,1,760,497
+rays
+bounds:1102,630,562,547
+offsets:30,50,610,607
+ribon_front
+bounds:1666,647,530,232
+rotate:90
+ribon_left
+bounds:1277,34,282,176
+ribon_right
+bounds:993,33,282,177
+sparkle copy 7
+bounds:993,311,72,70
+sparkle copy 8
+bounds:1561,140,72,70
+sparkle copy 9
+bounds:1561,140,72,70

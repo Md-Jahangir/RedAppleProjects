@@ -1,0 +1,140 @@
+Golden_Book.png
+size:1019,1032
+filter:Linear,Linear
+pma:true
+scale:0.3906
+Book Paper
+bounds:368,669,186,123
+Book green base
+bounds:368,794,307,236
+Brown left cover
+bounds:694,429,197,237
+Diamond
+bounds:846,366,156,61
+Diamond_Glow
+bounds:872,719,107,89
+Diamond_Holder
+bounds:955,281,83,52
+rotate:90
+Frame_BG
+bounds:350,316,342,342
+Frame_Frame
+bounds:2,660,364,370
+Glow
+bounds:2,313,345,346
+rotate:90
+Golder corner lower part
+bounds:350,206,186,108
+Golder corner lower part_Glow
+bounds:665,668,205,122
+Layer 1
+bounds:956,671,46,48
+rotate:90
+Layer 2
+bounds:614,73,45,45
+Layer 3
+bounds:959,132,47,46
+rotate:90
+Layer 4
+bounds:959,85,46,45
+Layer 5
+bounds:959,231,46,48
+Layer 6
+bounds:614,23,46,45
+Layer 7
+bounds:959,181,48,46
+rotate:90
+Layer 8
+bounds:614,120,46,45
+rotate:90
+Left Golden upper Corner
+bounds:538,168,139,146
+Left Golden upper Corner_Glow
+bounds:694,272,150,155
+Left Lower golden corner
+bounds:846,280,84,107
+rotate:90
+Left Lower golden corner_Glow
+bounds:556,663,107,129
+Right golen Upper Corner
+bounds:872,671,82,46
+Right golen Upper Corner_Glow
+bounds:781,11,98,63
+Right golen lower Corner
+bounds:949,6,50,68
+Right golen lower Corner_Glow
+bounds:781,83,70,87
+Sparkle
+bounds:881,15,59,66
+rotate:90
+Symbols_01
+bounds:981,738,23,35
+Symbols_02
+bounds:981,775,41,23
+rotate:90
+Symbols_03
+bounds:893,442,23,32
+rotate:90
+Symbols_04
+bounds:979,950,36,36
+Symbols_05
+bounds:979,868,36,25
+rotate:90
+Symbols_06
+bounds:979,906,34,42
+Symbols_07
+bounds:927,442,23,23
+Symbols_08
+bounds:979,818,37,20
+Symbols_09
+bounds:979,840,26,25
+rotate:90
+Symbols_10
+bounds:979,988,42,38
+rotate:90
+Tag
+bounds:679,172,176,98
+frame_00000
+bounds:893,569,100,100
+frame_00001
+bounds:893,467,100,100
+frame_00002
+bounds:857,178,100,100
+frame_00003
+bounds:857,76,100,100
+frame_00004
+bounds:679,70,100,100
+frame_00005
+bounds:2,211,100,100
+frame_00006
+bounds:104,211,100,100
+frame_00007
+bounds:206,211,100,100
+frame_00008
+bounds:2,109,100,100
+frame_00009
+bounds:104,109,100,100
+frame_00010
+bounds:206,109,100,100
+frame_00011
+bounds:308,104,100,100
+frame_00012
+bounds:410,104,100,100
+frame_00013
+bounds:512,66,100,100
+frame_00014
+bounds:2,7,100,100
+frame_00015
+bounds:104,7,100,100
+frame_00016
+bounds:206,7,100,100
+frame_00017
+bounds:308,2,100,100
+frame_00018
+bounds:410,2,100,100
+golen_Front
+bounds:835,810,220,142
+rotate:90
+golen_Front_Glow
+bounds:677,792,238,156
+rotate:90

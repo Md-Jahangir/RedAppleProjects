@@ -1,0 +1,127 @@
+<html>
+
+<head>
+    <title>OneTap</title>
+    <link rel="stylesheet" href="./style.css" />
+    <!-- <script src="./SpinePlugin.min.js"></script> -->
+    <img id="background" src="assets/images/background/background.png" style="display: none;">
+    <img id="coinSheet" src="assets/images/gameplay/coinAnim.png" style="display: none;">
+    <img id="gameStartLoadingBase" src="assets/images/ui/gameStartLoadingBase.png" style="display: none;">
+    <img id="gameStartLoadingBar" src="assets/images/ui/gameStartLoadingBar.png" style="display: none;">
+    <img id="gameLogo" src="assets/images/ui/gameLogo.png" style="display: none;">
+</head>
+
+<body>
+    <div id="onetap"></div>
+    <script type="text/javascript">
+        // Extract sessionToken from URL parameters and set it globally
+        // This is required for server-authoritative scoring in tournament/league/battle games
+        (function() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const sessionToken = urlParams.get('sessionToken');
+            if (sessionToken) {
+                window.sessionToken = sessionToken;
+                console.log('[Game] sessionToken loaded from URL:', sessionToken.substring(0, 20) + '...');
+            } else {
+                console.log('[Game] No sessionToken in URL - battle/free game mode');
+            }
+
+            // Extract coin outcomes for battle mode
+            const coinOutcomesParam = urlParams.get('coinOutcomes');
+            if (coinOutcomesParam) {
+                try {
+                    window.battleCoinOutcomes = JSON.parse(decodeURIComponent(coinOutcomesParam));
+                    console.log('[Game] Battle coin outcomes:', window.battleCoinOutcomes);
+                } catch (error) {
+                    console.error('[Game] Failed to parse coinOutcomes:', error);
+                }
+            }
+        })();
+
+        function getMobileOperatingSystem() {
+            let userAgent = navigator.userAgent || navigator.vendor || window.opera;
+            if (/windows phone/i.test(userAgent)) {
+                return "Windows Phone";
+            }
+            if (/android/i.test(userAgent)) {
+                return "Android";
+            }
+            if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+                return "iOS";
+            }
+            return "unknown";
+        };
+        function sendMessage(_message) {
+            if (getMobileOperatingSystem() == "Android") {
+                console.log("Insert into the Send Message Function..............");
+                try {
+                    JSBridge.receivedFromJS(_message);
+                } catch (error) {
+                    console.log("The error................" + error);
+                }
+            } else if (getMobileOperatingSystem() == "iOS") {
+                try {
+                    window.webkit.messageHandlers.jsHandler.postMessage(postmessage);
+                } catch (error) {
+                    console.log("The error................" + error);
+                }
+            }
+            else {
+                window.parent.postMessage(_message, "*");
+                console.log("Browser Message Score: ", _message);
+            }
+        };
+        function SendMessageForAnalytics(_fName, _message) {
+            if (getMobileOperatingSystem() == "Android") {
+                try {
+                    if (_fName == "getQuitGame") {
+                        console.log(' Quit Game called ', JSON.stringify(_message));
+                        window.getQuitGame(JSON.stringify(_message));
+                    } else if (_fName == "getGamePlayTime") {
+                        console.log('  Game Over called ', JSON.stringify(_message));
+                        window.getGamePlayTime(JSON.stringify(_message));
+                    }
+
+                } catch (error) {
+                    console.log("The Js Bridge error in Android..............." + error);
+                }
+            }
+            else if (getMobileOperatingSystem() == "iOS") {
+                if (_fName == "getQuitGame") {
+                    console.log(' Quit Game called ', _message);
+                    let postdata = {
+                        "getQuitGame": _message,
+                    };
+                    let postmessage = JSON.stringify(postdata);
+                    try {
+                        window.webkit.messageHandlers.jsHandler.postMessage(postmessage);
+                    } catch (error) {
+                        console.log("The Js Bridge error in IOS................" + error);
+                    }
+                } else if (_fName == "getGamePlayTime") {
+                    console.log('  Game Play TIme called ', _message);
+                    let postdata = {
+                        "getGamePlayTime": _message,
+                    };
+                    let postmessage = JSON.stringify(postdata);
+                    try {
+                        window.webkit.messageHandlers.jsHandler.postMessage(postmessage);
+                    } catch (error) {
+                        console.log("The Js Bridge error in IOS................" + error);
+                    }
+                }
+
+
+            } else {
+                try {
+                    // (window as any).parent.postMessage(_fName, JSON.stringify(_message));
+                } catch (error) {
+                    console.log("The Js Bridge error in Browser..............." + error);
+                }
+
+            }
+        }
+    </script>
+</body>
+
+</html>

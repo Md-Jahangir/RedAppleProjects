@@ -1,0 +1,43 @@
+{
+  "name": "word_search",
+  "version": "1.10.0",
+  "description": "puzzle game",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start": "npm run lint:fix && npx webpack serve",
+    "dev": "npm run lint:fix && webpack --mode development",
+    "build": "npm run lint:fix && webpack --mode production",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "release": "npx standard-version"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.8.0",
+    "copy-webpack-plugin": "^11.0.0",
+    "eslint": "^9.8.0",
+    "eslint-plugin-complexity": "^1.0.2",
+    "eslint-webpack-plugin": "^4.2.0",
+    "globals": "^15.9.0",
+    "husky": "^9.1.1",
+    "javascript-obfuscator": "^0.6.2",
+    "lint-staged": "^15.2.7",
+    "webpack": "^5.101.3",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.15.2",
+    "webpack-obfuscator": "^0.6.2"
+  },
+  "dependencies": {
+    "fontfaceobserver": "^2.3.0",
+    "gameanalytics": "^4.4.7",
+    "gsap": "^3.12.5",
+    "html-webpack-plugin": "^5.5.0",
+    "moment": "^2.29.4",
+    "moment-timezone": "^0.5.43",
+    "phaser": "^3.80.1",
+    "phaser3-rex-plugins": "^1.80.7",
+    "socket.io": "^4.7.5",
+    "socket.io-client": "^4.7.5"
+  }
+}

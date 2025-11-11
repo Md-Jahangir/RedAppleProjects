@@ -1,0 +1,17 @@
+export default class GameErrorScene extends Phaser.Scene {
+    constructor() {
+        super('GameErrorScene');
+        this.errorMessage = "Sorry ! no data found while loading, please reload the page.";
+    };
+
+    preload() {
+        this.load.image('error_logo', 'assets/images/error_logo.png');
+    };
+
+    create() {
+        this.errorLogo = this.add.image(Math.round(game.config.width / 2), Math.round(game.config.height / 4), "error_logo").setOrigin(0.5).setScale(scaleFactorX);
+        let errorTextStyle = { fontFamily: 'SofiaProSemiBoldAz', fontSize: '65px', fill: '#fff', fontStyle: 'bold', align: 'center', wordWrap: { width: Math.round(game.config.width - 100) } };
+        let errorText = this.add.text(Math.round(game.config.width / 2), Math.round(game.config.height / 2), this.errorMessage, errorTextStyle).setOrigin(0.5, 0.5);
+    }
+
+}

@@ -1,0 +1,73 @@
+freespin.png
+size:371,943
+filter:Linear,Linear
+pma:true
+scale:0.2472
+Glow
+bounds:251,388,118,118
+Layer 1
+bounds:268,764,61,60
+rotate:90
+Layer 10
+bounds:302,588,69,63
+rotate:90
+Layer 11
+bounds:312,659,71,47
+rotate:90
+Layer 12
+bounds:268,680,82,42
+rotate:90
+Layer 13
+bounds:295,508,40,38
+Layer 13 copy
+bounds:253,523,40,38
+Layer 16
+bounds:223,572,30,29
+Layer 16 copy
+bounds:223,603,30,29
+Layer 18
+bounds:2,173,193,213
+rotate:90
+Layer 2
+bounds:296,548,38,51
+rotate:90
+Layer 3
+bounds:223,699,40,59
+Layer 4
+bounds:330,872,69,39
+rotate:90
+Layer 5
+bounds:330,800,70,37
+rotate:90
+Layer 6
+bounds:261,621,57,39
+rotate:90
+Layer 7
+bounds:255,563,56,39
+rotate:90
+Layer 8
+bounds:223,634,63,36
+rotate:90
+Layer 9
+bounds:330,732,66,36
+rotate:90
+Rays_01
+bounds:2,2,169,169
+Rays_02
+bounds:173,7,162,162
+golden frame star
+bounds:268,827,114,60
+rotate:90
+jocker_face
+bounds:223,546,24,28
+rotate:90
+shadow
+bounds:217,171,195,146
+rotate:90
+star in text
+bounds:2,368,247,176
+text copy
+bounds:2,760,264,181
+wooden wheel
+bounds:2,546,212,219
+rotate:90

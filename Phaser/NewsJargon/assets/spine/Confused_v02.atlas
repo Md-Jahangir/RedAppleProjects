@@ -1,0 +1,62 @@
+
+Confused_v02.png
+size: 536,772
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer_1
+  rotate: true
+  xy: 2, 47
+  size: 174, 264
+  orig: 174, 264
+  offset: 0, 0
+  index: -1
+Layer_2
+  rotate: false
+  xy: 2, 223
+  size: 272, 272
+  orig: 272, 273
+  offset: 0, 0
+  index: -1
+Layer_3
+  rotate: false
+  xy: 282, 480
+  size: 243, 290
+  orig: 243, 290
+  offset: 0, 0
+  index: -1
+Layer_4
+  rotate: false
+  xy: 2, 497
+  size: 278, 273
+  orig: 279, 273
+  offset: 1, 0
+  index: -1
+Layer_5
+  rotate: true
+  xy: 276, 241
+  size: 237, 258
+  orig: 238, 258
+  offset: 1, 0
+  index: -1
+Layer_7
+  rotate: true
+  xy: 276, 241
+  size: 237, 258
+  orig: 238, 258
+  offset: 1, 0
+  index: -1
+Layer_6
+  rotate: true
+  xy: 276, 2
+  size: 237, 258
+  orig: 238, 258
+  offset: 1, 0
+  index: -1
+Layer_8
+  rotate: true
+  xy: 276, 2
+  size: 237, 258
+  orig: 238, 258
+  offset: 1, 0
+  index: -1

@@ -1,0 +1,81 @@
+FS SYMBOL_400x400.png
+size:912,1047
+filter:Linear,Linear
+pma:true
+scale:0.5
+Border
+bounds:470,660,180,146
+Frame_BG
+bounds:2,132,438,438
+Frame_Frame
+bounds:2,572,466,473
+Free_Highlight
+bounds:715,844,179,60
+Layer 1
+bounds:832,261,59,61
+Layer 2
+bounds:842,77,58,58
+Layer 3
+bounds:832,198,61,59
+rotate:90
+Layer 4
+bounds:782,133,59,58
+rotate:90
+Layer 5
+bounds:442,142,59,62
+Layer 6
+bounds:782,72,59,58
+rotate:90
+Layer 7
+bounds:442,509,61,59
+rotate:90
+Layer 8
+bounds:842,137,59,58
+rotate:90
+Shadow
+bounds:470,808,243,237
+Sparkle
+bounds:702,332,76,84
+Spin_hightlight
+bounds:470,596,179,62
+offsets:0,0,179,139
+Surface
+bounds:715,906,179,139
+frame_00000
+bounds:2,2,128,128
+frame_00001
+bounds:132,2,128,128
+frame_00002
+bounds:262,2,128,128
+frame_00003
+bounds:652,678,128,128
+frame_00004
+bounds:782,714,128,128
+frame_00005
+bounds:782,584,128,128
+frame_00006
+bounds:652,548,128,128
+frame_00007
+bounds:782,454,128,128
+frame_00008
+bounds:392,2,128,128
+frame_00009
+bounds:522,466,128,128
+frame_00010
+bounds:652,418,128,128
+frame_00011
+bounds:782,324,128,128
+frame_00012
+bounds:442,336,128,128
+frame_00013
+bounds:442,206,128,128
+frame_00014
+bounds:572,288,128,128
+frame_00015
+bounds:572,158,128,128
+frame_00016
+bounds:522,28,128,128
+frame_00017
+bounds:702,194,128,128
+frame_00018
+bounds:652,28,128,128

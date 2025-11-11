@@ -1,0 +1,316 @@
+{
+    "room_details": [
+        {
+            "error": false,
+            "message": "room details received",
+            "status": 1,
+            "data": {
+                "room_id": "2UTbuIzZA",
+                "room_name": "hearts-DvYL4Lo_NS",
+                "players": [
+                    {
+                        "user_id": "cJIlqgUQi",
+                        "username": "Amit",
+                        "avatar_image": "../assets/images/gameScene/player/user_image.png",
+                        "xp": 0,
+                        "amount": 1000,
+                        "level": 1
+                    },
+                    {
+                        "user_id": "cJIlqgUQj",
+                        "username": "Rupesh",
+                        "avatar_image": "../assets/images/gameScene/player/user_image.png",
+                        "xp": 0,
+                        "amount": 5000,
+                        "level": 1
+                    },
+                    {
+                        "user_id": "cJIlqgUQk",
+                        "username": "Sahil",
+                        "avatar_image": "../assets/images/gameScene/player/user_image.png",
+                        "xp": 0,
+                        "amount": 5000,
+                        "level": 1
+                    },
+                    {
+                        "user_id": "cJIlqgUQl",
+                        "username": "Tanmay",
+                        "avatar_image": "../assets/images/gameScene/player/user_image.png",
+                        "xp": 0,
+                        "amount": 5000,
+                        "level": 1
+                    }
+                ],
+                "player_count": 4
+            }
+        }
+    ],
+    "start_game": [
+        {
+            "error": false,
+            "message": "start game",
+            "status": 1,
+            "data": {
+                "playerArray": [
+                    {
+                        "user_id": "cJIlqgUQi",
+                        "card_pass": true,
+                        "username": "jahangir",
+                        "avatar_image": "http://65.1.116.202:5000/images/male.png",
+                        "xp": 0,
+                        "level": 1,
+                        "socket_id": "/pokerCoreEngine#bWLAZQX3e18V_WuNAAAA",
+                        "hands": [
+                            {
+                                "card_id": "4H",
+                                "card_value": 41
+                            },
+                            {
+                                "card_id": "QH",
+                                "card_value": 49
+                            },
+                            {
+                                "card_id": "8S",
+                                "card_value": 32
+                            },
+                            {
+                                "card_id": "9C",
+                                "card_value": 7
+                            },
+                            {
+                                "card_id": "AH",
+                                "card_value": 51
+                            },
+                            {
+                                "card_id": "8D",
+                                "card_value": 19
+                            },
+                            {
+                                "card_id": "7C",
+                                "card_value": 5
+                            },
+                            {
+                                "card_id": "3S",
+                                "card_value": 27
+                            },
+                            {
+                                "card_id": "AS",
+                                "card_value": 38
+                            },
+                            {
+                                "card_id": "5D",
+                                "card_value": 16
+                            },
+                            {
+                                "card_id": "3C",
+                                "card_value": 1
+                            },
+                            {
+                                "card_id": "10H",
+                                "card_value": 47
+                            },
+                            {
+                                "card_id": "KH",
+                                "card_value": 50
+                            }
+                        ],
+                        "score": 0
+                    },
+                    {
+                        "user_id": "cJIlqgUQi",
+                        "username": "jahangir",
+                        "avatar_image": "http://65.1.116.202:5000/images/male.png",
+                        "xp": 0,
+                        "level": 1,
+                        "socket_id": "/pokerCoreEngine#bWLAZQX3e18V_WuNAAAA",
+                        "hands": [
+                            {
+                                "card_id": "QS",
+                                "card_value": 36
+                            },
+                            {
+                                "card_id": "JC",
+                                "card_value": 9
+                            },
+                            {
+                                "card_id": "9D",
+                                "card_value": 20
+                            },
+                            {
+                                "card_id": "7H",
+                                "card_value": 44
+                            },
+                            {
+                                "card_id": "5H",
+                                "card_value": 42
+                            },
+                            {
+                                "card_id": "6D",
+                                "card_value": 17
+                            },
+                            {
+                                "card_id": "JS",
+                                "card_value": 35
+                            },
+                            {
+                                "card_id": "4S",
+                                "card_value": 28
+                            },
+                            {
+                                "card_id": "JD",
+                                "card_value": 22
+                            },
+                            {
+                                "card_id": "2C",
+                                "card_value": 0
+                            },
+                            {
+                                "card_id": "QC",
+                                "card_value": 10
+                            },
+                            {
+                                "card_id": "7S",
+                                "card_value": 31
+                            },
+                            {
+                                "card_id": "2D",
+                                "card_value": 13
+                            }
+                        ],
+                        "score": 0
+                    },
+                    {
+                        "user_id": "cJIlqgUQi",
+                        "username": "jahangir",
+                        "avatar_image": "http://65.1.116.202:5000/images/male.png",
+                        "xp": 0,
+                        "level": 1,
+                        "socket_id": "/pokerCoreEngine#bWLAZQX3e18V_WuNAAAA",
+                        "hands": [
+                            {
+                                "card_id": "10D",
+                                "card_value": 21
+                            },
+                            {
+                                "card_id": "AC",
+                                "card_value": 12
+                            },
+                            {
+                                "card_id": "QD",
+                                "card_value": 23
+                            },
+                            {
+                                "card_id": "3D",
+                                "card_value": 14
+                            },
+                            {
+                                "card_id": "6S",
+                                "card_value": 30
+                            },
+                            {
+                                "card_id": "10C",
+                                "card_value": 8
+                            },
+                            {
+                                "card_id": "2H",
+                                "card_value": 39
+                            },
+                            {
+                                "card_id": "9S",
+                                "card_value": 33
+                            },
+                            {
+                                "card_id": "JH",
+                                "card_value": 48
+                            },
+                            {
+                                "card_id": "5S",
+                                "card_value": 29
+                            },
+                            {
+                                "card_id": "KD",
+                                "card_value": 24
+                            },
+                            {
+                                "card_id": "3H",
+                                "card_value": 40
+                            },
+                            {
+                                "card_id": "KC",
+                                "card_value": 11
+                            }
+                        ],
+                        "score": 0
+                    },
+                    {
+                        "user_id": "cJIlqgUQi",
+                        "username": "jahangir",
+                        "avatar_image": "http://65.1.116.202:5000/images/male.png",
+                        "xp": 0,
+                        "level": 1,
+                        "socket_id": "/pokerCoreEngine#bWLAZQX3e18V_WuNAAAA",
+                        "hands": [
+                            {
+                                "card_id": "4D",
+                                "card_value": 15
+                            },
+                            {
+                                "card_id": "5C",
+                                "card_value": 3
+                            },
+                            {
+                                "card_id": "9H",
+                                "card_value": 46
+                            },
+                            {
+                                "card_id": "2S",
+                                "card_value": 26
+                            },
+                            {
+                                "card_id": "6C",
+                                "card_value": 4
+                            },
+                            {
+                                "card_id": "10S",
+                                "card_value": 34
+                            },
+                            {
+                                "card_id": "8H",
+                                "card_value": 45
+                            },
+                            {
+                                "card_id": "7D",
+                                "card_value": 18
+                            },
+                            {
+                                "card_id": "AD",
+                                "card_value": 25
+                            },
+                            {
+                                "card_id": "6H",
+                                "card_value": 43
+                            },
+                            {
+                                "card_id": "4C",
+                                "card_value": 2
+                            },
+                            {
+                                "card_id": "8C",
+                                "card_value": 6
+                            },
+                            {
+                                "card_id": "KS",
+                                "card_value": 37
+                            }
+                        ],
+                        "score": 0
+                    }
+                ],
+                "room_name": "hearts-DvYL4Lo_NS",
+                "hand_count": 5,
+                "hand_no": 2,
+                "game_id": "A4PsLTe8G"
+            }
+        }
+    ]
+}

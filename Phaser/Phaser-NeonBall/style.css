@@ -1,0 +1,12 @@
+body {
+    background: #000000;
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: "burgerjointneon";
+    font-weight: 700;
+    font-weight:normal;
+    src: url(./assets/fonts/burgerjointneon.ttf) format('truetype');
+}

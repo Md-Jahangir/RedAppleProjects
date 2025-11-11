@@ -1,0 +1,365 @@
+{
+    "modals": [{
+            "name": "ROOM_ID",
+            "type": "inputText",
+            "visibility": false,
+            "data": "<h1 class='heading title'></h1><div class='data'><div class='form'><label><span>Please enter room id:</span> <input name='ROOM_ID' id='ROOM_ID'></label> <button class='submit' name='submit'>Submit</button></div></div>",
+            "submitEvent": "JoinRoom",
+            "closeEvent": "HideModal"
+        },
+        {
+            "name": "SUBMIT_NAME",
+            "type": "inputText",
+            "visibility": false,
+            "data": "<h1 class='heading title'></h1><div class='data'><div class='form'><label><span>Please enter player name:</span> <input name='SUBMIT_NAME' id='SUBMIT_NAME'></label> <button class='submit' name='submit'>Submit</button></div></div>",
+            "submitEvent": "SaveName",
+            "closeEvent": "HideModal"
+        },
+        {
+            "name": "CHARACTER_SELECTION",
+            "type": "inputList",
+            "visibility": false,
+            "data": "<h1 class='heading title'><span>ID CARD TERMINAL</span></h1><div class='image-with-data'><div class='wrap'><div class='characters image'><div class='char'id='Character_1_image'><img src='assets/images/char/12-f.png'><span class='name'>1</span></div><div class='char'id='Character_2_image'><img src='assets/images/char/11-f.png'><span class='name'>2</span></div><div class='char'id='Character_3_image'><img src='assets/images/char/10-f.png'><span class='name'>3</span></div><div class='char'id='Character_4_image'><img src='assets/images/char/9-f.png'><span class='name'>4</span></div><div class='char'id='Character_5_image'><img src='assets/images/char/8-f.png'><span class='name'>5</span></div><div class='char'id='Character_6_image'><img src='assets/images/char/7-f.png'><span class='name'>6</span></div><div class='char'id='Character_1_image'><img src='assets/images/char/12-m.png'><span class='name'>7</span></div><div class='char'id='Character_2_image'><img src='assets/images/char/11-m.png'><span class='name'>8</span></div><div class='char'id='Character_3_image'><img src='assets/images/char/10-m.png'><span class='name'>9</span></div><div class='char'id='Character_4_image'><img src='assets/images/char/9-m.png'><span class='name'>10</span></div><div class='char'id='Character_5_image'><img src='assets/images/char/8-m.png'><span class='name'>11</span></div><div class='char'id='Character_6_image'><img src='assets/images/char/7-m.png'><span class='name'>12</span></div></div><div class='data'><p>Before you begin the challenge, choose the character you'll play with by selecting one of the buttons below.<div class='btn-group'><button class='btn'id='Character_1'name='Character_1'>Character 1</button> <button class='btn'id='Character_2'name='Character_2'>Character 2</button> <button class='btn'id='Character_3'name='Character_3'>Character 3</button> <button class='btn'id='Character_4'name='Character_4'>Character 4</button> <button class='btn'id='Character_5'name='Character_5'>Character 5</button> <button class='btn'id='Character_6'name='Character_6'>Character 6</button> <button class='btn'id='Character_7'name='Character_7'>Character 7</button> <button class='btn'id='Character_8'name='Character_8'>Character 8</button> <button class='btn'id='Character_9'name='Character_9'>Character 9</button> <button class='btn'id='Character_10'name='Character_10'>Character 10</button> <button class='btn'id='Character_11'name='Character_11'>Character 11</button> <button class='btn'id='Character_12'name='Character_12'>Character 12</button></div></div></div></div>",
+            "submitEvent": "SetAvatar",
+            "closeEvent": "HideModal"
+        },
+        {
+            "name": "ENTRANCE_DOOR",
+            "type": "checkText",
+            "visibility": false,
+            "data": "<div class=modal-body><h1 class='heading title'><span>ENTRANCE DOOR</span><button class=close-icon id='close-icon' name ='close-icon' onClick=''><img src=assets/images/close.svg></button></h1><div class=data><div class=form><label><span class=sm>Ready to begin?<br>When your full group has joined the waiting room and are ready to play, anyone can type in 'start' and press enter.<br><strong>Warning: Typing 'start' begins the 20 minute countdown! Make sure all players have joined, have read the challenge instructions and are ready to begin!</strong></span> <input name='ENTRANCE_DOOR' id='ENTRANCE_DOOR'></label> <button class=submit name='submit'>Submit</button></div></div>",
+            "correctAnswer": "start",
+            "correctEvent": "EntranceDoorOpen",
+            "incorrectEvent": "IncorrectInput",
+            "closeEvent": "HideModal"
+        },
+        {
+            "name": "HOW_TO_PLAY",
+            "type": "text",
+            "visibility": false,
+            "data": "<div class=modal-body><h1 class='heading title'><span>HOW TO PLAY</span> <button class=close-icon id=close-icon name=close-icon><img src=assets/images/close.svg></button></h1><div class=data><p><strong>These are the main interactions needed for this challenge:</strong><br><br><ol><li>'Direction keys' allow you to move around the map.<li>'P' lets you pick up objects. These will appear in your item box at the bottom of your screen.<li>'Spacebar' allows you use or view objects in your item box, and interact with the environment, e.g. doors or terminals.<li>'L' lets you leave objects.<br><br><strong>You can only have one item in your item box at one time, so must leave something to pick another thing up.</strong></div></div>",
+            "closeEvent": "HideHowToPlayModal"
+        },
+        {
+            "name": "EMAIL_TERMINAL",
+            "type": "text",
+            "visibility": false,
+            "data": "<h1 class='heading title'><span>EMAIL TERMINAL</span><button class=close-icon id='close-icon' name ='close-icon' onClick=''><img src='assets/images/close.svg'></button></h1><div class=data><p><strong>SUBJECT:</strong> BREACH ALERT! Get Fireball Fabrications back online<br><br><strong>This morning, our systems have been targeted by a ransomware attack. We need you to identify which of the three lines is affected, to get the production lines back up and running. Where to start?</strong><ol><li>Identify the infected production line, by checking the component specifications against the line output<li>Unplug the networked items<li>Ensure all staff access permissions are assigned correctly<li>Check for any forged hardware and remove / disable it</ol>Once all of the puzzles are solved, find the manual to restart the production line.<br><br><strong>But hurry, you only have 20 minutes to save the day!</strong><br><br><strong>HINT: </strong>Teamwork is key! Communicate! And, grab a pen and paper so you don’t forget which clues you’d already found.</div>",
+            "closeEvent": "HideEmailTerminalModal"
+        },
+        {
+            "name": "Line_2_TERMINAL",
+            "type": "inputList",
+            "visibility": false,
+            "data": "<div class='modal-body'><h1 class='heading title'><span>LINE 2 TERMINAL</span> <button class=close-icon name=close-icon id=close-icon><img src=assets/images/close.svg></button></h1><div class=image-with-data><div class=wrap><div class=image><img src=assets/images/popups/Line_2_Terminal.png></div><div class='data btn-group'><div class=data><button class=btn name=Red>Red Button</button> <button class=btn name=Green>Green Button</button> <button class=btn name=Yellow>Yellow Button</button> <button class=btn name=Blue>Blue Button</button><button class=btn name=Purple>Purple Button</button> <button class=btn name=Orange>Orange Button</button></div></div></div></div></div>",
+            "submitEvent": "TrackSequence",
+            "closeEvent": "HideModal"
+        },
+        {
+            "name": "Line_2_TERMINAL_2",
+            "type": "inputList",
+            "visibility": false,
+            "data": "<div class=modal-body><h1 class='heading title'><span>LINE 2 TERMINAL</span> <button class=close-icon name=close-icon id=close-icon><img src=assets/images/close.svg></button></h1><div class=image-with-data><div class=wrap><div class=image><img src=assets/images/popups/Line_2_Terminal.png></div><div class='btn-group data'><button class=btn name='RestartTheLine'>Restart the line</button></div></div></div></div>",
+            "submitEvent": "RestartLine2",
+            "closeEvent": "HideModal"
+        },
+        {
+            "name": "Line_2_COMPONENT_OUTPUT",
+            "type": "image",
+            "visibility": false,
+            "data": "<div class=modal-body><h1 class='heading title'><span>LINE 2  COMPONENT OUTPUT</span> <button class=close-icon id='close-icon' name ='close-icon' onClick=''><img src='assets/images/close.svg'></button></h1><div class=image><img src='assets/images/popups/line_2_component_output_icon.png'></div></div>",
+            "submitEvent": "ToggleState",
+            "closeEvent": "HideModal"
+        },
+        {
+            "name": "Line_1_COMPONENT_OUTPUT",
+            "type": "image",
+            "visibility": false,
+            "data": "<div class=modal-body><h1 class='heading title'><span>LINE 1  COMPONENT OUTPUT</span> <button class=close-icon id='close-icon' name ='close-icon' onClick=''><img src='assets/images/close.svg'></button></h1><div class=image><img src='assets/images/popups/line_1_component_output_icon.png'></div></div>",
+            "submitEvent": "ToggleState",
+            "closeEvent": "HideModal"
+        },
+        {
+            "name": "Line_1_TERMINAL",
+            "type": "inputList",
+            "visibility": false,
+            "data": "<div class=modal-body><h1 class='heading title'><span>LINE 1 TERMINAL</span> <button class=close-icon name=close-icon id=close-icon><img src=assets/images/close.svg></button></h1><div class=image-with-data><div class=wrap><div class=image><img src=assets/images/popups/Line_1_Terminal.png></div><div class='data btn-group'><div class=data><button class=btn name=Red>Red Button</button> <button class=btn name=Green>Green Button</button> <button class=btn name=Yellow>Yellow Button</button><button class=btn name=Blue>Blue Button</button> <button class=btn name=Purple>Purple Button</button> <button class=btn name=Orange>Orange Button</button></div></div></div></div></div>",
+            "submitEvent": "TrackSequence",
+            "closeEvent": "HideModal"
+        },
+        {
+            "name": "Line_1_TERMINAL_2",
+            "type": "inputList",
+            "visibility": false,
+            "data": "<div class=modal-body><h1 class='heading title'><span>LINE 1 TERMINAL</span> <button class=close-icon id=close-icon name=close-icon><img src=assets/images/close.svg></button></h1><div class=image-with-data><div class=wrap><div class=image><img src=assets/images/popups/Line_1_Terminal.png></div><div class='data btn-group'><div class=data><button class=btn name='RestartTheLine'>Restart the line</button></div></div></div></div></div>",
+            "submitEvent": "RestartLine1",
+            "closeEvent": "HideModal"
+        },
+        {
+            "name": "Line_3_COMPONENT_OUTPUT",
+            "type": "image",
+            "visibility": false,
+            "data": "<div class=modal-body><h1 class='heading title'><span>LINE 3  COMPONENT OUTPUT</span> <button class=close-icon id='close-icon' name ='close-icon' onClick=''><img src='assets/images/close.svg'></button></h1><div class=image><img src='assets/images/popups/line_3_component_output_icon.png'></div></div>",
+            "submitEvent": "ToggleState",
+            "closeEvent": "HideModal"
+        },
+        {
+            "name": "Line_3_TERMINAL",
+            "type": "inputList",
+            "visibility": false,
+            "data": "<div class=modal-body><h1 class='heading title'><span>LINE 3 TERMINAL</span> <button class=close-icon name=close-icon id=close-icon><img src=assets/images/close.svg></button></h1><div class=image-with-data><div class=wrap><div class=image><img src=assets/images/popups/Line_3_Terminal.png></div><div class='data btn-group'><div class=data><button class=btn name=Red>Red Button</button> <button class=btn name=Green>Green Button</button> <button class=btn name=Yellow>Yellow Button</button> <button class=btn name=Blue>Blue Button</button> <button class=btn name=Purple>Purple Button</button> <button class=btn name=Orange>Orange Button</button></div></div></div></div></div>",
+            "submitEvent": "TrackSequence",
+            "closeEvent": "HideModal"
+        },
+        {
+            "name": "Line_3_TERMINAL_2",
+            "type": "inputList",
+            "visibility": false,
+            "data": "<div class=modal-body><h1 class='heading title'><span>LINE 3 TERMINAL</span> <button class=close-icon id=close-icon name=close-icon><img src=assets/images/close.svg></button></h1><div class=image-with-data><div class=wrap><div class=image><img src=assets/images/popups/Line_3_Terminal.png></div><div class='data btn-group'><div class=data><button class=btn name='RestartTheLine'>Restart the line</button></div></div></div></div></div>",
+            "submitEvent": "RestartLine3",
+            "closeEvent": "HideModal"
+        },
+        {
+            "name": "vendingUnplug",
+            "type": "inputList",
+            "visibility": false,
+            "data": "<div class=modal-body><h1 class='heading title'><span>VENDING MACHINE</span><button class=close-icon id=close-icon name=close-icon><img src=assets/images/close.svg></button></h1><div class=data><div class='data btn-group'><div class=form><button class=btn id=unplug_cable>Unplug Network Cable</button></div></div></div></div>",
+            "submitEvent": "VendingUnplugEvent",
+            "closeEvent": "HideModal"
+        },
+        {
+            "name": "vendingPlug",
+            "type": "inputList",
+            "visibility": false,
+            "data": "<div class=modal-body><h1 class='heading title'><span>VENDING MACHINE</span><button class=close-icon id=close-icon name=close-icon><img src=assets/images/close.svg></button></h1><div class=data><div class='data btn-group'><div class=form><button class=btn id=unplug_cable>Plug Network Cable</button></div></div></div></div>",
+            "submitEvent": "VendingPlugEvent",
+            "closeEvent": "HideModal"
+        },
+        {
+            "name": "printer",
+            "type": "inputList",
+            "visibility": false,
+            "data": "<div class=modal-body><h1 class='heading title'><span>PRINTER</span><button class=close-icon id=close-icon name=close-icon><img src=assets/images/close.svg></button></h1><div class=data><div class='data btn-group'><div class=form><button class=btn>Unplug Network Cable</button></div></div></div></div>",
+            "submitEvent": "PrinterToggle",
+            "closeEvent": "HideModal"
+        },
+        {
+            "name": "scanner",
+            "type": "inputList",
+            "visibility": false,
+            "data": "<div class=modal-body><h1 class='heading title'><span>SCANNER</span><button class=close-icon id=close-icon name=close-icon><img src=assets/images/close.svg></button></h1><div class=data><div class='data btn-group'><div class=form><button class=btn>Unplug Network Cable</button></div></div></div></div>",
+            "submitEvent": "ScannerToggle",
+            "closeEvent": "HideModal"
+        },
+        {
+            "name": "COMPONENT SPECIFIC POSTER",
+            "type": "image",
+            "visibility": false,
+            "data": "<div class=modal-body><h1 class='heading title'><span>COMPONENT SPECIFIC POSTER</span> <button class=close-icon id='close-icon' name ='close-icon' onClick=''><img src='assets/images/close.svg'></button></h1><div class=image><img src='assets/images/popups/table_manual_01_paper_model.png'></div></div>",
+            "submitEvent": "ToggleState",
+            "closeEvent": "HideModal"
+        },
+        {
+            "name": "NETWORK DIAGRAM",
+            "type": "image",
+            "visibility": false,
+            "data": "<div class=modal-body><h1 class='heading title'><span>NETWORK DIAGRAM</span> <button class=close-icon id='close-icon' name ='close-icon' onClick=''><img src='assets/images/close.svg'></button></h1><div class=image><img src='assets/images/popups/table_manual_02_paper_model.png'></div></div>",
+            "submitEvent": "ToggleState",
+            "closeEvent": "HideModal"
+        },
+        {
+            "name": "id_terminal",
+            "type": "checkText",
+            "visibility": false,
+            "data": "<div class=modal-body><h1 class='heading title'><span>ID CARD TERMINAL</span><button class=close-icon id='close-icon' name ='close-icon' onClick=''><img src='assets/images/close.svg'></button></h1><div class=image-with-data><div class=wrap><div class=image><img src='assets/images/popups/ID_Card_Terminal.png'></div><div class=data><div class=form><label><span class=sm>To change Sta Member Access Permissions, type in the format 'w, x, y, z' where 'w' is the level of Staff 1, 'x' of Staff 2 and so on.</span> <textarea name = 'id_terminal'id = 'id_terminal'></textarea></label> <button class=submit name='submit'>Submit</button></div></div></div></div></div>",
+            "correctAnswer": "1,3,2,2",
+            "submitEvent": "CheckInput",
+            "correctEvent": "IdTerminalComplete",
+            "closeEvent": "HideModal",
+            "incorrectEvent": "IncorrectInput"
+        },
+        {
+            "name": "id_terminal_1",
+            "type": "image",
+            "visibility": false,
+            "data": "<div class='modal-body data text-center'><h1 class='heading title'><span>ID CARD TERMINAL</span> <button class=close-icon id=close-icon name=close-icon><img src=assets/images/close.svg></button></h1><div class=image><img src=assets/images/popups/id_card_trminal_icon_2.png></div></div>",
+            "correctAnswer": "1,3,2,2",
+            "submitEvent": "CheckInput",
+            "correctEvent": "IdTerminalComplete",
+            "closeEvent": "HideModal",
+            "incorrectEvent": "IncorrectInput"
+        },
+        {
+            "name": "Usb_terminal",
+            "type": "text",
+            "visibility": false,
+            "data": "<div class=modal-body><h1 class='heading title'><span>USB Terminal</span> <button class=close-icon id='close-icon' name ='close-icon' onClick=''><img src='assets/images/close.svg'></button></h1><div class=image><img src=assets/images/popups/usb_closed.png><p>This panel is bolted closed...</div></div>",
+            "closeEvent": "HideModal"
+        },
+        {
+            "name": "Usb_terminal_none",
+            "type": "inputList",
+            "visibility": false,
+            "data": "<div class=modal-body><h1 class='heading title'><span>USB Terminal</span> <button class=close-icon name=close-icon id=close-icon><img src=assets/images/close.svg></button></h1><div class=image-with-data><div class=wrap><div class=image><img src=assets/images/popups/usb_opned.png></div><div class='btn-group data'><div class=form><label><span class=sm>Type the number of a port to toggle it off.The rest of the port will be automatically turned on.</span><br><span>Current port toggle off: none</span></label></div><div class='btn-group data'><button class=btn name=usb_terminal:none>none</button> <button class=btn name=usb_terminal:314>1</button> <button class=btn name=usb_terminal:892>2</button> <button class=btn name=usb_terminal:241>3</button></div></div></div></div></div>",
+            "submitEvent": "UpdateState",
+            "closeEvent": "HideModal"
+        },
+        {
+            "name": "Usb_terminal_314",
+            "type": "inputList",
+            "visibility": false,
+            "data": "<div class=modal-body><h1 class='heading title'><span>USB Terminal</span> <button class=close-icon name=close-icon id=close-icon><img src=assets/images/close.svg></button></h1><div class=image-with-data><div class=wrap><div class=image><img src=assets/images/popups/usb_opned.png></div><div class='btn-group data'><div class=form><label><span class=sm>Type the number of a port to toggle it off.The rest of the port will be automatically turned on.</span><br><span>Current port toggle off: 1</span></label></div><div class='btn-group data'><button class=btn name=usb_terminal:none>none</button> <button class=btn name=usb_terminal:314>1</button> <button class=btn name=usb_terminal:892>2</button> <button class=btn name=usb_terminal:241>3</button></div></div></div></div></div>",
+            "submitEvent": "UpdateState",
+            "closeEvent": "HideModal"
+        },
+        {
+            "name": "Usb_terminal_892",
+            "type": "inputList",
+            "visibility": false,
+            "data": "<div class=modal-body><h1 class='heading title'><span>USB Terminal</span> <button class=close-icon name=close-icon id=close-icon><img src=assets/images/close.svg></button></h1><div class=image-with-data><div class=wrap><div class=image><img src=assets/images/popups/usb_opned.png></div><div class='btn-group data'><div class=form><label><span class=sm>Type the number of a port to toggle it off.The rest of the port will be automatically turned on.</span><br><span>Current port toggle off: 2</span></label></div><div class='btn-group data'><button class=btn name=usb_terminal:none>none</button> <button class=btn name=usb_terminal:314>1</button> <button class=btn name=usb_terminal:892>2</button> <button class=btn name=usb_terminal:241>3</button></div></div></div></div></div>",
+            "submitEvent": "UpdateState",
+            "closeEvent": "HideModal"
+        },
+        {
+            "name": "Usb_terminal_241",
+            "type": "inputList",
+            "visibility": false,
+            "data": "<div class=modal-body><h1 class='heading title'><span>USB Terminal</span> <button class=close-icon name=close-icon id=close-icon><img src=assets/images/close.svg></button></h1><div class=image-with-data><div class=wrap><div class=image><img src=assets/images/popups/usb_opned.png></div><div class='btn-group data'><div class=form><label><span class=sm>Type the number of a port to toggle it off.The rest of the port will be automatically turned on.</span><br><span>Current port toggle off: 3</span></label></div><div class='btn-group data'><button class=btn name=usb_terminal:none>none</button> <button class=btn name=usb_terminal:314>1</button> <button class=btn name=usb_terminal:892>2</button> <button class=btn name=usb_terminal:241>241</button></div></div></div></div></div>",
+            "submitEvent": "UpdateState",
+            "closeEvent": "HideModal"
+        },
+        {
+            "name": "Usb_terminal_door",
+            "type": "checkText",
+            "visibility": false,
+            "data": "<div class=modal-body><h1 class='heading title'><span>LOCKED DOOR</span><button class=close-icon id='close-icon' name ='close-icon' onClick=''><img src='assets/images/close.svg'></button></h1><div class=data><div class=form><label><span>This door is locked. Enter a four-digit keypad code to unlock it.</span><input name='Usb_terminal_door' id='Usb_terminal_door'></label> <button class=submit name='submit' >Submit</button></div></div></div>",
+            "correctAnswer": "9344",
+            "correctEvent": "UsbTerminalDoorOpen",
+            "incorrectEvent": "IncorrectInput",
+            "closeEvent": "HideModal"
+        },
+        {
+            "name": "security_terminal_1",
+            "type": "checkText",
+            "visibility": false,
+            "data": "<div class=modal-body><h1 class='heading title'><span>SECURITY TERMINAL</span><button class=close-icon id='close-icon' name ='close-icon' onClick=''><img src='assets/images/close.svg'></button></h1><div class=data><div class=form><label><span>Security Login:</span> <input name='security_terminal_1' id='security_terminal_1'></label><p class=hint>Type your password to access the Security Terminal.Type 'forgotten password' for security questions.<button class=submit name='submit'>Submit</button></div></div></div>",
+            "correctAnswer": "forgottenpassword",
+            "submitEvent": "CheckInput",
+            "correctEvent": "SecurityTerminal1Complete",
+            "closeEvent": "HideModal",
+            "incorrectEvent": "IncorrectInput"
+        },
+        {
+            "name": "security_terminal_2",
+            "type": "checkText",
+            "visibility": false,
+            "data": "<div class=modal-body><h1 class='heading title'><span>FORGOTTEN PASSWORD</span><button class=close-icon id='close-icon' name ='close-icon' onClick=''><img src='assets/images/close.svg'></button></h1><div class=data><div class=form><label><span>Security Login:</span><input name='security_terminal_2' id='security_terminal_2'></label><p class=hint>1/2 information need to access the Security terminal. When was the Scanner installed?<button class=submit name='submit'>Submit</button></div></div></div>",
+            "correctAnswer": "may2008",
+            "submitEvent": "CheckInput",
+            "correctEvent": "SecurityTerminal2Complete",
+            "closeEvent": "HideModal",
+            "incorrectEvent": "IncorrectInput"
+        },
+        {
+            "name": "security_terminal_3",
+            "type": "checkText",
+            "visibility": false,
+            "data": "<div class=modal-body><h1 class='heading title'><span>FORGOTTEN PASSWORD</span><button class=close-icon id='close-icon' name ='close-icon' onClick=''><img src='assets/images/close.svg'></button></h1><div class=data><div class=form><label><span>Security Login:</span><input name='security_terminal_3' id='security_terminal_3'></label><p class=hint>2/2 information need to access the Security terminal. What was the manager's mother's maiden name?<button class=submit name='submit'>Submit</button></div></div></div>",
+            "correctAnswer": "lee",
+            "submitEvent": "CheckInput",
+            "correctEvent": "SecurityTerminal3Complete",
+            "closeEvent": "HideModal",
+            "incorrectEvent": "IncorrectInput"
+        },
+        {
+            "name": "security_terminal_4",
+            "type": "inputList",
+            "visibility": false,
+            "data": "<div class=modal-body><h1 class='heading title'><span> SECURITY TERMINAL</span></h1><div class=data><div class='data btn-group'><div class=form><button class=btn id=unplug_cable>Revert last security update</button><button class=btn id='close-icon' name ='close-icon'>Exit</button></div></div></div></div>",
+            "submitEvent": "RevertSecurityUpdate",
+            "closeEvent": "HideModal"
+        },
+
+        {
+            "name": "wrong_input",
+            "type": "text",
+            "visibility": false,
+            "data": "<div class=modal-body><h1 class='heading title'><span>INPUT</span><button class=close-icon id='close-icon' name ='close-icon' onClick=''><img src='assets/images/close.svg'></button></h1><div class=data><div class=form><label><span>Security Login:</span><input name='wrong_input' id='wrong_input'></label><p class=hint>Wrong answer, please try again.</div></div></div>",
+            "closeEvent": "HideModal"
+        },
+        {
+            "name": "warning_10_min",
+            "type": "text",
+            "visibility": false,
+            "data": "<h1 class='heading title'><span>WARNING</span><button class=close-icon id='close-icon' name ='close-icon' onClick=''><img src='assets/images/close.svg'></button></h1><div class='data text-center'><p><strong>WARNING:</strong>  You have 10 minutes remaining to sort all security issues and restart the line!</div>",
+            "closeEvent": "HideModal"
+        },
+        {
+            "name": "warning_5_min",
+            "type": "text",
+            "visibility": false,
+            "data": "<h1 class='heading title'><span>WARNING</span><button class=close-icon id='close-icon' name ='close-icon' onClick=''><img src='assets/images/close.svg'></button></h1><div class='data text-center'><p><strong>WARNING:</strong>  You have 5 minutes remaining to sort all security issues and restart the line!</div>",
+            "closeEvent": "HideModal"
+        },
+        {
+            "name": "times_up",
+            "type": "text",
+            "visibility": false,
+            "data": "<h1 class='heading title'><span>TIME'S UP</span></h1><div class='data text-center'>The time has run out and the production lines are not yet back up and running.</div>",
+            "closeEvent": "HideModal"
+        },
+        {
+            "name": "games_complete",
+            "type": "text",
+            "visibility": false,
+            "data": "<h1 class='heading title'><span>Complete!</span></h1><div class='data text-center'>You have successfully solved all puzzles and restarted the production lines. Fireball Fabrications is back online!</div>",
+            "closeEvent": "HideModal"
+        },
+        {
+            "name": "id_terminal_complete",
+            "type": "text",
+            "visibility": false,
+            "data": "<h1 class='heading title'><button class=close-icon id='close-icon' name ='close-icon' onClick=''><img src='assets/images/close.svg'></button></h1><div class='data text-center'>The staff permissions were already reallocated</div>",
+            "closeEvent": "HideModal"
+        },
+        {
+            "name": "HR RECORD",
+            "type": "image",
+            "visibility": false,
+            "data": "<div class=modal-body><h1 class='heading title'><span>HR RECORD</span> <button class=close-icon id='close-icon' name ='close-icon' onClick=''><img src='assets/images/close.svg'></button></h1><div class=image><img src='assets/images/popups/table_hr_record_modal.png'></div></div>",
+            "submitEvent": "ToggleState",
+            "closeEvent": "HideModal"
+        },
+        {
+            "name": "LINE MANUAL",
+            "type": "image",
+            "visibility": false,
+            "data": "<div class=modal-body><h1 class='heading title'><span>LINE MANUAL</span> <button class=close-icon id='close-icon' name ='close-icon' onClick=''><img src='assets/images/close.svg'></button></h1><div class=image><img src='assets/images/popups/table_lines_manual_modal.png'></div></div>",
+            "submitEvent": "ToggleState",
+            "closeEvent": "HideModal"
+        },
+        {
+            "name": "HARDWARE INSTALL",
+            "type": "image",
+            "visibility": false,
+            "data": "<div class=modal-body><h1 class='heading title'><span>HARDWARE INSTALL</span> <button class=close-icon id='close-icon' name ='close-icon' onClick=''><img src='assets/images/close.svg'></button></h1><div class=image><img src='assets/images/popups/bin_model.png'></div></div>",
+            "submitEvent": "ToggleState",
+            "closeEvent": "HideModal"
+        },
+        {
+            "name": "VIDEO INTRO",
+            "type": "video",
+            "visibility": false,
+            "data": "<div class=modal-body><h1 class='heading title'><button class=close-icon id=close-icon name=close-icon><img src=assets/images/close.svg></button></h1><div class=image><video controls id=video style=height:70vh;width:auto;max-width:100%;max-height:auto><source src=assets/video/ransomware_intro_1.mp4 type=video/mp4><source src=assets/video/ransomware_intro_1.mp4 type=video/ogg>Your browser does not support the video tag.</video></div></div>",
+            "closeEvent": "GameStart"
+        },
+        {
+            "name": "connection_lost",
+            "type": "inputList",
+            "visibility": false,
+            "data": "<div class='modal-body text-center'><h1 class='heading title'><span>Connection Lost</span> <button class=close-icon name=close-icon id=close-icon><img src=assets/images/close.svg></button></h1><div class='data'><label><span class=sm>Lost connection to the game server. Please refresh this page.</span></div><div class='btn-group data'><button class=btn name= refresh>Refresh</button></div></div></div>",
+            "submitEvent": "ReStart",
+            "closeEvent": "HideModal"
+        }
+    ]
+}

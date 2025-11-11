@@ -1,0 +1,32 @@
+r_charecter.png
+size:1934,1006
+filter:Linear,Linear
+pma:true
+Eagle_Base
+bounds:657,52,599,246
+Layer 1
+bounds:2,32,653,266
+Layer 13
+bounds:1285,6,136,450
+rotate:90
+Layer 19
+bounds:1647,144,287,228
+rotate:90
+Layer 2
+bounds:2,2,28,1281
+rotate:90
+Layer 27
+bounds:2,300,704,1643
+rotate:90
+Layer 5
+bounds:1258,161,137,228
+rotate:90
+Layer 58
+bounds:1647,433,285,571
+offsets:23,0,308,571
+Layer 6
+bounds:1737,41,101,83
+offsets:0,0,102,84
+rotate:90
+Layer 7
+bounds:1488,162,146,136

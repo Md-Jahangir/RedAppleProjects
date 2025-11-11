@@ -1,0 +1,104 @@
+
+Thunder_Animation.png
+size: 1742,903
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Thunder_Animation (1)
+  rotate: false
+  xy: 1739, 900
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+Thunder_Animation (2)
+  rotate: false
+  xy: 1739, 900
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+Thunder_Animation (11)
+  rotate: true
+  xy: 732, 345
+  size: 272, 945
+  orig: 1920, 1080
+  offset: 985, 135
+  index: -1
+Thunder_Animation (12)
+  rotate: true
+  xy: 732, 345
+  size: 272, 945
+  orig: 1920, 1080
+  offset: 985, 135
+  index: -1
+Thunder_Animation (13)
+  rotate: false
+  xy: 276, 2
+  size: 268, 899
+  orig: 1920, 1080
+  offset: 985, 181
+  index: -1
+Thunder_Animation (14)
+  rotate: false
+  xy: 1624, 699
+  size: 113, 202
+  orig: 1920, 1080
+  offset: 1172, 878
+  index: -1
+Thunder_Animation (3)
+  rotate: false
+  xy: 546, 172
+  size: 184, 445
+  orig: 1920, 1080
+  offset: 1096, 635
+  index: -1
+Thunder_Animation (4)
+  rotate: false
+  xy: 546, 172
+  size: 184, 445
+  orig: 1920, 1080
+  offset: 1096, 635
+  index: -1
+Thunder_Animation (5)
+  rotate: false
+  xy: 2, 2
+  size: 272, 899
+  orig: 1920, 1080
+  offset: 985, 181
+  index: -1
+Thunder_Animation (6)
+  rotate: false
+  xy: 2, 2
+  size: 272, 899
+  orig: 1920, 1080
+  offset: 985, 181
+  index: -1
+Thunder_Animation (7)
+  rotate: true
+  xy: 546, 619
+  size: 282, 1076
+  orig: 1920, 1080
+  offset: 990, 4
+  index: -1
+Thunder_Animation (8)
+  rotate: true
+  xy: 546, 619
+  size: 282, 1076
+  orig: 1920, 1080
+  offset: 990, 4
+  index: -1
+Thunder_Animation (9)
+  rotate: true
+  xy: 732, 53
+  size: 290, 902
+  orig: 1920, 1080
+  offset: 972, 178
+  index: -1
+Thunder_Animation (10)
+  rotate: true
+  xy: 732, 53
+  size: 290, 902
+  orig: 1920, 1080
+  offset: 972, 178
+  index: -1

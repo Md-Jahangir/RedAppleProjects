@@ -1,0 +1,21 @@
+l_charecter.png
+size:2417,1014
+filter:Linear,Linear
+pma:true
+Jackle
+bounds:2,289,723,1739
+rotate:90
+Jackle_Base
+bounds:1743,485,616,252
+Layer 51
+bounds:1743,363,120,614
+rotate:90
+Layer 56
+bounds:2,46,241,1591
+rotate:90
+Layer 58
+bounds:1595,2,285,571
+offsets:23,0,308,571
+rotate:90
+Shadow
+bounds:1743,739,672,273

@@ -1,0 +1,28 @@
+pirate_title_art.png
+size:2561,1098
+filter:Linear,Linear
+pma:true
+Layer 108
+bounds:1210,553,976,543
+Shadow_01
+bounds:2,2,866,437
+Shadow_02
+bounds:870,19,826,420
+Tenticals
+bounds:2188,349,747,324
+rotate:90
+board
+bounds:2,441,1206,655
+cannon
+bounds:1962,101,211,203
+coins
+bounds:1698,7,544,262
+rotate:90
+feather
+bounds:2175,67,269,280
+flag
+bounds:1962,306,211,245
+flag rope
+bounds:2446,173,113,174
+skull
+bounds:1210,448,91,103

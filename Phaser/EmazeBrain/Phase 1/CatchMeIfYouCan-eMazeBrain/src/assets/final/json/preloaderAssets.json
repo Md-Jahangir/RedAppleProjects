@@ -1,0 +1,65 @@
+{
+  "params": {
+    "baseUrl": "./"
+  },
+  "assets": [
+    {
+      "name": "pattern",
+      "path": "pattern.json",
+      "metadata": {}
+    },
+    {
+      "name": "preloadAsset-1",
+      "path": "../sheets/preloadAsset-1.json",
+      "metadata": {}
+    },
+    {
+      "name": "backBaseCold",
+      "path": "./../bigImages/Downtheygo_background.jpg",
+      "metadata": {}
+    },
+    {
+      "name": "backBaseWarm",
+      "path": "./../bigImages/Downtheygo_background_warm.png",
+      "metadata": {}
+    },
+    {
+      "name": "preloaderfonts",
+      "path": "../font/fonts/preloaderfonts.css",
+      "metadata": {}
+    },
+    {
+      "name": "PixiTextStyles",
+      "path": "PixiTextStyles.json",
+      "metadata": {}
+    },
+    {
+      "name": "LocalizedStrings",
+      "path": "./LocalizedStrings.json",
+      "metadata": {}
+    },
+    {
+      "name": "preloaderBackground",
+      "path": "./../bigImages/Downtheygo_background.png",
+      "metadata": {}
+    },
+    {
+      "name": "preloaderBarBack",
+      "path": "../preloader/emaze/VH_loader_bar_bg.png",
+      "metadata": {}
+    },
+    {
+      "name": "preloaderBarFull",
+      "path": "../preloader/emaze/VH_loader_bar_full.png",
+      "metadata": {}
+    },
+    {
+      "name": "sounds",
+      "path": "./SoundsConfig.json",
+      "metadata": {}
+    }
+  ],
+  "metadata": {
+    "type": "assetsList"
+  }
+}

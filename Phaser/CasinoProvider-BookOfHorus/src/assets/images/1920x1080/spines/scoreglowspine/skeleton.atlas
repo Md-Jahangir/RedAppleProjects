@@ -1,0 +1,10 @@
+skeleton.png
+size:1761,1028
+filter:Linear,Linear
+pma:true
+Ray_Blur_01864
+bounds:2,2,1024,1024
+Ray_Blur_01865
+bounds:1028,2,1024,731
+offsets:0,152,1024,1024
+rotate:90

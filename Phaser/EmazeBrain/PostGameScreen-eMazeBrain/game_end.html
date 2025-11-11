@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="css/game_end_style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row d-flex align-items-center justify-content-center game_end_screen">
+            <div class="col-sm-12 col-md-12 col-lg-8 position-relative">
+                <img src="images/score_bg.png" width="100%" alt="">
+                <div class="position-absolute game_end_inner">
+
+                    <div class="head d-flex align-items-center">
+                        <div class="position-absolute w-100 text-center head_txt d-flex align-items-center justify-content-center"
+                            id="title">
+                            COMPLETE</div>
+                        <img src="images/head.svg" width="100%" alt="">
+
+                    </div>
+                    <div class="d-flex align-items-center justify-content-center w-100" style="height: 83%;">
+                        <div>
+                            <div class="brain_star d-flex align-items-start justify-content-center">
+                                <div id="brain_1"
+                                    class="img_gray mt-5 animate__animated animate__fast animate__fadeInDown">
+                                    <img src="images/brain_1.svg" alt="">
+                                </div>
+                                <div class=" img_gray animate__animated animate__fast animate__fadeInDown" id="brain_2">
+                                    <img src="images/brain_3.svg" alt="">
+                                </div>
+                                <div class="mt-minus20 img_gray mt-5 animate__animated animate__fast animate__fadeInDown"
+                                    id="brain_3">
+                                    <img src="images/brain_2.svg" class="big-brain-img" alt="">
+                                </div>
+                            </div>
+
+                            <div class="score_box">
+                                <p>Score</p>
+                                <div id="Score_text" class="score_box_inner">
+                                    64000000
+                                </div>
+                                <div id="high_score1" class="hs-lt" style="display: none">
+                                    <img src="images/high_score.png" alt="">
+                                </div>
+                                <div id="high_score" class="hs-rt" style="display: none">
+                                    <img src="images/high_score.png" alt="">
+                                </div>
+                            </div>
+                            <div class="w-100 float-left button_area text-center">
+                                <button onclick="GoToPlatform()">Home<img src="images/blue_btn.svg" alt=""></button>
+                                <!-- <button onclick="GoToPlatform()"><img src="images/green_btn.svg" alt="">Next</button> -->
+                                <!-- <button><img src="images/blue_btn.svg" alt="">Replay</button>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="oval_btn position_lt" id="statistic"><img src="images/statistic_btn.svg"
+                            alt=""></button>
+                    <button class="oval_btn position_lb" id="helpbtn"><img src="images/brain_btn.svg" alt=""></button>
+                    <button class="oval_btn position_rb_1" id="socialShare"><img src="images/share_btn.svg"
+                            alt=""></button>
+
+                    <div class="level_box position-absolute">
+                        <div class="level_box_txt">Level</div>
+                        <div class="d-flex align-items-center justify-content-center">
+                            <img src="images/bomb.svg" alt="">
+                            <div id="Score_level" class="coin_field level_field_ml">
+                                250
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="rating_container" id="ratingPopup" style="display:none">
+        <div class="row d-flex align-items-center justify-content-center game_end_screen">
+            <div class="rate_box">
+                <div class="game_end_inner">
+                    <div class="head d-flex align-items-center ">
+                        <div class="position-absolute w-100 text-center head_txt" style="font-size:1.1rem">How fun was
+                            this game?</div>
+                        <img src="images/head.svg" width="100%" alt="">
+                    </div>
+                    <div class="d-flex w-100 align-items-center justify-content-center">
+                        <div class="rate_box_inner text-center" id="1">
+                            <img src="images/face_1.png" alt="">
+                            <img src="images/rate_1.png" alt="">
+                        </div>
+                        <div class="rate_box_inner text-center" id="2">
+                            <img src="images/face_2.png" alt="">
+                            <img src="images/rate_2.png" alt="">
+                        </div>
+                        <div class="rate_box_inner text-center" id="3">
+                            <img src="images/face_3.png" alt="">
+                            <img src="images/rate_3.png" alt="">
+                        </div>
+                        <div class="rate_box_inner text-center" id="4">
+                            <img src="images/face_4.png" alt="">
+                            <img src="images/rate_4.png" alt="">
+                        </div>
+                        <div class="rate_box_inner text-center" id="5">
+                            <img src="images/face_5.png" alt="">
+                            <img src="images/rate_5.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Chart -->
+                                <div class="rating_container" id="chartBox" style="display:none">
+                                    <div class="row d-flex align-items-center justify-content-center game_end_screen">
+                                        <div class="rate_box">
+                                            <div class="game_end_inner">
+                                                <div class="head d-flex align-items-center ">
+                                                    <div class="position-absolute w-100 text-center head_txt">STATISTIC
+                                                    </div>
+                                                    <img src="images/head.svg" width="100%" alt="">
+                                                </div>
+                                                <div class="chart-area">
+                                                    <canvas id="myChart" width="450" height="280"
+                                                        class="chartjs-render-monitor"></canvas>
+                                                </div>
+                                                <div class="button_area ">
+                                                    <button class="closeBtn">
+                                                        <img src="images/green_btn.svg" alt="">
+                                                        Close
+                                                    </button>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Help Popup -->
+                                <div class="rating_container" id="helpPopup" style="display:none;">
+                                    <div class="row d-flex align-items-center justify-content-center game_end_screen">
+                                        <div class="rate_box">
+                                            <div class="game_end_inner">
+                                                <div class="head d-flex align-items-center ">
+                                                    <div class="position-absolute w-100 text-center head_txt"
+                                                        style="font-size: 18px;">HOW IT HELP
+                                                        MY BRAIN</div>
+                                                    <img src="images/head.svg" width="100%" alt="">
+                                                </div>
+                                                <div id="help_text" class="helptxt">
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+                                                        laudantium quidem blanditiis,
+                                                        cumque recusandae asperiores ratione iusto id fugiat esse
+                                                        repellat culpa obcaecati officia
+                                                        magnam. Ratione consectetur natus magni eligendi.
+                                                        <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore laudantium quidem blanditiis, cumque recusandae asperiores ratione iusto id fugiat esse repellat culpa obcaecati officia magnam. Ratione consectetur natus magni -->
+                                                        <!-- eligendi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore laudantium quidem blanditiis, cumque recusandae asperiores ratione iusto id fugiat esse repellat culpa obcaecati officia magnam. Ratione consectetur -->
+                                                        natus magni eligendi.
+                                                    </p>
+                                                </div>
+
+                                                <div class="button_area ">
+                                                    <button class="closeBtn">
+                                                        <img src="images/green_btn.svg" alt="">
+                                                        Close
+                                                    </button>
+
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- SHARE POPUP -->
+                                <div class="social_container" id="socialShareBox" style="display:none;">
+                                    <div class="row d-flex align-items-center justify-content-center game_end_screen">
+                                        <div class="rate_box">
+                                            <div class="game_end_inner">
+                                                <div class="head d-flex align-items-center ">
+                                                    <div class="position-absolute w-100 text-center head_txt">SHARE
+                                                    </div>
+                                                    <img src="images/head.svg" width="100%" alt="">
+                                                </div>
+                                                <div class="social_icon">
+                                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                                    <p class="button_area">
+                                                        <button id="socialClose"><img src="images/green_btn.svg"
+                                                                alt="">Close</button>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <script
+                                    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+                                <script
+                                    src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+                                <script>
+                                    $('#statistic').click(function () {
+                                        ShowChart();
+                                        // $('#chartBox').show();
+                                    });
+                                    $('.closeBtn').click(function () {
+                                        $('#chartBox').hide();
+                                    });
+                                </script>
+                                <script>
+                                    $('#helpbtn').click(function () {
+                                        $('#helpPopup').show();
+                                    });
+                                    $('.closeBtn').click(function () {
+                                        $('#helpPopup').hide();
+                                    });
+                                    $('#socialShare').click(function () {
+                                        ShareData();
+                                    });
+                                </script>
+                                <script>
+                                    window.addEventListener('DOMContentLoaded', (event) => {
+                                        console.log('DOM fully loaded and parsed');
+                                        SetData();
+                                        GetGameContetent();
+                                        GetUserResult();
+                                    });
+                                    async function GetGameContetent() {
+                                        let urlParams = new URLSearchParams(window.location.search);
+                                        const token = urlParams.get("t");
+                                        let dataTobeSent = {
+                                            "game_id": urlParams.get('game_id').toString()
+                                        };
+                                        let reqHeaders = new Headers();
+                                        reqHeaders.append("Content-Type", "application/json");
+                                        reqHeaders.append("Authorization", token);
+                                        let url = "https://api.emazebrain.com/api/v1/postGamecontent";
+                                        let requestOptions = {
+                                            method: 'POST',
+                                            headers: reqHeaders,
+                                            body: JSON.stringify(dataTobeSent)
+                                        };
+                                        try {
+                                            let response = await fetch(url, requestOptions)
+                                                .then(response => response.json())
+                                                .then(data => {
+                                                    console.log(data);
+                                                    if (data.error == 0) {
+                                                        console.log(data.data[0].post_game_content[0].brain_help);
+                                                        console.log(document.getElementById("help_text").textContent);
+                                                        document.getElementById("help_text").textContent = data.data[0].post_game_content[0].brain_help;
+                                                    } else {
+                                                        // console.log("data not sent succenfully",data);
+                                                    }
+                                                });
+                                        } catch (err) {
+                                            console.log("Error log: ", err);
+                                        }
+                                    }
+                                    $('#1').click(function () {
+                                        SendSeletedRating(1);
+                                    });
+                                    $('#2').click(function () {
+                                        SendSeletedRating(2);
+                                    });
+                                    $('#3').click(function () {
+                                        SendSeletedRating(3);
+                                    });
+                                    $('#4').click(function () {
+                                        SendSeletedRating(4);
+                                    });
+                                    $('#5').click(function () {
+                                        SendSeletedRating(5);
+                                    });
+                                    var game_id = null;
+                                    var firstStar = null;
+                                    var secondStar = null;
+                                    var thirdStar = null;
+                                    var highScore = null;
+                                    var currentScore = 0;
+                                    var ScoreLevel = null;
+                                    var ratingBox = null;
+                                    var selectedRating = null;
+                                    var game_name = null;
+                                    var enableHighScore = true;
+                                    var playDate = null;
+                                    var playScore = [];
+                                    var title = null;
+                                    var platform = null;
+                                    var returnURL = 'https://platform.emazebrain.com/patient/game-lobby';
+                                    var ctx = document.getElementById('myChart').getContext("2d");
+                                    var myChart = new Chart(ctx, {
+                                        type: 'line',
+                                        data: {
+                                            labels: [],
+                                            datasets: [{
+                                                label: 'Game Result',
+                                                data: [],
+                                                fill: false,
+                                                borderColor: '#2196f3',
+                                                backgroundColor: '#2196f3',
+                                                borderWidth: 1
+                                            },
+                                            ]
+                                        },
+                                        options: {
+                                            responsive: true,
+                                            maintainAspectRatio: true,
+                                            legend: {
+                                                position: "bottom"
+                                            }
+                                        }
+                                    });
+
+                                    async function ShareData() {
+                                        const response = await fetch('https://games.emazebrain.com/post_game_screen/images/high_score.png');
+                                        const blob = await response.blob();
+                                        try {
+                                            navigator.share({
+                                                title: 'Brain Games',
+                                                text: 'I dare you to beat my high score of in from eMazeBrain on',
+                                                files: [new File(
+                                                    [blob],
+                                                    'highScore.jpg', {
+                                                    type: "image/png",
+                                                    lastModified: new Date().getTime()
+                                                }
+                                                )],
+                                                url: 'share.html?score=' + currentScore + "&game=" + game_name + "&highscore=" + enableHighScore
+                                            })
+                                        } catch (error) {
+                                            console.log('Sharing failed!', error)
+                                        }
+                                    }
+                                    function GoToPlatform() {
+                                        console.log(' GoToPlatform', returnURL);
+                                        window.top.location.replace(returnURL);
+
+                                    }
+                                    function PostEventToPlatform() {
+                                        console.log("PostEventToPlatform");
+
+                                        window.parent.postMessage({ eventName: 'gameComplete', payload: null }, "*");
+                                    }
+
+                                    function SetData() {
+                                        console.log("selectedRating------------" + selectedRating);
+                                        let queryString = window.location.search;
+                                        let urlParams = new URLSearchParams(queryString);
+                                        game_id = urlParams.get('game_id');
+                                        firstStar = urlParams.get('firstStar');
+                                        secondStar = urlParams.get('secondStar');
+                                        thirdStar = urlParams.get('thirdStar');
+                                        highScore = urlParams.get('highScore');
+                                        currentScore = urlParams.get('currentScore');
+                                        ScoreLevel = urlParams.get('level');
+                                        game_name = urlParams.get('game_name');
+                                        ratingBox = urlParams.get('ratingBox');
+                                        title = urlParams.get('title');
+                                        platform = urlParams.get('platform');
+                                        console.log("url parms------------" + platform);
+                                        if (firstStar == "true") {
+                                            setTimeout(() => {
+                                                document.getElementById("brain_1").classList.remove('img_gray');
+                                                document.getElementById("brain_1").classList.add('img_normal');
+                                            }, 800);
+                                        }
+                                        if (platform == "favorites") {
+                                            console.log(' platform ', platform);
+                                            returnURL = "https://platform.emazebrain.com/therapist/favorites";
+                                        }
+                                        PostEventToPlatform();
+                                        if (secondStar == "true") {
+                                            setTimeout(() => {
+                                                document.getElementById("brain_2").classList.remove('img_gray');
+                                                document.getElementById("brain_2").classList.add('img_normal');
+                                            }, 800);
+                                        }
+                                        if (thirdStar == "true") {
+                                            setTimeout(() => {
+                                                document.getElementById("brain_3").classList.remove('img_gray');
+                                                document.getElementById("brain_3").classList.add('img_normal');
+                                            }, 800);
+                                        }
+                                        if (currentScore) {
+                                            document.getElementById("Score_text").textContent = currentScore;
+                                        }
+                                        if (ScoreLevel) {
+                                            document.getElementById("Score_level").textContent = ScoreLevel;
+                                        }
+                                        if (title) {
+                                            document.getElementById("title").textContent = title;
+                                        }
+                                        if (ratingBox == "true") {
+                                            document.getElementById("ratingPopup").style.display = "";
+                                        }
+
+                                    }
+                                    function CheckHighScore() {
+                                        if (playScore != null & playScore.length > 0) {
+                                            let lastScore = playScore[(playScore.length - 1)];
+                                            for (let i = (playScore.length - 2); i >= 0; i--) {
+                                                if (lastScore < playScore[i]) {
+                                                    enableHighScore = false;
+                                                    break;
+                                                }
+                                            }
+                                        }
+                                        console.log("==>" + enableHighScore);
+                                        if (enableHighScore) {
+                                            document.getElementById("high_score").style.display = "";
+                                            document.getElementById("high_score1").style.display = "";
+                                        }
+                                    }
+                                    function DisableRatingContainer() {
+                                        $('#ratingPopup').hide();
+                                    }
+                                    async function SendSeletedRating(_rating) {
+                                        let dataTobeSent = {
+                                            "game_id": game_id,
+                                            "level": ScoreLevel,
+                                            "rating": _rating
+                                        };
+
+                                        let urlParams = new URLSearchParams(window.location.search);
+                                        let token = urlParams.get("t");
+                                        let reqHeaders = new Headers();
+                                        reqHeaders.append("Content-Type", "application/json");
+                                        reqHeaders.append("Authorization", token);
+                                        let url = "https://api.emazebrain.com/api/v1/gameRating";
+                                        let requestOptions = {
+                                            method: 'POST',
+                                            headers: reqHeaders,
+                                            body: JSON.stringify(dataTobeSent)
+                                        };
+                                        try {
+                                            let response = await fetch(url, requestOptions)
+                                                .then(response => response.json())
+                                                .then(data => {
+                                                    console.log(data);
+                                                    if (data.error == 0) {
+                                                        // console.log("data sent succenfully",data);
+                                                        DisableRatingContainer();
+                                                    } else {
+                                                        // console.log("data not sent succenfully",data);
+                                                    }
+                                                });
+                                        } catch (err) {
+                                            console.log("Error log: ", err);
+                                        }
+                                    }
+                                    async function GetUserResult() {
+                                        let urlParams = new URLSearchParams(window.location.search);
+                                        let token = urlParams.get("t");
+                                        console.log(token);
+                                        let reqHeaders = new Headers();
+                                        reqHeaders.append("Content-Type", "application/json");
+                                        reqHeaders.append("Authorization", token);
+                                        let url = "https://api.emazebrain.com/api/v1/getuserresult";
+                                        let option = {
+                                            "game_id": game_id.toString()
+                                        };
+                                        let requestOptions = {
+                                            method: 'POST',
+                                            headers: reqHeaders,
+                                            body: JSON.stringify(option)
+                                        };
+                                        try {
+                                            let response = await fetch(url, requestOptions)
+                                                .then(response => response.json())
+                                                .then(data => {
+                                                    console.log(data);
+                                                    if (data.error == 0) {
+                                                        console.log("data sent succenfully", data);
+                                                        CalculteUserResult(data);
+                                                    } else {
+                                                        // console.log("data not sent succenfully",data);
+                                                    }
+                                                });
+                                        } catch (err) {
+                                            console.log("Error log: ", err);
+                                        }
+                                    }
+                                    function CalculteUserResult(_data) {
+                                        let complete = [];
+                                        let playerDate = ['0'];
+                                        let score = [0];
+                                        let date, date1, index = 0;
+                                        date = _data.data[index].played_date;
+                                        // date = _data.data[index].played_date;
+                                        date = date.split("T");
+                                        playerDate.push(date[0]);
+                                        score.push(_data.data[index].score)
+                                        for (let i = 1; i < (_data.data.length); i++) {
+                                            date1 = _data.data[i].played_date;
+                                            date1 = date1.split("T");
+                                            if (playerDate[(index + 1)] === date1[0]) {
+                                                if ((score[(index + 1)] < _data.data[i].score)) {
+                                                    playerDate[(index + 1)] = date1[0];
+                                                    score[(index + 1)] = _data.data[i].score;
+                                                }
+                                            } else {
+                                                index += 1;
+                                                playerDate.push(date1[0])
+                                                score.push(_data.data[i].score);
+                                            }
+                                        }
+                                        playDate = playerDate;
+                                        playScore = score;
+                                        CheckHighScore();
+                                    }
+                                    function ShowChart(_data) {
+                                        myChart = new Chart(ctx, {
+                                            type: 'line',
+                                            data: {
+                                                labels: playDate,
+                                                datasets: [{
+                                                    label: 'Game Result',
+                                                    data: playScore,
+                                                    fill: false,
+                                                    borderColor: '#2196f3',
+                                                    backgroundColor: '#2196f3',
+                                                    borderWidth: 1
+                                                }
+                                                ]
+                                            },
+                                            options: {
+                                                responsive: true,
+                                                maintainAspectRatio: true,
+                                                legend: {
+                                                    position: "bottom"
+                                                }
+                                            }
+                                        });
+                                        $('#chartBox').show();
+                                    }
+                                </script>
+</body>
+
+</html>

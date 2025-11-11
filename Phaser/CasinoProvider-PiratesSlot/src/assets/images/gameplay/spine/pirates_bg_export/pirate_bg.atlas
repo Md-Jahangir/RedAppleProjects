@@ -1,0 +1,63 @@
+pirate_bg.png
+size:7471,4103
+filter:Linear,Linear
+pma:true
+scale:0.5
+A_sparkle
+bounds:3914,543,63,73
+Bottom Overlay
+bounds:2,1850,4001,2251
+Layer 10
+bounds:996,57,483,928
+rotate:90
+Layer 11
+bounds:6258,397,585,1211
+rotate:90
+Layer 12
+bounds:3349,618,595,1230
+Layer 9
+bounds:6258,27,368,811
+rotate:90
+MACAW
+bounds:2,2,538,992
+offsets:0,0,538,1033
+rotate:90
+branch
+bounds:3349,537,563,79
+eye ball
+bounds:3914,476,62,65
+eye lead 01
+bounds:3946,1734,57,43
+rotate:90
+eye lead 02
+bounds:3946,1793,55,53
+rotate:90
+far portion of ship
+bounds:2,542,3345,1306
+offsets:0,10,3345,1375
+iris
+bounds:3946,1691,35,41
+left blue flag
+bounds:3340,248,287,299
+rotate:90
+left feather
+bounds:3641,202,197,272
+left red flag
+bounds:1926,106,434,783
+rotate:90
+macaw glow
+bounds:6258,2003,1111,2098
+offsets:2890,113,4001,2251
+octopus
+bounds:6258,984,1010,1017
+pirate blue flag
+bounds:2711,127,413,419
+rotate:90
+right feather
+bounds:7071,50,345,281
+rotate:90
+right red flag
+bounds:3132,208,206,332
+ship
+bounds:4005,100,4001,2251
+rotate:90

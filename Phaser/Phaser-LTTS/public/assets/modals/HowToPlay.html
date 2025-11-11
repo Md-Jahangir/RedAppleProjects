@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="modal-dialog modal-lg" id="HowToPlay">
+        <div class="modal-content">
+            <div class="modal-body">
+                <h1 class="modal-title">HOW TO PLAY</h5>
+                    <span><b>These are the main interactions needed for this challenge:</b></span>
+                    <!-- <ol> -->
+                    <ol class="list-group list-group-numbered">
+                        <li>'P' lets you pick up objects. These will appear in your item box at the bottom of your screen.</li>
+                        <li>'Direction keys' allow you to move around the map.</li>
+                        <li>'Spacebar' lets you use or view objects in your item box or interact with the environment, e.g. doors and terminals.</li>
+                        <li>'L' lets you leave objects. You can only have one item in your item box at one time, so must leave something to pick another thing up.</li>
+                        <li>'Enter' lets you send global messagees to all players.</li>
+                    </ol>
+                    <p>You can open this pop-up again at any time by pressing 'I'.</p>
+                    <hr>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                        <button class=" btn  border border-primary" type="button " data-dismiss="HowToPlay">Close</button>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <script src=" https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js " integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin=" anonymous " referrerpolicy="no-referrer "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js " integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p " crossorigin="anonymous "></script>
+    <!-- </div> -->
+    <script type="text/javascript">
+        // $("button[data-dismiss=modal]").click(function() {
+        //     $(".modal").modal('hide');
+        //     console.log("ppp");
+        // });
+        $('#HowToPlay').on('shown.bs.modal', function() {
+            $('#myInput').trigger('focus')
+            console.log("qq");
+        })
+        $('#HowToPlay').on('hidden.bs.modal', function() {
+            console.log("ppp");
+        });
+    </script>
+
+
+
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+    Launch demo modal
+  </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

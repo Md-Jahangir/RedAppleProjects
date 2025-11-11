@@ -1,0 +1,69 @@
+bg_exterior.png
+size:1935,2068
+filter:Linear,Linear
+pma:true
+scale:0.3
+DUST
+bounds:514,2,950,249
+FAR_PILLAR
+bounds:1820,1418,86,306
+Layer 1
+bounds:2,26,206,200
+rotate:90
+Layer 3
+bounds:2,1417,1165,649
+Layer 4
+bounds:1820,1726,89,128
+Layer 5
+bounds:1820,1262,64,154
+offsets:0,0,66,155
+Layer 6
+bounds:840,659,117,117
+Layer 7
+bounds:204,37,308,195
+Mid_Piramid
+bounds:2,778,1153,637
+offsets:0,0,1153,649
+PYRAMID_LEFT
+bounds:2,234,542,373
+rotate:90
+PYRAMID_Right
+bounds:377,253,523,461
+offsets:0,10,523,471
+rotate:90
+Piller_2
+bounds:1157,544,281,367
+offsets:300,10,615,377
+Piller_3
+bounds:840,263,144,279
+offsets:519,31,663,377
+Piller_4
+bounds:1820,1856,95,210
+offsets:245,39,340,377
+Piller_5
+bounds:986,616,160,164
+offsets:235,39,749,376
+rotate:90
+Piller_6
+bounds:1306,305,190,237
+offsets:29,34,752,383
+RIGHT_SIDE_TREE
+bounds:986,279,263,318
+offsets:1,17,264,335
+rotate:90
+SKY
+bounds:1169,913,1153,649
+rotate:90
+Statue_1
+bounds:1466,730,181,432
+rotate:90
+Trunk
+bounds:1886,1294,122,47
+rotate:90
+left_coconut_tree
+bounds:1466,67,236,343
+offsets:0,7,236,350
+rotate:90
+upper_Tree
+bounds:1498,364,336,364
+offsets:0,3,339,367

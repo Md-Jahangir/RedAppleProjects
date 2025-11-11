@@ -1,0 +1,219 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Computerwisekids</title>
+<link rel="stylesheet" type="text/css" href="doc.css">
+<link href="http://allfont.net/allfont.css?fonts=comic-sans-ms" rel="stylesheet" type="text/css" />
+<script src="https://unpkg.com/jspdf@latest/dist/jspdf.min.js"></script>
+<script src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src = "https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.5.0-beta4/html2canvas.min.js"></script>
+<script type="text/javascript" src="urls.js"></script>
+</head>
+
+<body>
+<div class="container">
+	<div class="inner_sec">
+		<div class="inner_lt">
+			<a class="innbx" href="index.html"><img src="Images/HOME.png" alt=""></a>
+			<a id ="save" class="innbx" onclick="saveClick()" ><img src="Images/SAVE.png" alt=""></a>
+			<a class="innbx" href=""><img src="Images/print.png" alt=""></a>
+		</div>
+		<div class="inner_mid">
+			<div class="inner_mid_txt">
+				<p id="game_title">Under The Sea</p>
+			</div>
+			<div class="inner_mid_brdr"><div>Instruction:(50 char max.)</div></div>
+		</div>
+		<div class="inner_rt">
+			
+			<!-- <div class="innbx" href=""><p class="audio"><img src="Images/Audio.png" alt=""></p>
+				<p class="video"><img src="Images/Video.png" alt=""></p>
+			</div> -->
+			<a class="innbx" href="#"><img src="images/Blueblank.png" alt=""></a>
+			<a id="replay" class="innbx" onclick="replayClick()"><img src="Images/REPLAY.png" alt=""></a>
+			<a id ="next" class="innbx"  onclick="nextClick()" ><img src="Images/NEXT.png" alt=""></a>
+		</div>
+	</div>
+<!-- <section class=""> -->
+	<div class="game_sec">
+		<iframe id="game" src="" height="530" width="400"></iframe> 
+		<!-- <img src="images/big_bg.png" alt="">  -->
+		<!-- <iframe id="game" src=""height="812" width="512" ></iframe>  -->
+		<script>			
+			var ifrm = document.getElementById("game");
+			// window.alert("ifrm.width"+ifrm.width);
+			console.log("ifrm.width"+ifrm.width);
+			var link=window.location.href;
+			var start = link.indexOf("id=");
+			var final=parseInt(link.slice(start+3, link.length))-1;
+			//set selected game title text
+			var whole=buttonLinkArray[final];
+			var index=whole.indexOf(".");
+			var title=whole.slice(0, index);
+			document.getElementById("game_title").innerHTML=title;
+			//route to selected game folder
+			ifrm.setAttribute("src",buttonLinkArray[final]);
+			//set next button functionality
+			function nextClick()
+			{
+				// window.alert("ifrm.width"+ifrm.clientWidth+ifrm.clientHeight);
+				// window.alert("ifrm.width"+ifrm.clientWidth);
+				console.log("done it"+ifrm);
+				final+=1;
+				if(buttonLinkArray.length>final)
+				{
+					whole=buttonLinkArray[final];
+					index=whole.indexOf(".");
+					title=whole.slice(0, index);
+					document.getElementById("game_title").innerHTML=title;
+					ifrm.setAttribute("src",buttonLinkArray[final]);
+				}
+				else
+				{
+					whole="";
+					index="";
+					title="";
+					// ifrm.setAttribute("src","../index.html");
+					window.location.href="./index.html";	
+				}
+			}
+			function replayClick()
+			{
+					ifrm.setAttribute("src",buttonLinkArray[final]);
+			}
+			function saveClick(){
+				let ifrm = document.getElementById("game");
+				let iframe_canvas = ifrm.contentDocument || ifrm.contentWindow.document;
+				let canvas = iframe_canvas.body.childNodes[0];
+				console.log(canvas);
+				let blob;
+				if(window.navigator.msSaveBlob){
+					blob = canvas.msToBlob();
+					window.navigator.msSaveBlob(blob,'canvas.png');
+				}
+				else{
+					blob = canvas.toDataURL();
+									  // convert base64/URLEncoded data component to raw binary data held in a string
+									  let byteString;
+                      if (blob.split(',')[0].indexOf('base64') >= 0)
+                            byteString = atob(blob.split(',')[1]);
+                      else
+                            byteString = unescape(blob.split(',')[1]);
+
+                   // separate out the mime component
+                 let mimeString = blob.split(',')[0].split(':')[1].split(';')[0];
+
+                 // write the bytes of the string to a typed array
+                let ia = new Uint8Array(byteString.length);
+                for (let i = 0; i < byteString.length; i++) {
+                      ia[i] = byteString.charCodeAt(i);
+                    }
+				
+				let blobUpload = new Blob([ia], {type:mimeString});
+
+				var data = new FormData();
+				data.append("screenshot", blobUpload,"images.png");
+				var xhttp = new XMLHttpRequest();
+				xhttp.onreadystatechange = function() {
+					if (this.readyState == 4 && this.status == 200) 
+						console.log("ResponseText......."+this.responseText);
+				};
+
+				xhttp.open("POST", "http://74.208.81.151:8181/uploadImage", true);
+				xhttp.send(data);
+					console.log(blob);
+					const a = document.createElement("a");
+					document.body.appendChild(a);
+					a.href = blob;
+					a.download = "canvas.png";
+					a.click();
+					document.body.removeChild(a);
+				}
+
+			}
+			// function saveClick(){
+			// 	// var doc = new jsPDF();
+			// 	// var elementHTML = $('#innbx').html();
+			// 	// var specialElementHandlers = {
+			// 	// '#elementH': function (element, renderer) {
+			// 	// return true;
+			// 	// }
+			// 	// };
+			// 	// doc.fromHTML(elementHTML, 15, 15, {
+			// 	// 'width': 170,
+			// 	// 'elementHandlers': specialElementHandlers
+			// 	// });
+
+			// 	// // Save the PDF
+			// 	// doc.save('sample-document.pdf');
+
+
+			// 	html2canvas(document.body, {  
+			// 		onrendered: function(canvas)  
+			// 		{
+			// 			var img = game.canvas.toDataURL();
+			// 			$.post("save_screenshot.php", {data: img}, function (file){
+			// 			window.location.href =  "save_screenshot.php?file="+ file
+			// 			});
+			// 		}
+			// 	});	
+
+				// game.capture.screenshot(function(dataUrl) {
+        		// 	// Outputs a data-url of the image (default image/png).
+				// 	console.log(dataUrl);
+				// });
+
+				// html2canvas(document.querySelector("#game")).then(canvas => {
+				// 	document.body.appendChild(canvas)
+				// });
+				// html2canvas(document.querySelector("#game"), { 
+				// 	onrendered: function(canvas)
+				// 	{ 
+				// 		window.open(game.canvas.toDataURL()); 
+				// 	} 
+				// });
+
+				// var browser = document.querySelector("#game");
+				// var request = browser.getScreenshot(100, 100);
+				// request.onsuccess = function() {
+				// 	var blob = request.result;
+				// 	var url = URL.createObjectURL(blob);
+				// }
+				// document.execCommand("SaveAs");
+			// }
+		</script>
+		
+	</div>
+<!-- </section> -->
+	<footer class="footer_sec foot_inn">
+		<p>@computerwisekids</p>
+	</footer>	
+</div>
+
+</body>
+<style type="text/css">
+    /* .game {
+        margin: 0 auto;
+        max-width: 812px;
+        max-height: 812px;
+        width: 100%;
+		height: 100vh;
+		padding: 0;
+    } */
+    iframe {
+		width: 100%;
+		/* height: 100%; */
+		border: none;
+		margin: 0 auto;
+		padding: 0;
+    } 
+    canvas {
+        margin: 0 auto;
+	}
+	#next{
+		cursor: pointer;
+	}
+</style>
+</html> 

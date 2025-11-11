@@ -1,0 +1,123 @@
+Golden_Bug.png
+size:1858,482
+filter:Linear,Linear
+pma:true
+scale:0.3906
+Body_Frame
+bounds:1305,334,146,179
+rotate:90
+Body_Frame_Glow
+bounds:1121,330,150,182
+rotate:90
+Diamond
+bounds:1078,40,39,48
+Diamond_Glow
+bounds:1396,108,43,53
+Frame_BG
+bounds:777,138,342,342
+Frame_Frame
+bounds:405,116,364,370
+rotate:90
+Green_Stone
+bounds:312,30,73,47
+Green_Stone_Glow
+bounds:156,14,90,63
+Head
+bounds:1241,210,62,50
+offsets:3,0,65,60
+Head_Frame
+bounds:1241,262,66,61
+rotate:90
+Head_Glow
+bounds:84,12,70,65
+Layer 0
+bounds:2,79,401,401
+Layer 1
+bounds:1632,332,46,48
+rotate:90
+Layer 2
+bounds:1266,14,45,45
+Layer 3
+bounds:1600,59,47,46
+rotate:90
+Layer 4
+bounds:1600,11,46,45
+rotate:90
+Layer 5
+bounds:1682,332,46,48
+rotate:90
+Layer 59
+bounds:1486,312,144,168
+Layer 6
+bounds:1218,71,46,45
+rotate:90
+Layer 7
+bounds:1732,332,48,46
+Layer 8
+bounds:1218,24,46,45
+Layer 97
+bounds:1121,208,120,118
+rotate:90
+Left Front Hand
+bounds:981,90,46,130
+rotate:90
+Left Leg
+bounds:711,10,64,104
+Left Wing
+bounds:1121,21,185,95
+offsets:0,0,186,95
+rotate:90
+Red_Stone
+bounds:2,8,69,80
+rotate:90
+Red_Stone_Glow
+bounds:981,2,86,95
+rotate:90
+Right Wing
+bounds:1305,163,169,139
+rotate:90
+Right front Hand
+bounds:1752,33,104,93
+Right leg
+bounds:1218,119,74,87
+Sparkle
+bounds:248,22,62,55
+offsets:5,4,71,75
+frame_00000
+bounds:777,36,100,100
+frame_00001
+bounds:879,36,100,100
+frame_00002
+bounds:405,14,100,100
+frame_00003
+bounds:507,14,100,100
+frame_00004
+bounds:609,14,100,100
+frame_00005
+bounds:1446,210,100,100
+frame_00006
+bounds:1548,210,100,100
+frame_00007
+bounds:1632,380,100,100
+frame_00008
+bounds:1650,230,100,100
+frame_00009
+bounds:1734,380,100,100
+frame_00010
+bounds:1650,128,100,100
+frame_00011
+bounds:1446,108,100,100
+frame_00012
+bounds:1294,61,100,100
+frame_00013
+bounds:1548,108,100,100
+frame_00014
+bounds:1650,26,100,100
+frame_00015
+bounds:1396,6,100,100
+frame_00016
+bounds:1498,6,100,100
+frame_00017
+bounds:1752,230,100,100
+frame_00018
+bounds:1752,128,100,100

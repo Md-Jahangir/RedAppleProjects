@@ -1,0 +1,281 @@
+import { Database } from "./Database.js";
+import { GameArchitechture } from "./GameArchitechture.js";
+import { Server } from './Server.js';
+import { LoadingPopup } from "./LoadingPopup.js";
+import { ErrorPopup } from "./ErrorPopup.js";
+export default class BootScene extends Phaser.Scene {
+
+    constructor() {
+        super('BootScene');
+        this.testJsonObj;
+    }
+    init() { }
+    preload() {
+        this.load.image('titleBg', 'assets/images/titleBg.png');
+        this.load.image('timer_bg', 'assets/images/timer_bg.png');
+        this.load.image('unlke', 'assets/images/unlke.png');
+        this.load.image('like', 'assets/images/like.png');
+        // this.load.image('ticker', 'assets/images/ticker.png');
+        this.load.image('one_pixel_white', 'assets/images/one_pixel_white.png');
+        this.load.image('background', 'assets/images/background.png');
+        this.load.image('popupBg', 'assets/images/popupBg.png');
+        this.load.spritesheet('loading_wheel', 'assets/images/loading_wheel.png', { frameWidth: (471 / 3), frameHeight: 157 });
+    }
+    async onDataRecieved(_this) {
+        if (Server.platform && Server.platform == "favorites") {
+            let data = await Server.getTherapistGameData(Server);
+            console.log('data.data : ', data);
+            if (data.error == 0) {
+                // console.log("data:", data.data);
+                localStorage.setItem("TheShadowerJsonData", JSON.stringify(data.data));
+                Database.ParseAndStore(data.data);
+                this.onImageDataRecieved(data.data);
+
+                console.log('data.data', data.data.general.bg_images_cdn_location);
+            }
+            else {
+                //----------------------------------------------
+                // this.loadingPopup.HideLoadingPopup(this.scene);
+                this.errorPopup.ShowErrorPopup(data.message);
+                // return false;
+                //----------------------------------------------
+                this.loadingPopup.HideLoadingPopup(this.scene);
+                this.CheckDataAvailability(data.data);
+                return false;
+            }
+        } else {
+
+            let data = await Server.getGameData(Server);
+            console.log('data.data : ', data);
+            if (data.error == 0) {
+                // console.log("data:", data.data);
+                localStorage.setItem("TheShadowerJsonData", JSON.stringify(data.data));
+                Database.ParseAndStore(data.data);
+                this.onImageDataRecieved(data.data);
+
+                console.log('data.data', data.data.general.bg_images_cdn_location);
+            }
+            else {
+                //----------------------------------------------
+                // this.loadingPopup.HideLoadingPopup(this.scene);
+                this.errorPopup.ShowErrorPopup(data.message);
+                // return false;
+                //----------------------------------------------
+                this.loadingPopup.HideLoadingPopup(this.scene);
+                this.CheckDataAvailability(data.data);
+                return false;
+            }
+        }
+    }
+    async onImageDataRecieved(_data) {
+        if (Server.platform && Server.platform == "favorites") {
+            let data = await Server.getTherapistImageData(_data.general.bg_images_cdn_location, _data.general.main_images_cdn_location, Server);
+            console.log("data:==", data);
+            let bgImages = data.data.bg_images;
+            let mainImages = data.data.main_images;
+            console.log("bgImages:==", bgImages);
+            console.log("mainImages:==", mainImages);
+            if (data.error == 0 && (bgImages.length !== 0) && (mainImages.length !== 0)) {
+                this.ImageData(data);
+                this.SceneTransit();
+            } else {
+                this.loadingPopup.HideLoadingPopup(this.scene);
+                // this.errorPopup.ShowErrorPopup(data.message);
+                //------------------------added to show perfect message when image is missing------------------------
+                if (bgImages == "") {
+                    this.errorPopup.ShowErrorPopup("It seems that something went wrong, please contact support at support@emazelabs.com");
+                }
+                else if (mainImages == "") {
+                    this.errorPopup.ShowErrorPopup("It seems that something went wrong, please contact support at support@emazelabs.com");
+                }
+                // this.CheckDataAvailability(_data);
+                //---------------------------------------------------------------------------------------------------
+                return false;
+            }
+        } else {
+
+            let data = await Server.getImageData(_data.general.bg_images_cdn_location, _data.general.main_images_cdn_location, Server);
+            console.log("data:==", data);
+            let bgImages = data.data.bg_images;
+            let mainImages = data.data.main_images;
+            console.log("bgImages:==", bgImages);
+            console.log("mainImages:==", mainImages);
+            if (data.error == 0 && (bgImages.length !== 0) && (mainImages.length !== 0)) {
+                this.ImageData(data);
+                this.SceneTransit();
+            } else {
+                this.loadingPopup.HideLoadingPopup(this.scene);
+                // this.errorPopup.ShowErrorPopup(data.message);
+                //------------------------added to show perfect message when image is missing------------------------
+                if (bgImages == "") {
+                    this.errorPopup.ShowErrorPopup("It seems that something went wrong, please contact support at support@emazelabs.com");
+                }
+                else if (mainImages == "") {
+                    this.errorPopup.ShowErrorPopup("It seems that something went wrong, please contact support at support@emazelabs.com");
+                }
+                // this.CheckDataAvailability(_data);
+                //---------------------------------------------------------------------------------------------------
+                return false;
+            }
+        }
+    }
+    CheckDataAvailability(data) {
+        console.log('_data : ', data);
+        if (data.general.answers_location == "") {
+            this.errorPopup.ShowErrorPopup("answer location is missing");
+        }
+        else if (data.general.answers_location_spread_value == null) {
+            this.errorPopup.ShowErrorPopup("answer location is missing");
+        }
+        else if (data.general.game_id == null) {
+            this.errorPopup.ShowErrorPopup("game id is not available");
+        }
+        else if (data.general.main_images_cdn_location == "") {
+            this.errorPopup.ShowErrorPopup("main image is missing");
+        }
+        else if (data.general.bg_images_cdn_location == "") {
+            this.errorPopup.ShowErrorPopup("Background is missing");
+        }
+        else if (data.specific.time_to_play == null && data.specific.time_per_question == null) {
+            this.errorPopup.ShowErrorPopup("time duration to play is not available");
+        }
+    }
+    async CheckAuthentication() {
+        // let data = await Server.TokenAuthentication(Server);
+        // if (data.error == 0) {
+        //     localStorage.setItem("userid", data.data.user_id);
+        //     this.onDataRecieved(this);
+        // } else {
+        //     console.log("data:==", data);
+        //     this.loadingPopup.HideLoadingPopup(this.scene);
+        //     this.errorPopup.ShowErrorPopup(data.message);
+        //     return false;
+        // }
+        if (Server.platform && Server.platform == "favorites") {
+            this.onDataRecieved(this);
+            return true;
+        } else {
+            let data = await Server.TokenAuthentication(Server);
+            if (data.error == 0) {
+                localStorage.setItem("userid", data.data.user_id);
+                this.onDataRecieved(this);
+            } else {
+                console.log("data:==", data);
+                this.loadingPopup.HideLoadingPopup(this.scene);
+                this.errorPopup.ShowErrorPopup(data.message);
+                return false;
+            }
+        }
+    }
+    ImageData(_data) {
+        localStorage.setItem("TheShadowerImageJson", JSON.stringify(_data.data));
+    }
+    create() {
+        let bg = this.add.image(game.config.width / 2, game.config.height / 2, 'background').setOrigin(0.5, 0.5).setScale(scaleFactorX, scaleFactorY);
+        console.log("load complete");
+        this.loadingPopup = new LoadingPopup(this);
+        this.loadingPopup.ShowLoadingPopup();
+        this.errorPopup = new ErrorPopup(this);
+
+        gameStarted = true;
+        let checkFirstTime = this.CheckFirstTime();
+        //======Checking Internet connection===================//
+        if (checkFirstTime) {
+            if (this.CheckInternetConnection()) {
+                /*
+                internet is connected
+                load data from json store data in local storage
+                */
+                if (Server.isUrlParamsMissing()) {
+                    if (!this.CheckAuthentication(this)) {
+                        this.ShowError("Please check the Internet Connection");
+                    };
+                } else {
+                    this.loadingPopup.HideLoadingPopup(this.scene);
+                    this.errorPopup.ShowErrorPopup("Please login first");
+                }
+            } else {
+                /*
+                No internet connecion available for the first time
+                */
+                this.ShowError("Please check the Internet Connection");
+            }
+        } else {
+            if (this.CheckInternetConnection()) {
+                /*
+                internet is connected
+                */
+                if (Server.isUrlParamsMissing()) {
+                    if (!this.CheckAuthentication(this)) {
+                        this.ShowError("Please check the Internet Connection");
+                    };
+                } else {
+                    // console.log("isUrlParamsMissing------------------------");
+                    this.loadingPopup.HideLoadingPopup(this.scene);
+                    this.errorPopup.ShowErrorPopup("Please login first");
+                    // this.ShowError("Please check the Internet Connection");
+                }
+            } else {
+                /* 
+                internet is not connected
+                load data from local storage
+                */
+                let _data = JSON.parse(localStorage.getItem("TheShadowerJsonData"));
+                Database.ParseAndStore(_data);
+                this.SceneTransit();
+            }
+        }
+    };
+
+    CheckInternetConnection() {
+        if (window.navigator.onLine) {
+            return true;
+        } else {
+            return false;
+        }
+    };
+    CheckFirstTime() {
+        if (localStorage.getItem('isFirstTime') == null) {
+            localStorage.setItem('isFirstTime', true);
+            return true;
+        } else {
+            localStorage.setItem('isFirstTime', false);
+            return false;
+        }
+
+    };
+    ShowError(_message) {
+        const style = { font: "bold 32px Arial", fill: "#000" };
+        let errorImage = this.add.image(game.config.width / 2, game.config.height / 2, 'one_pixel_white').setOrigin(0.5).setScale(800, 300);
+        let errorMessage = this.add.text(game.config.width / 2, game.config.height / 2, _message, style).setOrigin(0.5);
+    };
+    SceneTransit() {
+        this.loadingPopup.HideLoadingPopup(this.scene);
+        delete this.loadingPopup;
+        this.scene.start("PreloadScene");
+    };
+    DataValidation(_data) {
+        if (_data.general != undefined || _data.general != null || _data.general != "") {
+            if (_data.special != undefined || _data.special != null || _data.special != "") {
+                if (_data.bg_images_cdn_location != undefined || _data.bg_images_cdn_location != null || _data.bg_images_cdn_location != "") {
+                    if (_data.main_images_cdn_location != undefined || _data.main_images_cdn_location != null || _data.main_images_cdn_location != "") {
+                        if (_data.color_scheme != undefined || _data.color_scheme != null || _data.color_scheme != "") {
+
+                        } else {
+                            return false;
+                        }
+                    } else {
+                        return false;
+                    }
+                } else {
+                    return false;
+                }
+            } else {
+                return false;
+            }
+        } else {
+            return false;
+        }
+        return true;
+    };
+}

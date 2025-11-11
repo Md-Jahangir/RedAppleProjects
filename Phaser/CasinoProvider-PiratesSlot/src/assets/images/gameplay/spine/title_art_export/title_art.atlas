@@ -1,0 +1,27 @@
+title_art.png
+size:2048,2048
+filter:Linear,Linear
+pma:true
+Layer 108
+bounds:2,767,976,543
+Shadow_01
+bounds:2,328,866,437
+Shadow_02
+bounds:1210,1547,826,420
+Tenticals
+bounds:2,2,747,324
+board
+bounds:2,1312,1206,655
+cannon
+bounds:980,860,211,203
+coins
+bounds:1210,1283,544,262
+feather
+bounds:1756,1276,269,280
+rotate:90
+flag
+bounds:980,1065,211,245
+flag rope
+bounds:751,152,113,174
+skull
+bounds:870,662,91,103

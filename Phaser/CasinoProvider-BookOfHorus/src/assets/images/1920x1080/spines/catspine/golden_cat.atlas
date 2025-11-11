@@ -1,0 +1,121 @@
+Golden_Cat.png
+size:886,269
+filter:Linear,Linear
+pma:true
+scale:0.1953
+Back ear
+bounds:712,55,16,21
+Back ear_Glow
+bounds:204,68,12,18
+rotate:90
+Base
+bounds:417,2,92,34
+rotate:90
+Base_Glow
+bounds:648,30,98,40
+rotate:90
+Body
+bounds:453,15,79,146
+rotate:90
+Body_Glow
+bounds:561,121,79,146
+Ear_L_Glow
+bounds:260,2,18,26
+Eye_L_Glow
+bounds:224,68,12,11
+rotate:90
+Eye_R_Glow
+bounds:142,2,9,10
+rotate:90
+Frame_BG
+bounds:388,96,171,171
+Frame_Frame
+bounds:204,82,182,185
+Head
+bounds:95,11,45,54
+offsets:0,0,46,54
+Layer 0
+bounds:2,67,200,200
+Layer 1
+bounds:367,4,23,24
+Layer 2
+bounds:648,5,23,22
+rotate:90
+Layer 3
+bounds:392,4,24,23
+rotate:90
+Layer 37
+bounds:59,8,57,34
+rotate:90
+Layer 4
+bounds:642,130,23,23
+Layer 5
+bounds:561,96,23,24
+rotate:90
+Layer 6
+bounds:672,5,23,22
+rotate:90
+Layer 7
+bounds:587,96,24,23
+Layer 8
+bounds:667,130,23,23
+Left Leg
+bounds:690,37,39,20
+rotate:90
+Ornament
+bounds:142,13,52,64
+offsets:0,3,52,71
+rotate:90
+Ornament_Glow
+bounds:2,4,55,61
+Right Leg
+bounds:613,7,33,112
+Right LegGlow
+bounds:642,155,33,112
+Sparkle_01
+bounds:712,37,16,16
+offsets:1,1,20,18
+Sparkle_02
+bounds:696,12,23,21
+offsets:23,0,46,47
+rotate:90
+frame_00000
+bounds:208,16,50,50
+frame_00001
+bounds:260,30,50,50
+frame_00002
+bounds:312,30,50,50
+frame_00003
+bounds:364,30,50,50
+frame_00004
+bounds:690,78,50,50
+frame_00005
+bounds:730,26,50,50
+frame_00006
+bounds:782,217,50,50
+frame_00007
+bounds:834,217,50,50
+frame_00008
+bounds:677,165,50,50
+frame_00009
+bounds:677,217,50,50
+frame_00010
+bounds:729,217,50,50
+frame_00011
+bounds:729,165,50,50
+frame_00012
+bounds:742,113,50,50
+frame_00013
+bounds:781,165,50,50
+frame_00014
+bounds:833,165,50,50
+frame_00015
+bounds:794,113,50,50
+frame_00016
+bounds:782,61,50,50
+frame_00017
+bounds:834,61,50,50
+frame_00018
+bounds:782,9,50,50
+shadow
+bounds:280,3,85,25

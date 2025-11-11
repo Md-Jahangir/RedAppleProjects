@@ -1,0 +1,25 @@
+club.png
+size:255,343
+filter:Linear,Linear
+pma:true
+scale:0.1231
+bulb_off
+bounds:2,2,100,110
+rotate:90
+bulb_on
+bounds:134,116,111,117
+offsets:19,8,133,133
+rotate:90
+bulb_on alternate
+bounds:120,2,108,112
+offsets:2,5,114,123
+club_glow
+bounds:2,211,130,130
+golden border (merged)
+bounds:134,229,112,119
+offsets:7,0,119,119
+rotate:90
+golden border white
+bounds:2,104,105,116
+offsets:14,0,119,116
+rotate:90

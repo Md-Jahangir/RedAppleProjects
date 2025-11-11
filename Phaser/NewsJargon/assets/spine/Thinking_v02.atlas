@@ -1,0 +1,55 @@
+
+Thinking_v02.png
+size: 1362,291
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Thinking_001
+  rotate: false
+  xy: 1183, 21
+  size: 177, 268
+  orig: 177, 268
+  offset: 0, 0
+  index: -1
+Thinking_002
+  rotate: false
+  xy: 991, 11
+  size: 190, 278
+  orig: 190, 278
+  offset: 0, 0
+  index: -1
+Thinking_003
+  rotate: false
+  xy: 2, 2
+  size: 197, 287
+  orig: 197, 287
+  offset: 0, 0
+  index: -1
+Thinking_004
+  rotate: false
+  xy: 795, 2
+  size: 194, 287
+  orig: 194, 287
+  offset: 0, 0
+  index: -1
+Thinking_005
+  rotate: false
+  xy: 201, 2
+  size: 196, 287
+  orig: 196, 287
+  offset: 0, 0
+  index: -1
+Thinking_006
+  rotate: false
+  xy: 399, 2
+  size: 196, 287
+  orig: 196, 287
+  offset: 0, 0
+  index: -1
+Thinking_007
+  rotate: false
+  xy: 597, 2
+  size: 196, 287
+  orig: 196, 287
+  offset: 0, 0
+  index: -1

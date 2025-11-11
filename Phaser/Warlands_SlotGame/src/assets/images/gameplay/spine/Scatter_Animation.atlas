@@ -1,0 +1,147 @@
+
+Scatter_Animation.png
+size: 563,448
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+6
+  rotate: true
+  xy: 127, 400
+  size: 46, 105
+  orig: 46, 150
+  offset: 0, 0
+  index: -1
+8
+  rotate: true
+  xy: 2, 402
+  size: 44, 123
+  orig: 44, 150
+  offset: 0, 0
+  index: -1
+Capa 1
+  rotate: true
+  xy: 2, 256
+  size: 142, 199
+  orig: 142, 199
+  offset: 0, 0
+  index: -1
+Symbol_10/10
+  rotate: false
+  xy: 234, 378
+  size: 240, 68
+  orig: 240, 68
+  offset: 0, 0
+  index: -1
+Symbol_9/9
+  rotate: true
+  xy: 2, 13
+  size: 205, 254
+  orig: 205, 254
+  offset: 0, 0
+  index: -1
+a to 10 back card
+  rotate: true
+  xy: 258, 2
+  size: 216, 303
+  orig: 218, 305
+  offset: 1, 1
+  index: -1
+a to 10 card frame shine
+  rotate: true
+  xy: 203, 220
+  size: 156, 211
+  orig: 156, 211
+  offset: 0, 0
+  index: -1
+
+Scatter_Animation2.png
+size: 596,492
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Effects/Dust-Particles-PNG-Picture
+  rotate: false
+  xy: 2, 2
+  size: 279, 279
+  orig: 279, 279
+  offset: 0, 0
+  index: -1
+Effects/frame_effect
+  rotate: false
+  xy: 2, 283
+  size: 355, 207
+  orig: 355, 207
+  offset: 0, 0
+  index: -1
+a to 10 card frame
+  rotate: false
+  xy: 359, 172
+  size: 235, 318
+  orig: 237, 320
+  offset: 1, 1
+  index: -1
+
+Scatter_Animation3.png
+size: 459,362
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Effects/smoke
+  rotate: true
+  xy: 2, 2
+  size: 358, 455
+  orig: 358, 455
+  offset: 0, 0
+  index: -1
+
+Scatter_Animation4.png
+size: 373,373
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Effects/BRILLO4
+  rotate: false
+  xy: 2, 2
+  size: 369, 369
+  orig: 369, 369
+  offset: 0, 0
+  index: -1
+
+Scatter_Animation5.png
+size: 406,401
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Effects/BRILLO3
+  rotate: false
+  xy: 2, 2
+  size: 402, 397
+  orig: 402, 397
+  offset: 0, 0
+  index: -1
+
+Scatter_Animation6.png
+size: 597,590
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Effects/BRILLO1
+  rotate: false
+  xy: 2, 2
+  size: 593, 586
+  orig: 593, 586
+  offset: 0, 0
+  index: -1
+
+Scatter_Animation7.png
+size: 597,590
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Effects/BRILLO2
+  rotate: false
+  xy: 2, 2
+  size: 593, 586
+  orig: 593, 586
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,23 @@
+body {
+    background: #000000;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Style for the Phaser canvas */
+#phaser-canvas {
+    position: absolute;
+    /* or relative, depending on your layout needs */
+    left: 0px;
+    /* Margin from the left */
+    top: 0;
+    /* Align top, adjust as needed */
+    margin: 0;
+    /* Reset any other margin */
+}
+
+@font-face {
+    font-family: "Poppins-Bold";
+    font-weight: 900;
+    src: url(assets/fonts/PoetsenOne-Regular.otf) format('opentype');
+}

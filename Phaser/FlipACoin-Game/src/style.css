@@ -1,0 +1,19 @@
+body {
+	margin: 0px;
+}
+
+.check-font-3 {
+	font-family: 'CarosExtraBold';
+}
+
+@font-face {
+	font-family: "CarosExtraBold";
+	src: url(./assets/fonts/CarosExtraBold.otf) format('opentype');
+	/* font-weight: bold;
+	font-style: normal; */
+}
+
+@font-face {
+	font-family: "CarosMedium";
+	src: url(./assets/fonts/CarosMedium.otf) format('opentype');
+}

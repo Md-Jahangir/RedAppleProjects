@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/game_end_style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Share</title>
+</head>
+<style>
+    .head_txt {
+        font-size: 23px;
+    }
+</style>
+
+<body>
+    <div class="container-fluid" allow="web-share">
+        <div class="row d-flex align-items-center justify-content-center game_end_screen">
+            <div class="col-sm-12 col-md-12 col-lg-4 position-relative">
+                <img src="images/score_bg.png" width="100%" alt="">
+                <div class="position-absolute game_end_inner">
+                    <div class="head d-flex align-items-center">
+                        <div id="title" class="position-absolute w-100 text-center head_txt">The Parrot Challange</div>
+                        <img src="images/head.svg" s alt="">
+                    </div>
+                    <div class="d-flex align-items-center justify-content-center w-100"
+                        style="height: 60%; position:relative;">
+                        <div>
+                            <div id="high_score" class="position-absolute w-25 text-center"
+                                style="left: 0;animation-name: blinkAnimation;animation-duration: .5s;animation-iteration-count: infinite;animation-direction: alternate; display: none;">
+                                <img src="https://dev-games.emazebrain.com/post_game_screen/images/high_score.png"
+                                    width="70%" alt="">
+                            </div>
+                            <div id="high_score1" class="position-absolute w-25 text-center"
+                                style="right: 0;animation-name: blinkAnimation;animation-duration: .5s;animation-iteration-count: infinite;animation-direction: alternate; display: none;">
+                                <img src="https://dev-games.emazebrain.com/post_game_screen/images/high_score.png"
+                                    width="70%" alt="">
+                            </div>
+                            <div class="score_box" style="width: 240px;">
+                                <p>Score</p>
+                                <div id="Score_text" class="score_box_inner w-100">
+                                    0
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+    <script>
+        var currentScore = null;
+        var gameName = null;
+        var highScore = false;
+        SetData();
+
+
+        function SetData() {
+            let queryString = window.location.search;
+            let urlParams = new URLSearchParams(queryString);
+            currentScore = urlParams.get('score');
+            gameName = urlParams.get('game');
+            gameName = gameName.split("-");
+            let firstLetter = gameName[0], totalString = "";
+            firstLetter = firstLetter.split("");
+            for (let i = 0; i < firstLetter.length; i++) {
+                if (i == 0) {
+                    totalString += firstLetter[0].toUpperCase();
+                }
+                else {
+                    totalString += firstLetter[i];
+                }
+            }
+            for (let j = 1; j < gameName.length; j++) {
+                totalString = totalString + " " + gameName[j];
+
+            }
+            highScore = urlParams.get('highscore');
+            if (currentScore) {
+                document.getElementById("Score_text").textContent = currentScore;
+            }
+            if (gameName) {
+                document.getElementById("title").textContent = totalString;
+            }
+            if (highScore == "true") {
+                // console.log("highScore "+highScore);     
+                document.getElementById("high_score").style.display = "";
+                document.getElementById("high_score1").style.display = "";
+            }
+        }
+    </script>
+</body>
+
+</html>

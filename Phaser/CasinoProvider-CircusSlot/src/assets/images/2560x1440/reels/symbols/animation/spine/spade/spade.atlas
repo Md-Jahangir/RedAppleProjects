@@ -1,0 +1,23 @@
+spade.png
+size:604,387
+filter:Linear,Linear
+pma:true
+scale:0.2472
+Bulb_off
+bounds:2,2,164,180
+rotate:90
+border
+bounds:236,182,191,203
+offsets:0,0,192,203
+bulb_on
+bounds:236,9,171,194
+offsets:67,38,267,267
+rotate:90
+bulb_on alternate
+bounds:432,8,170,179
+offsets:24,15,207,194
+golden border white
+bounds:429,189,170,196
+spade_glow
+bounds:2,168,217,232
+rotate:90

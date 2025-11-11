@@ -1,0 +1,103 @@
+monkey_Jumping_game.png
+size:2048,256
+filter:Linear,Linear
+pma:true
+scale:0.3
+Blink_ Left_eye
+bounds:268,3,29,34
+rotate:90
+Blink_right_eye
+bounds:723,73,33,35
+rotate:90
+Cape
+bounds:837,3,98,84
+rotate:90
+GLOW
+bounds:408,48,206,171
+rotate:90
+Glow_new
+bounds:2,3,251,223
+rotate:90
+Group2
+bounds:1583,108,146,115
+rotate:90
+Layer10
+bounds:661,8,93,63
+Layer11
+bounds:339,5,34,27
+Layer12
+bounds:548,2,62,44
+Layer13
+bounds:644,73,77,33
+Layer14
+bounds:227,2,30,39
+rotate:90
+Layer15
+bounds:826,103,36,41
+Layer16
+bounds:581,62,61,44
+Layer9
+bounds:760,73,49,35
+Left_eye
+bounds:304,3,29,33
+rotate:90
+Left_eyeball
+bounds:375,22,10,10
+Power_up
+bounds:227,34,220,179
+rotate:90
+Right_eye
+bounds:787,110,34,37
+rotate:90
+Right_eyeball
+bounds:375,10,10,10
+Star
+bounds:387,21,9,11
+body
+bounds:581,108,146,146
+face
+bounds:1583,21,85,77
+offsets:0,12,86,89
+rotate:90
+fx/Elements - Energy 07 slash right ray noCT noRZS_00000
+bounds:729,146,192,108
+fx/Elements - Energy 07 slash right ray noCT noRZS_00001
+bounds:923,62,192,108
+rotate:90
+fx/Elements - Energy 07 slash right ray noCT noRZS_00002
+bounds:1033,62,192,108
+rotate:90
+fx/Elements - Energy 07 slash right ray noCT noRZS_00003
+bounds:1033,62,192,108
+rotate:90
+fx/Elements - Energy 07 slash right ray noCT noRZS_00004
+bounds:1143,62,192,108
+rotate:90
+fx/Elements - Energy 07 slash right ray noCT noRZS_00005
+bounds:1253,62,192,108
+rotate:90
+fx/Elements - Energy 07 slash right ray noCT noRZS_00006
+bounds:1253,62,192,108
+rotate:90
+fx/Elements - Energy 07 slash right ray noCT noRZS_00007
+bounds:1363,62,192,108
+rotate:90
+fx/Elements - Energy 07 slash right ray noCT noRZS_00008
+bounds:1473,62,192,108
+rotate:90
+fx/Elements - Energy 07 slash right ray noCT noRZS_00009
+bounds:1473,62,192,108
+rotate:90
+left _eg
+bounds:612,5,55,47
+rotate:90
+left_hand
+bounds:729,110,34,56
+rotate:90
+right_hand
+bounds:756,9,36,62
+right_leg
+bounds:794,20,51,41
+rotate:90
+tail
+bounds:408,4,138,42

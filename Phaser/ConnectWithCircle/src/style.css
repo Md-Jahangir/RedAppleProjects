@@ -1,0 +1,17 @@
+body {
+    background: #000000;
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: "Aileron-Black";
+    font-weight: 900;
+    src: url(./assets/fonts/Aileron-Black.otf) format('opentype');
+}
+
+@font-face {
+    font-family: "Aileron-Regular";
+    font-weight: 900;
+    src: url(./assets/fonts/Aileron-Regular.otf) format('opentype');
+}

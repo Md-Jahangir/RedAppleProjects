@@ -1,0 +1,48 @@
+
+yellow turtle.png
+size: 270,136
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: false
+  xy: 2, 2
+  size: 108, 132
+  orig: 108, 132
+  offset: 0, 0
+  index: -1
+hand L
+  rotate: false
+  xy: 112, 5
+  size: 122, 32
+  orig: 122, 32
+  offset: 0, 0
+  index: -1
+hand R
+  rotate: true
+  xy: 236, 12
+  size: 122, 32
+  orig: 122, 32
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 112, 39
+  size: 59, 95
+  orig: 59, 95
+  offset: 0, 0
+  index: -1
+leg L
+  rotate: true
+  xy: 173, 88
+  size: 46, 60
+  orig: 46, 60
+  offset: 0, 0
+  index: -1
+leg R
+  rotate: true
+  xy: 173, 40
+  size: 46, 60
+  orig: 46, 60
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,76 @@
+character_cut_the_rope.png
+size:1973,307
+filter:Linear,Linear
+Body
+bounds:1371,88,194,217
+offsets:18,36,221,253
+L_cheak
+bounds:1672,14,101,76
+L_leg
+bounds:1454,2,84,106
+rotate:90
+R_cheak
+bounds:1775,2,98,76
+rotate:90
+R_leg
+bounds:1562,4,82,108
+offsets:0,0,92,110
+rotate:90
+Toungf
+bounds:1312,4,140,63
+crying_face
+bounds:265,3,257,302
+offsets:8,0,265,302
+eating_Lower_jaw
+bounds:524,44,261,148
+offsets:7,0,268,148
+rotate:90
+eating_Upper_jaw
+bounds:1101,66,239,89
+rotate:90
+eating_face
+bounds:674,58,247,183
+rotate:90
+eye ball left
+bounds:524,9,32,33
+eye ball right
+bounds:558,12,29,30
+inner_mouth
+bounds:1192,69,236,177
+rotate:90
+left eye lower
+bounds:869,12,84,45
+offsets:3,0,90,45
+left eye white
+bounds:1853,5,95,92
+offsets:4,0,100,104
+rotate:90
+left hand
+bounds:1101,3,61,136
+rotate:90
+lesft eye upper
+bounds:1567,92,93,71
+offsets:6,0,100,77
+normal_head
+bounds:2,3,261,302
+offsets:7,0,268,302
+right eye lower
+bounds:955,15,65,42
+right eye upper
+bounds:1239,3,71,64
+right eye white
+bounds:1662,92,71,79
+offsets:0,1,71,80
+rotate:90
+right hand
+bounds:1743,102,61,136
+rotate:90
+stage 1
+bounds:1567,165,404,140
+tail
+bounds:859,59,246,240
+rotate:90
+tear
+bounds:674,4,193,52
+tooth
+bounds:589,18,21,24

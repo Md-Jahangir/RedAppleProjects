@@ -1,0 +1,29 @@
+{
+  "name": "snakeladder",
+  "version": "1.31.0",
+  "description": "strategy game",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start": "npx webpack serve",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "release": "npx standard-version"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "copy-webpack-plugin": "^12.0.2",
+    "html-webpack-plugin": "^5.6.0",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
+  },
+  "dependencies": {
+    "@esotericsoftware/spine-phaser": "^4.1.55",
+    "fontfaceobserver": "^2.3.0",
+    "gameanalytics": "^4.4.7",
+    "gsap": "^3.12.7",
+    "phaser": "^3.90.0"
+  }
+}

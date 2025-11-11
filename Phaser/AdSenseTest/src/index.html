@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Hit It Right</title>
+
+    <!-- <script src="https://imasdk.googleapis.com/js/sdkloader/ima3.js"></script>
+    <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+    <script type="text/javascript" src="https://cdn.applixir.com/applixir.app.v6.0.1.js"></script> -->
+
+    <script src="https://imasdk.googleapis.com/js/sdkloader/ima3.js"></script>
+    <!-- <script src="lib/rewardedAd.js"></script> -->
+
+    <link rel="stylesheet" href="./style.css" />
+    <img id="rotate-screen" src="assets/images/rotate_screen_landscape.png" style="display: none;">
+    <img id="splash_bg" src="assets/images/splash/splash_bg.png" style="display: none;">
+    <img id="logo" src="assets/images/splash/logo.png" style="display: none;">
+    <img id="progress_base" src="assets/images/splash/progress_base.png" style="display: none;">
+    <img id="progress_bar" src="assets/images/splash/progress_bar.png" style="display: none;">
+    <script src="lib/phaser.min.js"></script>
+    <script src="lib/fontfaceobserver.standalone.js"></script>
+
+</head>
+
+<body>
+    <!-- <div id="applixir-ad-container"></div> -->
+    <div id="gameContainer"></div>
+    <div id="adContainer"></div>
+    <script type="text/javascript">
+        function getMobileOperatingSystem() {
+            let userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+            // Windows Phone must come first because its UA also contains "Android"
+            if (/windows phone/i.test(userAgent)) {
+                return "Windows Phone";
+            }
+
+            if (/android/i.test(userAgent)) {
+                return "Android";
+            }
+
+            // iOS detection from: http://stackoverflow.com/a/9039885/177710
+            if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+                return "iOS";
+            }
+
+            return "unknown";
+        };
+
+
+        let adDisplayContainer, adsLoader, adsManager;
+        function startGameContent() {
+            this.add.text(300, 250, 'Game Started!', { fontSize: '32px' });
+        };
+
+        function requestAndPlayAd(callback) {
+            console.log('requestAndPlayAd');
+
+            const adContainer = document.getElementById('adContainer');
+            adContainer.style.display = 'block';
+
+            adDisplayContainer = new google.ima.AdDisplayContainer(adContainer);
+            adDisplayContainer.initialize();
+
+            adsLoader = new google.ima.AdsLoader(adDisplayContainer);
+            adsLoader.addEventListener(google.ima.AdsManagerLoadedEvent.Type.ADS_MANAGER_LOADED, (e) => {
+                adsManager = e.getAdsManager();
+                adsManager.init(800, 600, google.ima.ViewMode.NORMAL);
+                adsManager.start();
+            });
+
+            adsLoader.addEventListener(google.ima.AdEvent.Type.ALL_ADS_COMPLETED, () => {
+                adContainer.style.display = 'none';
+                callback(); // Resume game
+            });
+
+            const adsRequest = new google.ima.AdsRequest();
+            adsRequest.adTagUrl =
+                'https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/124319096/external/single_ad_samples&impl=s&gdfp_req=1&env=vp&output=vast'; // Replace with your own
+
+            adsRequest.linearAdSlotWidth = 800;
+            adsRequest.linearAdSlotHeight = 600;
+
+            adsLoader.requestAds(adsRequest);
+        };
+
+
+
+    </script>
+
+</body>
+
+</html>

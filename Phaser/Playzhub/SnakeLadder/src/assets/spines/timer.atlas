@@ -1,0 +1,10 @@
+timer.png
+size:299,166
+filter:Linear,Linear
+pma:true
+timer/timer
+bounds:155,6,158,142
+rotate:90
+timer/timer_base
+bounds:2,2,162,151
+rotate:90

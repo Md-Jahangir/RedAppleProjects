@@ -1,0 +1,41 @@
+
+menu_page.png
+size: 1959,1084
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+glow 1
+  rotate: false
+  xy: 1924, 1049
+  size: 33, 33
+  orig: 37, 37
+  offset: 2, 2
+  index: -1
+glow 2
+  rotate: false
+  xy: 1924, 1016
+  size: 31, 31
+  orig: 33, 33
+  offset: 1, 1
+  index: -1
+glow 4
+  rotate: false
+  xy: 1924, 968
+  size: 15, 15
+  orig: 17, 17
+  offset: 1, 1
+  index: -1
+glow 5
+  rotate: false
+  xy: 1924, 985
+  size: 29, 29
+  orig: 33, 33
+  offset: 2, 2
+  index: -1
+menu bg
+  rotate: true
+  xy: 2, 2
+  size: 1080, 1920
+  orig: 1080, 1920
+  offset: 0, 0
+  index: -1

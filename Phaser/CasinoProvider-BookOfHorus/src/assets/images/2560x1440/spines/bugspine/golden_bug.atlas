@@ -1,0 +1,116 @@
+Golden_Bug.png
+size:768,534
+filter:Linear,Linear
+pma:true
+scale:0.2607
+Body_Frame
+bounds:603,413,97,119
+Body_Frame_Glow
+bounds:501,410,100,122
+Diamond
+bounds:574,6,26,32
+Diamond_Glow
+bounds:737,371,29,35
+Frame_BG
+bounds:271,304,228,228
+Frame_Frame
+bounds:2,16,243,247
+Green_Stone
+bounds:523,7,49,31
+Green_Stone_Glow
+bounds:457,153,60,42
+rotate:90
+Head
+bounds:615,113,41,34
+offsets:2,0,43,40
+rotate:90
+Head_Frame
+bounds:569,113,44,41
+Head_Glow
+bounds:523,109,47,44
+rotate:90
+Layer 0
+bounds:2,265,267,267
+Layer 1
+bounds:602,10,31,32
+Layer 2
+bounds:716,255,30,30
+Layer 3
+bounds:635,10,32,31
+rotate:90
+Layer 4
+bounds:643,307,31,30
+Layer 5
+bounds:668,15,31,32
+Layer 59
+bounds:501,296,96,112
+Layer 6
+bounds:676,306,31,30
+rotate:90
+Layer 7
+bounds:701,15,32,31
+rotate:90
+Layer 8
+bounds:683,255,31,30
+Layer 97
+bounds:386,223,80,79
+Left Front Hand
+bounds:468,215,31,87
+Left Leg
+bounds:570,225,42,69
+Left Wing
+bounds:702,408,124,64
+rotate:90
+Red_Stone
+bounds:651,115,46,53
+rotate:90
+Red_Stone_Glow
+bounds:661,49,57,64
+Right Wing
+bounds:271,209,113,93
+Right front Hand
+bounds:386,159,69,62
+Right leg
+bounds:708,287,50,58
+rotate:90
+Sparkle
+bounds:599,301,42,38
+offsets:3,2,47,50
+frame_00000
+bounds:501,227,67,67
+frame_00001
+bounds:247,140,67,67
+frame_00002
+bounds:247,71,67,67
+frame_00003
+bounds:247,2,67,67
+frame_00004
+bounds:316,140,67,67
+frame_00005
+bounds:316,71,67,67
+frame_00006
+bounds:316,2,67,67
+frame_00007
+bounds:385,90,67,67
+frame_00008
+bounds:385,21,67,67
+frame_00009
+bounds:501,158,67,67
+frame_00010
+bounds:454,84,67,67
+frame_00011
+bounds:454,15,67,67
+frame_00012
+bounds:570,156,67,67
+frame_00013
+bounds:523,40,67,67
+frame_00014
+bounds:592,44,67,67
+frame_00015
+bounds:599,341,67,67
+frame_00016
+bounds:668,339,67,67
+frame_00017
+bounds:614,232,67,67
+frame_00018
+bounds:639,163,67,67

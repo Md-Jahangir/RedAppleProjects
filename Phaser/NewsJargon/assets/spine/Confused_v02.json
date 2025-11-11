@@ -1,0 +1,147 @@
+{
+    "skeleton": {
+        "hash": "GdhRVz/QkE4so0T2nZwLglE6g1Y",
+        "spine": "3.8.99",
+        "x": -173,
+        "y": -12,
+        "width": 348,
+        "height": 527,
+        "images": "./Confused_v02/images/",
+        "audio": "H:/snehasis project/Owl/New_spine_Animation/Confused_v02/images"
+    },
+    "bones": [
+        {
+            "name": "root"
+        }
+    ],
+    "slots": [
+        {
+            "name": "Layer_1",
+            "bone": "root",
+            "attachment": "Layer_1"
+        },
+        {
+            "name": "Layer_2",
+            "bone": "root"
+        },
+        {
+            "name": "Layer_3",
+            "bone": "root"
+        },
+        {
+            "name": "Layer_4",
+            "bone": "root"
+        },
+        {
+            "name": "Layer_5",
+            "bone": "root"
+        },
+        {
+            "name": "Layer_6",
+            "bone": "root"
+        },
+        {
+            "name": "Layer_7",
+            "bone": "root"
+        },
+        {
+            "name": "Layer_8",
+            "bone": "root"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "Layer_1": {
+                    "Layer_1": {
+                        "x": 1,
+                        "y": 251.5,
+                        "width": 348,
+                        "height": 527
+                    },
+                    "Layer_2": {
+                        "x": 60,
+                        "y": 260.5,
+                        "width": 544,
+                        "height": 545
+                    },
+                    "Layer_3": {
+                        "x": 57.5,
+                        "y": 278,
+                        "width": 485,
+                        "height": 580
+                    },
+                    "Layer_4": {
+                        "x": 115.5,
+                        "y": 261,
+                        "width": 557,
+                        "height": 546
+                    },
+                    "Layer_5": {
+                        "x": 129.5,
+                        "y": 246,
+                        "width": 475,
+                        "height": 516
+                    },
+                    "Layer_6": {
+                        "x": 129.5,
+                        "y": 246,
+                        "width": 475,
+                        "height": 516
+                    },
+                    "Layer_7": {
+                        "x": 129.5,
+                        "y": 246,
+                        "width": 475,
+                        "height": 516
+                    },
+                    "Layer_8": {
+                        "x": 129.5,
+                        "y": 246,
+                        "width": 475,
+                        "height": 516
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "animation": {
+            "slots": {
+                "Layer_1": {
+                    "attachment": [
+                        {
+                            "time": 0.1,
+                            "name": "Layer_2"
+                        },
+                        {
+                            "time": 0.2,
+                            "name": "Layer_3"
+                        },
+                        {
+                            "time": 0.2667,
+                            "name": "Layer_4"
+                        },
+                        {
+                            "time": 0.3667,
+                            "name": "Layer_5"
+                        },
+                        {
+                            "time": 0.4667,
+                            "name": "Layer_6"
+                        },
+                        {
+                            "time": 0.5667,
+                            "name": "Layer_7"
+                        },
+                        {
+                            "time": 0.6667,
+                            "name": "Layer_8"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

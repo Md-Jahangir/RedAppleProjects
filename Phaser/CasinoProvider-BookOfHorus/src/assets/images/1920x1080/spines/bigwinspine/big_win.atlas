@@ -1,0 +1,45 @@
+big_win.png
+size:412,910
+filter:Linear,Linear
+pma:true
+Big
+bounds:215,117,190,119
+Big_Shine
+bounds:319,367,163,91
+rotate:90
+Eye
+bounds:237,238,167,127
+Frame
+bounds:2,597,379,311
+FrameB_Glow
+bounds:383,583,325,25
+rotate:90
+FrameL_Glow
+bounds:2,502,57,315
+rotate:90
+FrameR_Glow
+bounds:2,449,51,315
+rotate:90
+FrameT_Glow
+bounds:2,561,359,34
+Layer 10
+bounds:2,264,224,53
+Layer 11
+bounds:2,161,211,101
+Layer 4
+bounds:204,10,200,105
+Layer 4 copy
+bounds:2,54,200,105
+Sparkle2
+bounds:102,22,32,30
+Win
+bounds:2,319,233,128
+corner_Gems_L_B
+bounds:237,395,51,52
+corner_Gems_L_T
+bounds:55,8,44,45
+rotate:90
+corner_Gems_R_B
+bounds:2,2,51,50
+corner_Gems_R_T
+bounds:363,532,46,49

@@ -1,0 +1,33 @@
+{
+  "name": "greatblue-v2",
+  "version": "1.0.0",
+  "description": "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",
+  "main": "webpack.config.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "npx webpack serve",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Redapple2014/HighwayKings-V2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Redapple2014/HighwayKings-V2/issues"
+  },
+  "homepage": "https://github.com/Redapple2014/HighwayKings-V2#readme",
+  "devDependencies": {
+    "copy-webpack-plugin": "^11.0.0",
+    "html-webpack-plugin": "^5.5.1",
+    "mini-css-extract-plugin": "^2.7.5",
+    "webpack": "^5.81.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.13.3"
+  }
+}

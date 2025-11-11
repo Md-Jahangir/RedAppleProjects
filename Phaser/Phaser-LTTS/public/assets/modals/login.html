@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>BrainGames</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <div class="login-root">
+    <div class="box-root flex-flex flex-direction--column" style="min-height: 100vh;flex-grow: 1;">    
+      <div class="box-root padding-top--24 flex-flex flex-direction--column" style="flex-grow: 1; z-index: 9;">
+        <div class="box-root padding-top--48 padding-bottom--24 flex-flex flex-justifyContent--center">
+          <h1>Login</h1>
+        </div>
+        <div class="formbg-outer">
+          <div class="formbg">
+            <div class="formbg-inner padding-horizontal--48">
+              <span class="padding-bottom--15">Sign in to your account</span>
+              <form id="stripe-login">
+                <div class="field padding-bottom--24">
+                  <label for="email">Email</label>
+                  <input type="email" id="email" name="email">
+                </div>
+                <div class="field padding-bottom--24">
+                  <div class="grid--50-50">
+                    <label for="password">Password</label>
+                  </div>
+                  <input type="password" id="password"  name="password">
+                </div>                
+                <div class="field padding-bottom--24">
+                  <input type="submit"  id ="submit" name="submit">
+                </div>            
+              </form>
+            </div>
+          </div>        
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    var form = document.getElementById("stripe-login");
+    form.addEventListener('submit', myFunction);
+    async function TokenAuthentication(_emailValue,_passwordValue) 
+    {
+        let reqHeaders = new Headers();
+        reqHeaders.append("Content-Type", "application/json");
+        let url = "https://api.emazebrain.com/api/v1/user/login";
+        let option = {
+            "email_phone": ""+_emailValue,//"ankushshome@gmail.com",
+            "password": ""+_passwordValue,//"123456",
+            "user_type":1
+        };
+        console.log("option",option);
+        let requestOptions = {
+            method: 'POST',
+            headers: reqHeaders,
+            body : JSON.stringify(option)
+        };
+        try {
+            let response = await fetch(url, requestOptions)
+            .then(response => response.json())
+            .then(data => {
+                console.log(data);
+                 if(data.error==0)
+                {
+                    window.open("./index.html?t="+data.data.token+"&standAlone="+true,"_self"); 
+                }
+            });
+        } catch (err) {
+            console.log("Error log: ", err);
+        }
+    }
+    function myFunction(event)
+    {
+        event.preventDefault();
+        //do whatever an submit the form
+        var emailValue = document.getElementById("email").value;
+        var passwordValue = document.getElementById("password").value;
+        console.log(emailValue+" form submited!!!!! "+passwordValue );
+        TokenAuthentication(emailValue,passwordValue);
+    }
+  </script>
+</body>
+
+</html>

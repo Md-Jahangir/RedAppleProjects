@@ -1,0 +1,27 @@
+
+play_button.png
+size: 737,395
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+light new
+  rotate: true
+  xy: 396, 4
+  size: 47, 49
+  orig: 55, 57
+  offset: 4, 4
+  index: -1
+play
+  rotate: true
+  xy: 396, 53
+  size: 340, 339
+  orig: 343, 343
+  offset: 0, 0
+  index: -1
+ring
+  rotate: true
+  xy: 2, 2
+  size: 391, 392
+  orig: 391, 392
+  offset: 0, 0
+  index: -1

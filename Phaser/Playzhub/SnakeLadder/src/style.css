@@ -1,0 +1,21 @@
+body {
+    background: #000000;
+    margin: 1px;
+    padding: 0px;
+}
+
+canvas {
+    image-rendering: auto;
+}
+
+@font-face {
+    font-family: "LuckiestGuy-Regular";
+    src: url(./assets/fonts/LuckiestGuy-Regular.ttf) format('truetype');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "GROBOLD";
+    font-weight: 700;
+    src: url(./assets/fonts/GROBOLD.ttf) format('truetype');
+}

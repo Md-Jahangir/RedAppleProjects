@@ -1,0 +1,45 @@
+banker_loose.png
+size:1632,1256
+filter:Linear,Linear
+pma:true
+BANKER Glow
+bounds:2,53,624,170
+offsets:972,753,2562,1440
+rotate:90
+BANKER SHADOW
+bounds:2,679,575,592
+offsets:32,64,640,657
+rotate:90
+BANKER text
+bounds:1514,314,573,116
+offsets:1,1,575,118
+rotate:90
+LOSE Glow
+bounds:1341,21,415,171
+offsets:1072,620,2562,1440
+rotate:90
+LOSE SHADOW
+bounds:174,84,364,593
+offsets:32,64,426,658
+LOSE text
+bounds:1472,889,365,119
+offsets:1,1,367,121
+rotate:90
+particle
+bounds:596,360,894,537
+offsets:1,51,896,589
+rotate:90
+ribbon
+bounds:1135,438,816,335
+rotate:90
+ribbon glow
+bounds:540,2,799,356
+offsets:8,7,811,365
+sparkle 1
+bounds:540,614,63,48
+offsets:2,1,67,51
+rotate:90
+sparkle 2
+bounds:540,614,63,48
+offsets:2,1,67,51
+rotate:90

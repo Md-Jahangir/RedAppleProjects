@@ -1,0 +1,118 @@
+Golden_Cat.png
+size:459,893
+filter:Linear,Linear
+pma:true
+scale:0.2607
+Back ear
+bounds:434,826,22,28
+Back ear_Glow
+bounds:434,777,16,24
+Base
+bounds:373,333,123,45
+rotate:90
+Base_Glow
+bounds:379,760,131,53
+rotate:90
+Body
+bounds:271,696,106,195
+Body_Glow
+bounds:271,499,106,195
+Ear_L_Glow
+bounds:434,856,23,35
+Eye_L_Glow
+bounds:434,761,16,14
+Eye_R_Glow
+bounds:434,746,13,14
+rotate:90
+Frame_BG
+bounds:2,149,228,228
+Frame_Frame
+bounds:2,379,243,247
+rotate:90
+Head
+bounds:278,2,60,71
+offsets:0,1,62,72
+Layer 0
+bounds:2,624,267,267
+Layer 1
+bounds:426,658,31,32
+Layer 2
+bounds:426,428,30,30
+Layer 3
+bounds:426,624,32,31
+rotate:90
+Layer 37
+bounds:340,9,76,46
+Layer 4
+bounds:426,524,31,30
+Layer 5
+bounds:426,590,31,32
+Layer 6
+bounds:426,492,31,30
+Layer 7
+bounds:426,556,32,31
+rotate:90
+Layer 8
+bounds:426,460,31,30
+Left Leg
+bounds:426,692,52,26
+rotate:90
+Ornament
+bounds:251,427,70,86
+offsets:0,4,70,95
+rotate:90
+Ornament_Glow
+bounds:251,351,74,81
+rotate:90
+Right Leg
+bounds:379,609,45,149
+Right LegGlow
+bounds:379,458,45,149
+Sparkle_01
+bounds:434,803,22,21
+offsets:1,2,27,25
+Sparkle_02
+bounds:420,398,30,28
+offsets:31,0,61,63
+frame_00000
+bounds:232,282,67,67
+frame_00001
+bounds:301,282,67,67
+frame_00002
+bounds:370,264,67,67
+frame_00003
+bounds:232,213,67,67
+frame_00004
+bounds:301,213,67,67
+frame_00005
+bounds:370,195,67,67
+frame_00006
+bounds:232,144,67,67
+frame_00007
+bounds:301,144,67,67
+frame_00008
+bounds:370,126,67,67
+frame_00009
+bounds:2,80,67,67
+frame_00010
+bounds:71,80,67,67
+frame_00011
+bounds:140,80,67,67
+frame_00012
+bounds:209,75,67,67
+frame_00013
+bounds:278,75,67,67
+frame_00014
+bounds:347,57,67,67
+frame_00015
+bounds:2,11,67,67
+frame_00016
+bounds:71,11,67,67
+frame_00017
+bounds:140,11,67,67
+frame_00018
+bounds:209,6,67,67
+shadow
+bounds:339,384,113,32
+offsets:0,1,113,33
+rotate:90

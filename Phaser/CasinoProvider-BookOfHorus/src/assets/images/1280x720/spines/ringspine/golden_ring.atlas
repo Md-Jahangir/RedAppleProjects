@@ -1,0 +1,85 @@
+Golden_Ring.png
+size:690,142
+filter:Linear,Linear
+pma:true
+scale:0.1299
+Frame_BG
+bounds:260,26,114,114
+Frame_Frame
+bounds:137,17,121,123
+Gems_01
+bounds:260,2,22,27
+rotate:90
+Gems_02
+bounds:656,42,25,28
+Gems_03
+bounds:656,11,24,29
+Gems_04
+bounds:481,2,23,27
+rotate:90
+Gems_05
+bounds:311,3,21,24
+rotate:90
+Glow
+bounds:467,62,81,78
+Layer 0
+bounds:2,7,133,133
+Layer 1
+bounds:510,9,15,16
+Layer 2
+bounds:373,4,15,15
+Layer 3
+bounds:337,9,16,15
+Layer 4
+bounds:390,4,15,15
+Layer 5
+bounds:527,9,15,16
+Layer 6
+bounds:407,4,15,15
+Layer 7
+bounds:355,9,16,15
+Layer 8
+bounds:424,4,15,15
+Sparkle
+bounds:289,2,20,22
+frame_00000
+bounds:550,107,33,33
+frame_00001
+bounds:550,72,33,33
+frame_00002
+bounds:585,107,33,33
+frame_00003
+bounds:585,72,33,33
+frame_00004
+bounds:620,107,33,33
+frame_00005
+bounds:620,72,33,33
+frame_00006
+bounds:655,107,33,33
+frame_00007
+bounds:655,72,33,33
+frame_00008
+bounds:376,21,33,33
+frame_00009
+bounds:411,21,33,33
+frame_00010
+bounds:446,21,33,33
+frame_00011
+bounds:481,27,33,33
+frame_00012
+bounds:516,27,33,33
+frame_00013
+bounds:551,37,33,33
+frame_00014
+bounds:551,2,33,33
+frame_00015
+bounds:586,37,33,33
+frame_00016
+bounds:586,2,33,33
+frame_00017
+bounds:621,37,33,33
+frame_00018
+bounds:621,2,33,33
+ring_cc
+bounds:376,56,89,84
+offsets:2,2,93,90

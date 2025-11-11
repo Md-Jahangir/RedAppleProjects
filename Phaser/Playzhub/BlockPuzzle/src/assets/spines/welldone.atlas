@@ -1,0 +1,29 @@
+welldone.png
+size:889,1035
+filter:Linear,Linear
+pma:true
+Layer 77
+bounds:723,305,103,138
+offsets:2,2,106,142
+Layer 78
+bounds:2,724,885,309
+cake_1
+bounds:723,169,107,134
+offsets:1,1,109,137
+cake_2
+bounds:559,47,120,112
+offsets:2,1,124,114
+cake_3
+bounds:506,161,215,282
+offsets:2,1,218,284
+fruit_glow
+bounds:2,108,502,335
+offsets:16,137,689,472
+full_ribon
+bounds:2,445,841,277
+offsets:0,45,841,334
+star
+bounds:506,114,45,45
+offsets:6,7,58,57
+welldone
+bounds:2,2,555,104

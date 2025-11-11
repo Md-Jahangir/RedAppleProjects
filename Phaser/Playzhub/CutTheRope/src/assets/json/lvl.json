@@ -1,0 +1,4442 @@
+{
+    "level0": {
+        "frogPosition": {
+            "x": 0,
+            "y": 700
+        },
+        "candyPosition": {
+            "x": 0,
+            "y": -500
+        },
+        "candyMass": 0.2,
+        "ropeCount": 1,
+        "ropestartPos": {
+            "x": -10,
+            "y": -500
+        },
+        "ropebodyCount": [
+            13
+        ],
+        "ropeHeadPosition": {
+            "x": [
+                0
+            ],
+            "y": [
+                -660
+            ]
+        },
+        "star1": {
+            "x": 0,
+            "y": 0
+        },
+        "star2": {
+            "x": 0,
+            "y": 175
+        },
+        "star3": {
+            "x": 0,
+            "y": 350
+        }
+    },
+    "level1": {
+        "frogPosition": {
+            "x": 200,
+            "y": 720
+        },
+        "candyPosition": {
+            "x": -200,
+            "y": -400
+        },
+        "candyMass": 0.25,
+        "ropeCount": 3,
+        "ropestartPos": {
+            "x": -200,
+            "y": -400
+        },
+        "ropebodyCount": [
+            12,
+            20,
+            40
+        ],
+        "ropeHeadPosition": {
+            "x": [
+                -310,
+                0,
+                350
+            ],
+            "y": [
+                -660,
+                -660,
+                -660
+            ]
+        },
+        "star1": {
+            "x": -250,
+            "y": -50
+        },
+        "star2": {
+            "x": 200,
+            "y": 0
+        },
+        "star3": {
+            "x": 200,
+            "y": 400
+        }
+    },
+    "level2": {
+        "frogPosition": {
+            "x": 200,
+            "y": 720
+        },
+        "candyPosition": {
+            "x": 0,
+            "y": -360
+        },
+        "candyMass": 0.3,
+        "ropeCount": 3,
+        "ropestartPos": {
+            "x": 0,
+            "y": -360
+        },
+        "ropebodyCount": [
+            12,
+            20,
+            12
+        ],
+        "ropeHeadPosition": {
+            "x": [
+                -280,
+                -180,
+                380
+            ],
+            "y": [
+                -680,
+                -150,
+                -540
+            ]
+        },
+        "star1": {
+            "x": -400,
+            "y": -300
+        },
+        "star2": {
+            "x": -400,
+            "y": 400
+        },
+        "star3": {
+            "x": 50,
+            "y": 400
+        }
+    },
+    "level3": {
+        "frogPosition": {
+            "x": 150,
+            "y": 720
+        },
+        "candyPosition": {
+            "x": 0,
+            "y": -350
+        },
+        "candyMass": 0.2,
+        "ropeCount": 4,
+        "ropestartPos": {
+            "x": 0,
+            "y": -350
+        },
+        "ropebodyCount": [
+            10,
+            13,
+            8,
+            13
+        ],
+        "ropeHeadPosition": {
+            "x": [
+                0,
+                375,
+                0,
+                -375
+            ],
+            "y": [
+                -675,
+                -375,
+                0,
+                -375
+            ]
+        },
+        "star1": {
+            "x": 0,
+            "y": -150
+        },
+        "star2": {
+            "x": -350,
+            "y": 100
+        },
+        "star3": {
+            "x": -100,
+            "y": 350
+        }
+    },
+    "level4": {
+        "frogPosition": {
+            "x": 150,
+            "y": 720
+        },
+        "candyPosition": {
+            "x": 0,
+            "y": -310
+        },
+        "candyMass": 0.2,
+        "ropeCount": 6,
+        "ropestartPos": {
+            "x": 0,
+            "y": -310
+        },
+        "ropebodyCount": [
+            12,
+            10,
+            10,
+            6,
+            10,
+            10
+        ],
+        "ropeHeadPosition": {
+            "x": [
+                0,
+                400,
+                400,
+                0,
+                -400,
+                -400
+            ],
+            "y": [
+                -710,
+                -510,
+                -110,
+                240,
+                -110,
+                -510
+            ]
+        },
+        "star1": {
+            "x": 280,
+            "y": 0
+        },
+        "star2": {
+            "x": 350,
+            "y": 300
+        },
+        "star3": {
+            "x": -140,
+            "y": 500
+        }
+    },
+    "level5": {
+        "frogPosition": {
+            "x": 200,
+            "y": -550
+        },
+        "candyPosition": {
+            "x": -50,
+            "y": 350
+        },
+        "candyMass": 0.2,
+        "ropeCount": 3,
+        "ropestartPos": {
+            "x": -50,
+            "y": 350
+        },
+        "ropebodyCount": [
+            16,
+            16,
+            16
+        ],
+        "ropeHeadPosition": {
+            "x": [
+                0,
+                300,
+                -250
+            ],
+            "y": [
+                -200,
+                140,
+                640
+            ]
+        },
+        "star1": {
+            "x": 0,
+            "y": 640
+        },
+        "star2": {
+            "x": -250,
+            "y": 140
+        },
+        "star3": {
+            "x": -100,
+            "y": -60
+        },
+        "bubbleCount": 1,
+        "bubblePosition": {
+            "x": [
+                200
+            ],
+            "y": [
+                640
+            ]
+        }
+    },
+    "level6": {
+        "frogPosition": {
+            "x": 100,
+            "y": 750
+        },
+        "candyPosition": {
+            "x": -150,
+            "y": -250
+        },
+        "candyMass": 0.2,
+        "ropeCount": 2,
+        "ropestartPos": {
+            "x": -150,
+            "y": -250
+        },
+        "ropebodyCount": [
+            16,
+            20
+        ],
+        "ropeHeadPosition": {
+            "x": [
+                -340,
+                200
+            ],
+            "y": [
+                -580,
+                -200
+            ]
+        },
+        "star1": {
+            "x": -250,
+            "y": 140
+        },
+        "star2": {
+            "x": 250,
+            "y": -500
+        },
+        "star3": {
+            "x": 250,
+            "y": -700
+        },
+        "bubbleCount": 1,
+        "bubblePosition": {
+            "x": [
+                -250
+            ],
+            "y": [
+                350
+            ]
+        }
+    },
+    "level7": {
+        "frogPosition": {
+            "x": 0,
+            "y": 750
+        },
+        "candyPosition": {
+            "x": 0,
+            "y": -350
+        },
+        "candyMass": 0.3,
+        "ropeCount": 1,
+        "ropestartPos": {
+            "x": -10,
+            "y": -350
+        },
+        "ropebodyCount": [
+            8
+        ],
+        "ropeHeadPosition": {
+            "x": [
+                0
+            ],
+            "y": [
+                -525
+            ]
+        },
+        "star1": {
+            "x": 0,
+            "y": 80
+        },
+        "star2": {
+            "x": 0,
+            "y": 400
+        },
+        "star3": {
+            "x": 0,
+            "y": -650
+        },
+        "bubbleCount": 1,
+        "bubblePosition": {
+            "x": [
+                0
+            ],
+            "y": [
+                80
+            ]
+        }
+    },
+    "level8": {
+        "frogPosition": {
+            "x": 0,
+            "y": 750
+        },
+        "candyPosition": {
+            "x": 200,
+            "y": -180
+        },
+        "candyMass": 0.3,
+        "ropeCount": 2,
+        "ropestartPos": {
+            "x": 200,
+            "y": -180
+        },
+        "ropebodyCount": [
+            15,
+            10
+        ],
+        "ropeHeadPosition": {
+            "x": [
+                250,
+                0
+            ],
+            "y": [
+                -650,
+                0
+            ]
+        },
+        "star1": {
+            "x": 250,
+            "y": 50
+        },
+        "star2": {
+            "x": -200,
+            "y": 0
+        },
+        "star3": {
+            "x": 0,
+            "y": -600
+        },
+        "bubbleCount": 1,
+        "bubblePosition": {
+            "x": [
+                280
+            ],
+            "y": [
+                300
+            ]
+        }
+    },
+    "level9": {
+        "frogPosition": {
+            "x": 300,
+            "y": 750
+        },
+        "candyPosition": {
+            "x": 0,
+            "y": -300
+        },
+        "candyMass": 0.2,
+        "ropeCount": 5,
+        "ropestartPos": {
+            "x": 0,
+            "y": -300
+        },
+        "ropebodyCount": [
+            14,
+            14,
+            10,
+            20,
+            20
+        ],
+        "ropeHeadPosition": {
+            "x": [
+                -300,
+                300,
+                300,
+                300,
+                -300
+            ],
+            "y": [
+                -600,
+                -600,
+                -200,
+                0,
+                0
+            ]
+        },
+        "obs1Count": [
+            {
+                "subObs": 4
+            },
+            {
+                "subObs": 3
+            }
+        ],
+        "obs1Position": {
+            "x": [
+                0,
+                300
+            ],
+            "y": [
+                0,
+                480
+            ]
+        },
+        "obs1Offset": {
+            "x": [
+                0,
+                57
+            ],
+            "y": [
+                57,
+                0
+            ]
+        },
+        "obs1Angle": [
+            90,
+            0
+        ],
+        "star1": {
+            "x": 300,
+            "y": -100
+        },
+        "star2": {
+            "x": 250,
+            "y": 350
+        },
+        "star3": {
+            "x": 0,
+            "y": 500
+        }
+    },
+    "level10": {
+        "frogPosition": {
+            "x": 350,
+            "y": 600
+        },
+        "candyPosition": {
+            "x": -200,
+            "y": -400
+        },
+        "candyMass": 0.2,
+        "ropeCount": 4,
+        "ropestartPos": {
+            "x": -200,
+            "y": -400
+        },
+        "ropebodyCount": [
+            6,
+            10,
+            35,
+            12
+        ],
+        "ropeHeadPosition": {
+            "x": [
+                -300,
+                0,
+                300,
+                -350
+            ],
+            "y": [
+                -700,
+                -700,
+                -700,
+                -150
+            ]
+        },
+        "obs1Count": [
+            {
+                "subObs": 6
+            },
+            {
+                "subObs": 6
+            }
+        ],
+        "obs1Position": {
+            "x": [
+                -300,
+                300
+            ],
+            "y": [
+                50,
+                -350
+            ]
+        },
+        "obs1Offset": {
+            "x": [
+                0,
+                0
+            ],
+            "y": [
+                57,
+                57
+            ]
+        },
+        "obs1Angle": [
+            90,
+            90
+        ],
+        "star1": {
+            "x": 125,
+            "y": -300
+        },
+        "star2": {
+            "x": -80,
+            "y": 150
+        },
+        "star3": {
+            "x": 200,
+            "y": 250
+        }
+    },
+    "level11": {
+        "frogPosition": {
+            "x": 0,
+            "y": 700
+        },
+        "candyPosition": {
+            "x": -150,
+            "y": -425
+        },
+        "candyMass": 0.2,
+        "ropeCount": 4,
+        "ropestartPos": {
+            "x": -150,
+            "y": -425
+        },
+        "ropebodyCount": [
+            6,
+            11,
+            11,
+            18
+        ],
+        "ropeHeadPosition": {
+            "x": [
+                -300,
+                50,
+                50,
+                50
+            ],
+            "y": [
+                -700,
+                -700,
+                -400,
+                0
+            ]
+        },
+        "obs1Count": [
+            {
+                "subObs": 6
+            },
+            {
+                "subObs": 6
+            }
+        ],
+        "obs1Position": {
+            "x": [
+                150,
+                -350
+            ],
+            "y": [
+                -170,
+                250
+            ]
+        },
+        "obs1Offset": {
+            "x": [
+                57,
+                57
+            ],
+            "y": [
+                0,
+                0
+            ]
+        },
+        "obs1Angle": [
+            0,
+            0
+        ],
+        "star1": {
+            "x": 150,
+            "y": -300
+        },
+        "star2": {
+            "x": -80,
+            "y": 50
+        },
+        "star3": {
+            "x": 200,
+            "y": 250
+        }
+    },
+    "level12": {
+        "frogPosition": {
+            "x": 300,
+            "y": 800
+        },
+        "candyPosition": {
+            "x": -250,
+            "y": -600
+        },
+        "candyMass": 0.2,
+        "ropeCount": 1,
+        "ropestartPos": {
+            "x": -250,
+            "y": -600
+        },
+        "ropebodyCount": [
+            2
+        ],
+        "ropeHeadPosition": {
+            "x": [
+                -300
+            ],
+            "y": [
+                -800
+            ]
+        },
+        "runtimeRopeCount": 3,
+        "runtimeropebodyCount": [
+            3,
+            3,
+            3
+        ],
+        "runtimeropeHeadPosition": {
+            "x": [
+                -170,
+                0,
+                170
+            ],
+            "y": [
+                -400,
+                0,
+                400
+            ]
+        },
+        "star1": {
+            "x": -250,
+            "y": -200
+        },
+        "star2": {
+            "x": -80,
+            "y": 200
+        },
+        "star3": {
+            "x": 90,
+            "y": 600
+        }
+    },
+    "level13": {
+        "frogPosition": {
+            "x": 100,
+            "y": 720
+        },
+        "candyPosition": {
+            "x": 0,
+            "y": -350
+        },
+        "candyMass": 0.2,
+        "ropeCount": 3,
+        "ropestartPos": {
+            "x": 0,
+            "y": -350
+        },
+        "ropebodyCount": [
+            5,
+            6,
+            5
+        ],
+        "ropeHeadPosition": {
+            "x": [
+                -150,
+                0,
+                150
+            ],
+            "y": [
+                -500,
+                -600,
+                -500
+            ]
+        },
+        "runtimeRopeCount": 4,
+        "runtimeropebodyCount": [
+            4,
+            4,
+            4,
+            4
+        ],
+        "runtimeropeHeadPosition": {
+            "x": [
+                -300,
+                300,
+                150,
+                -150
+            ],
+            "y": [
+                -200,
+                -200,
+                100,
+                100
+            ]
+        },
+        "star1": {
+            "x": -350,
+            "y": 0
+        },
+        "star2": {
+            "x": -200,
+            "y": 300
+        },
+        "star3": {
+            "x": 100,
+            "y": 300
+        }
+    },
+    "level14": {
+        "frogPosition": {
+            "x": 150,
+            "y": 720
+        },
+        "candyPosition": {
+            "x": -150,
+            "y": -300
+        },
+        "candyMass": 0.2,
+        "ropeCount": 2,
+        "ropestartPos": {
+            "x": -150,
+            "y": -300
+        },
+        "ropebodyCount": [
+            6,
+            4
+        ],
+        "ropeHeadPosition": {
+            "x": [
+                0,
+                -300
+            ],
+            "y": [
+                -600,
+                0
+            ]
+        },
+        "runtimeRopeCount": 1,
+        "runtimeropebodyCount": [
+            4
+        ],
+        "runtimeropeHeadPosition": {
+            "x": [
+                300
+            ],
+            "y": [
+                -300
+            ]
+        },
+        "runtimeRopeMediumCount": 1,
+        "runtimeropeMediumbodyCount": [
+            6
+        ],
+        "runtimeropeMediumHeadPosition": {
+            "x": [
+                300
+            ],
+            "y": [
+                200
+            ]
+        },
+        "star1": {
+            "x": 100,
+            "y": -350
+        },
+        "star2": {
+            "x": 300,
+            "y": -80
+        },
+        "star3": {
+            "x": 300,
+            "y": 500
+        }
+    },
+    "level15": {
+        "frogPosition": {
+            "x": -200,
+            "y": 720
+        },
+        "candyPosition": {
+            "x": 0,
+            "y": -450
+        },
+        "candyMass": 0.2,
+        "ropeCount": 2,
+        "ropestartPos": {
+            "x": 0,
+            "y": -450
+        },
+        "ropebodyCount": [
+            10,
+            10
+        ],
+        "ropeHeadPosition": {
+            "x": [
+                200,
+                -200
+            ],
+            "y": [
+                -650,
+                -650
+            ]
+        },
+        "runtimeRopeLargeCount": 2,
+        "runtimeropeLargebodyCount": [
+            8,
+            8
+        ],
+        "runtimeropeLargeHeadPosition": {
+            "x": [
+                -230,
+                230
+            ],
+            "y": [
+                0,
+                0
+            ]
+        },
+        "obs1Count": [
+            {
+                "subObs": 6
+            },
+            {
+                "subObs": 6
+            }
+        ],
+        "obs1Position": {
+            "x": [
+                -300,
+                200
+            ],
+            "y": [
+                100,
+                100
+            ]
+        },
+        "obs1Offset": {
+            "x": [
+                -15,
+                15
+            ],
+            "y": [
+                57,
+                57
+            ]
+        },
+        "obs1Angle": [
+            -75,
+            75
+        ],
+        "star1": {
+            "x": 0,
+            "y": 0
+        },
+        "star2": {
+            "x": 0,
+            "y": 250
+        },
+        "star3": {
+            "x": -200,
+            "y": 400
+        }
+    },
+    "level16": {
+        "frogPosition": {
+            "x": -100,
+            "y": 620
+        },
+        "candyPosition": {
+            "x": 0,
+            "y": -450
+        },
+        "candyMass": 0.2,
+        "ropeCount": 3,
+        "ropestartPos": {
+            "x": 0,
+            "y": -450
+        },
+        "ropebodyCount": [
+            10,
+            10,
+            14
+        ],
+        "ropeHeadPosition": {
+            "x": [
+                -300,
+                300,
+                0
+            ],
+            "y": [
+                -700,
+                -700,
+                -200
+            ]
+        },
+        "star1": {
+            "x": 0,
+            "y": -650
+        },
+        "star2": {
+            "x": 100,
+            "y": -60
+        },
+        "star3": {
+            "x": -250,
+            "y": -60
+        },
+        "bubbleCount": 1,
+        "bubblePosition": {
+            "x": [
+                -250
+            ],
+            "y": [
+                -60
+            ]
+        }
+    },
+    "level17": {
+        "frogPosition": {
+            "x": -200,
+            "y": -600
+        },
+        "candyPosition": {
+            "x": 0,
+            "y": 200
+        },
+        "candyMass": 0.2,
+        "ropeCount": 1,
+        "ropestartPos": {
+            "x": -10,
+            "y": 200
+        },
+        "ropebodyCount": [
+            8
+        ],
+        "ropeHeadPosition": {
+            "x": [
+                0
+            ],
+            "y": [
+                0
+            ]
+        },
+        "airgunCount": 2,
+        "airgunposition": {
+            "x": [
+                -400,
+                400
+            ],
+            "y": [
+                250,
+                -100
+            ]
+        },
+        "airgunAngle": [
+            0,
+            180
+        ],
+        "airgunVelocity": [
+            {
+                "x": 1,
+                "y": 0
+            },
+            {
+                "x": -1,
+                "y": 0
+            }
+        ],
+        "airgunArea": {
+            "x": [
+                -350,
+                350
+            ],
+            "y": [
+                250,
+                -150
+            ]
+        },
+        "star1": {
+            "x": -200,
+            "y": -400
+        },
+        "star2": {
+            "x": 150,
+            "y": -200
+        },
+        "star3": {
+            "x": 0,
+            "y": 700
+        },
+        "bubbleCount": 1,
+        "bubblePosition": {
+            "x": [
+                0
+            ],
+            "y": [
+                700
+            ]
+        }
+    },
+    "level18": {
+        "frogPosition": {
+            "x": -200,
+            "y": -550
+        },
+        "candyPosition": {
+            "x": 200,
+            "y": 450
+        },
+        "candyMass": 0.2,
+        "ropeCount": 3,
+        "ropestartPos": {
+            "x": 200,
+            "y": 450
+        },
+        "ropebodyCount": [
+            8,
+            10,
+            2
+        ],
+        "ropeHeadPosition": {
+            "x": [
+                -150,
+                400,
+                350
+            ],
+            "y": [
+                150,
+                -50,
+                650
+            ]
+        },
+        "airgunCount": 1,
+        "airgunposition": {
+            "x": [
+                400
+            ],
+            "y": [
+                -200
+            ]
+        },
+        "airgunAngle": [
+            180
+        ],
+        "airgunVelocity": [
+            {
+                "x": -1,
+                "y": 0
+            }
+        ],
+        "airgunArea": {
+            "x": [
+                350
+            ],
+            "y": [
+                -150
+            ]
+        },
+        "star1": {
+            "x": -200,
+            "y": -250
+        },
+        "star2": {
+            "x": 0,
+            "y": -50
+        },
+        "star3": {
+            "x": 0,
+            "y": 850
+        },
+        "bubbleCount": 1,
+        "bubblePosition": {
+            "x": [
+                0
+            ],
+            "y": [
+                850
+            ]
+        }
+    },
+    "level19": {
+        "frogPosition": {
+            "x": 200,
+            "y": 500
+        },
+        "candyPosition": {
+            "x": 150,
+            "y": -400
+        },
+        "candyMass": 0.2,
+        "ropeCount": 2,
+        "ropestartPos": {
+            "x": 150,
+            "y": -400
+        },
+        "ropebodyCount": [
+            10,
+            15
+        ],
+        "ropeHeadPosition": {
+            "x": [
+                200,
+                -200
+            ],
+            "y": [
+                -700,
+                -350
+            ]
+        },
+        "airgunCount": 2,
+        "airgunposition": {
+            "x": [
+                -400,
+                400
+            ],
+            "y": [
+                150,
+                -350
+            ]
+        },
+        "airgunAngle": [
+            0,
+            180
+        ],
+        "airgunVelocity": [
+            {
+                "x": 1,
+                "y": 0
+            },
+            {
+                "x": -1,
+                "y": 0
+            }
+        ],
+        "airgunArea": {
+            "x": [
+                -300,
+                350
+            ],
+            "y": [
+                150,
+                -350
+            ]
+        },
+        "obs1Count": 4,
+        "obs1Position": {
+            "x": [
+                400,
+                30,
+                200,
+                -370
+            ],
+            "y": [
+                -150,
+                -150,
+                -150,
+                -150
+            ]
+        },
+        "obs1Angle": [
+            90,
+            90,
+            90,
+            90
+        ],
+        "star1": {
+            "x": -200,
+            "y": -800
+        },
+        "star2": {
+            "x": -200,
+            "y": -200
+        },
+        "star3": {
+            "x": 50,
+            "y": 100
+        },
+        "bubbleCount": 1,
+        "bubblePosition": {
+            "x": [
+                -225
+            ],
+            "y": [
+                -550
+            ]
+        }
+    },
+    "level20": {
+        "frogPosition": {
+            "x": -250,
+            "y": 300
+        },
+        "candyPosition": {
+            "x": 420,
+            "y": -800
+        },
+        "candyMass": 0.2,
+        "ropeCount": 0,
+        "runtimeRopeCount": 1,
+        "runtimeropebodyCount": [
+            8
+        ],
+        "runtimeropeHeadPosition": {
+            "x": [
+                300
+            ],
+            "y": [
+                300
+            ]
+        },
+        "runtimeRopeMediumCount": 1,
+        "runtimeropeMediumbodyCount": [
+            6
+        ],
+        "runtimeropeMediumHeadPosition": {
+            "x": [
+                -150
+            ],
+            "y": [
+                -250
+            ]
+        },
+        "obs1Count": [
+            {
+                "subObs": 6
+            },
+            {
+                "subObs": 6
+            }
+        ],
+        "obs1Position": {
+            "x": [
+                -300,
+                275
+            ],
+            "y": [
+                -700,
+                -150
+            ]
+        },
+        "obs1Offset": {
+            "x": [
+                0,
+                0
+            ],
+            "y": [
+                57,
+                57
+            ]
+        },
+        "obs1Angle": [
+            90,
+            90
+        ],
+        "star1": {
+            "x": 420,
+            "y": 0
+        },
+        "star2": {
+            "x": -250,
+            "y": 0
+        },
+        "star3": {
+            "x": -100,
+            "y": -500
+        },
+        "bubbleCount": 1,
+        "bubblePosition": {
+            "x": [
+                150
+            ],
+            "y": [
+                700
+            ]
+        }
+    },
+    "level21": {
+        "frogPosition": {
+            "x": 0,
+            "y": 700
+        },
+        "candyPosition": {
+            "x": 0,
+            "y": -275
+        },
+        "candyMass": 0.2,
+        "ropeCount": 3,
+        "ropestartPos": {
+            "x": 0,
+            "y": -275
+        },
+        "ropebodyCount": [
+            8,
+            8,
+            8
+        ],
+        "ropeHeadPosition": {
+            "x": [
+                -300,
+                300,
+                0
+            ],
+            "y": [
+                -500,
+                -500,
+                -100
+            ]
+        },
+        "obs1Count": [
+            {
+                "subObs": 4
+            },
+            {
+                "subObs": 4
+            }
+        ],
+        "obs1Position": {
+            "x": [
+                300,
+                -450
+            ],
+            "y": [
+                400,
+                400
+            ]
+        },
+        "obs1Offset": {
+            "x": [
+                57,
+                57
+            ],
+            "y": [
+                0,
+                0
+            ]
+        },
+        "obs1Angle": [
+            0,
+            0
+        ],
+        "obs1Tween": [
+            {
+                "direction": "R2L",
+                "time": 2000,
+                "endPos": {
+                    "x": -250,
+                    "y": 0
+                }
+            },
+            {
+                "direction": "L2R",
+                "time": 2000,
+                "endPos": {
+                    "x": 250,
+                    "y": 0
+                }
+            }
+        ],
+        "star1": {
+            "x": 0,
+            "y": -650
+        },
+        "star2": {
+            "x": -300,
+            "y": -100
+        },
+        "star3": {
+            "x": 0,
+            "y": 250
+        },
+        "bubbleCount": 1,
+        "bubblePosition": {
+            "x": [
+                0
+            ],
+            "y": [
+                250
+            ]
+        }
+    },
+    "level22": {
+        "frogPosition": {
+            "x": 0,
+            "y": 700
+        },
+        "candyPosition": {
+            "x": -300,
+            "y": -500
+        },
+        "candyMass": 0.2,
+        "ropeCount": 1,
+        "ropestartPos": {
+            "x": -400,
+            "y": -500
+        },
+        "ropebodyCount": [
+            6
+        ],
+        "ropeHeadPosition": {
+            "x": [
+                -300
+            ],
+            "y": [
+                -700
+            ]
+        },
+        "runtimeRopeLargeCount": 1,
+        "runtimeropeLargebodyCount": [
+            10
+        ],
+        "runtimeropeLargeHeadPosition": {
+            "x": [
+                0
+            ],
+            "y": [
+                0
+            ]
+        },
+        "isEnemyRope": {
+            "runtimeRopeLarge": [
+                true
+            ]
+        },
+        "obs1Count": [
+            {
+                "subObs": 4
+            },
+            {
+                "subObs": 4
+            }
+        ],
+        "obs1Position": {
+            "x": [
+                300,
+                -300
+            ],
+            "y": [
+                450,
+                450
+            ]
+        },
+        "obs1Offset": {
+            "x": [
+                0,
+                0
+            ],
+            "y": [
+                57,
+                57
+            ]
+        },
+        "obs1Angle": [
+            90,
+            90
+        ],
+        "star1": {
+            "x": -300,
+            "y": -200
+        },
+        "star2": {
+            "x": 250,
+            "y": 250
+        },
+        "star3": {
+            "x": -100,
+            "y": 400
+        }
+    },
+    "level23": {
+        "frogPosition": {
+            "x": 250,
+            "y": 700
+        },
+        "candyPosition": {
+            "x": -300,
+            "y": -500
+        },
+        "candyMass": 0.2,
+        "ropeCount": 1,
+        "ropestartPos": {
+            "x": -400,
+            "y": -500
+        },
+        "ropebodyCount": [
+            6
+        ],
+        "ropeHeadPosition": {
+            "x": [
+                -300
+            ],
+            "y": [
+                -700
+            ]
+        },
+        "runtimeRopeMediumCount": 2,
+        "runtimeropeMediumbodyCount": [
+            8,
+            8
+        ],
+        "runtimeropeMediumHeadPosition": {
+            "x": [
+                -200,
+                100
+            ],
+            "y": [
+                200,
+                -400
+            ]
+        },
+        "isEnemyRope": {
+            "runtimeRopeMedium": [
+                true,
+                true
+            ]
+        },
+        "star1": {
+            "x": -300,
+            "y": -200
+        },
+        "star2": {
+            "x": 100,
+            "y": -650
+        },
+        "star3": {
+            "x": -200,
+            "y": 500
+        },
+        "bubbleCount": 1,
+        "bubblePosition": {
+            "x": [
+                -200
+            ],
+            "y": [
+                500
+            ]
+        }
+    },
+    "level24": {
+        "frogPosition": {
+            "x": -200,
+            "y": -600
+        },
+        "candyPosition": {
+            "x": 0,
+            "y": 400
+        },
+        "candyMass": 0.2,
+        "ropeCount": 2,
+        "ropestartPos": {
+            "x": -10,
+            "y": 400
+        },
+        "ropebodyCount": [
+            6,
+            64
+        ],
+        "ropeHeadPosition": {
+            "x": [
+                0,
+                400
+            ],
+            "y": [
+                200,
+                800
+            ]
+        },
+        "isEnemyRope": {
+            "rope": [
+                true,
+                true
+            ]
+        },
+        "obs1Count": [
+            {
+                "subObs": 16
+            }
+        ],
+        "obs1Position": {
+            "x": [
+                -300
+            ],
+            "y": [
+                -250
+            ]
+        },
+        "obs1Offset": {
+            "x": [
+                0
+            ],
+            "y": [
+                57
+            ]
+        },
+        "obs1Angle": [
+            90
+        ],
+        "airgunCount": 2,
+        "airgunposition": {
+            "x": [
+                400,
+                400
+            ],
+            "y": [
+                250,
+                -100
+            ]
+        },
+        "airgunAngle": [
+            180,
+            180
+        ],
+        "airgunVelocity": [
+            {
+                "x": -1,
+                "y": 0
+            },
+            {
+                "x": -1,
+                "y": 0
+            }
+        ],
+        "airgunArea": {
+            "x": [
+                350,
+                350
+            ],
+            "y": [
+                250,
+                -100
+            ]
+        },
+        "star1": {
+            "x": -200,
+            "y": -400
+        },
+        "star2": {
+            "x": -100,
+            "y": 0
+        },
+        "star3": {
+            "x": 0,
+            "y": 800
+        },
+        "bubbleCount": 1,
+        "bubblePosition": {
+            "x": [
+                0
+            ],
+            "y": [
+                800
+            ]
+        }
+    },
+    "level25": {
+        "frogPosition": {
+            "x": 0,
+            "y": 720
+        },
+        "candyPosition": {
+            "x": 0,
+            "y": 0
+        },
+        "candyMass": 0.2,
+        "ropeCount": 4,
+        "ropestartPos": {
+            "x": 0,
+            "y": 0
+        },
+        "ropebodyCount": [
+            14,
+            8,
+            3,
+            8
+        ],
+        "ropeHeadPosition": {
+            "x": [
+                0,
+                375,
+                0,
+                -375
+            ],
+            "y": [
+                -475,
+                -375,
+                400,
+                -375
+            ]
+        },
+        "runtimeRopeCount": 2,
+        "runtimeropebodyCount": [
+            4,
+            8
+        ],
+        "runtimeropeHeadPosition": {
+            "x": [
+                225,
+                -225
+            ],
+            "y": [
+                0,
+                0
+            ]
+        },
+        "isEnemyRope": {
+            "runtimeRope": [
+                true,
+                true
+            ]
+        },
+        "star1": {
+            "x": 0,
+            "y": -600
+        },
+        "star2": {
+            "x": 225,
+            "y": -300
+        },
+        "star3": {
+            "x": -100,
+            "y": 350
+        }
+    },
+    "level26": {
+        "frogPosition": {
+            "x": 0,
+            "y": -500
+        },
+        "candyPosition": {
+            "x": 0,
+            "y": -150
+        },
+        "candyMass": 0.2,
+        "ropeCount": 2,
+        "ropestartPos": {
+            "x": 0,
+            "y": -150
+        },
+        "ropebodyCount": [
+            12,
+            12
+        ],
+        "ropeHeadPosition": {
+            "x": [
+                250,
+                -250
+            ],
+            "y": [
+                -250,
+                -250
+            ]
+        },
+        "runtimeRopeMediumCount": 1,
+        "runtimeropeMediumbodyCount": [
+            8
+        ],
+        "runtimeropeMediumHeadPosition": {
+            "x": [
+                0
+            ],
+            "y": [
+                550
+            ]
+        },
+        "isEnemyRope": {
+            "runtimeRopeMedium": [
+                true
+            ]
+        },
+        "star1": {
+            "x": 0,
+            "y": 300
+        },
+        "star2": {
+            "x": 300,
+            "y": 150
+        },
+        "star3": {
+            "x": -250,
+            "y": 550
+        },
+        "bubbleCount": 1,
+        "bubblePosition": {
+            "x": [
+                0
+            ],
+            "y": [
+                850
+            ]
+        }
+    },
+    "level27": {
+        "frogPosition": {
+            "x": 0,
+            "y": 700
+        },
+        "candyPosition": {
+            "x": 0,
+            "y": -100
+        },
+        "candyMass": 0.2,
+        "ropeCount": 2,
+        "ropestartPos": {
+            "x": -10,
+            "y": -100
+        },
+        "ropebodyCount": [
+            14,
+            6
+        ],
+        "ropeHeadPosition": {
+            "x": [
+                0,
+                0
+            ],
+            "y": [
+                -600,
+                200
+            ]
+        },
+        "isEnemyRope": {
+            "rope": [
+                true,
+                false
+            ]
+        },
+        "airgunCount": 1,
+        "airgunposition": {
+            "x": [
+                -300
+            ],
+            "y": [
+                -100
+            ]
+        },
+        "airgunAngle": [
+            0
+        ],
+        "airgunVelocity": [
+            {
+                "x": 2,
+                "y": 0
+            }
+        ],
+        "airgunArea": {
+            "x": [
+                -200
+            ],
+            "y": [
+                -100
+            ]
+        },
+        "obs1Count": [
+            {
+                "subObs": 8
+            }
+        ],
+        "obs1Position": {
+            "x": [
+                -200
+            ],
+            "y": [
+                -400
+            ]
+        },
+        "obs1Offset": {
+            "x": [
+                57
+            ],
+            "y": [
+                0
+            ]
+        },
+        "obs1Angle": [
+            0
+        ],
+        "star1": {
+            "x": 200,
+            "y": -100
+        },
+        "star2": {
+            "x": 350,
+            "y": -250
+        },
+        "star3": {
+            "x": 0,
+            "y": 350
+        }
+    },
+    "level28": {
+        "frogPosition": {
+            "x": 300,
+            "y": 700
+        },
+        "candyPosition": {
+            "x": -300,
+            "y": -200
+        },
+        "candyMass": 0.2,
+        "ropeCount": 1,
+        "ropestartPos": {
+            "x": -310,
+            "y": -200
+        },
+        "ropebodyCount": [
+            4
+        ],
+        "ropeHeadPosition": {
+            "x": [
+                -300
+            ],
+            "y": [
+                -400
+            ]
+        },
+        "runtimeRopeLargeCount": 1,
+        "runtimeropeLargebodyCount": [
+            12
+        ],
+        "runtimeropeLargeHeadPosition": {
+            "x": [
+                0
+            ],
+            "y": [
+                -650
+            ]
+        },
+        "isEnemyRope": {
+            "runtimeRopeLarge": [
+                true
+            ]
+        },
+        "airgunCount": 1,
+        "airgunposition": {
+            "x": [
+                -300
+            ],
+            "y": [
+                700
+            ]
+        },
+        "airgunAngle": [
+            -90
+        ],
+        "airgunVelocity": [
+            {
+                "x": 0,
+                "y": -2
+            }
+        ],
+        "airgunArea": {
+            "x": [
+                -300
+            ],
+            "y": [
+                600
+            ]
+        },
+        "star1": {
+            "x": -300,
+            "y": -500
+        },
+        "star2": {
+            "x": 0,
+            "y": -100
+        },
+        "star3": {
+            "x": 300,
+            "y": 300
+        }
+    },
+    "level29": {
+        "frogPosition": {
+            "x": -300,
+            "y": 700
+        },
+        "candyPosition": {
+            "x": 200,
+            "y": 600
+        },
+        "candyMass": 0.2,
+        "ropeCount": 1,
+        "ropestartPos": {
+            "x": 190,
+            "y": 600
+        },
+        "ropebodyCount": [
+            4
+        ],
+        "ropeHeadPosition": {
+            "x": [
+                200
+            ],
+            "y": [
+                700
+            ]
+        },
+        "airgunCount": 1,
+        "airgunposition": {
+            "x": [
+                425
+            ],
+            "y": [
+                -450
+            ]
+        },
+        "airgunAngle": [
+            180
+        ],
+        "airgunVelocity": [
+            {
+                "x": -1,
+                "y": 0
+            }
+        ],
+        "airgunArea": {
+            "x": [
+                325
+            ],
+            "y": [
+                -450
+            ]
+        },
+        "obs1Count": [
+            {
+                "subObs": 12
+            }
+        ],
+        "obs1Position": {
+            "x": [
+                0
+            ],
+            "y": [
+                -200
+            ]
+        },
+        "obs1Offset": {
+            "x": [
+                0
+            ],
+            "y": [
+                57
+            ]
+        },
+        "obs1Angle": [
+            90
+        ],
+        "star1": {
+            "x": 200,
+            "y": -450
+        },
+        "star2": {
+            "x": -250,
+            "y": -450
+        },
+        "star3": {
+            "x": -300,
+            "y": 350
+        },
+        "bubbleCount": 3,
+        "bubblePosition": {
+            "x": [
+                200,
+                -250,
+                200
+            ],
+            "y": [
+                -450,
+                -450,
+                850
+            ]
+        }
+    },
+    "level30": {
+        "frogPosition": {
+            "x": -300,
+            "y": 700
+        },
+        "candyPosition": {
+            "x": 0,
+            "y": -150
+        },
+        "candyMass": 0.2,
+        "ropeCount": 2,
+        "ropestartPos": {
+            "x": 0,
+            "y": -150
+        },
+        "ropebodyCount": [
+            12,
+            12
+        ],
+        "ropeHeadPosition": {
+            "x": [
+                250,
+                -250
+            ],
+            "y": [
+                -250,
+                -250
+            ]
+        },
+        "runtimeRopeMediumCount": 2,
+        "runtimeropeMediumbodyCount": [
+            8,
+            8
+        ],
+        "runtimeropeMediumHeadPosition": {
+            "x": [
+                -200,
+                200
+            ],
+            "y": [
+                -550,
+                -550
+            ]
+        },
+        "isEnemyRope": {
+            "runtimeRopeMedium": [
+                true,
+                true
+            ]
+        },
+        "airgunCount": 2,
+        "airgunposition": {
+            "x": [
+                0,
+                0
+            ],
+            "y": [
+                -125,
+                325
+            ]
+        },
+        "airgunAngle": [
+            270,
+            270
+        ],
+        "airgunVelocity": [
+            {
+                "x": 0,
+                "y": -1.75
+            },
+            {
+                "x": 0,
+                "y": -1.75
+            }
+        ],
+        "airgunArea": {
+            "x": [
+                0,
+                0
+            ],
+            "y": [
+                -225,
+                225
+            ]
+        },
+        "star1": {
+            "x": 0,
+            "y": -500
+        },
+        "star2": {
+            "x": 0,
+            "y": -700
+        },
+        "star3": {
+            "x": 0,
+            "y": 600
+        },
+        "bubbleCount": 1,
+        "bubblePosition": {
+            "x": [
+                0
+            ],
+            "y": [
+                700
+            ],
+            "isChangeVelocity": [
+                true
+            ]
+        }
+    },
+    "level31": {
+        "frogPosition": {
+            "x": -300,
+            "y": 700
+        },
+        "candyPosition": {
+            "x": 0,
+            "y": 150
+        },
+        "candyMass": 0.2,
+        "ropeCount": 1,
+        "ropestartPos": {
+            "x": -10,
+            "y": 150
+        },
+        "ropebodyCount": [
+            10
+        ],
+        "ropeHeadPosition": {
+            "x": [
+                0
+            ],
+            "y": [
+                0
+            ]
+        },
+        "airgunCount": 2,
+        "airgunposition": {
+            "x": [
+                -300,
+                300
+            ],
+            "y": [
+                -225,
+                350
+            ]
+        },
+        "airgunAngle": [
+            0,
+            180
+        ],
+        "airgunVelocity": [
+            {
+                "x": 2,
+                "y": 0
+            },
+            {
+                "x": -2,
+                "y": 0
+            }
+        ],
+        "airgunArea": {
+            "x": [
+                -200,
+                200
+            ],
+            "y": [
+                -225,
+                350
+            ]
+        },
+        "star1": {
+            "x": 0,
+            "y": -225
+        },
+        "star2": {
+            "x": 300,
+            "y": -225
+        },
+        "star3": {
+            "x": -300,
+            "y": 400
+        }
+    },
+    "level32": {
+        "frogPosition": {
+            "x": 300,
+            "y": 600
+        },
+        "candyPosition": {
+            "x": 250,
+            "y": -550
+        },
+        "candyConfig": {
+            "airFriction": 0
+        },
+        "candyMass": 0.2,
+        "ropeCount": 1,
+        "ropestartPos": {
+            "x": 250,
+            "y": -550
+        },
+        "ropebodyCount": [
+            6
+        ],
+        "ropeHeadPosition": {
+            "x": [
+                0
+            ],
+            "y": [
+                -560
+            ]
+        },
+        "smallBouncerCount": 1,
+        "smallBouncerConfig": {
+            "x": [
+                -350
+            ],
+            "y": [
+                0
+            ],
+            "angle": [
+                45
+            ],
+            "force": [
+                {
+                    "x": 8,
+                    "y": -5
+                }
+            ]
+        },
+        "star1": {
+            "x": -250,
+            "y": -100
+        },
+        "star2": {
+            "x": 0,
+            "y": 75
+        },
+        "star3": {
+            "x": 200,
+            "y": 350
+        }
+    },
+    "level33": {
+        "frogPosition": {
+            "x": 300,
+            "y": -400
+        },
+        "candyPosition": {
+            "x": -100,
+            "y": 1050
+        },
+        "candyConfig": {
+            "airFriction": 0.02
+        },
+        "candyMass": 0.2,
+        "airgunCount": 3,
+        "airgunposition": {
+            "x": [
+                -400,
+                400,
+                -400
+            ],
+            "y": [
+                -400,
+                0,
+                800
+            ]
+        },
+        "airgunAngle": [
+            0,
+            180,
+            0
+        ],
+        "airgunVelocity": [
+            {
+                "x": 2,
+                "y": 0
+            },
+            {
+                "x": -1,
+                "y": 0
+            },
+            {
+                "x": 1,
+                "y": 0
+            }
+        ],
+        "airgunArea": {
+            "x": [
+                -300,
+                300,
+                -300
+            ],
+            "y": [
+                -400,
+                0,
+                800
+            ]
+        },
+        "smallBouncerCount": 2,
+        "smallBouncerConfig": {
+            "x": [
+                -150,
+                -50
+            ],
+            "y": [
+                600,
+                -650
+            ],
+            "angle": [
+                180,
+                180
+            ],
+            "force": [
+                {
+                    "x": 0,
+                    "y": 5
+                },
+                {
+                    "x": 0,
+                    "y": 5
+                }
+            ]
+        },
+        "star1": {
+            "x": -150,
+            "y": 750
+        },
+        "star2": {
+            "x": -50,
+            "y": -500
+        },
+        "star3": {
+            "x": 200,
+            "y": 0
+        },
+        "bubbleCount": 1,
+        "bubblePosition": {
+            "x": [
+                -100
+            ],
+            "y": [
+                1200
+            ],
+            "isChangeVelocity": [
+                true
+            ]
+        }
+    },
+    "level34": {
+        "frogPosition": {
+            "x": 0,
+            "y": -500
+        },
+        "candyPosition": {
+            "x": 300,
+            "y": -600
+        },
+        "candyMass": 0.2,
+        "ropeCount": 1,
+        "ropestartPos": {
+            "x": 290,
+            "y": -600
+        },
+        "ropebodyCount": [
+            8
+        ],
+        "ropeHeadPosition": {
+            "x": [
+                300
+            ],
+            "y": [
+                -750
+            ]
+        },
+        "smallBouncerCount": 5,
+        "smallBouncerConfig": {
+            "x": [
+                350,
+                -350,
+                350,
+                -350,
+                350
+            ],
+            "y": [
+                -200,
+                0,
+                200,
+                400,
+                600
+            ],
+            "angle": [
+                -45,
+                45,
+                -45,
+                45,
+                -45
+            ],
+            "force": [
+                {
+                    "x": -12,
+                    "y": -5
+                },
+                {
+                    "x": 12,
+                    "y": -5
+                },
+                {
+                    "x": -12,
+                    "y": -5
+                },
+                {
+                    "x": 12,
+                    "y": -5
+                },
+                {
+                    "x": -6,
+                    "y": -5
+                }
+            ]
+        },
+        "star1": {
+            "x": -250,
+            "y": -100
+        },
+        "star2": {
+            "x": 250,
+            "y": 100
+        },
+        "star3": {
+            "x": -250,
+            "y": 300
+        },
+        "bubbleCount": 1,
+        "bubblePosition": {
+            "x": [
+                0
+            ],
+            "y": [
+                800
+            ],
+            "isChangeVelocity": [
+                true
+            ]
+        }
+    },
+    "level35": {
+        "frogPosition": {
+            "x": -200,
+            "y": -550
+        },
+        "candyPosition": {
+            "x": -210,
+            "y": 300
+        },
+        "candyMass": 0.2,
+        "dragRopeCount": 1,
+        "dragRopeConfig": {
+            "isHorizontal": [
+                true
+            ],
+            "height": [
+                48
+            ],
+            "width": [
+                400
+            ],
+            "x": [
+                0
+            ],
+            "y": [
+                0
+            ],
+            "offsetX": [
+                -200
+            ],
+            "offsetY": [
+                0
+            ],
+            "widthRange": {
+                "minWidth": [
+                    340
+                ],
+                "maxWidth": [
+                    740
+                ]
+            },
+            "dragRopebodyCount": [
+                10
+            ],
+            "dragRopeHeadPosition": {
+                "x": [
+                    -210
+                ],
+                "y": [
+                    300
+                ]
+            }
+        },
+        "star1": {
+            "x": 0,
+            "y": 300
+        },
+        "star2": {
+            "x": 0,
+            "y": -200
+        },
+        "star3": {
+            "x": 200,
+            "y": -400
+        },
+        "bubbleCount": 1,
+        "bubblePosition": {
+            "x": [
+                200
+            ],
+            "y": [
+                500
+            ],
+            "isChangeVelocity": [
+                true
+            ]
+        }
+    },
+    "level36": {
+        "frogPosition": {
+            "x": -250,
+            "y": 500
+        },
+        "candyPosition": {
+            "x": 300,
+            "y": -400
+        },
+        "candyMass": 0.2,
+        "ropeCount": 1,
+        "ropestartPos": {
+            "x": 300,
+            "y": -660
+        },
+        "ropebodyCount": [
+            6
+        ],
+        "ropeHeadPosition": {
+            "x": [
+                300
+            ],
+            "y": [
+                -660
+            ]
+        },
+        "dragRopeCount": 1,
+        "dragRopeConfig": {
+            "isHorizontal": [
+                false
+            ],
+            "height": [
+                400
+            ],
+            "width": [
+                48
+            ],
+            "x": [
+                0
+            ],
+            "y": [
+                -460
+            ],
+            "offsetX": [
+                0
+            ],
+            "offsetY": [
+                -175
+            ],
+            "widthRange": {
+                "minWidth": [
+                    350
+                ],
+                "maxWidth": [
+                    660
+                ]
+            },
+            "dragRopebodyCount": [
+                36
+            ],
+            "dragRopeHeadPosition": {
+                "x": [
+                    300
+                ],
+                "y": [
+                    -400
+                ]
+            }
+        },
+        "obs1Count": [
+            {
+                "subObs": 5
+            },
+            {
+                "subObs": 12
+            }
+        ],
+        "obs1Position": {
+            "x": [
+                -100,
+                -300
+            ],
+            "y": [
+                250,
+                800
+            ]
+        },
+        "obs1Offset": {
+            "x": [
+                57,
+                57
+            ],
+            "y": [
+                0,
+                0
+            ]
+        },
+        "obs1Angle": [
+            0,
+            0
+        ],
+        "star1": {
+            "x": 0,
+            "y": 475
+        },
+        "star2": {
+            "x": 300,
+            "y": 150
+        },
+        "star3": {
+            "x": 150,
+            "y": 475
+        }
+    },
+    "level37": {
+        "frogPosition": {
+            "x": -250,
+            "y": -500
+        },
+        "candyPosition": {
+            "x": -385,
+            "y": 500
+        },
+        "candyMass": 0.2,
+        "dragRopeCount": 1,
+        "dragRopeConfig": {
+            "isHorizontal": [
+                true
+            ],
+            "height": [
+                48
+            ],
+            "width": [
+                800
+            ],
+            "x": [
+                0
+            ],
+            "y": [
+                300
+            ],
+            "offsetX": [
+                -375
+            ],
+            "offsetY": [
+                0
+            ],
+            "widthRange": {
+                "minWidth": [
+                    140
+                ],
+                "maxWidth": [
+                    940
+                ]
+            },
+            "dragRopebodyCount": [
+                12
+            ],
+            "dragRopeHeadPosition": {
+                "x": [
+                    -375
+                ],
+                "y": [
+                    300
+                ]
+            }
+        },
+        "obs1Count": [
+            {
+                "subObs": 10
+            },
+            {
+                "subObs": 10
+            }
+        ],
+        "obs1Position": {
+            "x": [
+                -300,
+                -100
+            ],
+            "y": [
+                200,
+                -150
+            ]
+        },
+        "obs1Offset": {
+            "x": [
+                57,
+                57
+            ],
+            "y": [
+                -19,
+                -19
+            ]
+        },
+        "obs1Angle": [
+            -20,
+            -20
+        ],
+        "star1": {
+            "x": -200,
+            "y": 0
+        },
+        "star2": {
+            "x": 0,
+            "y": -60
+        },
+        "star3": {
+            "x": 200,
+            "y": -120
+        },
+        "bubbleCount": 1,
+        "bubblePosition": {
+            "x": [
+                425
+            ],
+            "y": [
+                800
+            ],
+            "isChangeVelocity": [
+                true
+            ]
+        }
+    },
+    "level38": {
+        "frogPosition": {
+            "x": 300,
+            "y": 700
+        },
+        "candyPosition": {
+            "x": -385,
+            "y": -600
+        },
+        "candyMass": 0.2,
+        "dragRopeCount": 1,
+        "dragRopeConfig": {
+            "isHorizontal": [
+                true
+            ],
+            "height": [
+                48
+            ],
+            "width": [
+                800
+            ],
+            "x": [
+                0
+            ],
+            "y": [
+                -700
+            ],
+            "offsetX": [
+                -375
+            ],
+            "offsetY": [
+                0
+            ],
+            "widthRange": {
+                "minWidth": [
+                    140
+                ],
+                "maxWidth": [
+                    940
+                ]
+            },
+            "dragRopebodyCount": [
+                4
+            ],
+            "dragRopeHeadPosition": {
+                "x": [
+                    -375
+                ],
+                "y": [
+                    -700
+                ]
+            }
+        },
+        "runtimeSmallDragRopeCount": 2,
+        "runtimeSmallDragRopeConfig": {
+            "isHorizontal": [
+                true,
+                true
+            ],
+            "height": [
+                48,
+                48
+            ],
+            "width": [
+                800,
+                800
+            ],
+            "x": [
+                0,
+                0
+            ],
+            "y": [
+                -200,
+                300
+            ],
+            "offsetX": [
+                375,
+                -375
+            ],
+            "offsetY": [
+                0,
+                0
+            ],
+            "widthRange": {
+                "minWidth": [
+                    140,
+                    140
+                ],
+                "maxWidth": [
+                    940,
+                    940
+                ]
+            },
+            "dragRopebodyCount": [
+                4,
+                4
+            ],
+            "dragRopeHeadPosition": {
+                "x": [
+                    -375,
+                    -375
+                ],
+                "y": [
+                    -200,
+                    300
+                ]
+            }
+        },
+        "obs1Count": [
+            {
+                "subObs": 5
+            },
+            {
+                "subObs": 5
+            },
+            {
+                "subObs": 5
+            }
+        ],
+        "obs1Position": {
+            "x": [
+                -100,
+                -100,
+                -300
+            ],
+            "y": [
+                -350,
+                150,
+                650
+            ]
+        },
+        "obs1Offset": {
+            "x": [
+                57,
+                57,
+                57
+            ],
+            "y": [
+                0,
+                0,
+                0
+            ]
+        },
+        "obs1Angle": [
+            0,
+            0,
+            0
+        ],
+        "star1": {
+            "x": 0,
+            "y": -500
+        },
+        "star2": {
+            "x": 0,
+            "y": 0
+        },
+        "star3": {
+            "x": 0,
+            "y": 500
+        }
+    },
+    "level39": {
+        "frogPosition": {
+            "x": -275,
+            "y": -250
+        },
+        "candyPosition": {
+            "x": 10,
+            "y": 75
+        },
+        "candyMass": 0.2,
+        "ropeCount": 1,
+        "ropestartPos": {
+            "x": 0,
+            "y": 75
+        },
+        "ropebodyCount": [
+            8
+        ],
+        "ropeHeadPosition": {
+            "x": [
+                0
+            ],
+            "y": [
+                -300
+            ]
+        },
+        "dragRopeCount": 1,
+        "dragRopeConfig": {
+            "isHorizontal": [
+                false
+            ],
+            "height": [
+                600
+            ],
+            "width": [
+                48
+            ],
+            "x": [
+                0
+            ],
+            "y": [
+                600
+            ],
+            "offsetX": [
+                0
+            ],
+            "offsetY": [
+                -275
+            ],
+            "widthRange": {
+                "minWidth": [
+                    1315
+                ],
+                "maxWidth": [
+                    1815
+                ]
+            },
+            "dragRopebodyCount": [
+                4
+            ],
+            "dragRopeHeadPosition": {
+                "x": [
+                    0
+                ],
+                "y": [
+                    325
+                ]
+            }
+        },
+        "runtimeSmallDragRopeCount": 1,
+        "runtimeSmallDragRopeConfig": {
+            "isHorizontal": [
+                true
+            ],
+            "height": [
+                48
+            ],
+            "width": [
+                800
+            ],
+            "x": [
+                -50
+            ],
+            "y": [
+                -600
+            ],
+            "offsetX": [
+                -375
+            ],
+            "offsetY": [
+                0
+            ],
+            "widthRange": {
+                "minWidth": [
+                    90
+                ],
+                "maxWidth": [
+                    890
+                ]
+            },
+            "dragRopebodyCount": [
+                4
+            ],
+            "dragRopeHeadPosition": {
+                "x": [
+                    -325
+                ],
+                "y": [
+                    -600
+                ]
+            }
+        },
+        "obs1Count": [
+            {
+                "subObs": 5
+            },
+            {
+                "subObs": 12
+            }
+        ],
+        "obs1Position": {
+            "x": [
+                -390,
+                -300
+            ],
+            "y": [
+                50,
+                -700
+            ]
+        },
+        "obs1Offset": {
+            "x": [
+                57,
+                57
+            ],
+            "y": [
+                0,
+                0
+            ]
+        },
+        "obs1Angle": [
+            0,
+            0
+        ],
+        "star1": {
+            "x": 275,
+            "y": -400
+        },
+        "star2": {
+            "x": 350,
+            "y": -275
+        },
+        "star3": {
+            "x": 200,
+            "y": -275
+        }
+    },
+    "level40": {
+        "frogPosition": {
+            "x": 0,
+            "y": 700
+        },
+        "candyPosition": {
+            "x": -10,
+            "y": -200
+        },
+        "candyMass": 0.2,
+        "ropeCount": 1,
+        "ropestartPos": {
+            "x": -10,
+            "y": -200
+        },
+        "ropebodyCount": [
+            6
+        ],
+        "ropeHeadPosition": {
+            "x": [
+                0
+            ],
+            "y": [
+                -500
+            ]
+        },
+        "tweenRopeCount": 2,
+        "tweenRopestartPos": {
+            "x": [
+                -350,
+                350
+            ],
+            "y": [
+                -500,
+                100
+            ]
+        },
+        "tweenRopebodyCount": [
+            18,
+            18
+        ],
+        "tweenRopeHeadPosition": {
+            "x": [
+                -350,
+                350
+            ],
+            "y": [
+                -500,
+                100
+            ]
+        },
+        "tweenRopeConfig": [
+            {
+                "direction": "R2L",
+                "time": 4000,
+                "endPos": {
+                    "x": 0,
+                    "y": 600
+                },
+                "setTimeOut": 0
+            },
+            {
+                "direction": "L2R",
+                "time": 4000,
+                "endPos": {
+                    "x": 0,
+                    "y": -600
+                },
+                "setTimeOut": 0
+            }
+        ],
+        "obs1Count": [
+            {
+                "subObs": 3
+            },
+            {
+                "subObs": 3
+            }
+        ],
+        "obs1Position": {
+            "x": [
+                -150,
+                150
+            ],
+            "y": [
+                400,
+                400
+            ]
+        },
+        "obs1Offset": {
+            "x": [
+                0,
+                0
+            ],
+            "y": [
+                57,
+                57
+            ]
+        },
+        "obs1Angle": [
+            90,
+            90
+        ],
+        "star1": {
+            "x": 0,
+            "y": 400
+        },
+        "star2": {
+            "x": -250,
+            "y": 150
+        },
+        "star3": {
+            "x": 250,
+            "y": 150
+        }
+    },
+    "level41": {
+        "frogPosition": {
+            "x": 0,
+            "y": 700
+        },
+        "candyPosition": {
+            "x": -10,
+            "y": -400
+        },
+        "candyMass": 0.2,
+        "ropeCount": 1,
+        "ropestartPos": {
+            "x": -10,
+            "y": -400
+        },
+        "ropebodyCount": [
+            4
+        ],
+        "ropeHeadPosition": {
+            "x": [
+                0
+            ],
+            "y": [
+                -700
+            ]
+        },
+        "tweenRopeCount": 2,
+        "tweenRopestartPos": {
+            "x": [
+                -450,
+                450
+            ],
+            "y": [
+                -50,
+                -50
+            ]
+        },
+        "tweenRopebodyCount": [
+            18,
+            18
+        ],
+        "tweenRopeHeadPosition": {
+            "x": [
+                -450,
+                450
+            ],
+            "y": [
+                -50,
+                -50
+            ]
+        },
+        "tweenRopeConfig": [
+            {
+                "direction": "R2L",
+                "time": 4000,
+                "endPos": {
+                    "x": 350,
+                    "y": 0
+                },
+                "setTimeOut": 0
+            },
+            {
+                "direction": "L2R",
+                "time": 4000,
+                "endPos": {
+                    "x": -350,
+                    "y": 0
+                },
+                "setTimeOut": 0
+            }
+        ],
+        "obs1Count": [
+            {
+                "subObs": 3
+            }
+        ],
+        "obs1Position": {
+            "x": [
+                -50
+            ],
+            "y": [
+                400
+            ]
+        },
+        "obs1Offset": {
+            "x": [
+                57
+            ],
+            "y": [
+                0
+            ]
+        },
+        "obs1Angle": [
+            0
+        ],
+        "star1": {
+            "x": 325,
+            "y": -550
+        },
+        "star2": {
+            "x": 400,
+            "y": -425
+        },
+        "star3": {
+            "x": 250,
+            "y": -425
+        },
+        "bubbleCount": 1,
+        "bubblePosition": {
+            "x": [
+                0
+            ],
+            "y": [
+                250
+            ],
+            "isChangeVelocity": [
+                true
+            ]
+        }
+    },
+    "level42": {
+        "frogPosition": {
+            "x": 300,
+            "y": -600
+        },
+        "candyPosition": {
+            "x": 0,
+            "y": 0
+        },
+        "candyConfig": {
+            "airFriction": 0
+        },
+        "candyMass": 0.2,
+        "ropeCount": 3,
+        "ropestartPos": {
+            "x": 0,
+            "y": 0
+        },
+        "ropebodyCount": [
+            10,
+            8,
+            8
+        ],
+        "ropeHeadPosition": {
+            "x": [
+                0,
+                375,
+                -375
+            ],
+            "y": [
+                -300,
+                0,
+                0
+            ]
+        },
+        "tweenRopeCount": 1,
+        "tweenRopestartPos": {
+            "x": [
+                0
+            ],
+            "y": [
+                0
+            ]
+        },
+        "tweenRopebodyCount": [
+            8
+        ],
+        "tweenRopeHeadPosition": {
+            "x": [
+                0
+            ],
+            "y": [
+                500
+            ]
+        },
+        "tweenRopeConfig": [
+            {
+                "direction": "R2L",
+                "time": 4000,
+                "endPos": {
+                    "x": 0,
+                    "y": 400
+                },
+                "setTimeOut": 0
+            }
+        ],
+        "star1": {
+            "x": -375,
+            "y": -500
+        },
+        "star2": {
+            "x": 250,
+            "y": 0
+        },
+        "star3": {
+            "x": 300,
+            "y": -300
+        },
+        "bubbleCount": 2,
+        "bubblePosition": {
+            "x": [
+                -375,
+                250
+            ],
+            "y": [
+                -300,
+                0
+            ],
+            "isChangeVelocity": [
+                true,
+                false
+            ]
+        }
+    },
+    "level43": {
+        "frogPosition": {
+            "x": -200,
+            "y": 700
+        },
+        "candyConfig": {
+            "airFriction": 0
+        },
+        "candyPosition": {
+            "x": 300,
+            "y": -300
+        },
+        "candyMass": 0.3,
+        "ropeCount": 3,
+        "ropestartPos": {
+            "x": 300,
+            "y": -300
+        },
+        "ropebodyCount": [
+            10,
+            10,
+            10
+        ],
+        "ropeHeadPosition": {
+            "x": [
+                0,
+                300,
+                300
+            ],
+            "y": [
+                -300,
+                -700,
+                100
+            ]
+        },
+        "tweenRuntimeRopeCount": 1,
+        "tweenRuntimeRopestartPos": {
+            "x": [
+                -350
+            ],
+            "y": [
+                300
+            ]
+        },
+        "tweenRuntimeRopebodyCount": [
+            10
+        ],
+        "tweenRuntimeRopeHeadPosition": {
+            "x": [
+                -200
+            ],
+            "y": [
+                300
+            ]
+        },
+        "tweenRuntimeRopeConfig": [
+            {
+                "direction": "L2R",
+                "time": 5000,
+                "endPos": {
+                    "x": 650,
+                    "y": 0
+                },
+                "setTimeOut": 0
+            }
+        ],
+        "star1": {
+            "x": 0,
+            "y": 100
+        },
+        "star2": {
+            "x": 50,
+            "y": 700
+        },
+        "star3": {
+            "x": 250,
+            "y": 700
+        }
+    },
+    "level44": {
+        "frogPosition": {
+            "x": 325,
+            "y": 200
+        },
+        "candyPosition": {
+            "x": -200,
+            "y": -400
+        },
+        "candyMass": 0.2,
+        "tweenRopeCount": 1,
+        "tweenRopestartPos": {
+            "x": [
+                -200
+            ],
+            "y": [
+                -400
+            ]
+        },
+        "tweenRopebodyCount": [
+            8
+        ],
+        "tweenRopeHeadPosition": {
+            "x": [
+                0
+            ],
+            "y": [
+                -570
+            ]
+        },
+        "tweenRopeConfig": [
+            {
+                "direction": "R2L",
+                "time": 10000,
+                "endPos": {
+                    "x": 0,
+                    "y": 1125
+                },
+                "setTimeOut": 1000
+            }
+        ],
+        "dragRopeCount": 1,
+        "dragRopeConfig": {
+            "isHorizontal": [
+                false
+            ],
+            "height": [
+                1200
+            ],
+            "width": [
+                48
+            ],
+            "x": [
+                -400
+            ],
+            "y": [
+                0
+            ],
+            "offsetX": [
+                0
+            ],
+            "offsetY": [
+                -570
+            ],
+            "widthRange": {
+                "minWidth": [
+                    415
+                ],
+                "maxWidth": [
+                    1510
+                ]
+            },
+            "dragRopebodyCount": [
+                10
+            ],
+            "dragRopeHeadPosition": {
+                "x": [
+                    -200
+                ],
+                "y": [
+                    -400
+                ]
+            }
+        },
+        "obs1Count": [
+            {
+                "subObs": 7
+            }
+        ],
+        "obs1Position": {
+            "x": [
+                -175
+            ],
+            "y": [
+                0
+            ]
+        },
+        "obs1Offset": {
+            "x": [
+                19
+            ],
+            "y": [
+                38
+            ]
+        },
+        "obs1Angle": [
+            60
+        ],
+        "star1": {
+            "x": -300,
+            "y": 200
+        },
+        "star2": {
+            "x": -100,
+            "y": 350
+        },
+        "star3": {
+            "x": 100,
+            "y": -150
+        }
+    },
+    "level45": {
+        "frogPosition": {
+            "x": 300,
+            "y": 700
+        },
+        "candyPosition": {
+            "x": -350,
+            "y": -500
+        },
+        "candyMass": 0.2,
+        "ropeCount": 1,
+        "ropestartPos": {
+            "x": -360,
+            "y": -500
+        },
+        "ropebodyCount": [
+            13
+        ],
+        "ropeHeadPosition": {
+            "x": [
+                -350
+            ],
+            "y": [
+                -660
+            ]
+        },
+        "magicHatCount": 2,
+        "magicHatConfig": {
+            "pos": {
+                "x": [
+                    -300,
+                    300
+                ],
+                "y": [
+                    700,
+                    -500
+                ]
+            },
+            "angle": [
+                0,
+                180
+            ],
+            "reachedPos": {
+                "x": [
+                    300,
+                    -255
+                ],
+                "y": [
+                    -500,
+                    700
+                ]
+            },
+            "reachedVelocity": {
+                "x": [
+                    0,
+                    0
+                ],
+                "y": [
+                    1,
+                    -25
+                ]
+            },
+            "magicDirection": {
+                "x": [
+                    0,
+                    0
+                ],
+                "y": [
+                    1,
+                    -1
+                ]
+            },
+            "bodyOffset": {
+                "x": [
+                    0,
+                    0
+                ],
+                "y": [
+                    45,
+                    -45
+                ]
+            }
+        },
+        "star1": {
+            "x": -300,
+            "y": 400
+        },
+        "star2": {
+            "x": 300,
+            "y": -100
+        },
+        "star3": {
+            "x": 300,
+            "y": 400
+        }
+    },
+    "level46": {
+        "frogPosition": {
+            "x": 300,
+            "y": -100
+        },
+        "candyPosition": {
+            "x": 100,
+            "y": 500
+        },
+        "candyMass": 0.2,
+        "ropeCount": 2,
+        "ropestartPos": {
+            "x": 100,
+            "y": 500
+        },
+        "ropebodyCount": [
+            3,
+            3
+        ],
+        "ropeHeadPosition": {
+            "x": [
+                200,
+                200
+            ],
+            "y": [
+                300,
+                700
+            ]
+        },
+        "dragRopeCount": 1,
+        "dragRopeConfig": {
+            "isHorizontal": [
+                true
+            ],
+            "height": [
+                48
+            ],
+            "width": [
+                400
+            ],
+            "x": [
+                -300
+            ],
+            "y": [
+                500
+            ],
+            "offsetX": [
+                180
+            ],
+            "offsetY": [
+                0
+            ],
+            "widthRange": {
+                "minWidth": [
+                    40
+                ],
+                "maxWidth": [
+                    440
+                ]
+            },
+            "dragRopebodyCount": [
+                3
+            ],
+            "dragRopeHeadPosition": {
+                "x": [
+                    100
+                ],
+                "y": [
+                    500
+                ]
+            }
+        },
+        "magicHatCount": 2,
+        "magicHatConfig": {
+            "pos": {
+                "x": [
+                    375,
+                    -375
+                ],
+                "y": [
+                    500,
+                    -500
+                ]
+            },
+            "angle": [
+                -90,
+                90
+            ],
+            "reachedPos": {
+                "x": [
+                    -375,
+                    -1000
+                ],
+                "y": [
+                    -500,
+                    -2000
+                ]
+            },
+            "reachedVelocity": {
+                "x": [
+                    20,
+                    0
+                ],
+                "y": [
+                    0,
+                    0
+                ]
+            },
+            "magicDirection": {
+                "x": [
+                    1,
+                    0
+                ],
+                "y": [
+                    0,
+                    0
+                ]
+            },
+            "bodyOffset": {
+                "x": [
+                    45,
+                    -45
+                ],
+                "y": [
+                    0,
+                    0
+                ]
+            }
+        },
+        "star1": {
+            "x": -250,
+            "y": -500
+        },
+        "star2": {
+            "x": -50,
+            "y": -425
+        },
+        "star3": {
+            "x": 150,
+            "y": -350
+        }
+    },
+    "level47": {
+        "frogPosition": {
+            "x": 0,
+            "y": 720
+        },
+        "candyPosition": {
+            "x": 0,
+            "y": 0
+        },
+        "candyConfig": {
+            "airFriction": 0
+        },
+        "candyMass": 0.2,
+        "ropeCount": 5,
+        "ropestartPos": {
+            "x": 0,
+            "y": 0
+        },
+        "ropebodyCount": [
+            4,
+            12,
+            5,
+            12,
+            4
+        ],
+        "ropeHeadPosition": {
+            "x": [
+                -200,
+                400,
+                240,
+                400,
+                -200
+            ],
+            "y": [
+                -350,
+                -710,
+                0,
+                710,
+                350
+            ]
+        },
+        "magicHatCount": 2,
+        "magicHatConfig": {
+            "pos": {
+                "x": [
+                    -375,
+                    -375
+                ],
+                "y": [
+                    -100,
+                    -650
+                ]
+            },
+            "angle": [
+                90,
+                90
+            ],
+            "reachedPos": {
+                "x": [
+                    -375,
+                    -1000
+                ],
+                "y": [
+                    -750,
+                    -2000
+                ]
+            },
+            "reachedVelocity": {
+                "x": [
+                    6,
+                    0
+                ],
+                "y": [
+                    0,
+                    0
+                ]
+            },
+            "magicDirection": {
+                "x": [
+                    -1,
+                    0
+                ],
+                "y": [
+                    0,
+                    0
+                ]
+            },
+            "bodyOffset": {
+                "x": [
+                    -45,
+                    -45
+                ],
+                "y": [
+                    0,
+                    0
+                ]
+            }
+        },
+        "star1": {
+            "x": -250,
+            "y": -425
+        },
+        "star2": {
+            "x": 75,
+            "y": -200
+        },
+        "star3": {
+            "x": 0,
+            "y": 400
+        }
+    },
+    "level48": {
+        "frogPosition": {
+            "x": 0,
+            "y": -100
+        },
+        "candyPosition": {
+            "x": 0,
+            "y": -500
+        },
+        "candyConfig": {
+            "airFriction": 0.02
+        },
+        "candyMass": 0.2,
+        "ropeCount": 2,
+        "ropestartPos": {
+            "x": -10,
+            "y": -500
+        },
+        "ropebodyCount": [
+            8,
+            8
+        ],
+        "ropeHeadPosition": {
+            "x": [
+                -150,
+                150
+            ],
+            "y": [
+                -660,
+                -660
+            ]
+        },
+        "runtimeRopeMediumCount": 2,
+        "runtimeropeMediumbodyCount": [
+            8,
+            8
+        ],
+        "runtimeropeMediumHeadPosition": {
+            "x": [
+                -150,
+                150
+            ],
+            "y": [
+                300,
+                300
+            ]
+        },
+        "magicHatCount": 4,
+        "magicHatConfig": {
+            "pos": {
+                "x": [
+                    225,
+                    -225,
+                    -225,
+                    225
+                ],
+                "y": [
+                    700,
+                    -350,
+                    700,
+                    -350
+                ]
+            },
+            "angle": [
+                -90,
+                90,
+                90,
+                -90
+            ],
+            "reachedPos": {
+                "x": [
+                    -225,
+                    225,
+                    225,
+                    -225
+                ],
+                "y": [
+                    -350,
+                    700,
+                    -350,
+                    700
+                ]
+            },
+            "reachedVelocity": {
+                "x": [
+                    3,
+                    -5,
+                    -3,
+                    5
+                ],
+                "y": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "magicDirection": {
+                "x": [
+                    1,
+                    -1,
+                    -1,
+                    1
+                ],
+                "y": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "bodyOffset": {
+                "x": [
+                    45,
+                    -45,
+                    -45,
+                    45
+                ],
+                "y": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            }
+        },
+        "star1": {
+            "x": 0,
+            "y": 850
+        },
+        "star2": {
+            "x": -200,
+            "y": -350
+        },
+        "star3": {
+            "x": 200,
+            "y": -350
+        },
+        "bubbleCount": 1,
+        "bubblePosition": {
+            "x": [
+                0
+            ],
+            "y": [
+                850
+            ],
+            "isChangeVelocity": [
+                false
+            ]
+        }
+    },
+    "level49": {
+        "frogPosition": {
+            "x": 0,
+            "y": 700
+        },
+        "candyPosition": {
+            "x": 0,
+            "y": -200
+        },
+        "candyConfig": {
+            "airFriction": 0.04
+        },
+        "candyMass": 0.2,
+        "ropeCount": 1,
+        "ropestartPos": {
+            "x": -10,
+            "y": -200
+        },
+        "ropebodyCount": [
+            12
+        ],
+        "ropeHeadPosition": {
+            "x": [
+                0
+            ],
+            "y": [
+                200
+            ]
+        },
+        "airgunCount": 3,
+        "airgunposition": {
+            "x": [
+                -300,
+                300,
+                0
+            ],
+            "y": [
+                0,
+                0,
+                -600
+            ]
+        },
+        "airgunAngle": [
+            0,
+            180,
+            90
+        ],
+        "airgunVelocity": [
+            {
+                "x": 1.5,
+                "y": 0
+            },
+            {
+                "x": -1.5,
+                "y": 0
+            },
+            {
+                "x": 0,
+                "y": 3
+            }
+        ],
+        "airgunArea": {
+            "x": [
+                -250,
+                250,
+                0
+            ],
+            "y": [
+                0,
+                0,
+                -550
+            ]
+        },
+        "magicHatCount": 4,
+        "magicHatConfig": {
+            "pos": {
+                "x": [
+                    200,
+                    -200,
+                    -200,
+                    200
+                ],
+                "y": [
+                    350,
+                    -350,
+                    350,
+                    -350
+                ]
+            },
+            "angle": [
+                -45,
+                135,
+                45,
+                -135
+            ],
+            "reachedPos": {
+                "x": [
+                    -200,
+                    200,
+                    200,
+                    -200
+                ],
+                "y": [
+                    -350,
+                    350,
+                    -350,
+                    350
+                ]
+            },
+            "reachedVelocity": {
+                "x": [
+                    5,
+                    -5,
+                    -5,
+                    5
+                ],
+                "y": [
+                    0,
+                    2,
+                    0,
+                    2
+                ]
+            },
+            "magicDirection": {
+                "x": [
+                    1,
+                    -1,
+                    -1,
+                    1
+                ],
+                "y": [
+                    -1,
+                    -1,
+                    -1,
+                    -1
+                ]
+            },
+            "bodyOffset": {
+                "x": [
+                    30,
+                    -30,
+                    -30,
+                    30
+                ],
+                "y": [
+                    30,
+                    -30,
+                    30,
+                    -30
+                ]
+            }
+        },
+        "star1": {
+            "x": 0,
+            "y": -400
+        },
+        "star2": {
+            "x": -175,
+            "y": 300
+        },
+        "star3": {
+            "x": 175,
+            "y": 300
+        },
+        "bubbleCount": 1,
+        "bubblePosition": {
+            "x": [
+                0
+            ],
+            "y": [
+                0
+            ],
+            "isChangeVelocity": [
+                true
+            ]
+        }
+    }
+}

@@ -1,0 +1,251 @@
+<style type="text/css">
+	@font-face {
+		font-family: 'Conv_comicSans';
+		src: url('Font/Beedot/comicSans.eot');
+		src: local('☺'), url('Font/Beedot/comicSans.woff') format('woff'), url('Font/Beedot/comicSans.ttf') format('truetype'), url('Font/Beedot/comicSans.svg') format('svg');
+		font-weight: normal;
+		font-style: normal;
+
+		font-family: 'Verdana';
+		src: url('Font/Beedot/Verdana.eot') format('embedded-opentype'),  url('Font/Beedot/Verdana.woff') format('woff'), url('Font/Beedot/Verdana.ttf')  format('truetype'), url('Font/Beedot/Verdana.svg') format('svg');
+		font-weight: normal;
+		font-style: normal;
+	}
+	
+	
+
+	#canvas {
+		width: 900px;
+	    height: 490px;
+	    overflow: hidden;
+	}
+
+	.mainDiv{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: top;
+		text-align: center;
+		min-height: 100%;
+		position: relative;
+		width: 50%;
+		height: 100%;
+		padding-left: 250px;
+	}
+
+	.gm_mainTextText{
+		font-family: 'Conv_comicSans'; 
+		font-size: 30px;
+		font-weight: bolder;
+		margin: 0;
+		padding: 0;
+	}
+
+	.gm_inputTxtSpan input{
+		height: 130px;
+		width: 450px;
+		background: transparent;
+		border: 0;
+		outline: none;
+		font-size: 140px;
+		padding: 0px 0px 0px 0px;
+		font-family: 'verdana'; 
+		text-align: center;
+		font-weight: bolder;
+		color: #0000CD;
+	}
+
+	.gm_numberDispText{
+		font-family: 'verdana'; 
+		font-size: 170px;
+		font-weight: bolder;
+		margin: 0;
+		padding: 0;
+		color: #ffcc13;
+	}
+
+	.gm_ul {
+	    width: 100%;
+	    display: table;
+	    table-layout: fixed;
+	    border-collapse: collapse;
+	}
+	.gm_li {
+	    display: table-cell;
+	    text-align: center;
+	    vertical-align: top;
+	    word-wrap: break-word;
+	    margin: 0;
+	    padding: 0;
+	    text-align: center;
+	}
+
+	.gm_dot {
+	  height: 28px;
+	  width: 28px;
+	  background-color: red;
+	  border-radius: 50%;
+	  display: inline-block;
+	  cursor: pointer;
+	  z-index: 5px;
+	}
+
+	@-webkit-keyframes pulse {
+	  0% {
+	    background: red;
+	    box-shadow: inset 0px 0px 5px 5px rgba(255,0,0,0.5),
+	                      0px 0px 5px 5px rgba(255,0,0,0.3);
+	    transform: scale(1);
+	  }
+	  
+	  100% {
+	    background: red;
+	    box-shadow: inset 0px 0px 5px 5px rgba(255,0,0,0.3),
+	                      0px 0px 5px 5px rgba(255,0,0,0.5);
+	    transform: scale(1.2);
+	  }
+	}
+	  
+	@-moz-keyframes pulse {
+	  0% {
+	    background: red;
+	    box-shadow: inset 0px 0px 5px 5px rgba(255,0,0,0.5),
+	                      0px 0px 5px 5px rgba(255,0,0,0.3);
+	    transform: scale(1);
+	  }
+	  100% {
+	    background: red;
+	    box-shadow: inset 0px 0px 5px 5px rgba(255,0,0,0.5),
+	                      0px 0px 5px 5px rgba(255,0,0,0.5);
+	    transform: scale(1.2);
+	  }
+	}
+
+	.pulse {
+		background: rgba(255,0,0,0.5);
+		box-shadow: inset 0px 0px 5px 2px rgba(255,0,0,0.5),
+		                  0px 0px 5px 2px rgba(255,0,0,0.3);
+		-webkit-animation: pulse 1s alternate infinite;
+		-moz-animation: pulse 1s alternate infinite;
+	}
+
+	@-webkit-keyframes gm_flying {
+		0% {
+		  -webkit-transform: rotate(0deg);
+		  -o-transform: rotate(0deg);
+		  transform: rotate(0deg);
+		}
+		50% {
+		  -webkit-transform: rotate(-20deg);
+		  -o-transform: rotate(-20deg);
+		  transform: rotate(-20deg);
+		}
+		
+		100% {
+		  -webkit-transform: rotate(0deg);
+		  -o-transform: rotate(0deg);
+		  transform: rotate(0deg);
+		}
+	}
+
+	.gm_flying{
+		position: relative;
+		animation: gm_flying 0.4s ease-in-out infinite;
+	}
+</style>
+
+<div class="mainDiv">
+	<audio id="good_job">
+		<source src="Sound/Beedot/good_job.mp3"> 
+	</audio> 
+	<audio id="sceneryDifference_background" loop>
+		<source src="Sound/Beedot/sceneryDifference_background.mp3">
+	</audio> 
+	<div id="canvas">
+		<ul class="gm_ul">
+			<!-- <li class="gm_li"></li> -->
+		  <li class="gm_li" style="height: 470px; width: 500px;" id="gm_imageMainClick">
+		  		<img src="Images/Beedot/bee.png" style="width: 100%; height: 100%;">
+				  
+				<div class="gm_dot pulse" data-id="dot_1" style="position: relative; bottom: 314px; left: 65px; z-index: 2;"></div>
+				
+				<div class="gm_dot" data-id="dot_2" style="position: relative; bottom: 350px; right: 65px; z-index: 2;"></div>
+
+		  		<div class="gm_dot" data-id="dot_3" style="position: relative; bottom: 257px; right: 182px; z-index: 2;"></div>
+
+		  		<div class="gm_dot" data-id="dot_4" style="position: relative; bottom: 191px; right: 145px; z-index: 2;"></div>
+
+		  		<div class="gm_dot" data-id="dot_5" style="position: relative; bottom: 84px; right: 125px; z-index: 2;"></div>
+
+		  		<div class="gm_dot" data-id="dot_6" style="position: relative; bottom: 48px; left: 11px; z-index: 2;"></div>
+
+		  		<div class="gm_dot" data-id="dot_7" style="position: relative; bottom: 100px; left: 65px; z-index: 2;"></div>
+
+		  		<div class="gm_dot" data-id="dot_8" style="position: relative; bottom: 127px; left: 131px; z-index: 2;"></div>
+
+		  		<div class="gm_dot" data-id="dot_9" style="position: relative; bottom: 210px; left: 123px; z-index: 2;"></div>
+
+
+		  		<div data-id="2" style="position:relative; background-color:white; width: 84px; height: 50px; bottom: 367px; left: 143px;"></div>
+
+		  		<div data-id="3" style="position:relative; background-color:white; width: 84px; height: 75px; bottom: 410px; left: 46px;"></div>
+
+		  		<div data-id="4" style="position:relative; background-color:white; width: 75px; height: 65px; bottom: 400px; left: 35px;"></div>
+
+		  		<div data-id="5" style="position:relative; background-color:white; width: 60px; height: 100px; bottom: 390px; left: 110px;"></div>
+
+		  		<div data-id="6" style="position:relative; background-color:white; width: 150px; height: 55px; bottom: 390px; left: 178px;"></div>
+
+		  		<div data-id="7" style="position:relative; background-color:white; width: 86px; height: 48px; bottom: 460px; left: 327px;"></div>
+
+		  		<div data-id="8" style="position:relative; background-color:white; width: 75px; height: 12px; bottom: 530px; left: 436px; transform: rotate(-15deg);"></div>
+
+		  		<div data-id="9" style="position:relative; background-color:white; width: 50px; height: 70px; bottom: 620px; left: 500px;"></div>
+
+		  		<div class="gm_dot" data-id="dot_10" style="position: relative; bottom: 760px; left: 168px; z-index: 2;"></div>
+		  </li>
+		  <!-- <li class="gm_li"></li> -->
+		</ul>
+		
+	</div>
+</div>
+
+
+<script src="Library/jquery-3.4.1.min.js"></script>
+<script type="text/javascript">
+	$( document ).ready(function() {
+		var currentDot = 1;
+		
+		$(".gm_dot").click(function(){
+			var dataIdOrigin = $(this).attr('data-id').split('_')[1];
+			if(currentDot == dataIdOrigin){
+				$(this).off('click');
+				$(this).removeClass('pulse');
+				$("[data-id='"+dataIdOrigin+"']").fadeOut(900, function() {
+			        $("[data-id='"+dataIdOrigin+"']").css("background-color", "transparent").fadeIn(900);
+			    });
+
+			    
+
+			    currentDot++;
+			    if(currentDot != 2){
+				    setTimeout(function(){
+				    	$("[data-id='dot_"+currentDot+"']").addClass('pulse');
+				    	if(currentDot >= 11){
+				    		setTimeout(function(){
+				    		$("#gm_imageMainClick").hide().html('<img src="Images/Beedot/beeFinal.png" style="width: 100%; height: 100%;" class="gm_flying">').fadeIn('slow');
+							
+								var goodJobSound=document.getElementById("good_job").play();
+								var backgroundSound=document.getElementById("sceneryDifference_background").play();
+						}, 100);
+				    	}
+				    }, 360);
+				}else{
+					$("[data-id='dot_"+currentDot+"']").addClass('pulse');
+				}
+			    
+
+			}
+		});
+	});
+</script>

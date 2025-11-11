@@ -1,0 +1,62 @@
+
+splash page blue turtle.png
+size: 221,475
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: true
+  xy: 2, 2
+  size: 241, 125
+  orig: 241, 125
+  offset: 0, 0
+  index: -1
+eyeball L
+  rotate: false
+  xy: 211, 275
+  size: 8, 8
+  orig: 8, 8
+  offset: 0, 0
+  index: -1
+eyeball R
+  rotate: false
+  xy: 211, 266
+  size: 7, 7
+  orig: 7, 7
+  offset: 0, 0
+  index: -1
+hand L
+  rotate: true
+  xy: 2, 353
+  size: 120, 209
+  orig: 120, 209
+  offset: 0, 0
+  index: -1
+hand R
+  rotate: true
+  xy: 2, 245
+  size: 106, 152
+  orig: 106, 152
+  offset: 0, 0
+  index: -1
+head
+  rotate: true
+  xy: 129, 24
+  size: 93, 74
+  orig: 94, 74
+  offset: 0, 0
+  index: -1
+leg L
+  rotate: true
+  xy: 129, 119
+  size: 124, 80
+  orig: 124, 80
+  offset: 0, 0
+  index: -1
+leg R
+  rotate: false
+  xy: 156, 285
+  size: 55, 66
+  orig: 55, 66
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,69 @@
+
+Trunk_Covering_Body_v02.png
+size: 1486,278
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Trunk_Covering_Body_001
+  rotate: false
+  xy: 1310, 12
+  size: 174, 264
+  orig: 174, 264
+  offset: 0, 0
+  index: -1
+Trunk_Covering_Body_009
+  rotate: false
+  xy: 1310, 12
+  size: 174, 264
+  orig: 174, 264
+  offset: 0, 0
+  index: -1
+Trunk_Covering_Body_002
+  rotate: true
+  xy: 1000, 42
+  size: 234, 308
+  orig: 234, 308
+  offset: 0, 0
+  index: -1
+Trunk_Covering_Body_008
+  rotate: true
+  xy: 1000, 42
+  size: 234, 308
+  orig: 234, 308
+  offset: 0, 0
+  index: -1
+Trunk_Covering_Body_003
+  rotate: true
+  xy: 676, 2
+  size: 274, 322
+  orig: 274, 322
+  offset: 0, 0
+  index: -1
+Trunk_Covering_Body_007
+  rotate: true
+  xy: 676, 2
+  size: 274, 322
+  orig: 274, 322
+  offset: 0, 0
+  index: -1
+Trunk_Covering_Body_004
+  rotate: true
+  xy: 2, 5
+  size: 271, 335
+  orig: 271, 335
+  offset: 0, 0
+  index: -1
+Trunk_Covering_Body_006
+  rotate: true
+  xy: 2, 5
+  size: 271, 335
+  orig: 271, 335
+  offset: 0, 0
+  index: -1
+Trunk_Covering_Body_005
+  rotate: true
+  xy: 339, 5
+  size: 271, 335
+  orig: 271, 335
+  offset: 0, 0
+  index: -1

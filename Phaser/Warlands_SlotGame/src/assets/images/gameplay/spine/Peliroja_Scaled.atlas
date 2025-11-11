@@ -1,0 +1,97 @@
+
+Peliroja_Scaled.png
+size: 1166,564
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Cuerpo
+  rotate: true
+  xy: 2, 2
+  size: 560, 671
+  orig: 560, 671
+  offset: 0, 0
+  index: -1
+base cara
+  rotate: false
+  xy: 971, 91
+  size: 127, 151
+  orig: 159, 258
+  offset: 12, 107
+  index: -1
+blanco de los ojos
+  rotate: true
+  xy: 1115, 335
+  size: 56, 27
+  orig: 56, 58
+  offset: 0, 0
+  index: -1
+coleta
+  rotate: false
+  xy: 1100, 137
+  size: 60, 105
+  orig: 67, 111
+  offset: 7, 6
+  index: -1
+frame_effect
+  rotate: true
+  xy: 675, 217
+  size: 345, 200
+  orig: 355, 207
+  offset: 5, 4
+  index: -1
+parpadeo
+  rotate: true
+  xy: 1115, 473
+  size: 89, 45
+  orig: 178, 80
+  offset: 89, 17
+  index: -1
+peli empty back
+  rotate: true
+  xy: 675, 9
+  size: 206, 294
+  orig: 208, 296
+  offset: 1, 1
+  index: -1
+peli frame
+  rotate: false
+  xy: 877, 244
+  size: 236, 318
+  orig: 238, 320
+  offset: 1, 1
+  index: -1
+pupila
+  rotate: false
+  xy: 905, 226
+  size: 18, 16
+  orig: 64, 26
+  offset: 36, 4
+  index: -1
+pupila - copia
+  rotate: true
+  xy: 877, 224
+  size: 18, 26
+  orig: 64, 26
+  offset: 8, 0
+  index: -1
+sombra trenza
+  rotate: false
+  xy: 1115, 393
+  size: 40, 78
+  orig: 42, 81
+  offset: 1, 1
+  index: -1
+trenza derecha
+  rotate: false
+  xy: 1115, 8
+  size: 49, 127
+  orig: 49, 127
+  offset: 0, 0
+  index: -1
+trenza izquierda
+  rotate: true
+  xy: 971, 16
+  size: 73, 142
+  orig: 73, 142
+  offset: 0, 0
+  index: -1

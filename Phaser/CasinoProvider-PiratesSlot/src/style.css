@@ -1,0 +1,97 @@
+body {
+    background: #222222;
+    /* background-image: url(assets/images/index_bg.png);
+    background-position: bottom left;
+    background-size: contain; */
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    height: 100%;
+
+    /* transform: rotate(90deg); */
+}
+
+canvas {
+    /* margin-top: 0 !important; */
+}
+
+@font-face {
+    font-family: "Roboto_Regular";
+    src: url(./assets/fonts/Roboto-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: "modesto-expanded";
+    src: url(./assets/fonts/modesto-expanded.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "Roboto_Bold";
+    src: url(./assets/fonts/Roboto-Bold.ttf) format('truetype');
+    font-weight: 900;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "PR-Viking";
+    src: url(./assets/fonts/PR-Viking.ttf) format('truetype');
+    font-weight: 900;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "kingsandpirates-peak";
+    src: url(./assets/fonts/kingsandpirates-peak.ttf) format('truetype');
+    font-weight: 900;
+    font-weight: bold;
+}
+
+
+.rotation {
+    width: 100vw;
+    height: 100vh;
+    float: left;
+    position: relative;
+    background: #212121;
+}
+
+.rotation img {
+    position: absolute;
+    top: 42%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+
+
+@media screen and (orientation: portrait) {
+    .rotation {
+        display: block;
+    }
+
+    #gameArea {
+        display: none;
+    }
+
+
+}
+
+@media screen and (orientation: landscape) {
+    .rotation {
+        display: none;
+    }
+
+    #gameArea {
+        display: block;
+    }
+
+}
+
+/* @media screen and (-webkit-min-device-pixel-ratio:0) { 
+    #safari { display: none ; } 
+  }  */

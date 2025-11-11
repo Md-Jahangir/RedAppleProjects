@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
+    <title>Otto To The Rescue</title>
+
+    <!-- Include Phaser Responsiveness JS -->
+    <script type="text/javascript" src="js/lib/phaser.min.js"></script>
+    <!-- <script src="//cdn.jsdelivr.net/npm/phaser@3.17.0/dist/phaser.js"></script> -->
+    <script type="text/javascript" src="js/lib/phaser-input.min.js"></script>
+    <script type="text/javascript" src="js/lib/phaser-state-transition.umd.js"></script>
+    <script type="text/javascript" src="js/lib/phaser-fade.js"></script>
+    <script type="text/javascript" src="js/lib/phaser-scrollable.js"></script>
+
+    <script src="js/Boot.js" type="text/javascript"></script>
+    <script src="js/LoadAssets.js" type="text/javascript"></script>
+    <script src="js/Utils.js" type="text/javascript"></script>
+    <script src="js/StateTransition.js" type="text/javascript"></script>
+    <script src="js/Database.js" type="text/javascript"></script>
+    <script src="js/API.js" type = "text/javascript"></script>
+    <script src="js/constant.js" type="text/javascript"></script>
+    <script src="js/Debug.js" type="text/javascript"></script>
+    <script src="js/WinPopup.js" type="text/javascript"></script>
+    <script src="js/LoosePopup.js" type="text/javascript"></script>
+    <script src="js/cannon.js" type = "text/javascript"></script>
+    <script src="js/PausePopup.js" type = "text/javascript"></script>
+    <script src="js/ParentsPopup.js" type = "text/javascript"></script>
+    <script src="js/SettingPopup.js" type = "text/javascript"></script>
+    <script src="js/CreditPopup.js" type = "text/javascript"></script>
+    <script src="js/WrongPopup.js" type = "text/javascript"></script>
+    <script src="js/ShopPopup.js" type = "text/javascript"></script>
+    <!-- <script src="js/LeaderboardPopup.js" type = "text/javascript"></script> -->
+    <script src="js/SoundManager.js" type = "text/javascript"></script>
+    <script src="js/Gameinfo.js" type = "text/javascript"></script>
+    <script src = "js/Character.js" type = "text/javascript"></script>
+    <script src = "js/Story.js" type = "text/javascript"></script>
+    <script src = "js/DisclamairPopup.js" type = "text/javascript"></script>
+
+    <style type="text/css">
+        body {
+            margin: 0;
+            padding: 0;
+            background-color :black;
+            background-image: url(assets/one_pixel_white.png);
+            background-position: center;
+        }
+    </style>
+</head>
+
+<body>
+    <span id="preload-font"></span>
+</body>
+<script>
+    window.onresize = function(event) {
+        //applyOrientation();
+    }
+    function applyOrientation() {
+        if (window.innerHeight > window.innerWidth) {
+            if (game != null) {
+                game.destroy();
+                game = new Phaser.Game(720, 1280, Phaser.CANVAS, 'game');
+                game.state.add('Boot', Boot);
+                game.state.start('Boot');
+            }
+        }
+    }
+</script>
+
+</html>

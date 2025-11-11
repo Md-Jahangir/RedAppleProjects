@@ -1,0 +1,128 @@
+{
+    "status": "1",
+    "message": "You are waiting in room",
+    "result": {
+      "cardlist": [
+        {
+          "playerId": "19",
+          "cards_details": [
+            {
+              "cardtype": "SPADES",
+              "cardnumber": "TWO"
+            },
+            {
+              "cardtype": "DIAMOND",
+              "cardnumber": "THREE"
+            },
+            {
+              "cardtype": "CLUB",
+              "cardnumber": "THREE"
+            }
+          ]
+        },
+        {
+          "playerId": "20",
+          "cards_details": [
+            {
+              "cardtype": "CLUB",
+              "cardnumber": "TWO"
+            },
+            {
+              "cardtype": "DIAMOND",
+              "cardnumber": "THREE"
+            },
+            {
+              "cardtype": "SPADES",
+              "cardnumber": "THREE"
+            }
+          ]
+        },
+        {
+          "playerId": "21",
+          "cards_details": [
+            {
+              "cardtype": "HEART",
+              "cardnumber": "FOUR"
+            },
+            {
+              "cardtype": "HEART",
+              "cardnumber": "FOUR"
+            },
+            {
+              "cardtype": "CLUB",
+              "cardnumber": "SIX"
+            }
+          ]
+        },
+        {
+          "playerId": "22",
+          "cards_details": [
+            {
+              "cardtype": "HEART",
+              "cardnumber": "FOUR"
+            },
+            {
+              "cardtype": "HEART",
+              "cardnumber": "FOUR"
+            },
+            {
+              "cardtype": "CLUB",
+              "cardnumber": "SIX"
+            }
+          ]
+        },
+        {
+          "playerId": "23",
+          "cards_details": [
+            {
+              "cardtype": "HEART",
+              "cardnumber": "FOUR"
+            },
+            {
+              "cardtype": "HEART",
+              "cardnumber": "FOUR"
+            },
+            {
+              "cardtype": "CLUB",
+              "cardnumber": "SIX"
+            }
+          ]
+        },
+        {
+          "playerId": "24",
+          "cards_details": [
+            {
+              "cardtype": "HEART",
+              "cardnumber": "FOUR"
+            },
+            {
+              "cardtype": "HEART",
+              "cardnumber": "FOUR"
+            },
+            {
+              "cardtype": "CLUB",
+              "cardnumber": "SIX"
+            }
+          ]
+        },
+        {
+          "playerId": "25",
+          "cards_details": [
+            {
+              "cardtype": "HEART",
+              "cardnumber": "FOUR"
+            },
+            {
+              "cardtype": "HEART",
+              "cardnumber": "FOUR"
+            },
+            {
+              "cardtype": "CLUB",
+              "cardnumber": "SIX"
+            }
+          ]
+        }
+      ]
+  
+    }
+  }

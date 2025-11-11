@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Hit It Right</title>
+
+    <script src="https://games.playzhub.com/sdk/PlayzhubSDk_E6_IIFE.js"></script>
+    <!-- <script src="https://stg-games.playzhub.com/sdk/PlayzhubSDk_E6_IIFE.js"></script> -->
+
+    <!-- <script src="https://imasdk.googleapis.com/js/sdkloader/ima3.js"></script>/ -->
+    <!-- <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script> -->
+    <!-- <script type="text/javascript" src="https://cdn.applixir.com/applixir.app.v6.0.1.js"></script> -->
+
+    <link rel="stylesheet" href="./style.css" />
+    <img id="rotate-screen" src="assets/images/rotate_screen_landscape.png" style="display: none;">
+    <img id="splash_bg" src="assets/images/splash/splash_bg.png" style="display: none;">
+    <img id="logo" src="assets/images/splash/logo.png" style="display: none;">
+    <img id="progress_base" src="assets/images/splash/progress_base.png" style="display: none;">
+    <img id="progress_bar" src="assets/images/splash/progress_bar.png" style="display: none;">
+    <script src="lib/phaser.min.js"></script>
+    <script src="lib/fontfaceobserver.standalone.js"></script>
+
+</head>
+
+<body>
+    <div id="applixir-ad-container"></div>
+
+    <script type="text/javascript">
+        function getMobileOperatingSystem() {
+            let userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+            // Windows Phone must come first because its UA also contains "Android"
+            if (/windows phone/i.test(userAgent)) {
+                return "Windows Phone";
+            }
+
+            if (/android/i.test(userAgent)) {
+                return "Android";
+            }
+            if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+                return "iOS";
+            }
+
+            return "unknown";
+        };
+
+    </script>
+
+</body>
+
+</html>

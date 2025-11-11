@@ -1,0 +1,29 @@
+body {
+    background: #000000;
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: "Poppins_Bold";
+    font-weight: 900;
+    src: url(./assets/fonts/Poppins-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "Roboto_Bold";
+    font-weight: 900;
+    src: url(./assets/fonts/Roboto-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "Roboto_Regular";
+    font-weight: 400;
+    src: url(./assets/fonts/Roboto-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "Roboto_Medium";
+    font-weight: 500;
+    src: url(./assets/fonts/Roboto-Bold.ttf) format('truetype');
+}

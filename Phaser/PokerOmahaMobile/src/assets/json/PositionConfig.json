@@ -1,0 +1,36 @@
+{
+    "Preload": {
+        "OnDesktop": {
+            "progressBase": {
+                "x": 2,
+                "y": 1.1
+            },
+            "progressBar": {
+                "x": 2,
+                "y": 1.102
+            },
+            "loadingText": {
+                "x": 2,
+                "y": 1.07
+            }
+        },
+        "OnMobile": {
+            "progressBase": {
+                "x": 2,
+                "y": 1.1
+            },
+            "progressBar": {
+                "x": 2,
+                "y": 1.102
+            },
+            "loadingText": {
+                "x": 2,
+                "y": 1.07
+            }
+        }
+    },
+    "Game": {
+        "OnDesktop": {},
+        "OnMobile": {}
+    }
+}

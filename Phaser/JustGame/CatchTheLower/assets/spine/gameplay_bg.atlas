@@ -1,0 +1,68 @@
+
+gameplay_bg.png
+size: 1266,998
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+game play light
+  rotate: false
+  xy: 184, 2
+  size: 1080, 994
+  orig: 1080, 1050
+  offset: 0, 56
+  index: -1
+glow 1
+  rotate: false
+  xy: 114, 963
+  size: 33, 33
+  orig: 37, 37
+  offset: 2, 2
+  index: -1
+glow 2
+  rotate: false
+  xy: 81, 965
+  size: 31, 31
+  orig: 33, 33
+  offset: 1, 1
+  index: -1
+glow 3
+  rotate: false
+  xy: 149, 963
+  size: 33, 33
+  orig: 37, 37
+  offset: 2, 2
+  index: -1
+glow 4
+  rotate: false
+  xy: 2, 981
+  size: 15, 15
+  orig: 17, 17
+  offset: 1, 1
+  index: -1
+glow 5
+  rotate: false
+  xy: 50, 967
+  size: 29, 29
+  orig: 33, 33
+  offset: 2, 2
+  index: -1
+glow 6
+  rotate: false
+  xy: 19, 967
+  size: 29, 29
+  orig: 33, 33
+  offset: 2, 2
+  index: -1
+
+gameplay_bg2.png
+size: 1084,1924
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+gameplay bg
+  rotate: false
+  xy: 2, 2
+  size: 1080, 1920
+  orig: 1080, 1920
+  offset: 0, 0
+  index: -1

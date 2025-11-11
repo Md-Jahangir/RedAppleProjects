@@ -1,0 +1,3 @@
+[submodule "game-base-project"]
+	path = game-base-project
+	url = git@github.com:emazebrain/game-base-project.git

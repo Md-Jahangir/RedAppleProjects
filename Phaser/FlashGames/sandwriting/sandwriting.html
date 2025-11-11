@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
+    <title>Sand Writing</title>
+
+    <!-- Include Phaser Responsiveness JS -->
+    <script type="text/javascript" src="lib/phaser.min.js"></script>
+    <script type="text/javascript" src="lib/phaser-state-transition.umd.js"></script>
+    <script type="text/javascript" src="lib/phaser-fade.js"></script>
+    <script type="text/javascript" src="lib/phaser-input.js"></script>
+    <script type="text/javascript" src="lib/phaser-input.min.js"></script>
+    <script src="lib/Utils.js" type="text/javascript"></script>
+    <script src="lib/StateTransition.js" type="text/javascript"></script>
+
+    <script src="js/Boot.js" type="text/javascript"></script>
+    <script src="js/LoadAssets.js" type="text/javascript"></script>
+    <script src="js/SoundManager.js" type="text/javascript"></script>
+    <style type="text/css">
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url(assets/one_pixel_white.png);
+            background-position: center;
+        }
+    </style>
+</head>
+<script>
+    var game;
+    var isMobile = /iPhone|iPhoneX|iPad|iPod|Android/i.test(navigator.userAgent);
+    if (isMobile) {
+        console.log("You are using Mobile");
+        game = new Phaser.Game(window.screen.width, window.screen.height, Phaser.CANVAS, 'game');
+        game.state.add('Boot', Boot);
+        game.state.start('Boot');
+    } else {
+        console.log("You are using Desktop");
+        game = new Phaser.Game(1280, 720, Phaser.CANVAS, 'game');
+        game.state.add('Boot', Boot);
+        game.state.start('Boot');
+    }
+</script>
+
+</html>

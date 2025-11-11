@@ -1,0 +1,23 @@
+body {
+	margin: 0px;
+}
+
+@font-face {
+	font-family: "kingsandpirates-peak";
+	src: url(./assets/fonts/kingsandpirates-peak.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: "modesto-expanded";
+	src: url(./assets/fonts/modesto-expanded.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: "PR-Viking";
+	src: url(./assets/fonts/PR-Viking.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: "Roboto-Bold";
+	src: url(./assets/fonts/Roboto-Bold.ttf) format('truetype');
+}
