@@ -1,0 +1,36 @@
+1.CBall.js - This scripts handle the ball behaviour i.e spawn,tracejtory,velocity,perfect hit,minus hit,plus hit,roll,hide,show etc.
+2.CBallTarget.js - This scripts handle the ball target sprite that where the target is shown.
+3.CBatter.js - This scripts handles the batsman animation with spritesheet. 
+4.CBowler.js - This scripts handles the bowler animation with spritesheet.
+5.CController.js - This scripts control the left,right,up button.
+6.CCreditsPanel.js - This scripts handle the credit page.
+7.CEndPanel.js - This scripts handles the end page that is replay and menu.
+8.CGame - This scripts all over the game state.
+9.CGfxButton.js - This scripts handle the animation of the button.
+10.CHelpPanel.js - This scripts handles the helppanel.
+11.CInterface.js - This scripts handle the all the gameplay inteface that is the hud of the gameplay score,audio,restart etc.
+12.CLang.js - This handles all the constant text of the game.
+13.CLoadingScreen.js - This is the first screen where loadin bar is shown and wait for game loading.
+14.CMain.js - This scripts handles the laod of all images,audio etc
+15.CMenu.js - This is the second screen with the play button and logo in UI
+16.CPause.js - This screen handles the pause page
+17.CPole.js - This screen handles the two pole that is wicket of the ground.
+18.CPreloader.js - This is the first screen where start button exist.
+19.CTeamChoose.js - This screen comes after play button and have a option to select a team.
+20.CTextButton.js - This script handles the text within the all the button.
+21.settings.js - This scripts handles all the constant parameter of the game.
+22.CAreYouSurePanel.js - This scripts handles the panel with yes no button.
+
+
+23.createjs.min.js - Library file
+24.ctl_utils.js - Library file
+25.howler.min.js - Library file(for sound)
+26.ios_fullscreen.js- Library file
+27.jquery-3.2.1.min.js - Library file
+28.platform.js - Library file
+29.screenfull.js - Library file
+30.sprite_lib.js - Library file
+
+
+
+

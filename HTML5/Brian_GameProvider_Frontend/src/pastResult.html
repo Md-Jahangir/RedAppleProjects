@@ -1,0 +1,967 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kiron Interactive</title>
+  <!-- <script src="app/lib/moment.min.js" type="text/javascript"></script> -->
+  <script src="lib/moment.min.js" type="text/javascript"></script>
+  <!--Select 2 dropdown-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css"
+    integrity="sha512-nMNlpuaDPrqlEls3IX/Q56H36qvBASwb3ipuo3MxeWbsQB1881ox0cRv7UPTgBlriqoynt35KjEwgGUeUXIPnw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Google Font / Roboto & Poppins -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+  <!-- Datepicker -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css" />
+  <!-- Bootstrap 5.3.2 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css"
+    integrity="sha512-b2QcS5SsA8tZodcDtGRELiGv5SaKSk1vDHDaQRda0htPYWZ6046lr3kJ5bAAQdpV2mmA/4v0wQF9MyU6/pDIAg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Fontawsome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Main Stylesheet -->
+  <!-- <link href="app/styles/pastResult.css" rel="stylesheet" type="text/css" /> -->
+  <link href="pastResult.css" rel="stylesheet" type="text/css" />
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"
+    integrity="sha512-2ImtlRlf2VVmiGZsjm9bEyhjGW4dU7B6TNwh/hx/iSByxNENtj3WVE6o/9Lj4TJeVXPi4bnOIMXFIJJAeufa0A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"
+    integrity="sha512-X/YkDZyjTf4wyc2Vy16YGCPHwAY8rZJY+POgokZjQB2mhIRFJCckEGc6YyX9eNsPfn0PzThEuNs+uaomE5CO6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+</head>
+
+<body style="background: url(assets/images/platinum_hounds.jpg)">
+  <!-- LOADING SCREEN -->
+  <div class="loading_sec" id="loading_screen_past_result" style="display: none;">
+    <img src="assets/images/loader.gif" alt="" width="100%" />
+    <br>
+    <p class="text-white">
+      <!-- Loading... -->
+    </p>
+  </div>
+  <!--End of Loading Screen-->
+
+  <!--ERROR MODAL/POPUP -->
+  <div class="modal fade" id="pastResult_error_modal" tabindex="-1" aria-labelledby="error_modal_title"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="pastResult_error_modal_heading_text">Error !</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
+            id="pastResult_error_modal_close_button"></button>
+        </div>
+        <div class="modal-body" id="pastResult_error_modal_message">
+          ...
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!--End of Error modal-->
+
+  <div class="container">
+    <!-- Header -->
+    <div class="row mt-3">
+      <div class="col-12 d-flex justify-content-center flex-wrap align-items-center">
+        <div class="text-center">
+          <div class="logo">
+            <img src="assets/images/logo.png" class="w-100" alt="Kiron Interactive" />
+          </div>
+          <div class="page-title">
+            <p id="pastResultHeading"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Header End -->
+    <!-- Tab View -->
+    <div class="row">
+      <div class="col-12">
+
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="past_race_result_tab" data-bs-toggle="tab"
+              data-bs-target="#past_race_result_section" type="button" role="tab"
+              aria-controls="past_race_result_section" aria-selected="true">
+              PAST RACE RESULTS
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="high_low_score_card_tab" data-bs-toggle="tab"
+              data-bs-target="#high_low_score_card_Section" type="button" role="tab"
+              aria-controls="high_low_score_card_Section" aria-selected="false">
+              HIGH LOW SCORE CARD
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="odd_even_score_card_tab" data-bs-toggle="tab"
+              data-bs-target="#odd_even_score_card_section" type="button" role="tab"
+              aria-controls="odd_even_score_card_section" aria-selected="false">
+              ODD EVEN SCORE CARD
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="top_highest_winners_tab" data-bs-toggle="tab"
+              data-bs-target="#top_highest_winners_section" type="button" role="tab"
+              aria-controls="top_highest_winners_section" aria-selected="false">
+              TOP 100 HIGHEST WINNERS
+            </button>
+          </li>
+
+          <!-- <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="past_race_result_tab" type="button">
+              PAST RACE RESULTS
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="high_low_score_card_tab" type="button">
+              HIGH LOW SCORE CARD
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="odd_even_score_card_tab" type="button">
+              ODD EVEN SCORE CARD
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="top_highest_winners_tab" type="button">
+              TOP 100 HIGHEST WINNERS
+            </button>
+          </li> -->
+        </ul>
+        <div class="tab-content position-relative" id="myTabContent">
+
+          <div id="result_position_loader" style="display: none;" class="result_loader">
+            <div class="loader d-flex align-items-center justify-content-center">
+              <svg class="loader-icon" width='100px' height='100px' xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 100 100" preserveAspectRatio="xMidYMid" class="uil-default">
+                <rect x="0" y="0" width="100" height="100" fill="none" class="bk">
+                </rect>
+                <rect x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='#47bbed'
+                  transform='rotate(0 50 50) translate(0 -30)'>
+                  <animate attributeName='opacity' from='1' to='0' dur='0.5s' begin='0s' repeatCount='indefinite' />
+                </rect>
+                <rect x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='#47bbed'
+                  transform='rotate(30 50 50) translate(0 -30)'>
+                  <animate attributeName='opacity' from='1' to='0' dur='0.5s' begin='0.041666666666666664s'
+                    repeatCount='indefinite' />
+                </rect>
+                <rect x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='#47bbed'
+                  transform='rotate(60 50 50) translate(0 -30)'>
+                  <animate attributeName='opacity' from='1' to='0' dur='0.5s' begin='0.08333333333333333s'
+                    repeatCount='indefinite' />
+                </rect>
+                <rect x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='#47bbed'
+                  transform='rotate(90 50 50) translate(0 -30)'>
+                  <animate attributeName='opacity' from='1' to='0' dur='0.5s' begin='0.125s' repeatCount='indefinite' />
+                </rect>
+                <rect x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='#47bbed'
+                  transform='rotate(120 50 50) translate(0 -30)'>
+                  <animate attributeName='opacity' from='1' to='0' dur='0.5s' begin='0.16666666666666666s'
+                    repeatCount='indefinite' />
+                </rect>
+                <rect x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='#47bbed'
+                  transform='rotate(150 50 50) translate(0 -30)'>
+                  <animate attributeName='opacity' from='1' to='0' dur='0.5s' begin='0.20833333333333334s'
+                    repeatCount='indefinite' />
+                </rect>
+                <rect x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='#47bbed'
+                  transform='rotate(180 50 50) translate(0 -30)'>
+                  <animate attributeName='opacity' from='1' to='0' dur='0.5s' begin='0.25s' repeatCount='indefinite' />
+                </rect>
+                <rect x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='#47bbed'
+                  transform='rotate(210 50 50) translate(0 -30)'>
+                  <animate attributeName='opacity' from='1' to='0' dur='0.5s' begin='0.2916666666666667s'
+                    repeatCount='indefinite' />
+                </rect>
+                <rect x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='#47bbed'
+                  transform='rotate(240 50 50) translate(0 -30)'>
+                  <animate attributeName='opacity' from='1' to='0' dur='0.5s' begin='0.3333333333333333s'
+                    repeatCount='indefinite' />
+                </rect>
+                <rect x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='#47bbed'
+                  transform='rotate(270 50 50) translate(0 -30)'>
+                  <animate attributeName='opacity' from='1' to='0' dur='0.5s' begin='0.375s' repeatCount='indefinite' />
+                </rect>
+                <rect x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='#47bbed'
+                  transform='rotate(300 50 50) translate(0 -30)'>
+                  <animate attributeName='opacity' from='1' to='0' dur='0.5s' begin='0.4166666666666667s'
+                    repeatCount='indefinite' />
+                </rect>
+                <rect x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='#47bbed'
+                  transform='rotate(330 50 50) translate(0 -30)'>
+                  <animate attributeName='opacity' from='1' to='0' dur='0.5s' begin='0.4583333333333333s'
+                    repeatCount='indefinite' />
+                </rect>
+              </svg>
+            </div>
+          </div>
+
+          <div class="tab-pane fade show active" id="past_race_result_section" role="tabpanel"
+            aria-labelledby="past_race_result_tab">
+            <div class="row">
+              <div class="col-12">
+                <!-- Search Wrapper -->
+                <div class="search-wrapper">
+                  <form action="">
+                    <div class="row">
+                      <!-- <div class="col-12 col-sm-6 col-lg-4">
+                        <p class="text-white">Race Number</p>
+                        <div class="row">
+                          <div class="col-6 col-sm-6">
+                            <div class="align-items-center d-flex">
+                              <select class="select_dropsec" name="" id="race_number_from">
+                                <option value="" id="race_number_from_heading">
+                                  From</option>
+                              </select>
+                            </div>
+                          </div>
+                          <div class="col-6 col-sm-6">
+                            <div class="align-items-center d-flex">
+                              <select class="select_dropsec" name="" id="race_number_to">
+                                <option value="" id="race_number_to_heading">
+                                  From</option>
+                              </select>
+                            </div>
+                          </div>
+                        </div>
+                      </div> -->
+                      <div class="col-12 col-sm-12 col-lg-8">
+                        <p id="raceStartDateHeading" class="text-white">Race Start Date</p>
+                        <div class="row">
+                          <div class="col-6 col-sm-4">
+                            <div class="input-group mb-3 date" id="datepickerFrom">
+                              <input type="text" class="form-control" id="race_start_date_from" placeholder="From" />
+                              <span class="input-group-append">
+                                <span class="input-group-text d-block">
+                                  <i class="fa-regular fa-calendar"></i>
+                                </span>
+                              </span>
+                            </div>
+                          </div>
+                          <div class="col-6 col-sm-4">
+                            <div class="input-group date mb-3" id="datepickerTo">
+                              <input type="text" class="form-control" id="race_start_date_to" placeholder="To" />
+                              <span class="input-group-append">
+                                <span class="input-group-text d-block">
+                                  <i class="fa-regular fa-calendar"></i>
+                                </span>
+                              </span>
+                            </div>
+                          </div>
+                          <div class="col-12 col-sm-4">
+                            <div class="mb-3">
+                              <button type="button" id="previous_page_search_button" class="search-btn">
+                                Search
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!-- <div class="col-12 col-sm-12 col-lg-4">
+                        <p class="text-white">Race Start Time</p>
+                        <div class="row">
+                           <div class="col-6 col-sm-4 mb-3 mb-sm-0 mb-lg-0">
+                            <div class="align-items-center d-flex">
+                              <select class="select_dropsec" name="" id="race_start_time_from">
+                                <option value="" id="race_start_time_from_heading">
+                                  From</option>
+                              </select>
+                            </div>
+                          </div>
+                          <div class="col-6 col-sm-4 mb-3 mb-sm-0 mb-lg-0">
+                            <div class="align-items-center d-flex">
+                              <select class="select_dropsec" name="" id="race_start_time_to">
+                                <option value="" id="race_start_time_to_heading">
+                                  From</option>
+                              </select>
+                            </div>
+                          </div>
+                          <div class="col-12 col-sm-4">
+                            <div class="mb-3">
+                              <button type="button" id="previous_page_search_button" class="search-btn">
+                                Search
+                              </button>
+                            </div>
+                          </div> 
+                        </div>
+                      </div> -->
+                    </div>
+                  </form>
+                </div>
+                <!-- Search Wrapper End -->
+                <!-- Search Result -->
+                <h2 id="pastResultHeadingSmall" class="text-white result-title">Past Race Results</h2>
+                <div class="result-wrapper table-responsive">
+                  <table class="table w-100 table-striped">
+                    <thead>
+                      <tr>
+                        <th colspan="4"></th>
+                        <th id="winningOddsHeading" class="text-center bg-green text-white text-uppercase" colspan="9">
+                          Winning Odds
+                        </th>
+                      </tr>
+                      <tr class="bg-dark">
+                        <th id="resultRaceNumberHeading">Race Number</th>
+                        <th id="resultRaceStartDateHeading">Race Start Date</th>
+                        <th id="resultRaceStartTimeHeading">Race Start Time</th>
+                        <th id="resultWinningSeqHeading">Winning Sequence</th>
+                        <th id="resultWinHeading">WIN</th>
+                        <th id="resultPlaceShowHeading">PLACE/SHOW</th>
+                        <th id="resultSwingerHeading">SWINGER</th>
+                        <th id="resultQuinellaHeading">QUINELLA</th>
+                        <th id="resultExactaHeading">EXACTA</th>
+                        <th id="resultTrioHeading">TRIO</th>
+                        <th id="resultTrifectaHeading">TRIFECTA</th>
+                        <th id="resultHighLowHeading">HIGH LOW</th>
+                        <th id="resultOddEvenHeading">ODD EVEN</th>
+                      </tr>
+                    </thead>
+                    <tbody id="pastRaceResultTBoday">
+                      <!--<tr>
+                        <td>5041</td>
+                        <td>2023-10-25</td>
+                        <td>21:05:00</td>
+                        <td>1,2,3,4,5,6</td>
+                        <td>6.9</td>
+                        <td>2.95</td>
+                        <td>7.2</td>
+                        <td>21</td>
+                        <td>118</td>
+                        <td>31</td>
+                        <td>421</td>
+                        <td>3.8 LOW</td>
+                        <td>2.13 ODD</td>
+                      </tr>
+                      <tr>
+                        <td>5041</td>
+                        <td>2023-10-25</td>
+                        <td>21:05:00</td>
+                        <td>1,2,3,4,5,6</td>
+                        <td>6.9</td>
+                        <td>2.95</td>
+                        <td>7.2</td>
+                        <td>21</td>
+                        <td>118</td>
+                        <td>31</td>
+                        <td>421</td>
+                        <td>3.8 LOW</td>
+                        <td>2.13 ODD</td>
+                      </tr>
+                      <tr>
+                        <td>5041</td>
+                        <td>2023-10-25</td>
+                        <td>21:05:00</td>
+                        <td>1,2,3,4,5,6</td>
+                        <td>6.9</td>
+                        <td>2.95</td>
+                        <td>7.2</td>
+                        <td>21</td>
+                        <td>118</td>
+                        <td>31</td>
+                        <td>421</td>
+                        <td>3.8 LOW</td>
+                        <td>2.13 ODD</td>
+                      </tr>
+                      <tr>
+                        <td>5041</td>
+                        <td>2023-10-25</td>
+                        <td>21:05:00</td>
+                        <td>1,2,3,4,5,6</td>
+                        <td>6.9</td>
+                        <td>2.95</td>
+                        <td>7.2</td>
+                        <td>21</td>
+                        <td>118</td>
+                        <td>31</td>
+                        <td>421</td>
+                        <td>3.8 LOW</td>
+                        <td>2.13 ODD</td>
+                      </tr>-->
+                    </tbody>
+                  </table>
+                </div>
+                <div class="d-inline-block mt-3 w-100">
+                  <nav aria-label="Page navigation example" style="float: right;">
+                    <ul class="pagination">
+                      <li class="page-item pre fast"><a class="page-link" id="pastResultFirstButton"
+                          href="javascript:void(0)">First</a>
+                      </li>
+                      <li class="page-item pre"><a class="page-link" id="pastResultPreviousButton"
+                          href="javascript:void(0)">Previous</a>
+                      </li>
+                      <div class="page-number d-flex" id="pagination_container"></div>
+                      <!-- <li class="page-item number"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item number"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item active number"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item number"><a class="page-link" href="#">4</a></li>
+                        <li class="page-item number"><a class="page-link" href="#">5</a></li> -->
+                      <li class="page-item nxt"><a class="page-link" id="pastResultNextButton"
+                          href="javascript:void(0)">Next</a></li>
+                      <li class="page-item nxt last"><a class="page-link" id="pastResultLastButton"
+                          href="javascript:void(0)">Last</a></li>
+                    </ul>
+                  </nav>
+                </div>
+                <!-- Search Result End -->
+              </div>
+            </div>
+          </div>
+          <!-- High Low Tab -->
+          <div class="tab-pane fade" id="high_low_score_card_Section" role="tabpanel"
+            aria-labelledby="high_low_score_card_tab">
+            <div class="row m-0 mt-4">
+              <div class="box_sec p-0 table-responsive">
+                <table class="table">
+                  <!-- <thead>
+                    <tr id="hiloheader">
+                      <td>LOW</td>
+                      <td>HIGH</td>
+                      <td>LOW</td>
+                      <td>HIGH</td>
+                      <td>LOW</td>
+                      <td>HIGH</td>
+                      <td>LOW</td>
+                      <td>HIGH</td>
+                      <td>LOW</td>
+                    </tr>
+                  </thead> -->
+
+                  <!-- <tbody id="hilocontainer">
+                    <tr></tr>
+                    <tr class="box_2nd">
+                      <td>
+                        <div class="oddblue">4125</div>
+                      </td>
+                      <td>
+                        <div class="oddred">4127</div>
+                      </td>
+                      <td>
+                        <div class="oddblue">4129</div>
+                      </td>
+                      <td>
+                        <div class="oddred">4131</div>
+                      </td>
+                      <td>
+                        <div class="oddblue">4133</div>
+                      </td>
+                      <td>
+                        <div class="oddred">4138</div>
+                      </td>
+                      <td>
+                        <div class="oddblue">4140</div>
+                      </td>
+                      <td>
+                        <div class="oddred">4144</div>
+                      </td>
+                      <td>
+                        <div class="oddblue">4147</div>
+                      </td>
+                    </tr>
+                    <tr class="box_2nd">
+                      <td>
+                        <div class="oddblue">4126</div>
+                      </td>
+                      <td>
+                        <div class="oddred">4128</div>
+                      </td>
+                      <td>
+                        <div class="oddblue">4130</div>
+                      </td>
+                      <td>
+                        <div class="oddred">4132</div>
+                      </td>
+                      <td>
+                        <div class="oddblue">4134</div>
+                      </td>
+                      <td>
+                        <div class="oddred">4139</div>
+                      </td>
+                      <td>
+                        <div class="oddblue">4141</div>
+                      </td>
+                      <td>
+                        <div class="oddred">4145</div>
+                      </td>
+                      <td>
+                        <div class="oddblue">4148</div>
+                      </td>
+                    </tr>
+                    <tr class="box_2nd">
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td>
+                        <div class="oddblue">4135</div>
+                      </td>
+                      <td></td>
+                      <td>
+                        <div class="oddblue">4142</div>
+                      </td>
+                      <td>
+                        <div class="oddred">4146</div>
+                      </td>
+                      <td></td>
+                    </tr>
+                    <tr class="box_2nd">
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td>
+                        <div class="oddblue">4136</div>
+                      </td>
+                      <td></td>
+                      <td>
+                        <div class="oddblue">4143</div>
+                      </td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                    <tr class="box_2nd">
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td>
+                        <div class="oddblue">4137</div>
+                      </td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                    <tr class="box_2nd">
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                  </tbody>
+                  <tfoot>
+                    <tr id="hilofooter">
+                      <td style="text-align: center; font-weight: 700">2</td>
+                      <td style="text-align: center; font-weight: 700">2</td>
+                      <td style="text-align: center; font-weight: 700">2</td>
+                      <td style="text-align: center; font-weight: 700">2</td>
+                      <td style="text-align: center; font-weight: 700">5</td>
+                      <td style="text-align: center; font-weight: 700">2</td>
+                      <td style="text-align: center; font-weight: 700">4</td>
+                      <td style="text-align: center; font-weight: 700">3</td>
+                      <td style="text-align: center; font-weight: 700">2</td>
+                    </tr>
+                  </tfoot> -->
+
+                  <thead>
+                    <tr id="pasthiloheader">
+                    </tr>
+                  </thead>
+                  <tbody id="pasthilocontainer">
+                  </tbody>
+                  <tfoot>
+                    <tr id="pasthilofooter">
+                    </tr>
+                  </tfoot>
+
+                </table>
+              </div>
+            </div>
+          </div>
+          <!-- Oddeven Tab -->
+          <div class="tab-pane fade" id="odd_even_score_card_section" role="tabpanel"
+            aria-labelledby="odd_even_score_card_tab">
+            <div class="row m-0 mt-4">
+              <div class="box_sec p-0 table-responsive">
+                <table class="table">
+                  <!-- <thead>
+                    <tr id="oddEvenheader">
+                      <td>ODD</td>
+                      <td>EVEN</td>
+                      <td>ODD</td>
+                      <td>EVEN</td>
+                      <td>ODD</td>
+                      <td>EVEN</td>
+                      <td>ODD</td>
+                      <td>EVEN</td>
+                      <td>ODD</td>
+                      <td>EVEN</td>
+                      <td>ODD</td>
+                      <td>EVEN</td>
+                      <td>ODD</td>
+                      <td>EVEN</td>
+                      <td>ODD</td>
+                      <td>EVEN</td>
+                      <td>ODD</td>
+                      <td>EVEN</td>
+                      <td>ODD</td>
+                    </tr>
+                  </thead> -->
+                  <!-- <tbody id="oddEvencontainer">
+                    <tr></tr>
+                    <tr class="box_2nd">
+                      <td>
+                        <div class="oddblueborder">4133</div>
+                      </td>
+                      <td>
+                        <div class="oddredborder">4134</div>
+                      </td>
+                      <td>
+                        <div class="oddblueborder">4135</div>
+                      </td>
+                      <td>
+                        <div class="oddredborder">4137</div>
+                      </td>
+                      <td>
+                        <div class="oddblueborder">4138</div>
+                      </td>
+                      <td>
+                        <div class="oddredborder">4139</div>
+                      </td>
+                      <td>
+                        <div class="oddblueborder">4141</div>
+                      </td>
+                      <td>
+                        <div class="oddredborder">4143</div>
+                      </td>
+                      <td>
+                        <div class="oddblueborder">4144</div>
+                      </td>
+                      <td>
+                        <div class="oddredborder">4145</div>
+                      </td>
+                      <td>
+                        <div class="oddblueborder">4146</div>
+                      </td>
+                      <td>
+                        <div class="oddredborder">4148</div>
+                      </td>
+                      <td>
+                        <div class="oddblueborder">4149</div>
+                      </td>
+                      <td>
+                        <div class="oddredborder">4150</div>
+                      </td>
+                      <td>
+                        <div class="oddblueborder">4151</div>
+                      </td>
+                      <td>
+                        <div class="oddredborder">4152</div>
+                      </td>
+                      <td>
+                        <div class="oddblueborder">4153</div>
+                      </td>
+                      <td>
+                        <div class="oddredborder">4155</div>
+                      </td>
+                      <td>
+                        <div class="oddblueborder">4156</div>
+                      </td>
+                    </tr>
+                    <tr class="box_2nd">
+                      <td></td>
+                      <td></td>
+                      <td>
+                        <div class="oddblueborder">4136</div>
+                      </td>
+                      <td></td>
+                      <td></td>
+                      <td>
+                        <div class="oddredborder">4140</div>
+                      </td>
+                      <td>
+                        <div class="oddblueborder">4142</div>
+                      </td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td>
+                        <div class="oddblueborder">4147</div>
+                      </td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td>
+                        <div class="oddblueborder">4154</div>
+                      </td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                    <tr class="box_2nd">
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                    <tr class="box_2nd">
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                    <tr class="box_2nd">
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                    <tr class="box_2nd">
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                  </tbody> -->
+                  <!-- <tfoot>
+                    <tr id="oddEvenfooter">
+                      <td style="text-align: center; font-weight: 700">1</td>
+                      <td style="text-align: center; font-weight: 700">1</td>
+                      <td style="text-align: center; font-weight: 700">2</td>
+                      <td style="text-align: center; font-weight: 700">1</td>
+                      <td style="text-align: center; font-weight: 700">1</td>
+                      <td style="text-align: center; font-weight: 700">2</td>
+                      <td style="text-align: center; font-weight: 700">2</td>
+                      <td style="text-align: center; font-weight: 700">1</td>
+                      <td style="text-align: center; font-weight: 700">1</td>
+                      <td style="text-align: center; font-weight: 700">1</td>
+                      <td style="text-align: center; font-weight: 700">2</td>
+                      <td style="text-align: center; font-weight: 700">1</td>
+                      <td style="text-align: center; font-weight: 700">1</td>
+                      <td style="text-align: center; font-weight: 700">1</td>
+                      <td style="text-align: center; font-weight: 700">1</td>
+                      <td style="text-align: center; font-weight: 700">1</td>
+                      <td style="text-align: center; font-weight: 700">2</td>
+                      <td style="text-align: center; font-weight: 700">1</td>
+                      <td style="text-align: center; font-weight: 700">1</td>
+                    </tr>
+                  </tfoot> -->
+                  <!-- <tfoot>
+                    <tr id="pastoddevenfooter">
+
+                    </tr>
+                  </tfoot> -->
+                  <thead>
+                    <tr id="pastoddevenheader">
+                    </tr>
+                  </thead>
+                  <tbody id="pastoddevencontainer">
+                  </tbody>
+                  <tfoot>
+                    <tr id="pastoddevenfooter">
+                    </tr>
+                  </tfoot>
+
+                </table>
+              </div>
+            </div>
+          </div>
+          <!-- Winners Tab -->
+          <div class="tab-pane fade" id="top_highest_winners_section" role="tabpanel"
+            aria-labelledby="top_highest_winners_tab">
+            <div class="row">
+              <div class="col-12">
+                <div class="result-wrapper fixed-height-table table-responsive mt-4">
+                  <table class="table w-100 table-striped">
+                    <thead>
+                      <tr class="bg-dark">
+                        <th id="topWinnerRankHeading">RANK</th>
+                        <th id="topWinnerPlayerHeading">PLAYER</th>
+                        <th id="topWinnerNumOfWinHeading">NUMBER OF WINS</th>
+                        <th id="topWinnerAvgWinOddsHeading">AVERAGE WINNING ODDS</th>
+                        <th id="topWinnerFavouritesHeading">FAVOURITES</th>
+                      </tr>
+                    </thead>
+
+                    <tbody id="topHighestTBody">
+
+                      <!-- <tr>
+                        <td>1</td>
+                        <td>Mustang</td>
+                        <td>10</td>
+                        <td>30</td>
+                        <td class="rating">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </td>
+                      </tr> -->
+
+                      <!-- <tr>
+                        <td>2</td>
+                        <td>Mustang</td>
+                        <td>9</td>
+                        <td>25</td>
+                        <td class="rating">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </td>
+                      </tr>
+
+                      <tr>
+                        <td>3</td>
+                        <td>Mustang</td>
+                        <td>8</td>
+                        <td>20</td>
+                        <td class="rating">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </td>
+                      </tr>
+
+                      <tr>
+                        <td>4</td>
+                        <td>Mustang</td>
+                        <td>7</td>
+                        <td>15</td>
+                        <td class="rating">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </td>
+                      </tr>
+
+                      <tr>
+                        <td>5</td>
+                        <td>Mustang</td>
+                        <td>6</td>
+                        <td>10</td>
+                        <td class="rating">
+                          <i class="fa-solid fa-star"></i>
+                        </td>
+                      </tr> -->
+
+                    </tbody>
+
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Tab View End -->
+  </div>
+
+  <script>
+    $(function () {
+      $("#datepickerFrom").datepicker();
+      $("#datepickerTo").datepicker();
+    });
+
+    $("#race_number_from").select2({
+      placeholder: "Form",
+      allowClear: true
+    });
+    $("#race_number_to").select2({
+      placeholder: "To",
+      allowClear: true
+    });
+
+    $("#race_start_time_from").select2({
+      placeholder: "Form",
+      allowClear: true
+    });
+    $("#race_start_time_to").select2({
+      placeholder: "To",
+      allowClear: true
+    });
+  </script>
+  <!-- <script type="module" src="app/components/PastRaceResultManager.js"></script>
+  <script type="module" src="app/components/Constant.js"></script>
+  <script type="module" src="app/components/Utils.js"></script> -->
+  <!-- <script type="module" src="pastResultMain.js"></script> -->
+</body>
+
+</html>

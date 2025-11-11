@@ -1,0 +1,25 @@
+splash_screen_dog.png
+size:693,207
+filter:Linear,Linear
+pma:true
+scale:0.5
+Layer 82
+bounds:0,0,239,207
+dog_L_ear
+bounds:558,22,92,78
+rotate:90
+dog_L_leg
+bounds:646,159,48,47
+rotate:90
+dog_R_ear
+bounds:558,116,86,91
+dog_hand
+bounds:638,27,54,87
+dog_head
+bounds:416,3,204,140
+rotate:90
+dog_leg_R
+bounds:646,118,45,39
+dog_tail
+bounds:241,12,195,173
+rotate:90
