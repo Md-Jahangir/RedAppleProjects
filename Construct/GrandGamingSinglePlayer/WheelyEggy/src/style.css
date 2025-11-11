@@ -1,0 +1,8 @@
+body {
+    margin: 0px;
+}
+
+@font-face {
+    font-family: "LILITAONE";
+    src: url(./assets/fonts/LILITAONE-REGULAR.TTF) format("truetype");
+}
